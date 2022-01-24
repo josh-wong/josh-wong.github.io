@@ -1,36 +1,5 @@
 .content {
-  max-width: 1000px;
-  margin: auto;
-}
-.main_container {
-  height: 35px;
-  width: auto;
-  padding: 3px;
-  margin: 2px;
-  max-width: 300px;
-  background-color: #555555;
-  align-content: center;
-}
-.container_inner {
-  height: auto;
-  border: none;
-  background-color: #555555;
-  max-width: 250px;
-  vertical-align: center;
-  padding-top: 12px;
-  padding-left: 7px;
-  align-content: center;
-}
- .num_tiles {
-  width: 25px;
-  height: 25px;
-  background-color: #888888;
-  color: #ffffff;
-  font-size: 18px;
-  text-align: center;
-  line-height: 16px;
-  padding: 2px;
-  margin: 1.5px;
-  font-family: verdana;
-  vertical-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
 }
