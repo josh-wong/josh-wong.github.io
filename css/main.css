@@ -1,3 +1,7 @@
+.content {
+  max-width: 500px;
+  margin: auto;
+}
 .main_container {
   height: 46px;
   width: auto;
