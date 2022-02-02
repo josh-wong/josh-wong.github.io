@@ -1,4 +1,4 @@
-# Welcome to [josh-wong](https://github.com/josh-wong)'s documentation hub
+# Welcome to [josh-wong](https://github.com/josh-wong)'s knowledge base
 
 Hey there! I'm Josh, and this is my documentation hub. 
 

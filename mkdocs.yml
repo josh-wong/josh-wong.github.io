@@ -1,11 +1,11 @@
-site_name: josh-wong | github.io
+site_name: josh-wong | knowledge base
 site_url: https://josh-wong.github.io/
 
 theme:
   name: material
 
 nav:
-- Welcome!👋🏼: 'index.md'
-- Bitcoin Cash Node setup guide: 'https://josh-wong.github.io/bitcoin-cash-node-on-raspberry-pi/'
-- TP-Link Wi-Fi router hard reset guide: 'https://josh-wong.github.io/tplink-router-hard-reset/'
-- Zune setup guide: 'https://josh-wong.github.io/zune-software-setup/'
+- 👋🏼Welcome!: 'index.md'
+- 🟢Bitcoin Cash Node setup guide: 'https://josh-wong.github.io/bitcoin-cash-node-on-raspberry-pi/'
+- 📶TP-Link Wi-Fi router hard reset guide: 'https://josh-wong.github.io/tplink-router-hard-reset/'
+- 🎵Zune setup guide: 'https://josh-wong.github.io/zune-software-setup/'
