@@ -4,6 +4,9 @@ site_url: https://josh-wong.github.io/
 theme:
   name: material
 
+# Disabled the search function
+plugins: []
+
 nav:
 - 👋🏼Welcome!: 'index.md'
 - 🟢Bitcoin Cash Node setup guide: 'https://josh-wong.github.io/bitcoin-cash-node-on-raspberry-pi/'
