@@ -1,6 +1,8 @@
-# Welcome to [josh-wong](https://github.com/josh-wong)'s knowledge base
+# 👋🏼Welcome!
 
-Hey there! I'm Josh, and this is my documentation hub. 
+Hey there! I'm Josh and I'm a technical writer. This is my knowledge base. 
+
+I'm sharing my documentation to help you learn from my hands-on experiences, often with niche technologies.
 
 Feel free to poke around and reach out if you have any questions!😊
 
