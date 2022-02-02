@@ -3,3 +3,8 @@ site_url: https://josh-wong.github.io/
 
 theme:
   name: material
+
+nav:
+- Bitcoin Cash Node setup guide: 'https://github.io/josh-wong/bitcoin-cash-node-on-raspberry-pi'
+- TP-Link Wi-Fi router hard reset guide: 'https://josh-wong.github.io/tplink-router-hard-reset/'
+- Zune setup guide: 'https://josh-wong.github.io/zune-software-setup/'
