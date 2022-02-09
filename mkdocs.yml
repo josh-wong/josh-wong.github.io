@@ -3,8 +3,6 @@ site_url: https://josh-wong.github.io/
 
 theme:
   name: material
-
-theme:
   palette:
     - media: "(prefers-color-scheme: light)" 
       scheme: default
