@@ -18,6 +18,8 @@ theme:
         name: Switch to light mode
       primary: blue
       accent: blue
+  favicon: assets/images/favicon.png
+  logo: assets/images/personal_docs_logo_tmp.png
           
 # Disabled the search function
 plugins: []
