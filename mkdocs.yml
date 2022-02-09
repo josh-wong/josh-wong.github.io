@@ -3,6 +3,8 @@ site_url: https://josh-wong.github.io/
 
 theme:
   name: material
+  favicon: assets/images/favicon.png
+  logo: assets/images/personal_docs_logo_tmp.png
   palette:
     - media: "(prefers-color-scheme: light)" 
       scheme: default
@@ -18,8 +20,6 @@ theme:
         name: Switch to light mode
       primary: blue
       accent: blue
-  favicon: assets/images/favicon.png
-  logo: assets/images/personal_docs_logo_tmp.png
           
 # Disabled the search function
 plugins: []
