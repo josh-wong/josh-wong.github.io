@@ -4,8 +4,6 @@ site_url: https://josh-wong.github.io/
 theme:
   name: material
     palette:
-      accent: blue
-      primary: blue grey
       - media: "(prefers-color-scheme: light)" 
         scheme: default
         toggle:
@@ -16,7 +14,7 @@ theme:
         toggle:
           icon: material/toggle-switch
           name: Switch to light mode
-
+          
 # Disabled the search function
 plugins: []
 
