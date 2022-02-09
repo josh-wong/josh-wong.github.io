@@ -3,6 +3,15 @@ site_url: https://josh-wong.github.io/
 
 theme:
   name: material
+  palette: 
+      - scheme: slate
+        toggle:
+          icon: material/lightbulb
+          name: Switch to light mode
+      - scheme: default 
+        toggle:
+          icon: material/lightbulb-outline
+          name: Switch to dark mode
 
 # Disabled the search function
 plugins: []
