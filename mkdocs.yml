@@ -1,10 +1,10 @@
-site_name: josh-wong | knowledge base
+site_name: josh-wong | docs
 site_url: https://josh-wong.github.io/
 
 theme:
   name: material
   favicon: assets/images/favicon.png
-  logo: assets/images/personal_docs_logo_tmp.png
+  logo: assets/images/personal_docs_logo.png
   palette:
     - media: "(prefers-color-scheme: light)" 
       scheme: default
