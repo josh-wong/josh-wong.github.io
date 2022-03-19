@@ -1,6 +1,10 @@
 site_name: josh-wong | side-project docs
 site_url: https://josh-wong.github.io/
 
+repo_name: josh-wong/josh-wong.github.io
+repo_url: https://github.com/josh-wong/josh-wong.github.io
+edit_uri: edit/main/docs/
+
 theme:
   name: material
   favicon: assets/images/favicon.png
@@ -9,14 +13,14 @@ theme:
     - media: "(prefers-color-scheme: light)" 
       scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/lightbulb
         name: Switch to dark mode
       primary: blue
       accent: blue
     - media: "(prefers-color-scheme: dark)" 
       scheme: slate
       toggle:
-        icon: material/toggle-switch
+        icon: material/lightbulb-outline
         name: Switch to light mode
       primary: blue
       accent: blue
