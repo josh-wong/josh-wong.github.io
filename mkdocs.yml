@@ -9,6 +9,8 @@ theme:
   name: material
   favicon: assets/images/favicon.png
   logo: assets/images/mkdocs_personal_docs_logo.png
+  icon:
+    repo: fontawesome/brands/github
   palette:
     - media: "(prefers-color-scheme: light)" 
       scheme: default
@@ -30,6 +32,6 @@ plugins: []
 
 nav:
 - 👋🏼Welcome!: 'index.md'
-- 🟢Bitcoin Cash Node installation & upgrade guides: 'https://josh-wong.github.io/bitcoin-cash-node-on-raspberry-pi/'
+- 🟢Bitcoin Cash Node on Raspberry Pi installation & upgrade guides: 'https://josh-wong.github.io/bitcoin-cash-node-on-raspberry-pi/'
 - 📶TP-Link Wi-Fi router hard reset guide: 'https://josh-wong.github.io/tplink-router-hard-reset/'
 - 🎵Zune setup guide: 'https://josh-wong.github.io/zune-software-setup/'
