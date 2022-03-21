@@ -33,5 +33,6 @@ plugins: []
 nav:
 - 👋🏼Welcome!: 'index.md'
 - 🟢Bitcoin Cash Node on Raspberry Pi installation & upgrade guides: 'https://josh-wong.github.io/bitcoin-cash-node-on-raspberry-pi/'
+- 🔑passGen documentation: 'https://josh-wong.github.io/passGen/'
 - 📶TP-Link Wi-Fi router hard reset guide: 'https://josh-wong.github.io/tplink-router-hard-reset/'
 - 🎵Zune setup guide: 'https://josh-wong.github.io/zune-software-setup/'
