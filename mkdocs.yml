@@ -26,6 +26,8 @@ theme:
         name: Switch to light mode
       primary: blue
       accent: blue
+  features:
+    - search.suggest
           
 plugins:
   - search
