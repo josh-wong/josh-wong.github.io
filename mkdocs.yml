@@ -27,12 +27,25 @@ theme:
       primary: blue
       accent: blue
           
-# Disabled the search function
-plugins: []
-
-nav:
-- 👋🏼Welcome!: 'index.md'
-- 🟢Bitcoin Cash Node on Raspberry Pi installation & upgrade guides: 'https://josh-wong.github.io/bitcoin-cash-node-on-raspberry-pi/'
-- 🔑passGen documentation: 'https://josh-wong.github.io/passGen/'
-- 📶TP-Link Wi-Fi router hard reset guide: 'https://josh-wong.github.io/tplink-router-hard-reset/'
-- 🎵Zune setup guide: 'https://josh-wong.github.io/zune-software-setup/'
+plugins:
+  - search
+  - multirepo:
+      # (optional) tells multirepo to cleanup the temporary directory after site is built.
+      cleanup: true
+      repos:
+        - section: 'Bitcoin Cash Node on Raspberry Pi installation and upgrade guides'
+          import_url: 'https://josh-wong.github.io/bitcoin-cash-node-on-raspberry-pi?branch=main'
+          # define the edit uri path
+          edit_uri: /blob/main/
+        - section: 'passGen documentation'
+          import_url: 'https://josh-wong.github.io/passGen?branch=main'
+          # define the edit uri path
+          edit_uri: /blob/main/
+        - section: 'TP-Link Wi-Fi router hard reset guide'
+          import_url: 'https://josh-wong.github.io/tplink-router-hard-reset?branch=main'
+          # define the edit uri path
+          edit_uri: /blob/main/
+        - section: 'Zune setup guide'
+          import_url: 'https://josh-wong.github.io/zune-software-setup?branch=main'
+          # define the edit uri path
+          edit_uri: /blob/main/
