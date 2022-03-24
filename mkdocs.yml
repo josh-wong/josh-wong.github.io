@@ -51,3 +51,7 @@ plugins:
           import_url: 'https://github.com/josh-wong/zune-software-setup?branch=main'
           # define the edit uri path
           edit_uri: /blob/main/
+
+nav:
+  - 👋🏼Welcome!: 'index.md'
+  - Bitcoin Cash Node on Raspberry Pi installation and upgrade guides: '!import https://github.com/josh-wong/bitcoin-cash-node-on-raspberry-pi?branch=main'
