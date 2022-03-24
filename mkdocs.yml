@@ -39,6 +39,7 @@ plugins:
           import_url: 'https://github.com/josh-wong/bitcoin-cash-node-on-raspberry-pi?branch=main'
           # define the edit uri path
           edit_uri: /blob/main/
+          config: mkdocs.yml
         - section: '🔑passGen documentation'
           import_url: 'https://github.com/josh-wong/passGen?branch=main'
           # define the edit uri path
