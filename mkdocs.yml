@@ -28,6 +28,8 @@ theme:
       accent: blue
   features:
     - search.suggest
+    - search.highlight
+    - search.share
           
 plugins:
   - search
