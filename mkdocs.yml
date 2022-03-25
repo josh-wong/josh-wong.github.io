@@ -17,6 +17,10 @@ plugins:
   # brings in other docs repos
   - multirepo
 
+markdown_extensions:
+  # adds styles for buttons
+  - attr_list
+
 theme:
   name: material
   # adds logos to docs page
