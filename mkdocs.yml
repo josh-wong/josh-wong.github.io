@@ -1,8 +1,8 @@
 site_name: josh-wong | project docs 
 site_url: https://josh-wong.github.io/
 
-# adds repo details in the top right-hand corner; removing since it's 
-# to have in a multidocs site
+# adds repo details in the top right-hand corner; removing since it's not 
+# necessary to have in a multidocs site
 # repo_name: josh-wong/josh-wong.github.io
 # repo_url: https://github.com/josh-wong/josh-wong.github.io
 # removes the edit page button since there's a conflict with having the edit 
