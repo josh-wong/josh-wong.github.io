@@ -20,6 +20,10 @@ plugins:
 markdown_extensions:
   # adds styles for buttons
   - attr_list
+  # adds emoji support
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 theme:
   name: material
