@@ -4,7 +4,7 @@ site_url: https://josh-wong.github.io/
 # adds repo details in the top right-hand corner
 repo_name: josh-wong/josh-wong.github.io
 repo_url: https://github.com/josh-wong/josh-wong.github.io
-edit_uri: edit/main/docs/
+edit_uri: /edit/main/
 
 plugins:
   # enables the search function
