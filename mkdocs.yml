@@ -8,7 +8,7 @@ site_url: https://josh-wong.github.io/
 # removes the edit page button since there's a conflict with having the edit 
 # page button on both single docs sites and this multidocs site; doesn't seem 
 # to be a way to remove it from one site and keep it on the other
-edit_uri: ""
+# edit_uri: ""
 
 plugins:
   # enables the search function
@@ -35,8 +35,8 @@ theme:
   favicon: assets/images/favicon.png
   logo: assets/images/mkdocs_personal_docs_logo.png
   # adds icon for repo hosting
-  icon:
-    repo: fontawesome/brands/github
+  #icon:
+    #repo: fontawesome/brands/github
   # adds light & dark theme
   palette:
     - media: "(prefers-color-scheme: light)" 
