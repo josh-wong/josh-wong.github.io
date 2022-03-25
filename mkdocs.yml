@@ -1,24 +1,31 @@
 site_name: josh-wong | project docs
 site_url: https://josh-wong.github.io/
 
+# adds repo details in the top right-hand corner
 repo_name: josh-wong/josh-wong.github.io
 repo_url: https://github.com/josh-wong/josh-wong.github.io
 edit_uri: edit/main/
 
 plugins:
+  # enables the search function
   - search
+  # [broken] enables videos to be embedded
   - mkdocs-video:
       css_style:
         width: "100%"
         height: "300px"
+  # brings in other docs repos
   - multirepo
 
 theme:
   name: material
+  # adds logos to docs page
   favicon: assets/images/favicon.png
   logo: assets/images/mkdocs_personal_docs_logo.png
+  # adds icon for repo hosting
   icon:
     repo: fontawesome/brands/github
+  # adds light & dark theme
   palette:
     - media: "(prefers-color-scheme: light)" 
       scheme: default
@@ -35,6 +42,7 @@ theme:
       primary: blue
       accent: blue
   features:
+    # adds custom search functions
     - search.suggest
     - search.highlight
     - search.share
