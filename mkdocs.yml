@@ -3,12 +3,12 @@ site_url: https://josh-wong.github.io/
 
 # adds repo details in the top right-hand corner; removing since it's not 
 # necessary to have on a multidocs site
-# repo_name: josh-wong/josh-wong.github.io
-# repo_url: https://github.com/josh-wong/josh-wong.github.io
+repo_name: josh-wong/josh-wong.github.io
+repo_url: https://github.com/josh-wong/josh-wong.github.io
 # removes the edit page button since there's a conflict with having the edit 
 # page button on both single docs sites and this multidocs site; doesn't seem 
 # to be a way to remove it from one site and keep it on the other
-# edit_uri: ''
+edit_uri: ''
 
 plugins:
   # enables the search function
