@@ -3,7 +3,7 @@ site_url: https://josh-wong.github.io/
 
 repo_name: josh-wong/josh-wong.github.io
 repo_url: https://github.com/josh-wong/josh-wong.github.io
-edit_uri: /edit/main/docs/
+edit_uri: edit/main/
 
 theme:
   name: material
