@@ -34,6 +34,10 @@ theme:
 plugins:
   - search
   - multirepo
+  - mkdocs-video:
+    css_style:
+      width: "100%"
+      height: "300px"
 
 nav:
   - 👋🏼Welcome!: 'index.md'
