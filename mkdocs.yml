@@ -61,8 +61,8 @@ theme:
 
 nav:
   - 👋🏼Welcome!: 'index.md'
-  - 🟢Bitcoin Cash Node on Raspberry Pi guides: '!import https://github.com/josh-wong/bitcoin-cash-node-on-raspberry-pi/?branch=main'
-  - 🔑passGen documentation: '!import https://github.com/josh-wong/passGen/?branch=main'
-  - 📶TP-Link Wi-Fi router hard reset guide: '!import https://github.com/josh-wong/tplink-router-hard-reset/?branch=main'
-  - 🎵Zune setup guide: '!import https://github.com/josh-wong/zune-software-setup/?branch=main'
+  - '🟢Bitcoin Cash Node on Raspberry Pi guides': '!import https://github.com/josh-wong/bitcoin-cash-node-on-raspberry-pi/?branch=main'
+  - '🔑passGen documentation': '!import https://github.com/josh-wong/passGen/?branch=main'
+  - '📶TP-Link Wi-Fi router hard reset guide': '!import https://github.com/josh-wong/tplink-router-hard-reset/?branch=main'
+  - '🎵Zune setup guide': '!import https://github.com/josh-wong/zune-software-setup/?branch=main'
   - Donations: 'donations.md'
