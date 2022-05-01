@@ -1,40 +1,40 @@
 site_name: josh-wong | project docs
 site_url: https://josh-wong.github.io/
 
-# adds repo details in the top right-hand corner; removing since it's not necessary to have on a multidocs site
+# Add repo details in the top right-hand corner [Uncommented out since it's not necessary to have on a multidocs site]
 # repo_name: josh-wong/josh-wong.github.io
 # repo_url: https://github.com/josh-wong/josh-wong.github.io
-# removes the edit page button since there's a conflict with having the edit page button on both single docs sites and this multidocs site; doesn't seem to be a way to remove it from one site and keep it on the other
+# Edit page button [Uncommented out since there's a conflict with having the edit page button on both single docs sites and this multidocs site; doesn't seem to be a way to remove it from one site and keep it on the other]
 # edit_uri: 'blob/main/'
 
 plugins:
-  # enables the search function
+  # Enable the search function
   - search
-  # [broken] enables videos to be embedded
+  # [Broken] Enable videos to be embedded
   - mkdocs-video:
       css_style:
         width: "100%"
         height: "300px"
-  # brings in other docs repos
+  # Bring in other docs repos
   - multirepo
 
 markdown_extensions:
-  # adds styles for buttons
+  # Add styles for buttons
   - attr_list
-  # [unused] adds emoji support
+  # [Unused] Add emoji support
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 theme:
   name: material
-  # adds logos to docs page
+  # Add logos to docs page
   favicon: assets/images/favicon.png
   logo: assets/images/mkdocs_personal_docs_logo.png
-  # adds icon for repo hosting
+  # Add icon for repo hosting
   #icon:
     #repo: fontawesome/brands/github
-  # adds light & dark theme
+  # Add light & dark theme
   palette:
     - media: "(prefers-color-scheme: light)" 
       scheme: default
@@ -51,7 +51,7 @@ theme:
       primary: blue
       accent: blue
   features:
-    # adds custom search functions
+    # Add custom search functions
     - search.suggest
     - search.highlight
     - search.share
