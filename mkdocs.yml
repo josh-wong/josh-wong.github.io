@@ -55,6 +55,20 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - navigation.tracking
+    - navigation.top
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/josh-wong
+      name: josh-wong on GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/wongjoshua
+      name: Joshua Wong on LinkedIn
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/josh_in_japan
+      name: josh_in_japan on Twitter
 
 nav:
   - Welcome!: 'index.md'
@@ -63,3 +77,5 @@ nav:
   - tplink-router-hard-reset: '!import https://github.com/josh-wong/tplink-router-hard-reset/?branch=main'
   - zune-software-setup: '!import https://github.com/josh-wong/zune-software-setup/?branch=main'
   - Donations: 'donations.md'
+
+copyright: Copyright &copy; 2022 Joshua Wong
