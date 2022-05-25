@@ -19,10 +19,6 @@ plugins:
   - multirepo
   # Shows the last updated date
   - git-revision-date
-  - git-committers:
-      repository: josh-wong/josh-wong.github.io
-      branch: main
-      token: !!python/object/apply:os.getenv ["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"]
 
 markdown_extensions:
   # Add styles for buttons
