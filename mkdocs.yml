@@ -19,7 +19,7 @@ plugins:
   - multirepo
   # Shows the last updated date
   - git-revision-date
-  - git-authors
+  - git-committers
 
 markdown_extensions:
   # Add styles for buttons
