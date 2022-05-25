@@ -17,6 +17,8 @@ plugins:
         height: "300px"
   # Bring in other docs repos
   - multirepo
+  # Shows the last updated date
+  - git-revision-date
 
 markdown_extensions:
   # Add styles for buttons
