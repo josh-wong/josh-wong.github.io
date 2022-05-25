@@ -20,7 +20,7 @@ plugins:
   # Shows the last updated date
   - git-revision-date
   - git-committers:
-      token: !!python/object/apply:os.getenv [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]
+      token: !!python/object/apply:os.getenv ["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"]
 
 markdown_extensions:
   # Add styles for buttons
