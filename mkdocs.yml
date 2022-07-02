@@ -75,9 +75,10 @@ extra:
 nav:
   - Welcome!: 'index.md'
   - bitcoin-cash-node-on-raspberry-pi: '!import https://github.com/josh-wong/bitcoin-cash-node-on-raspberry-pi/?branch=main'
+  - kindle-book-highlights: '!import https://github.com/josh-wong/kindle-book-highlights/?branch=main'
   - passGen: '!import https://github.com/josh-wong/passGen/?branch=main'
   - tplink-router-hard-reset: '!import https://github.com/josh-wong/tplink-router-hard-reset/?branch=main'
   - zune-software-setup: '!import https://github.com/josh-wong/zune-software-setup/?branch=main'
   - Donations: 'donations.md'
 
-copyright: Copyright &copy; 2022 Joshua Wong
+copyright: Copyright &copy; 2022 Josh Wong
