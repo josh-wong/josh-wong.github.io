@@ -4,7 +4,7 @@ site_url: https://josh-wong.github.io/
 # Add repo details in the top right-hand corner [Uncommented out since it's not necessary to have on a multidocs site]
 # repo_name: josh-wong/josh-wong.github.io
 # repo_url: https://github.com/josh-wong/josh-wong.github.io
-# Edit page button [Uncommented out since there's a conflict with having the edit page button on both single docs sites and this multidocs site; doesn't seem to be a way to remove it from one site and keep it on the other]
+# Edit page button [Commented out since there's a conflict with having the edit page button on both single docs sites and this multidocs site; doesn't seem to be a way to remove it from one site and keep it on the other]
 # edit_uri: 'blob/main/'
 
 plugins:
@@ -23,7 +23,7 @@ plugins:
 markdown_extensions:
   # Add styles for buttons
   - attr_list
-  # [Unused] Add emoji support
+  # Add emoji support
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -75,8 +75,9 @@ extra:
 nav:
   - Welcome!: 'index.md'
   - bitcoin-cash-node-on-raspberry-pi: '!import https://github.com/josh-wong/bitcoin-cash-node-on-raspberry-pi/?branch=main'
-  - 🚧remove-copy-folder-scripts: '!import https://github.com/josh-wong/remove-copy-folder-scripts/?branch=main'
+  - 🚧commit-submit-merge-script: '!import https://github.com/josh-wong/commit-submit-merge-script/?branch=main'
   - passGen: '!import https://github.com/josh-wong/passGen/?branch=main'
+  - 🚧remove-copy-folder-scripts: '!import https://github.com/josh-wong/remove-copy-folder-scripts/?branch=main'
   - tplink-router-hard-reset: '!import https://github.com/josh-wong/tplink-router-hard-reset/?branch=main'
   - zune-software-setup: '!import https://github.com/josh-wong/zune-software-setup/?branch=main'
   - Donations: 'donations.md'
