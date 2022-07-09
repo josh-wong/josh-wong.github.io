@@ -1,4 +1,5 @@
 # 👋🏼Welcome
-Hey there! My name is Josh and I'm a technical writer. This repository is a multidocs site for my personal projects.
 
-For an enhanced content-viewing experience, please go to [josh-wong | side-project docs](https://josh-wong.github.io/).
+Hey there! My name is Josh and I'm a technical writer. 
+
+I use this repository as the hub for my multidocs site. You can see that site at [josh-wong | personal project docs](https://josh-wong.github.io/).
