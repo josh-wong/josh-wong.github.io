@@ -17,7 +17,7 @@ plugins:
         height: "300px"
   # Bring in other docs repos
   - multirepo
-  # Shows the last updated date
+  # Show the last updated date
   - git-revision-date
 
 markdown_extensions:
@@ -33,7 +33,7 @@ theme:
   # Add logos to docs page
   favicon: assets/images/favicon.png
   logo: assets/images/mkdocs_personal_docs_logo.png
-  # Add icon for repo hosting
+  # Add icon to show repository information and link
   #icon:
     #repo: fontawesome/brands/github
   # Add light & dark theme
