@@ -5,7 +5,7 @@ site_url: https://josh-wong.github.io/
 # repo_name: josh-wong/josh-wong.github.io
 # repo_url: https://github.com/josh-wong/josh-wong.github.io
 # Edit page button [Commented out since there's a conflict with having the edit page button on both single docs sites and this multidocs site; doesn't seem to be a way to remove it from one site and keep it on the other]
-# edit_uri: 'blob/main/'
+edit_uri: blob/main/
 
 plugins:
   # Enable the search function
