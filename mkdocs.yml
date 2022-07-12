@@ -76,6 +76,7 @@ nav:
   - Welcome!: 'index.md'
   - bitcoin-cash-node-on-raspberry-pi: '!import https://github.com/josh-wong/bitcoin-cash-node-on-raspberry-pi/?branch=main'
   - 🚧commit-submit-merge-script: '!import https://github.com/josh-wong/commit-submit-merge-script/?branch=main'
+  - kindle-highlights-notes: '!import https://github.com/josh-wong/kindle-highlights-notes/?branch=main'
   - passGen: '!import https://github.com/josh-wong/passGen/?branch=main'
   - 🚧remove-copy-folder-scripts: '!import https://github.com/josh-wong/remove-copy-folder-scripts/?branch=main'
   - tplink-router-hard-reset: '!import https://github.com/josh-wong/tplink-router-hard-reset/?branch=main'
