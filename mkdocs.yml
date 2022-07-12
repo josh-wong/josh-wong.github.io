@@ -22,6 +22,7 @@ plugins:
     repos:
       - section: kindle-highlights-notes
         import_url: 'https://github.com/josh-wong/kindle-highlights-notes'
+        docs_dir: docs/* # glob
         # you can define the edit uri path
         edit_uri: /blob/main/
   # Show the last updated date
