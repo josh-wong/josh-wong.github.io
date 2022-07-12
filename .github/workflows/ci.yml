@@ -15,7 +15,8 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocs-techdocs-core
       - run: pip install mkdocs-video
-      - run: pip install mkdocs-multirepo-plugin==0.4.3
-      - run: pip install mkdocs-git-revision-date-plugin
+      - run: pip install mkdocs-multirepo-plugin==0.4.0
+      # Disable "git-revision-date" for now. That plugin has a conflict with the "mkdocs-multirepo-plugin" that causes the navigation to not work.
+      #- run: pip install mkdocs-git-revision-date-plugin
       - run: pip install python-slugify
       - run: mkdocs gh-deploy --force

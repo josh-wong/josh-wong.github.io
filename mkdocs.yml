@@ -18,7 +18,8 @@ plugins:
   # Bring in other docs repos
   - multirepo
   # Show the last updated date
-  - git-revision-date
+  # Disable "git-revision-date" for now. That plugin has a conflict with the "mkdocs-multirepo-plugin" that causes the navigation to not work.
+  #- git-revision-date
 
 markdown_extensions:
   # Add styles for buttons
