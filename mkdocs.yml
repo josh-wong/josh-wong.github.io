@@ -16,7 +16,7 @@ plugins:
         width: "100%"
         height: "300px"
   # Bring in other docs repos
-  - multirepo
+  - multirepo:
     # (optional) tells multirepo to cleanup the temporary directory after site is built.
     cleanup: true
     repos:
