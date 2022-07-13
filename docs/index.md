@@ -1,6 +1,8 @@
 # 👋🏼Welcome!
 
-Hey there! My name is Josh and I'm a technical writer. This is a knowledge base that contains documentation for some of my personal projects. 
+Hey there! My name is Josh and I'm a technical communicator who enjoys creating and sharing documentation. 
+
+This site is a knowledge base that links to documentation for some of my personal projects. My goal here is to help you get started on projects on a variety of topics and complexities.
 
 Feel free to poke around and reach out if you have any questions!😊
 
