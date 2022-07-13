@@ -1,7 +1,3 @@
-> **Note**
-> 
-> 🚧Something broke somewhere on this site. Fixing...🚧
-
 # 👋🏼Welcome!
 
 Hey there! My name is Josh and I'm a technical writer. This is a knowledge base that contains documentation for some of my personal projects. 
