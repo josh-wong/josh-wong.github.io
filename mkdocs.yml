@@ -75,12 +75,12 @@ extra:
 
 nav:
   - Welcome!: 'index.md'
-  - bitcoin-cash-node-on-raspberry-pi: 'https://github.com/josh-wong/bitcoin-cash-node-on-raspberry-pi'
-  - 🚧commit-submit-merge-script: 'https://github.com/josh-wong/commit-submit-merge-script'
-  - passGen: 'https://github.com/josh-wong/passGen'
-  - 🚧remove-copy-folder-scripts: 'https://github.com/josh-wong/remove-copy-folder-scripts'
-  - tplink-router-hard-reset: 'https://github.com/josh-wong/tplink-router-hard-reset'
-  - zune-software-setup: 'https://github.com/josh-wong/zune-software-setup'
+  - bitcoin-cash-node-on-raspberry-pi: 'https://josh-wong.github.io/bitcoin-cash-node-on-raspberry-pi'
+  - 🚧commit-submit-merge-script: 'https://josh-wong.github.io/commit-submit-merge-script'
+  - passGen: 'https://josh-wong.github.io/passGen'
+  - 🚧remove-copy-folder-scripts: 'https://josh-wong.github.io/remove-copy-folder-scripts'
+  - tplink-router-hard-reset: 'https://josh-wong.github.io/tplink-router-hard-reset'
+  - zune-software-setup: 'https://josh-wong.github.io/zune-software-setup'
   - Donations: 'donations.md'
 
 copyright: Copyright &copy; 2022 Josh Wong
