@@ -3,8 +3,8 @@ site_url: https://josh-wong.github.io/
 
 # Add repo details in the top right-hand corner
 repo_name: josh-wong/josh-wong.github.io
-repo_url: https://github.com/josh-wong/josh-wong.github.io
-edit_uri: blob/main/
+repo_url: https://github.com/josh-wong/josh-wong.github.io/
+edit_uri: blob/main/docs
 
 plugins:
   # Enable the search function
@@ -73,13 +73,13 @@ extra:
 
 nav:
   - Welcome!: 'index.md'
-  - bitcoin-cash-node-on-raspberry-pi: 'https://josh-wong.github.io/bitcoin-cash-node-on-raspberry-pi'
-  - 🚧commit-submit-merge-script: 'https://josh-wong.github.io/commit-submit-merge-script'
-  - 
+  - Bitcoin Cash Node on Raspberry Pi: 'https://josh-wong.github.io/bitcoin-cash-node-on-raspberry-pi'
+  - 🚧Commit-submit-merge script: 'https://josh-wong.github.io/commit-submit-merge-script'
+  - Kindle highlights & notes: 'https://josh-wong.github.io/kindle-highlights-notes'
   - passGen: 'https://josh-wong.github.io/passGen'
-  - 🚧remove-copy-folder-scripts: 'https://josh-wong.github.io/remove-copy-folder-scripts'
-  - tplink-router-hard-reset: 'https://josh-wong.github.io/tplink-router-hard-reset'
-  - zune-software-setup: 'https://josh-wong.github.io/zune-software-setup'
+  - 🚧Remove & copy folder scripts: 'https://josh-wong.github.io/remove-copy-folder-scripts'
+  - TP-Link router hard reset: 'https://josh-wong.github.io/tplink-router-hard-reset'
+  - Zune device & software setup: 'https://josh-wong.github.io/zune-software-setup'
   - Donations: 'donations.md'
 
 copyright: Copyright &copy; 2022 Josh Wong
