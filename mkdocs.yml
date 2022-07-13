@@ -11,10 +11,10 @@ plugins:
   # Enable the search function
   - search
   # [Broken] Enable videos to be embedded
-  - mkdocs-video:
-      css_style:
-        width: "100%"
-        height: "300px"
+  #- mkdocs-video:
+  #    css_style:
+  #      width: "100%"
+  #      height: "300px"
   # Bring in other docs repos
   - multirepo
   # Show the last updated date
