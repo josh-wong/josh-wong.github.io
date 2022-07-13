@@ -15,9 +15,8 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocs-techdocs-core
       - run: pip install mkdocs-video
-      # Bring in other docs repos.
-      # Disabled since navigation isn't working properly with the "mkdocs-multirepo-plugin".
+      # Bring in other docs repos. Disabled since navigation isn't working properly with the "mkdocs-multirepo-plugin".
       #- run: pip install mkdocs-multirepo-plugin
-      - run: pip install mkdocs-git-revision-date-plugin
+      - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install python-slugify
       - run: mkdocs gh-deploy --force
