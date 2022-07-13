@@ -1,25 +1,23 @@
 site_name: josh-wong | personal project docs 
 site_url: https://josh-wong.github.io/
 
-# Add repo details in the top right-hand corner [Commented out since it's not necessary to have on a multidocs site]
-#repo_name: josh-wong/josh-wong.github.io
-#repo_url: https://github.com/josh-wong/josh-wong.github.io
-# Edit page button [Commented out since there's a conflict with having the edit page button on both single docs sites and this multidocs site; doesn't seem to be a way to remove it from one site and keep it on the other]
-#edit_uri: blob/main/
+# Add repo details in the top right-hand corner
+repo_name: josh-wong/josh-wong.github.io
+repo_url: https://github.com/josh-wong/josh-wong.github.io
+edit_uri: blob/main/
 
 plugins:
   # Enable the search function
   - search
-  # [Broken] Enable videos to be embedded
+  # Show the last updated date
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: true
+  # Enable videos to be embedded
   - mkdocs-video:
       css_style:
         width: "100%"
         height: "300px"
-  # Bring in other docs repos.
-  # Disabled since navigation isn't working properly with the "mkdocs-multirepo-plugin".
-  #- multirepo
-  Show the last updated date
-  - git-revision-date
 
 markdown_extensions:
   # Add styles for buttons
@@ -77,6 +75,7 @@ nav:
   - Welcome!: 'index.md'
   - bitcoin-cash-node-on-raspberry-pi: 'https://josh-wong.github.io/bitcoin-cash-node-on-raspberry-pi'
   - 🚧commit-submit-merge-script: 'https://josh-wong.github.io/commit-submit-merge-script'
+  - 
   - passGen: 'https://josh-wong.github.io/passGen'
   - 🚧remove-copy-folder-scripts: 'https://josh-wong.github.io/remove-copy-folder-scripts'
   - tplink-router-hard-reset: 'https://josh-wong.github.io/tplink-router-hard-reset'
