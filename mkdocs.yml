@@ -73,7 +73,7 @@ extra:
 nav:
   - Welcome!: 'index.md'
   - Bitcoin Cash Node on Raspberry Pi: 'https://josh-wong.github.io/bitcoin-cash-node-on-raspberry-pi'
-  - 🚧Commit-submit-merge script: 'https://josh-wong.github.io/commit-submit-merge-script'
+  - Commit-submit-merge script: 'https://josh-wong.github.io/commit-submit-merge-script'
   - Kindle highlights & notes: 'https://josh-wong.github.io/kindle-highlights-notes'
   - passGen: 'https://josh-wong.github.io/passGen'
   - Remove & copy folder scripts: 'https://josh-wong.github.io/remove-copy-folder-scripts'
