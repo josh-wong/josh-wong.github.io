@@ -37,8 +37,8 @@ theme:
   # Add logo to docs pages
   logo: assets/images/mkdocs_personal_docs_logo.png
   # Add icon to show repository information and link
-  #icon:
-    #repo: fontawesome/brands/github
+  icon:
+    repo: fontawesome/brands/github
     # Add icons for Material for MkDocs admonitions
     admonition:
       note: fontawesome/solid/sticky-note
