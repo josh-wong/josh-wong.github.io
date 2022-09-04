@@ -17,6 +17,9 @@ plugins:
       css_style:
         width: "100%"
         height: "300px"
+  - git-committers:
+      repository: josh-wong/josh-wong.github.io
+      branch: main
 
 markdown_extensions:
   # Add styles for buttons
