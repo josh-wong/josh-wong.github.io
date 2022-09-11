@@ -6,6 +6,8 @@ This site is a knowledge base that links to documentation for some of my persona
 
 Feel free to poke around and reach out if you have any questions!😊
 
+## Contact
+
 - **[GitHub](https://github.com/josh-wong)**
 - **[GitLab](https://gitlab.com/josh-wong)**
 - **[LinkedIn](https://www.linkedin.com/in/wongjoshua/)** 
