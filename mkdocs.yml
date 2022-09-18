@@ -10,8 +10,11 @@ edit_uri: blob/main/docs
 plugins:
   # Enable the search function
   - search
-  # Enables TechDocs support in Backstage. However, many plugins need to be disabled for TechDocs to work properly.
+  # Enable TechDocs support in Backstage. However, many plugins need to be disabled for TechDocs to work properly.
   #- techdocs-core
+  - blog:
+      post_date_format: full
+
   # Show the last updated date
   - git-revision-date-localized:
       type: date
@@ -42,6 +45,14 @@ plugins:
         utm_source: "documentation"
         utm_medium: "RSS"
         utm_campaign: "feed-syndication"
+      # Add blog-related RSS functions
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+      comments_path: "#__comments"
 
 markdown_extensions:
   # Add styles for buttons
@@ -126,6 +137,8 @@ extra:
 
 nav:
   - Welcome!: 'index.md'
+  - Blog:
+    - blog/index.md
   - app-open-close script: 'https://josh-wong.github.io/app-open-close-script/'
   - Bitcoin Cash Node on Raspberry Pi: 'https://josh-wong.github.io/bitcoin-cash-node-on-raspberry-pi'
   - commit-submit-merge script: 'https://josh-wong.github.io/commit-submit-merge-script'
