@@ -23,6 +23,8 @@ plugins:
   - git-committers:
       repository: josh-wong/josh-wong.github.io
       branch: main
+  - privacy:
+      enabled: !ENV [PRIVACY, false]
   - rss:
       abstract_chars_count: 160  # -1 for full content
       categories:
