@@ -22,14 +22,16 @@ plugins:
         height: "300px"
 
 markdown_extensions:
+  # Add support for Material for MkDocs admonitions
+  - admonition
   # Add styles for buttons
   - attr_list
+  # Add support for grid cards
+  - md_in_html
   # Add emoji support
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  # Add support for Material for MkDocs admonitions
-  - admonition
   - pymdownx.details
   - pymdownx.superfences
   - toc:
@@ -102,21 +104,21 @@ extra:
       link: https://twitter.com/josh_in_japan
       name: josh_in_japan on Twitter
 
-nav:
-  - Welcome!: 'index.md'
-  - Blog:
-    - blog/index.md
-  - app-open-close script: 'https://josh-wong.github.io/app-open-close-script/'
-  - Bitcoin Cash Node on Raspberry Pi: 'https://josh-wong.github.io/bitcoin-cash-node-on-raspberry-pi'
-  - commit-submit-merge script: 'https://josh-wong.github.io/commit-submit-merge-script'
-  - Kindle highlights & notes: 'https://josh-wong.github.io/kindle-highlights-notes'
-  - passGen: 'https://josh-wong.github.io/passGen'
-  - remove-folder & copy-folder scripts: 'https://josh-wong.github.io/remove-copy-folder-scripts'
-  - TP-Link router hard reset: 'https://josh-wong.github.io/tplink-router-hard-reset'
-  - Zune device & software setup: 'https://josh-wong.github.io/zune-software-setup'
-  - '': ''
-  - 🔶RSS: 'https://josh-wong.github.io/feed_rss_updated.xml'
-  - '': ''
-  - '': ''
-  - ❤️Donate: 'donations.md'
-  - ❤️Sponsor: 'https://github.com/sponsors/josh-wong'
+#nav:
+#  - Welcome!: 'index.md'
+#  - Blog:
+#    - blog/index.md
+#  - app-open-close script: 'https://josh-wong.github.io/app-open-close-script/'
+#  - Bitcoin Cash Node on Raspberry Pi: 'https://josh-wong.github.io/bitcoin-cash-node-on-raspberry-pi'
+#  - commit-submit-merge script: 'https://josh-wong.github.io/commit-submit-merge-script'
+#  - Kindle highlights & notes: 'https://josh-wong.github.io/kindle-highlights-notes'
+#  - passGen: 'https://josh-wong.github.io/passGen'
+#  - remove-folder & copy-folder scripts: 'https://josh-wong.github.io/remove-copy-folder-scripts'
+#  - TP-Link router hard reset: 'https://josh-wong.github.io/tplink-router-hard-reset'
+#  - Zune device & software setup: 'https://josh-wong.github.io/zune-software-setup'
+#  - '': ''
+#  - 🔶RSS: 'https://josh-wong.github.io/feed_rss_updated.xml'
+#  - '': ''
+#  - '': ''
+#  - ❤️Donate: 'donations.md'
+#  - ❤️Sponsor: 'https://github.com/sponsors/josh-wong'
