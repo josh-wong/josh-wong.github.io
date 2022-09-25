@@ -1,14 +1,22 @@
 # 👋🏼Welcome!
 
-Hey there! My name is Josh and I'm a technical communicator who enjoys creating and sharing documentation. 
+Hey there! My name is Josh and I'm a technical writer.
 
-This site is a knowledge base that links to documentation for some of my personal projects. My goal here is to help you get started on projects on a variety of topics and complexities.
+The goal of this site is for me to:
 
-Feel free to poke around and reach out if you have any questions!😊
+- continue to improve on my writing and content management skills, 
+- practice writing software and the related documentation, and
+- go hands-on with new trends and best practices in documentation and knowledge management.
+
+Feel free to poke around and contact me if you have any questions!😊
 
 ## Contact
 
-- **[GitHub](https://github.com/josh-wong)**
-- **[GitLab](https://gitlab.com/josh-wong)**
-- **[LinkedIn](https://www.linkedin.com/in/wongjoshua/)** 
-- **[Twitter](https://twitter.com/josh_in_japan)**
+<div class="grid cards" markdown>
+
+- :fontawesome-brands-square-github: __[GitHub](https://github.com/josh-wong)__
+- :fontawesome-brands-square-gitlab: __[GitLab](https://gitlab.com/josh-wong)__
+- :fontawesome-brands-linkedin: __[LinkedIn](https://www.linkedin.com/in/wongjoshua/)__
+- :fontawesome-brands-square-twitter: __[Twitter](https://twitter.com/josh_in_japan)__
+
+</div>
