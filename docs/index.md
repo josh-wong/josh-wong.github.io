@@ -4,7 +4,7 @@ Hey there! My name is Josh and I'm a technical writer.
 
 The goal of this site is for me to:
 
-- continue to improve on my writing and content management skills, 
+- continue to improve on my writing and knowledge management skills, 
 - practice writing software and the related documentation, and
 - go hands-on with new trends and best practices in documentation and knowledge management.
 
