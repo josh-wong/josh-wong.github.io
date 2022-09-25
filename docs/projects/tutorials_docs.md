@@ -8,6 +8,12 @@
 
     Tutorials for how to install, set up, and upgrade Bitcoin Cash Node on a Raspberry Pi 4 running Ubuntu Desktop (64-bit)
 
+  - :fontawesome-solid-music:{ .lg .middle } __[Microsoft Zune & software setup](https://josh-wong.github.io/zune-software-setup/)__
+
+    ---
+
+    Tutorial for how to connect a Microsoft Zune device to the Zune software on Windows
+
   - :fontawesome-solid-book-open:{ .lg .middle } __[My Kindle highlights & notes](https://josh-wong.github.io/kindle-highlights-notes)__
 
     ---
@@ -20,11 +26,5 @@
     ---
     
     Tutorial for how to perform a hard reset on a TP-Link Wi-Fi router
-
-  - :fontawesome-solid-music:{ .lg .middle } __[Microsoft Zune & software setup](https://josh-wong.github.io/zune-software-setup/)__
-
-    ---
-
-    Tutorial for how to connect a Microsoft Zune device to the Zune software on Windows
 
 </div>
