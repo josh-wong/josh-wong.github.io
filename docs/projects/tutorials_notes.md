@@ -1,4 +1,4 @@
-# Tutorials & other documentation
+# Tutorials & notes
 
 <div class="grid cards" markdown>
 

@@ -119,7 +119,7 @@ nav:
     - Projects:
       - Scripts: projects/scripts.md
       - Software: projects/software.md
-      - Tutorials & docs: projects/tutorials_docs.md
+      - Tutorials & notes: projects/tutorials_docs.md
   #- Blog: 
   #  - blog/index.md
   #  - 🔶RSS: 'https://josh-wong.github.io/feed_rss_updated.xml' 
