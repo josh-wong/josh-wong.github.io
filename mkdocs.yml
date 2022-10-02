@@ -12,10 +12,6 @@ plugins:
   - search
   # Enable TechDocs support in Backstage. However, many plugins need to be disabled for TechDocs to work properly.
   #- techdocs-core
-  # Shows docs contributors
-  - git-committers:
-      repository: josh-wong/josh-wong.github.io
-      branch: main
   # Show the last updated date
   - git-revision-date-localized:
       type: date
