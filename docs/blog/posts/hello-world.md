@@ -1,8 +1,8 @@
 ---
-date: 2022-09-25
+status: new
+date: 2022-10-03
 authors: [josh-wong]
 categories:
-  - blog
   - Hello World
 ---
 
