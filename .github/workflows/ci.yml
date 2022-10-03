@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+
+env:
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -12,10 +17,14 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+      - uses: actions/cache@v3
+        id: cache
+        with:
+          key: ${{ runner.os }}-${{ hashFiles('.cache/**') }}
+          path: .cache
       - run: pip install \ 
           "mkdocs-video" \
           "mkdocs-git-revision-date-localized-plugin" \
@@ -24,6 +33,6 @@ jobs:
           "mkdocs-rss-plugin" \
           #"mkdocs-techdocs-core" \
           #"mkdocs-multirepo-plugin" \
+
+      - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: make deploy
-env:
-  GH_TOKEN: ${{ secrets.GH_TOKEN }}
