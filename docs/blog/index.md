@@ -4,6 +4,4 @@ status: new
 
 # Welcome
 
-🚧This is a blog(?).🤔✍🏻
-
-Test
+🚧This is a blog(?)🤔✍🏻
