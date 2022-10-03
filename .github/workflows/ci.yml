@@ -18,7 +18,6 @@ jobs:
       - run: pip install \ 
           git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git \
           mkdocs-video \
-          #mkdocs-git-revision-date-localized-plugin \
           python-slugify \
           mkdocs-git-committers-plugin-2 \
           mkdocs-rss-plugin \
