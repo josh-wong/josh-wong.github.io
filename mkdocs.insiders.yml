@@ -9,6 +9,7 @@ plugins:
   - git-committers:
       repository: josh-wong/josh-wong.github.io
       branch: main
+      enabled: true
   - meta
   # Add RSS function
   - rss:
