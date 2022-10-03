@@ -1,9 +1,9 @@
 comments: true
-hide:
-  - feedback
-
-{% extends "comments.html" %}
-
-{% block extrahead %}
-  <meta property="robots" content="noindex, nofollow" />
-{% endblock %}
+#hide:
+#  - feedback
+#
+#{% extends "comments.html" %}
+#
+#{% block extrahead %}
+#  <meta property="robots" content="noindex, nofollow" />
+#{% endblock %}
