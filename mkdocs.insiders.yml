@@ -3,14 +3,13 @@ plugins:
   - search
   # Add blog support
   - blog:
-      post_date_format: full
-      post_url_format: "{date}/{slug}"
+      pagination_per_page: 20
+      post_url_format: "yyyy-MM-dd"
   # Show docs contributors
   - git-committers:
       repository: josh-wong/josh-wong.github.io
       branch: main
-  - meta:
-      meta_file: 'blog/.meta.yml'
+  - meta
   # Add RSS function
   - rss:
       abstract_chars_count: 160  # -1 for full content
