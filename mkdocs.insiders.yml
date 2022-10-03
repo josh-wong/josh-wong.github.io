@@ -5,11 +5,6 @@ plugins:
   - blog:
       pagination_per_page: 20
       post_url_format: "yyyy-MM-dd"
-  # Show docs contributors
-  - git-committers:
-      repository: josh-wong/josh-wong.github.io
-      branch: main
-      enabled: true
   - meta
   # Add RSS function
   - rss:
