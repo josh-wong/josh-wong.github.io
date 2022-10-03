@@ -6,8 +6,8 @@ on:
       - main
 
 env:
+  PYTHON_VERSION: 3.x
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
 
 jobs:
   deploy:
@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-python@v4
         with:
-          python-version: 3.x
+          python-version: ${{ env.PYTHON_VERSION }}
       - uses: actions/cache@v3
         id: cache
         with:
@@ -35,4 +35,5 @@ jobs:
           #"mkdocs-multirepo-plugin" \
 
       - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
-      - run: make deploy
+      - run: mkdocs build --config-file mkdocs.insiders.yml
+      - run: mkdocs gh-deploy --force --config-file mkdocs.insiders.yml
