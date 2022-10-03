@@ -11,8 +11,8 @@ plugins:
   # Enable the search function
   - search
   # Show the last updated date
-  #- git-revision-date-localized:
-  #    type: date
+  - git-revision-date-localized:
+      type: date
   # Enable videos to be embedded
   - mkdocs-video:
       css_style:
