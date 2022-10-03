@@ -1,8 +1,8 @@
 INHERIT: mkdocs.yml
 plugins:
   - search
+  # Add blog support
   - blog:
-      blog_dir: blog
       post_date_format: full
       post_url_format: "{date}/{slug}"
   # Show docs contributors
