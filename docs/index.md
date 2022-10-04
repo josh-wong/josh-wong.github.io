@@ -1,4 +1,4 @@
-# Welcome!
+# 👋🏼Welcome!
 
 Hey there! My name is Josh and I'm a technical writer.
 
