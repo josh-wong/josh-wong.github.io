@@ -7,9 +7,6 @@ plugins:
   - git-committers:
       repository: josh-wong/josh-wong.github.io
       branch: main
-  # Show the last updated date
-  - git-revision-date-localized:
-      type: date
   - meta
   # Add RSS function
   - rss:
