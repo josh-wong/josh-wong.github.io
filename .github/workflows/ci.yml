@@ -9,6 +9,9 @@ env:
   PYTHON_VERSION: 3.x
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
