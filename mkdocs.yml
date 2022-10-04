@@ -1,6 +1,6 @@
-site_name: josh-wong | personal project docs 
+site_name: josh-wong | blog, docs, & projects 
 site_url: https://josh-wong.github.io/
-site_description: Knowledge base that links to documentation for some of my personal projects.
+site_description: josh-wong's blog, docs, & projects
 
 # Add repo details in the top right-hand corner
 repo_name: josh-wong/josh-wong.github.io
