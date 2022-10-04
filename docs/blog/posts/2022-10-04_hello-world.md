@@ -1,7 +1,7 @@
 ---
 status: new
 date: 2022-10-04
-authors: [<a href="https://github.com/josh-wong">josh-wong</a>]
+authors: [josh-wong]
 categories:
   - Hello World
 ---
