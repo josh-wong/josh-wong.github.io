@@ -2,9 +2,7 @@ INHERIT: mkdocs.yml
 plugins:
   - search
   # Add blog support
-  - blog:
-      pagination_per_page: 20
-      post_url_format: "yyyy-MM-dd"
+  - blog
   - meta
   # Add RSS function
   - rss:
