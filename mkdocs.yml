@@ -10,7 +10,8 @@ edit_uri: blob/main/docs
 plugins:
   # Enable the search function
   - search
-
+  # Show the last updated date
+  - git-revision-date-localized
   # Enable videos to be embedded
   - mkdocs-video:
       css_style:
