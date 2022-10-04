@@ -2,6 +2,6 @@
 status: new
 ---
 
-# Blog
+# Blog✍🏻
 
-🚧This is a blog(?)🤔✍🏻
+Thoughts and observations of a technical writer in Tokyo🗼🗾
