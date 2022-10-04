@@ -3,10 +3,10 @@ plugins:
   - search
   # Add blog support
   - blog
-  # Show docs contributors
-  - git-committers:
-      repository: josh-wong/josh-wong.github.io
-      branch: main
+  # Show docs contributors (currently disabled since this is a home page that primarily includes a blog and links to projects)
+  #- git-committers:
+  #    repository: josh-wong/josh-wong.github.io
+  #    branch: main
   - meta
   # Add RSS function
   - rss:
