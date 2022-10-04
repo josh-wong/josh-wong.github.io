@@ -2,6 +2,6 @@
 status: new
 ---
 
-# Welcome
+# Blog
 
 🚧This is a blog(?)🤔✍🏻
