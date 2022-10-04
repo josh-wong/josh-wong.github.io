@@ -10,9 +10,7 @@ edit_uri: blob/main/docs
 plugins:
   # Enable the search function
   - search
-  # Show the last updated date
-  - git-revision-date-localized:
-      type: date
+
   # Enable videos to be embedded
   - mkdocs-video:
       css_style:
@@ -91,6 +89,7 @@ theme:
     - search.share
     - search.suggest
     - navigation.expand
+    - navigation.indexes
     - navigation.instant
     - navigation.sections
     - navigation.tabs
@@ -113,13 +112,13 @@ extra:
     new: Recently added
 
 nav:
-  - Home:
-    - index.md
-    - Projects:
+  - 👋🏻Welcome:
+    - 'index.md'
+    - 🖥️Projects:
       - Scripts: 'projects/scripts.md'
       - Software: 'projects/software.md'
       - Tutorials & notes: 'projects/tutorials_notes.md'
-  - Blog: 
+  - ✍🏻Blog: 
     - blog/index.md
     - 🔶RSS: 'https://josh-wong.github.io/feed_rss_updated.xml' 
   #  - 2022:
