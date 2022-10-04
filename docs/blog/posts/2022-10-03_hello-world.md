@@ -1,11 +1,11 @@
 ---
 status: new
-date: 2022-10-03
+date: 2022-10-04
 authors: [josh-wong]
 categories:
   - Hello World
 ---
 
-# Hello world!
+# Hello world!🌏
 
-This is my first post✍🏻
+This is my first blog post✍🏻
