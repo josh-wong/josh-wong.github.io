@@ -3,6 +3,10 @@ plugins:
   - search
   # Add blog support
   - blog
+  # Show docs contributors
+  - git-committers:
+      repository: josh-wong/josh-wong.github.io
+      branch: main
   - meta
   # Add RSS function
   - rss:
