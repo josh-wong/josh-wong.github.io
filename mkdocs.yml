@@ -8,8 +8,8 @@ repo_url: https://github.com/josh-wong/josh-wong.github.io/
 edit_uri: blob/main/docs
 
 plugins:
-  # Enable the search function
-  - search
+  # Enable the search function (currently disabled to take advantage of new search features in Material for MkDocs Insiders)
+  #- search
   # Show the last updated date
   - git-revision-date-localized
   # Enable videos to be embedded
