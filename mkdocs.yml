@@ -10,10 +10,6 @@ edit_uri: blob/main/docs
 plugins:
   # Enable the search function
   - search
-  # Show docs contributors
-  - git-committers:
-      repository: josh-wong/josh-wong.github.io
-      branch: main
   # Show the last updated date
   - git-revision-date-localized:
       type: date
@@ -123,8 +119,9 @@ nav:
       - Scripts: 'projects/scripts.md'
       - Software: 'projects/software.md'
       - Tutorials & notes: 'projects/tutorials_notes.md'
-  - Blog: 'blog/index.md'
-  #  - 🔶RSS: 'https://josh-wong.github.io/feed_rss_updated.xml' 
+  - Blog: 
+    - blog/index.md
+    - 🔶RSS: 'https://josh-wong.github.io/feed_rss_updated.xml' 
   #  - 2022:
   #    - blog/posts/hello-world.md
   - ❤️Donate: 'donations.md'
