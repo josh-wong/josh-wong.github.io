@@ -1,7 +1,7 @@
 # 👋🏼Welcome!
 
-Hey there! My name is Josh and I'm a technical communicator who enjoys creating and sharing documentation. 
+Hey there! My name is Josh and I'm a technical writer who enjoys creating, sharing, and managing documentation. 
 
-The goal of my documentation is to help you get started on projects on a variety of topics and complexities.
+This repository contains a site that I've built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). 
 
-This repository contains the landing page for my other repositories containing docs. You can see that landing page at [josh-wong | personal project docs](https://josh-wong.github.io/).
+You can see my site at [josh-wong | blog, docs, & projects](https://josh-wong.github.io/).
