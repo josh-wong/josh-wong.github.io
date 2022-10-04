@@ -123,8 +123,7 @@ nav:
       - Scripts: 'projects/scripts.md'
       - Software: 'projects/software.md'
       - Tutorials & notes: 'projects/tutorials_notes.md'
-  - Blog: 
-    - blog/index.md
+  - Blog: 'blog/index.md'
   #  - 🔶RSS: 'https://josh-wong.github.io/feed_rss_updated.xml' 
   #  - 2022:
   #    - blog/posts/hello-world.md
