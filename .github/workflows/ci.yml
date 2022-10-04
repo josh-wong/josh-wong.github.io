@@ -25,14 +25,6 @@ jobs:
         with:
           key: ${{ runner.os }}-${{ hashFiles('.cache/**') }}
           path: .cache
-      - run: pip install \ 
-          "mkdocs-video" \
-          "mkdocs-git-revision-date-localized-plugin" \
-          "python-slugify" \
-          "mkdocs-git-committers-plugin-2" \
-          "mkdocs-rss-plugin" \
-          #"mkdocs-techdocs-core" \
-          #"mkdocs-multirepo-plugin" \
+      - run: pip install -r requirements.txt
       - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
-      - run: mkdocs build --config-file mkdocs.insiders.yml
-      - run: mkdocs gh-deploy --force
+      - run: make deploy
