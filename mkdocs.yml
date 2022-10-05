@@ -99,6 +99,9 @@ theme:
     - navigation.tracking   
 
 extra:
+  analytics:
+    provider: google
+    property: G-PMP34RZWN2
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/josh-wong
@@ -111,6 +114,7 @@ extra:
       name: joshdotmd on Twitter
   status:
     new: Recently added
+    deprecated: Deprecated
 
 nav:
   - 👋🏻Welcome:
