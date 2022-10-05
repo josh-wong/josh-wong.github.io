@@ -1,6 +1,6 @@
 comments: true
-#hide:
-#  - feedback
+hide:
+  - feedback
 #
 #{% extends "comments.html" %}
 #
