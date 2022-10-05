@@ -105,12 +105,12 @@ extra:
     feedback:
       title: Was this page helpful?
       ratings:
-        - icon: material/material/thumb-up-outline
+        - icon: material/thumb-up-outline
           name: This page was helpful
           data: 1
           note: >-
             Thanks for your feedback!
-        - icon: material/material/thumb-down-outline
+        - icon: material/thumb-down-outline
           name: This page could be improved
           data: 0
           note: >- 
