@@ -2,7 +2,8 @@ INHERIT: mkdocs.yml
 plugins:
   - search
   # Add blog support
-  - blog
+  - blog:
+    - post_url_date_format: yyyy/MM
   # Show docs contributors (currently disabled since this is a home page that primarily includes a blog and links to projects)
   #- git-committers:
   #    repository: josh-wong/josh-wong.github.io
