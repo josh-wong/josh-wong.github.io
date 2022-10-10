@@ -15,8 +15,8 @@ This year, I participated in the Step Up Challenge by [TELL Japan](https://tellj
 By registering for the event, you may be eligible to receive event goodies (while supplies last!). This year's goodie bag included a nice tote bag, which was perfect for holding my water bottle, phone, wallet, keys, and any groceries I bought during my walks.
 
 <figure markdown>
-  ![2023 TELL Step Up Challenge swag: tote bag and sticker](assets/images/2022-10-10-tell-step-up-challenge-tote-bag-sticker.jpg)
-  <figcaption>2023 TELL Step Up Challenge swag: tote bag and sticker</figcaption>
+  ![2022 TELL Step Up Challenge swag: tote bag and sticker](assets/images/2022-10-10-tell-step-up-challenge-tote-bag-sticker.jpg)
+  <figcaption>2022 TELL Step Up Challenge swag: tote bag and sticker</figcaption>
 </figure>
 
 For details about the Step Up Challenge and other events, see [TELL Japan events](https://www.tellevents.org/).
@@ -33,13 +33,13 @@ To honor the 21,007 people who lost their lives to suicide in 2021, I walked 21,
 
 ??? success "September 10, 2022 - 21,034 steps"
 
-    ![2023 TELL Step Up Challenge: September 10, 2022 - 21,034 steps](assets/images/2022-10-10-tell-step-up-challenge-(09-10).jpg)
+    ![2022 TELL Step Up Challenge: September 10, 2022 - 21,034 steps](assets/images/2022-10-10-tell-step-up-challenge-(09-10).jpg)
 
-??? success "**September 17, 2022** - 22,197 steps"
+??? success "September 17, 2022 - 22,197 steps"
 
-    ![2023 TELL Step Up Challenge: September 10, 2022 - 21,034 steps](assets/images/2022-10-10-tell-step-up-challenge-(09-17).jpg)
+    ![2022 TELL Step Up Challenge: September 10, 2022 - 21,034 steps](assets/images/2022-10-10-tell-step-up-challenge-(09-17).jpg)
 
-??? success "**October 10, 2022** - ##,### steps"
+??? success "October 10, 2022 - ##,### steps"
 
     In progress...
 
@@ -53,7 +53,7 @@ Next year, I want to have some other activities lined up besides walking, like:
 
 <figure markdown>
   ![Asahi Beer Hall and Tokyo SkyTree](assets/images/2022-10-10-asahi-beer-hall-tokyo-skytree.jpg)
-  <figcaption>A view of the Asahi Beer Hall and Tokyo SkyTree on my walk from October 10, 2022</figcaption>
+  <figcaption>A view of the Asahi Beer Hall and Tokyo SkyTree from my walk on October 10, 2022</figcaption>
 </figure>
 
 I'll definitely participate in this event in the future and continue to promote TELL's support services to English speakers. Now that I know a bit more about how the event works, I'll also consider participating with a small group next time.
