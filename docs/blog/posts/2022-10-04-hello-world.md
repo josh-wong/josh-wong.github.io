@@ -2,7 +2,7 @@
 date: 2022-10-04
 authors: [josh-wong]
 categories:
-  - Hello World
+  - hello world
 ---
 
 # Hello world!🌏
