@@ -39,7 +39,7 @@ To honor the 21,007 people who lost their lives to suicide in 2021, I walked 21,
 
     ![2022 TELL Step Up Challenge: September 17, 2022 - 22,197 steps](assets/images/2022-10-10-tell-step-up-challenge-(09-17).jpg)
 
-??? success "October 10, 2022 - ##,### steps"
+??? success "October 10, 2022 - 22,091 steps"
 
     ![2022 TELL Step Up Challenge: October 10, 2022 - 22,091 steps](assets/images/2022-10-10-tell-step-up-challenge-(10-10).jpg)
 
