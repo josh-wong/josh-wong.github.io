@@ -48,7 +48,7 @@ Next year, I want to have some other activities lined up besides walking, like:
 
 - Writing blog posts that total X number of words,
 - Reading for X seconds of yoga within the event period, and/or
-- Create a playlist that includes X seconds of easy-listening music to relax to.
+- Creating a playlist that includes X seconds of easy-listening music to relax to.
 
 ## Wrap up
 
@@ -59,6 +59,6 @@ Next year, I want to have some other activities lined up besides walking, like:
 
 I'll definitely participate in this event in the future and continue to promote TELL's support services to English speakers. Now that I know a bit more about how the event works, I'll also consider participating with a small group next time.
 
-For English speakers living in Japan who are struggling and need someone to talk to, I recommend contacting TELL through their [Lifeline service](https://telljp.com/lifeline/). The organization's website also regularly posts on their blog and offers a lot of resources if you prefer to get help at your own pace our outside of support hours.
+For English speakers living in Japan who are struggling and need someone to talk to, I recommend contacting TELL through their [Lifeline service](https://telljp.com/lifeline/). The organization's website also regularly posts on their blog and offers a plethora of resources if you prefer to get help at your own pace our outside of their support hours.
 
-We all struggle at some point, so I highly recommend keeping TELL top of mind if you find yourself going through a difficult time.
+Many of us struggle at some point, so I highly recommend keeping TELL top of mind if you find yourself going through a difficult time.
