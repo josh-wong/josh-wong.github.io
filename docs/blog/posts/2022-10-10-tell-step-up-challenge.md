@@ -12,6 +12,8 @@ categories:
 
 This year, I participated in the Step Up Challenge by [TELL Japan](https://telljp.com/), which is an event to honor the people who lost their lives to suicide in Japan in 2021. The purpose of this event is to raise mental-health awareness and funds for TELL to continue providing lifesaving services to the English-speaking community in Japan. Although you can participate in the event solo or as a group, I decided to join as an individual.
 
+<!-- more -->
+
 By registering for the event, you may be eligible to receive event goodies (while supplies last!). This year's goodie bag included a nice tote bag, which was perfect for holding my water bottle, phone, wallet, keys, and any groceries I bought during my walks.
 
 <figure markdown>
