@@ -14,15 +14,7 @@ This year, I participated in the Step Up Challenge by [TELL Japan](https://tellj
 
 By registering for the event, you may be eligible to receive event goodies (while supplies last!). This year's goodie bag included a nice tote bag, which was perfect for holding my water bottle, phone, wallet, keys, and any groceries I bought during my walks.
 
-<figure markdown>
-  ![2023 TELL Step Up Challenge swag: tote bag and sticker](assets/images/202210_TELL_tote_bag_and_sticker.jpg)
-  <figcaption>2023 TELL Step Up Challenge swag: tote bag and sticker</figcaption>
-<figure>
-
-<figure markdown>
-  ![2023 TELL Step Up Challenge swag: tote bag and sticker](assets/images/2022-10-tell-step-up-challenge-tote-bag-sticker.jpg?raw=true)
-  <figcaption>2023 TELL Step Up Challenge swag: tote bag and sticker</figcaption>
-<figure>
+![2023 TELL Step Up Challenge swag: tote bag and sticker](assets/images/202210_TELL_tote_bag_and_sticker.jpg)
 
 For details about the Step Up Challenge and other events, see [TELL Japan events](https://www.tellevents.org/).
 
