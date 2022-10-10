@@ -17,7 +17,7 @@ By registering for the event, you may be eligible to receive event goodies (whil
 <figure markdown>
   ![2023 TELL Step Up Challenge swag: tote bag and sticker](assets/images/2022-10-10-tell-step-up-challenge-tote-bag-sticker.jpg)
   <figcaption>2023 TELL Step Up Challenge swag: tote bag and sticker</figcaption>
-<figure>
+</figure>
 
 For details about the Step Up Challenge and other events, see [TELL Japan events](https://www.tellevents.org/).
 
@@ -54,7 +54,7 @@ Next year, I want to have some other activities lined up besides walking, like:
 <figure markdown>
   ![Asahi Beer Hall and Tokyo SkyTree](assets/images/2022-10-10-asahi-beer-hall-tokyo-skytree.jpg)
   <figcaption>A view of the Asahi Beer Hall and Tokyo SkyTree on my walk from October 10, 2022</figcaption>
-<figure>
+</figure>
 
 I'll definitely participate in this event in the future and continue to promote TELL's support services to English speakers. Now that I know a bit more about how the event works, I'll also consider participating with a small group next time.
 
