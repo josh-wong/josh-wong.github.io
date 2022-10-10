@@ -15,7 +15,7 @@ This year, I participated in the Step Up Challenge by [TELL Japan](https://tellj
 By registering for the event, you may be eligible to receive event goodies (while supplies last!). This year's goodie bag included a nice tote bag, which was perfect for holding my water bottle, phone, wallet, keys, and any groceries I bought during my walks.
 
 <figure markdown>
-  ![2023 TELL Step Up Challenge swag: tote bag and sticker](assets/images/2022-10-tell-step-up-challenge-tote-bag-sticker.jpg?raw=true)
+  ![2023 TELL Step Up Challenge swag: tote bag and sticker](assets/images/2022-10-10-tell-step-up-challenge-tote-bag-sticker.jpg)
   <figcaption markdown>2023 TELL Step Up Challenge swag: tote bag and sticker</figcaption>
 <figure>
 
@@ -23,7 +23,7 @@ For details about the Step Up Challenge and other events, see [TELL Japan events
 
 ## Why I'm taking part in the 2022 Step Up Challenge
 
-I heard about TELL on Twitter a few years ago, but I didn't know about this event until I read about it on the ["TELL 21,081 Steps" blog post on nanikore.net](https://www.nanikore.net/2021/10/11/tell-21081-steps/) . 
+I heard about TELL on Twitter a few years ago, but I didn't know about this event until I read about it on the ["TELL 21,081 Steps" blog post on nanikore.net](https://www.nanikore.net/2021/10/11/tell-21081-steps/).
  
 Living in Japan can get rough for nonnative residents. I had heard about how many foreigners struggle with how to proceed after around five years because of being homesick, wanting a better job, or other factors. I experienced a similar situation around my five-year anniversary mark. If I knew about TELL at that time, I believe I would have gotten the support that I needed and potentially saved quite a lot of yen on questionably helpful self-help books.
 
@@ -33,11 +33,11 @@ To honor the 21,007 people who lost their lives to suicide in 2021, I walked 21,
 
 ??? success "September 10, 2022 - 21,034 steps"
 
-    ![2023 TELL Step Up Challenge: September 10, 2022 - 21,034 steps](assets/images/2022-10-tell-step-up-challenge-(09-10).jpg)
+    ![2023 TELL Step Up Challenge: September 10, 2022 - 21,034 steps](assets/images/2022-10-10-tell-step-up-challenge-(09-10).jpg)
 
 ??? success "**September 17, 2022** - 22,197 steps"
 
-    ![2023 TELL Step Up Challenge: September 10, 2022 - 21,034 steps](assets/images/2022-10-tell-step-up-challenge-(09-17).jpg)
+    ![2023 TELL Step Up Challenge: September 10, 2022 - 21,034 steps](assets/images/2022-10-10-tell-step-up-challenge-(09-17).jpg)
 
 ??? success "**October 10, 2022** - ##,### steps"
 
@@ -52,7 +52,7 @@ Next year, I want to have some other activities lined up besides walking, like:
 ## Wrap up
 
 <figure markdown>
-  ![Asahi Beer Hall and Tokyo SkyTree](assets/images/2022-10-asahi-beer-hall-tokyo-skytree.jpg)
+  ![Asahi Beer Hall and Tokyo SkyTree](assets/images/2022-10-10-asahi-beer-hall-tokyo-skytree.jpg)
   <figcaption markdown>A view of the Asahi Beer Hall and Tokyo SkyTree on my walk from October 10, 2022</figcaption>
 <figure>
 
@@ -61,4 +61,3 @@ I'll definitely participate in this event in the future and continue to promote 
 For English speakers living in Japan who are struggling and need someone to talk to, I recommend contacting TELL through their [Lifeline service](https://telljp.com/lifeline/). The organization's website also regularly posts on their blog and offers a lot of resources if you prefer to get help at your own pace our outside of support hours.
 
 We all struggle at some point, so I highly recommend keeping TELL top of mind if you find yourself going through a difficult time.
-
