@@ -125,7 +125,7 @@ extra:
           name: This page could be improved
           data: 0
           note: >- 
-            Thanks for your feedback! Help us improve this page by <a href="https://github.com/josh-wong/josh-wong.github.io/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">creating an issue in GitHub</a>.
+            Thanks for your feedback! Help me improve this page by <a href="https://github.com/josh-wong/josh-wong.github.io/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">creating an issue in GitHub</a>.
 
   social:
     - icon: fontawesome/brands/github
@@ -142,16 +142,16 @@ extra:
     deprecated: Deprecated
 
 nav:
-  - 👋🏻Welcome:
+  - Welcome:
     - 'index.md'
-    - 🖥️Projects:
+    - Projects:
       - Scripts: 'projects/scripts.md'
       - Software: 'projects/software.md'
       - Tutorials & notes: 'projects/tutorials_notes.md'
-  - ✍🏻Blog: 
+  - Blog: 
     - blog/index.md
     - 🔶RSS: 'https://josh-wong.github.io/feed_rss_updated.xml' 
   #  - 2022:
   #    - blog/posts/hello-world.md
-  - ❤️Donate: 'donations.md'
-  - ❤️Sponsor: 'https://github.com/sponsors/josh-wong'
+  - Donate: 'donations.md'
+  - Sponsor: 'https://github.com/sponsors/josh-wong'
