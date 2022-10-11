@@ -96,6 +96,8 @@ theme:
       primary: blue
       accent: blue
   features:
+    # Add support for improved tooltips
+    - content.tooltips
     # Add custom search functions
     - search.highlight
     - search.share
