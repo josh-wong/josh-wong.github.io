@@ -1,4 +1,4 @@
-# Donations
+# ❤️Donations
 
 Find my projects and documentation helpful? If so, micro-donations are greatly appreciated!
 
