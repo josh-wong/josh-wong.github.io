@@ -2,7 +2,7 @@
 status: new
 ---
 
-# Blog
+# ✍🏻Blog
 
 Thoughts and observations of a technical writer in Tokyo🗼🗾
 
