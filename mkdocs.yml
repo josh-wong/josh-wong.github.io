@@ -23,6 +23,8 @@ plugins:
   #- techdocs-core
 
 markdown_extensions:
+  # Add support for abbreviations
+  - abbr
   # Add support for Material for MkDocs admonitions
   - admonition
   # Add styles for buttons
