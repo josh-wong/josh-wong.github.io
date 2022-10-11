@@ -142,16 +142,16 @@ extra:
     deprecated: Deprecated
 
 nav:
-  - Welcome:
+  - 👋🏻Welcome:
     - 'index.md'
-    - Projects:
+    - 🖥️Projects:
       - Scripts: 'projects/scripts.md'
       - Software: 'projects/software.md'
       - Tutorials & notes: 'projects/tutorials_notes.md'
-  - Blog: 
+  - ✍🏻Blog: 
     - blog/index.md
     - 🔶RSS: 'https://josh-wong.github.io/feed_rss_updated.xml' 
   #  - 2022:
   #    - blog/posts/hello-world.md
-  - Donate: 'donations.md'
-  - Sponsor: 'https://github.com/sponsors/josh-wong'
+  - ❤️Donate: 'donations.md'
+  - ❤️Sponsor: 'https://github.com/sponsors/josh-wong'
