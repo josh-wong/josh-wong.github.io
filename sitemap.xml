@@ -51,17 +51,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/blog/category/charity/</loc>
-         <lastmod>2022-10-11</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://josh-wong.github.io/blog/category/health/</loc>
          <lastmod>2022-10-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://josh-wong.github.io/blog/category/japan/</loc>
+         <lastmod>2022-10-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josh-wong.github.io/blog/category/charity/</loc>
          <lastmod>2022-10-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
