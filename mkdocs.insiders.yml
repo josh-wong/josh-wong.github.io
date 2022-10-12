@@ -4,7 +4,7 @@ plugins:
   # Add blog support
   - blog:
       post_url_date_format: yyyy/MM
-      post_url_format: "{date}"
+      post_url_format: "{date}/{slug}"
   # Show docs contributors (currently disabled since this is a home page that primarily includes a blog and links to projects)
   #- git-committers:
   #    repository: josh-wong/josh-wong.github.io
