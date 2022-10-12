@@ -14,8 +14,8 @@ plugins:
   #- git-revision-date-localized
   # Add redirect function
   - redirects:
+      use_directory_urls: false
       redirect_maps:
-        use_directory_urls: false
         'https://josh-wong.github.io/blog/2022/10/recap-of-the-2022-tell-21007-step-up-challenge/': 'https://josh-wong.github.io/blog/2022/10/recap-of-my-participation-in-the-2022-tell-21007-step-up-challenge/'
         #'old.md': 'new.md'
         #'old/file.md': 'new/file.md'
