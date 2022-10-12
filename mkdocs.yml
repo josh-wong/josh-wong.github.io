@@ -12,6 +12,12 @@ plugins:
   #- search
   # Show the last updated date (currently disabled since this is a home page that primarily includes a blog and links to projects)
   #- git-revision-date-localized
+  # Add redirect function
+  - redirects:
+      redirect_maps:
+        'https://josh-wong.github.io/blog/2022/10/recap-of-the-2022-tell-21007-step-up-challenge/': 'https://josh-wong.github.io/blog/2022/10/recap-of-my-participation-in-the-2022-tell-21007-step-up-challenge/'
+        #'old.md': 'new.md'
+        #'old/file.md': 'new/file.md'
   # Enable videos to be embedded
   - mkdocs-video:
       css_style:
