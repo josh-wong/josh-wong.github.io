@@ -2,72 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://josh-wong.github.io/</loc>
-         <lastmod>2022-10-11</lastmod>
+         <lastmod>2022-10-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://josh-wong.github.io/donations/</loc>
-         <lastmod>2022-10-11</lastmod>
+         <lastmod>2022-10-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://josh-wong.github.io/blog/</loc>
-         <lastmod>2022-10-11</lastmod>
+         <lastmod>2022-10-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://josh-wong.github.io/blog/2022/10/hello-world/</loc>
-         <lastmod>2022-10-11</lastmod>
+         <lastmod>2022-10-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/blog/2022/10/recap-of-the-2022-tell-21007-step-up-challenge/</loc>
-         <lastmod>2022-10-11</lastmod>
+         <loc>https://josh-wong.github.io/blog/2022/10/recap-of-my-participation-in-the-2022-tell-21007-step-up-challenge/</loc>
+         <lastmod>2022-10-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://josh-wong.github.io/projects/scripts/</loc>
-         <lastmod>2022-10-11</lastmod>
+         <lastmod>2022-10-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://josh-wong.github.io/projects/software/</loc>
-         <lastmod>2022-10-11</lastmod>
+         <lastmod>2022-10-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://josh-wong.github.io/projects/tutorials_notes/</loc>
-         <lastmod>2022-10-11</lastmod>
+         <lastmod>2022-10-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://josh-wong.github.io/blog/archive/2022/</loc>
-         <lastmod>2022-10-11</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://josh-wong.github.io/blog/category/exercise/</loc>
-         <lastmod>2022-10-11</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://josh-wong.github.io/blog/category/health/</loc>
-         <lastmod>2022-10-11</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://josh-wong.github.io/blog/category/japan/</loc>
-         <lastmod>2022-10-11</lastmod>
+         <lastmod>2022-10-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://josh-wong.github.io/blog/category/charity/</loc>
-         <lastmod>2022-10-11</lastmod>
+         <lastmod>2022-10-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josh-wong.github.io/blog/category/exercise/</loc>
+         <lastmod>2022-10-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josh-wong.github.io/blog/category/japan/</loc>
+         <lastmod>2022-10-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josh-wong.github.io/blog/category/health/</loc>
+         <lastmod>2022-10-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://josh-wong.github.io/blog/category/hello-world/</loc>
-         <lastmod>2022-10-11</lastmod>
+         <lastmod>2022-10-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
