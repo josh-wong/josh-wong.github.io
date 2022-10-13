@@ -18,7 +18,6 @@ plugins:
       redirect_maps:
         #'old.md': 'new.md'
         #'old/file.md': 'new/file.md'
-        'blog/posts/2022-10-11-tell-step-up-challenge.md': 'https://josh-wong.github.io/blog/2022/10/recap-of-my-participation-in-the-2022-tell-21007-step-up-challenge/'
   # Enable videos to be embedded
   - mkdocs-video:
       css_style:
