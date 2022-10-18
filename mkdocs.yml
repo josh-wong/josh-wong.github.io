@@ -109,6 +109,7 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+    # Add custom navigation functions
     - navigation.expand
     - navigation.indexes
     - navigation.instant
