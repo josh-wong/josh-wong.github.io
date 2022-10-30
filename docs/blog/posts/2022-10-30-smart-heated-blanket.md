@@ -71,6 +71,6 @@ I also configured the Tapo smart plug through the Shortcuts app in iOS. This all
 
 ## Ready for winter!
 
-So far, my smart heated throw blanket has been a great addition to my cold-weather arsenal. Aside from using the blanket when sleeping, I underestimated draping the blanket over my lap while working in my home office. Overall, I highly recommend getting a heated blanket and making it smart to make sleeping during autumn and winter a bit more relaxing. 
+So far, my smart heated throw blanket has been a great addition to my cold-weather arsenal. Aside from using the blanket when sleeping, I underestimated draping the blanket over my lap while working in my home office. Overall, I highly recommend getting a heated blanket and making it smart to make sleeping during autumn and winter a bit more relaxing.
 
 I have one more Tapo smart plug left, so I might use it to automate the lights for my Christmas tree.🎄
