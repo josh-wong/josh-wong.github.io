@@ -62,9 +62,7 @@ In the future, I might consider adding on/off intervals to ensure I stay warm th
   <figcaption>Screenshot of my schedule in the TP Link Tapo app</figcaption>
 </figure>
 
-I also configured the Tapo smart plug through the Shortcuts app in iOS. This allows me to press a button in the Shortcuts widget to turn my blanket on or off.
-
-I can also ask Alexa or Siri to turn my blanket on or off.
+I also configured the Tapo smart plug through the Shortcuts app in iOS. This allows me to press a button in the Shortcuts widget to turn my blanket on or off. In the future, I'll look in to being able to turn my heated blanket on or off by using Alexa or Siri.
 
 <figure markdown>
   ![Screenshot of my Shortcut widgets screen](assets/images/2022-10-30-shortcuts-widget.jpg)
