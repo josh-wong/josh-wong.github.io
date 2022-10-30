@@ -7,7 +7,7 @@ categories:
   - life
 ---
 
-# Creating a "smart" heated blanket
+# Creating a smart heated blanket
 
 Every autumn and winter, I avoid turning on the HVAC units and space heaters in my apartment until absolutely necessary. The reason I wait is because those units:
 
