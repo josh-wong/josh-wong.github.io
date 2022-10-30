@@ -1,3 +1,12 @@
+---
+date: 2022-10-30
+authors: [josh-wong]
+categories:
+  - automation
+  - IoT
+  - life
+---
+
 # Creating a "smart" heated blanket
 
 !!! info
@@ -25,6 +34,8 @@ I chose a heated **_throw_** blanket, which is thinner than a standard blanket, 
 ## Making my heated blanket smart
 
 Never to miss a chance to automate even the most basic tasks, I purchased a [TP-Link Tapo smart plug on Amazon Japan](https://amzn.to/3TI6B1P) to create a smart heated blanket. If you're in the US, [Amazon US also sells the Tapo smart plug](https://amzn.to/3U4MJWb).
+
+The Tapo smart plug is an IoT device that enables devices to be controlled remotely. 
 
 !!! note
 
@@ -60,6 +71,6 @@ I can also ask Alexa or Siri to turn my blanket on or off.
 
 ## Ready for winter!
 
-So far, my smart heated throw blanket has been a great addition to my cold-weather arsenal. Aside from using the blanket when sleeping, I underestimated draping the blanket over my lap while working in my home office.
+So far, my smart heated throw blanket has been a great addition to my cold-weather arsenal. Aside from using the blanket when sleeping, I underestimated draping the blanket over my lap while working in my home office. Overall, I highly recommend getting a heated blanket and making it smart to make sleeping during autumn and winter a bit more relaxing. 
 
-Overall, I highly recommend getting a heated blanket and making it smart to make sleeping during autumn and winter a bit more relaxing.
+I have one more Tapo smart plug left, so I might use it to automate the lights for my Christmas tree.🎄
