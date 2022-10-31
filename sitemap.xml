@@ -66,12 +66,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/blog/category/health/</loc>
-         <lastmod>2022-10-31</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://josh-wong.github.io/blog/category/charity/</loc>
+         <loc>https://josh-wong.github.io/blog/category/exercise/</loc>
          <lastmod>2022-10-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -81,7 +76,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/blog/category/exercise/</loc>
+         <loc>https://josh-wong.github.io/blog/category/charity/</loc>
+         <lastmod>2022-10-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josh-wong.github.io/blog/category/health/</loc>
          <lastmod>2022-10-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
