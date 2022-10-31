@@ -6,4 +6,5 @@
 *[node]: A point of connection in a communication network
 *[Raspberry Pi]: A series of small, single-board computers (SBCs) developed in the by the Raspberry Pi Foundation in association with Broadcom
 *[technical writer]: A professional information communicator whose task is to transfer information between two or more parties
-*[Zune]: A discontinued line of digital media products and services marketed by Microsoft
+*[Zune]: A discontinued line of digital media products and services developed by Microsoft
+*[IoT]: Devices with sensors, processors, software, and other technologies that connect and exchange data with other devices and systems over networks
