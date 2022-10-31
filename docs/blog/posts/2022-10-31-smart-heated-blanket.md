@@ -55,12 +55,12 @@ By setting these schedules, I accomplish the following:
 - Waking up in a warm bed
 - Holding myself accountable for not lounging around in bed
 
-In the future, I might consider adding on/off intervals to ensure I stay warm throughout the night.
-
 <figure markdown>
   ![Screenshot of schedule in TP Link Tapo app](assets/images/2022-10-31-tplink-tapo-app-schedule.jpg)
   <figcaption>Screenshot of my schedule in the TP Link Tapo app</figcaption>
 </figure>
+
+In the future, I might consider adding on/off intervals to ensure I stay warm throughout the night.
 
 I also configured the Tapo smart plug through the Shortcuts app in iOS. This allows me to press a button in the Shortcuts widget to turn my blanket on or off. In the future, I'll look in to being able to turn my heated blanket on or off by using Alexa or Siri.
 
