@@ -58,14 +58,14 @@ By setting these schedules, I accomplish the following:
 In the future, I might consider adding on/off intervals to ensure I stay warm throughout the night.
 
 <figure markdown>
-  ![Screenshot of schedule in TP Link Tapo app](assets/images/2022-10-30-tplink-tapo-app-schedule.jpg)
+  ![Screenshot of schedule in TP Link Tapo app](assets/images/2022-10-31-tplink-tapo-app-schedule.jpg)
   <figcaption>Screenshot of my schedule in the TP Link Tapo app</figcaption>
 </figure>
 
 I also configured the Tapo smart plug through the Shortcuts app in iOS. This allows me to press a button in the Shortcuts widget to turn my blanket on or off. In the future, I'll look in to being able to turn my heated blanket on or off by using Alexa or Siri.
 
 <figure markdown>
-  ![Screenshot of my Shortcut widgets screen](assets/images/2022-10-30-shortcuts-widget.jpg)
+  ![Screenshot of my Shortcut widgets screen](assets/images/2022-10-31-shortcuts-widget.jpg)
   <figcaption>Screenshot of my Shortcut widgets screen</figcaption>
 </figure>
 
