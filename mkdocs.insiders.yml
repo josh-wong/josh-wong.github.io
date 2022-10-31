@@ -31,7 +31,7 @@ plugins:
         utm_medium: "RSS"
         utm_campaign: "feed-syndication"
   # Enable support for social cards (pretty link previews)
-  #- social
+  - social
   - tags
 
    

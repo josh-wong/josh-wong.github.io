@@ -1,5 +1,5 @@
 # Requirements for core
-#cairosvg
+cairosvg
 jinja2>=3.0.2
 markdown>=3.2
 mkdocs>=1.4.0
