@@ -9,11 +9,16 @@ categories:
 
 # Month in review - October
 
-My first "month-in-review" post! (Ignore that this is being posted two weeks after the end of October).
-
 This monthly review is a digest of topics that I don't cover in dedicated blog posts.
 
+- Finished reading "The Art of Letting Go"
+- passGen v3.x updates
+
 <!-- more -->
+
+!!! note
+
+    My first "month-in-review" post! (Ignore that this is being posted two weeks after the end of October).
 
 ## Finished reading "The Art of Letting Go"
 
