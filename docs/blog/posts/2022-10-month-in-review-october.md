@@ -1,4 +1,3 @@
-```markdown
 ---
 date: 2022-11-13
 authors: [josh-wong]
@@ -7,7 +6,6 @@ categories:
   - month-in-review
   - software-engineering
 ---
-```
 
 # Month in review - October
 
