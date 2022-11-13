@@ -18,7 +18,7 @@ This month-in-review post is a digest of topics that I don't cover in dedicated 
 
 !!! note
 
-    My first "month-in-review" post! Ignore that this is being posted two weeks after the end of October😅
+    My first month-in-review post! Ignore that this is being posted two weeks after the end of October😅
 
 ## Finished reading "The Art of Letting Go"
 
