@@ -18,7 +18,7 @@ This monthly review is a digest of topics that I don't cover in dedicated blog p
 
 !!! note
 
-    My first "month-in-review" post! (Ignore that this is being posted two weeks after the end of October).
+    My first "month-in-review" post! Ignore that this is being posted two weeks after the end of October😅
 
 ## Finished reading "The Art of Letting Go"
 
@@ -30,11 +30,11 @@ If you're interested in seeing my highlights, check out [The Art of Letting Go |
 
 ## passGen v3.x updates
 
-In 2017, I created **passGen**, which is a Windows app for creating randomly generated, 14-character passwords. At a previous job, I was helping some engineers design the UI of a Windows app, and I wanted to get familiar with C#. I ended up changing jobs soon after and shelved this project.
+In 2017, I developed **passGen**, which is a Windows app for creating randomly generated, 14-character passwords. At a previous job, I was helping some engineers design the UI of a Windows app, and I wanted to get familiar with C#. I ended up changing jobs soon after and shelved this project.
 
 I revived this old project because I wanted to learn a little about how automatic updates work. Although the automatic-update function isn't pretty or customizable since I used the built-in "Publish" function in Visual Studio, I enjoyed the challenge and learning some basics about the architecture an app uses to check for updates.
 
-Of note are the following:
+Some notable changes include:
 
 - [passGen v3.0.0.0](https://github.com/josh-wong/passGen/releases/tag/v3.0.0): Added an automatic-update function and improved the UI a bit.
 - [passGen v3.1.0.0](https://github.com/josh-wong/passGen/releases/tag/v3.1.0): Changed the password length from 10 characters to 14 characters.
