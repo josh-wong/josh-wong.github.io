@@ -4,7 +4,6 @@ authors: [josh-wong]
 categories:
   - automation
   - IoT
-  - life
 ---
 
 # Adding a smart function to my heated blanket
