@@ -14,7 +14,6 @@ plugins:
   #- git-revision-date-localized
   # Add redirect function
   - redirects:
-      use_directory_urls: false
       redirect_maps:
         'index.md': 'blog/index.md'
         #'old/file.md': 'new/file.md'
