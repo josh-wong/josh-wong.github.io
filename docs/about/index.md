@@ -4,7 +4,7 @@ Hey there! My name is [Josh](https://github.com/josh-wong/), and I'm a technical
 
 I enjoy writing, improving user experiences, learning new things, and sharing knowledge💡
 
-## Why "080f53.com"?
+## Why `080f53.com`?
 
 I like the hex color <a href="https://encycolorpedia.com/080f53" target="_blank">**#080f53**</a>, which is dark blue-violet.
 
