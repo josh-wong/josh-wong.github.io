@@ -157,16 +157,17 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - 👋🏻Welcome:
-    - 'index.md'
-    - 🖥️Projects:
-      - Scripts: 'projects/scripts.md'
-      - Software: 'projects/software.md'
-      - Tutorials & notes: 'projects/tutorials_notes.md'
   - ✍🏻Blog: 
     - blog/index.md
     - 🔶RSS: 'https://josh-wong.github.io/feed_rss_updated.xml' 
   #  - 2022:
   #    - blog/posts/hello-world.md
-  - ❤️Donate: 'donations.md'
+  - 🖥️Projects:
+    - projects/index.md
+    - Notes: 'projects/notes.md'
+    - Scripts: 'projects/scripts.md'
+    - Software: 'projects/software.md'
+    - Tutorials: 'projects/tutorials.md'
+  - 🐵About: 'about/index.md'
+  - ❤️Donate: 'blog/donations.md'
   - ❤️Sponsor: 'https://github.com/sponsors/josh-wong'
