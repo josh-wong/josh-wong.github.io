@@ -15,7 +15,7 @@ plugins:
   # Add redirect function
   - redirects:
       redirect_maps:
-        'index.md': 'https://www.080f53.com/blog'
+        index.md: blog/index.md
   # Enable videos to be embedded
   - mkdocs-video:
       css_style:
