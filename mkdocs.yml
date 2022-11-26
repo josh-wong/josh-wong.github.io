@@ -12,10 +12,10 @@ plugins:
   #- search
   # Show the last updated date (currently disabled since this is a home page that primarily includes a blog and links to projects)
   #- git-revision-date-localized
-  # Add redirect function
-  - redirects:
-      redirect_maps:
-        index.md: blog/index.md
+  # Add redirect function. Commented out but keeping for now in case I need to try this redirect later.
+  #- redirects:
+  #    redirect_maps:
+  #      'index.md': 'blog'
   # Enable videos to be embedded
   - mkdocs-video:
       css_style:
@@ -110,7 +110,7 @@ theme:
     # Add custom navigation functions
     - navigation.expand
     - navigation.indexes
-    #- navigation.instant
+    - navigation.instant
     - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
