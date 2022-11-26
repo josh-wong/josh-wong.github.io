@@ -71,7 +71,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/blog/category/software-engineering/</loc>
+         <loc>https://josh-wong.github.io/blog/category/month-in-review/</loc>
          <lastmod>2022-11-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -81,7 +81,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/blog/category/month-in-review/</loc>
+         <loc>https://josh-wong.github.io/blog/category/software-engineering/</loc>
          <lastmod>2022-11-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -92,6 +92,11 @@
     </url>
     <url>
          <loc>https://josh-wong.github.io/blog/category/automation/</loc>
+         <lastmod>2022-11-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josh-wong.github.io/blog/category/charity/</loc>
          <lastmod>2022-11-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -107,11 +112,6 @@
     </url>
     <url>
          <loc>https://josh-wong.github.io/blog/category/japan/</loc>
-         <lastmod>2022-11-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://josh-wong.github.io/blog/category/charity/</loc>
          <lastmod>2022-11-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
