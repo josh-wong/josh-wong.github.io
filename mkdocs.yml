@@ -16,7 +16,7 @@ plugins:
   - redirects:
       use_directory_urls: false
       redirect_maps:
-        #'old.md': 'new.md'
+        'index.md': 'blog/index.md'
         #'old/file.md': 'new/file.md'
   # Enable videos to be embedded
   - mkdocs-video:
