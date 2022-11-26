@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+         <loc>https://josh-wong.github.io/</loc>
+         <lastmod>2022-11-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://josh-wong.github.io/about/</loc>
          <lastmod>2022-11-26</lastmod>
          <changefreq>daily</changefreq>
@@ -66,7 +71,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/blog/category/month-in-review/</loc>
+         <loc>https://josh-wong.github.io/blog/category/books/</loc>
          <lastmod>2022-11-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -76,7 +81,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/blog/category/books/</loc>
+         <loc>https://josh-wong.github.io/blog/category/month-in-review/</loc>
          <lastmod>2022-11-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -91,7 +96,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/blog/category/japan/</loc>
+         <loc>https://josh-wong.github.io/blog/category/health/</loc>
          <lastmod>2022-11-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -101,12 +106,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/blog/category/exercise/</loc>
+         <loc>https://josh-wong.github.io/blog/category/japan/</loc>
          <lastmod>2022-11-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/blog/category/health/</loc>
+         <loc>https://josh-wong.github.io/blog/category/exercise/</loc>
          <lastmod>2022-11-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
