@@ -2,6 +2,8 @@
 status: new
 ---
 
+# Projects
+
 The following are projects that I've worked on and continue to review on a normal basis.
 
 <div class="grid cards" markdown>
