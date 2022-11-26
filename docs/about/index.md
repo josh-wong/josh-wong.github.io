@@ -1,4 +1,4 @@
-# About
+# About me
 
 Hey there! My name is [Josh](https://github.com/josh-wong/), and I'm a technical writer and knowledge management specialist. 
 
