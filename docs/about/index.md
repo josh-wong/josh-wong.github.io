@@ -16,10 +16,11 @@ Feel free to poke around and contact me if you have any questions😊
 
 <div class="grid cards" markdown>
 
-- :fontawesome-brands-square-github: __[GitHub](https://github.com/josh-wong)__
-- :fontawesome-brands-square-gitlab: __[GitLab](https://gitlab.com/josh-wong)__
-- :fontawesome-brands-linkedin: __[LinkedIn](https://www.linkedin.com/in/wongjoshua/)__
-- :fontawesome-brands-mastodon: __<a rel="me" href="https://famichiki.jp/@josh">Mastodon</a>__
-- :fontawesome-brands-square-twitter: __[Twitter](https://twitter.com/joshdotmd)__
+- :fontawesome-brands-square-github: __<a href="https://github.com/josh-wong" target="_blank">GitHub</a>__
+- :fontawesome-brands-square-gitlab: __<a href="https://gitlab.com/josh-wong" target="_blank">GitLab</a>__
+- :fontawesome-brands-linkedin: __<a href="https://www.linkedin.com/in/wongjoshua" target="_blank">LinkedIn</a>__
+- :fontawesome-brands-mastodon: __<a rel="me" href="https://famichiki.jp/@josh" target="_blank">Mastodon</a>__
+- :fontawesome-brands-steam: __<a href="https://steamcommunity.com/id/josh080f53" target="_blank">Steam</a>__
+- :fontawesome-brands-square-twitter: __<a href="https://twitter.com/joshdotmd" target="_blank">Twitter</a>__
 
 </div>
