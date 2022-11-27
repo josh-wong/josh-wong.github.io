@@ -76,7 +76,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/blog/category/knowledge-management/</loc>
+         <loc>https://josh-wong.github.io/blog/category/software-engineering/</loc>
+         <lastmod>2022-11-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josh-wong.github.io/blog/category/books/</loc>
          <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -86,12 +91,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/blog/category/software-engineering/</loc>
-         <lastmod>2022-11-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://josh-wong.github.io/blog/category/books/</loc>
+         <loc>https://josh-wong.github.io/blog/category/knowledge-management/</loc>
          <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -111,6 +111,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://josh-wong.github.io/blog/category/exercise/</loc>
+         <lastmod>2022-11-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://josh-wong.github.io/blog/category/health/</loc>
          <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
@@ -122,11 +127,6 @@
     </url>
     <url>
          <loc>https://josh-wong.github.io/blog/category/charity/</loc>
-         <lastmod>2022-11-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://josh-wong.github.io/blog/category/exercise/</loc>
          <lastmod>2022-11-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
