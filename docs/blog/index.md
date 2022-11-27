@@ -2,9 +2,9 @@
 status: new
 ---
 
-# Blog
+# The `080f53` blog
 
-Thoughts and observations of Josh, a technical writer in Tokyo🗼🗾
+Thoughts and observations of Josh, a technical writer and knowledge management specialist in Tokyo🗼🗾
 
 ![Blog banner - Cherry blossoms along a river](posts/assets/images/~blog-banner-light-theme.jpg#only-light)
 ![Blog banner - Cherry blossoms along a river](posts/assets/images/~blog-banner-dark-theme.jpg#only-dark)
