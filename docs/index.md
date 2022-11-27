@@ -4,6 +4,7 @@
 <meta http-equiv="refresh" content="0; URL=blog">
 <link rel="canonical" href="blog">
 
+<!--
 <div class="grid cards" markdown>
 
 - :fontawesome-brands-square-github: __[GitHub](https://github.com/josh-wong)__
@@ -13,3 +14,4 @@
 - :fontawesome-brands-square-twitter: __[Twitter](https://twitter.com/joshdotmd)__
 
 </div>
+-->
