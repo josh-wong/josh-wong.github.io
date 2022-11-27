@@ -22,7 +22,7 @@ This month-in-review post is a digest of topics that I don't cover in dedicated 
 
 ## Finished reading "The Art of Letting Go"
 
-Early in the month, I finished reading **<a href="https://amzn.to/3UVhhKq" target="_blank">The Art of Letting Go</a>**. As someone who continuously thinks about events and "what if" situations that I don't have control over, this book helped me think about how to move past those times.
+Early in the month, I finished reading <a href="https://amzn.to/3UVhhKq" target="_blank">The Art of Letting Go</a>. As someone who continuously thinks about events and "what if" situations that I don't have control over, this book helped me think about how to move past those times.
 
 The real value was not so much in reading the book, but highlighting parts that resonated with me. I've already referred to some of my highlights, and a month has barely passed since finishing the book.
 
@@ -30,7 +30,7 @@ If you're interested in seeing my highlights, check out [The Art of Letting Go |
 
 ## passGen v3.x updates
 
-In 2017, I developed **passGen**, which is a Windows app for creating randomly generated, 14-character passwords. At a previous job, I was helping some engineers design the UI of a Windows app, and I wanted to get familiar with C#. I ended up changing jobs soon after and shelved this project.
+In 2017, I developed **[passGen](https://github.com/josh-wong/passGen)**, which is a Windows app for creating randomly generated, 14-character passwords. At a previous job, I was helping some engineers design the UI of a Windows app, and I wanted to get familiar with C#. I ended up changing jobs soon after and shelved this project.
 
 I revived this old project because I wanted to learn a little about how automatic updates work. Although the automatic-update function isn't pretty or customizable since I used the built-in "Publish" function in Visual Studio, I enjoyed the challenge and learning some basics about the architecture an app uses to check for updates.
 
