@@ -15,7 +15,6 @@ Thoughts and observations of Josh, a technical writer in Tokyo🗼🗾
 
 <!--
 Redirecting to the [blog](blog/index.md)...
-
-# For Mastodon verification
-<a rel="me" href="https://famichiki.jp/@josh">Mastodon</a>
 -->
+
+<a rel="me" href="https://famichiki.jp/@josh">Mastodon</a>
