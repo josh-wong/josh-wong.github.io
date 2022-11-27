@@ -3,9 +3,6 @@ Redirecting to the [blog](blog/index.md)...
 -->
 <!DOCTYPE html>
 <meta charset="utf-8">
-<head>
-  <title>The `080f53` blog</title>
-</head>
 <meta http-equiv="refresh" content="0; URL=blog">
 <link rel="canonical" href="blog">
 
