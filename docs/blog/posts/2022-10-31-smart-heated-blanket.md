@@ -19,12 +19,12 @@ To address these concerns, I decided to buy a heated blanket and make it "smart.
 <!-- more -->
 
 !!! info
-	
-	**Disclosure:** Some of the links in this post are affiliate links. If you go through those links to make a purchase, I may earn a commission. Note that I only link to products and services if I am actively using them and am greatly satisfied with my experience.
+
+    **Disclosure:** Some of the links in this post are affiliate links. If you go through those links to make a purchase, I may earn a commission. Note that I only link to products and services if I am actively using them and am greatly satisfied with my experience.
 
 ## Hopping on the heated-blanket bandwagon
 
-To avoid having to use the HVAC units or space heaters, I purchased a [heated throw blanket from Amazon Japan](https://amzn.to/3U3lsU6). If you're in the US, [Amazon US also sells a wide selection of heated blankets](https://amzn.to/3Fm7IzL).
+To avoid having to use the HVAC units or space heaters, I purchased a <a href="https://amzn.to/3U3lsU6" target="_blank">heated throw blanket from Amazon Japan</a>. If you're in the US, <a href="https://amzn.to/3Fm7IzL" target="_blank">Amazon US also sells a wide selection of heated blankets</a>.
 
 I chose a heated **_throw_** blanket, which is thinner than a standard blanket, because:
 
@@ -34,13 +34,13 @@ I chose a heated **_throw_** blanket, which is thinner than a standard blanket, 
 
 ## Making my heated blanket smart
 
-Never to miss a chance to automate even the most basic tasks, I purchased a [TP-Link Tapo smart plug on Amazon Japan](https://amzn.to/3TI6B1P) to create a smart heated blanket. If you're in the US, [Amazon US also sells the Tapo smart plug](https://amzn.to/3U4MJWb).
+Never to miss a chance to automate even the most basic tasks, I purchased a <a href="https://amzn.to/3TI6B1P" target="_blank">TP-Link Tapo smart plug on Amazon Japan</a> to create a smart heated blanket. If you're in the US, <a href="https://amzn.to/3U4MJWb" target="_blank">Amazon US also sells the Tapo smart plug</a>.
 
 The Tapo smart plug is an IoT device that enables you to control devices remotely. In this case, I can control the smart plug from the TP-Link Tapo app.
 
 !!! note
 
-	Since the remote control for adjusting the temperature of the blanket is analog, I can't adjust the temperature automatically. However, I can still manually adjust the temperature on the remote control.
+    Since the remote control for adjusting the temperature of the blanket is analog, I can't adjust the temperature automatically. However, I can still manually adjust the temperature on the remote control.
 
 After connecting the Tapo smart plug to my Wi-Fi network, I configured the Tapo app to:
 
