@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>Redirecting to the [blog](blog/index.md)...</title>
+<head>
+  <title>Blog</title>
+</head>
 <meta http-equiv="refresh" content="0; URL=blog">
 <link rel="canonical" href="blog">
 
 <!--
+Redirecting to the [blog](blog/index.md)...
+
 <div class="grid cards" markdown>
 
 - :fontawesome-brands-square-github: __[GitHub](https://github.com/josh-wong)__
