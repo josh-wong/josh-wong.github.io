@@ -19,3 +19,4 @@ Redirecting to the [blog](blog/index.md)...
 
 </div>
 -->
+<a rel="me" href="https://famichiki.jp/@josh"> </a>
