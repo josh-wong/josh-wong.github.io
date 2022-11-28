@@ -157,7 +157,7 @@ extra_css:
 nav:
   - ✍🏻Blog: 
     - blog/index.md
-    - 🔶RSS: 'https://josh-wong.github.io/blog/feed_rss_updated.xml' 
+    - 🔶RSS: 'https://www.080f53.com/blog/feed_rss_updated.xml' 
   #  - 2022:
   #    - blog/posts/hello-world.md
   - 🖥️Projects:
