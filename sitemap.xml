@@ -81,6 +81,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://josh-wong.github.io/blog/category/documentation/</loc>
+         <lastmod>2022-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://josh-wong.github.io/blog/category/software-engineering/</loc>
          <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
@@ -91,22 +96,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/blog/category/documentation/</loc>
-         <lastmod>2022-11-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://josh-wong.github.io/blog/category/month-in-review/</loc>
          <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/blog/category/automation/</loc>
+         <loc>https://josh-wong.github.io/blog/category/iot/</loc>
          <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/blog/category/iot/</loc>
+         <loc>https://josh-wong.github.io/blog/category/automation/</loc>
          <lastmod>2022-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
