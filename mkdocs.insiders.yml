@@ -19,6 +19,7 @@ plugins:
       date_from_meta:
         as_creation: "date"
         as_update: false
+        default_timezone: Asia/Tokyo
         datetime_format: "%Y-%m-%d"
       enabled: true
       feed_ttl: 1440
