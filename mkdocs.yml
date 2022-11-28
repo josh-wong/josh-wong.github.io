@@ -1,5 +1,5 @@
 site_name: josh-wong | blog & projects 
-site_url: https://www.080f53.com/
+site_url: https://www.080f53.com
 site_description: josh-wong's blog & projects 
 
 # Add repo details in the top right-hand corner
@@ -138,12 +138,18 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/josh-wong
       name: josh-wong on GitHub
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/josh-wong
+      name: josh-wong on GitLab
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/wongjoshua
       name: Joshua Wong on LinkedIn
     - icon: fontawesome/brands/mastodon
       link: https://famichiki.jp/@josh
       name: josh on Mastodon
+    - icon: fontawesome/brands/steam
+      link: https://steamcommunity.com/id/josh080f53
+      name: josh080f53 on Steam
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/joshdotmd
       name: joshdotmd on Twitter
@@ -157,9 +163,7 @@ extra_css:
 nav:
   - ✍🏻Blog: 
     - blog/index.md
-    - 🔶RSS: 'https://www.080f53.com/blog/feed_rss_updated.xml' 
-  #  - 2022:
-  #    - blog/posts/hello-world.md
+  #  - 🔶RSS: 'https://www.080f53.com/feed_rss_updated.xml' // RSS not working properly for custom domains. Needs additional troubleshooting.
   - 🖥️Projects:
     - projects/index.md
     - Notes: 'projects/notes.md'
