@@ -1,6 +1,6 @@
 # 👋🏼Welcome!
 
-Hey there! My name is Josh and I'm a technical writer who enjoys creating, sharing, and managing documentation.
+Hey there! My name is Josh and I'm a technical writer and knowledge management specialist in Tokyo who enjoys creating, sharing, and managing documentation.
 
 This repository contains a site that I've built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
