@@ -25,7 +25,7 @@ plugins:
       image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png
       length: 20
       pretty_print: false
-      match_path: ".*"
+      match_path: "blog/.*"
       url_parameters:
         utm_source: "documentation"
         utm_medium: "RSS"
