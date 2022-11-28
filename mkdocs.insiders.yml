@@ -28,7 +28,7 @@ plugins:
       pretty_print: false
       match_path: "blog/.*"
       url_parameters:
-        utm_source: "documentation"
+        utm_source: "blog"
         utm_medium: "RSS"
         utm_campaign: "feed-syndication"
   # Enable support for social cards (pretty link previews)
