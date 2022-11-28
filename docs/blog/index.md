@@ -2,7 +2,7 @@
 status: new
 ---
 
-# The `080f53` blog
+# `080f53` blog
 
 Thoughts and observations of Josh, a technical writer and knowledge management specialist in Tokyo🗼🗾
 
