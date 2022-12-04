@@ -22,6 +22,5 @@ Feel free to poke around and contact me if you have any questions😊
 - :fontawesome-brands-mastodon: __<a rel="me" href="https://famichiki.jp/@josh" target="_blank">Mastodon</a>__
 - :fontawesome-brands-steam: __<a href="https://steamcommunity.com/id/josh080f53" target="_blank">Steam</a>__
 - :fontawesome-brands-square-twitter: __<a href="https://twitter.com/joshdotmd" target="_blank">Twitter</a>__
-- :fontawesome-brands-xbox: __<a href="https://account.xbox.com/en-us/Profile?Gamertag=hex080f53" target="_blank">Xbox</a>__
 
 </div>
