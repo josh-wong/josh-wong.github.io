@@ -50,7 +50,7 @@ I hadn't been to the giant Buddha statue in at least 16 years, so visiting the a
 
 ## Configured a custom domain
 
-I bought a domain and am actually using it! Below is my reason for choosing this particular domain, which is also currently on my [About](../about) page:
+I bought a domain and am actually using it! Below is my reason for choosing this particular domain, which is also currently on my [About](/about) page:
 
 > I like the hex color [**#080f53**](https://encycolorpedia.com/080f53), which is dark blue-violet.
 > 
