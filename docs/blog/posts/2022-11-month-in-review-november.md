@@ -44,8 +44,8 @@ I forget how close Kamakura is to Tokyo. My aunt wanted to visit Kamakura, so I 
 I hadn't been to the giant Buddha statue in at least 16 years, so visiting the area again was a nice stroll down memory lane.
 
 <figure markdown>
-  ![Gate outside of Toshogu shrine) in Kamakura](assets/images/2022-12-05-nikko-trip-toshogu-shrine.jpg)
-  <figcaption>Gate outside of Toshogu shrine</figcaption>
+  ![Giant Buddha statue (daibutsu) in Kamakura](assets/images/2022-12-05-nikko-trip-toshogu-shrine.jpg)
+  <figcaption>Giant Buddha statue (daibutsu) in Kamakura</figcaption>
 </figure>
 
 ## Configured a custom domain
