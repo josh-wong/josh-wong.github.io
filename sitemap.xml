@@ -46,6 +46,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://www.080f53.com/blog/2022/12/month-in-review-november/</loc>
+         <lastmod>2022-12-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://www.080f53.com/projects/</loc>
          <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
@@ -76,17 +81,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/software-engineering/</loc>
+         <loc>https://www.080f53.com/blog/category/japan/</loc>
          <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/documentation/</loc>
-         <lastmod>2022-12-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.080f53.com/blog/category/knowledge-management/</loc>
+         <loc>https://www.080f53.com/blog/category/travel/</loc>
          <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -96,12 +96,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/month-in-review/</loc>
+         <loc>https://www.080f53.com/blog/category/documentation/</loc>
          <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/iot/</loc>
+         <loc>https://www.080f53.com/blog/category/software-engineering/</loc>
+         <lastmod>2022-12-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.080f53.com/blog/category/knowledge-management/</loc>
+         <lastmod>2022-12-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.080f53.com/blog/category/month-in-review/</loc>
          <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -111,7 +121,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/health/</loc>
+         <loc>https://www.080f53.com/blog/category/iot/</loc>
+         <lastmod>2022-12-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.080f53.com/blog/category/charity/</loc>
          <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -121,12 +136,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/japan/</loc>
-         <lastmod>2022-12-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.080f53.com/blog/category/charity/</loc>
+         <loc>https://www.080f53.com/blog/category/health/</loc>
          <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
