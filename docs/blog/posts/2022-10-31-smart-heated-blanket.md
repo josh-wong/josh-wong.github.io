@@ -8,10 +8,10 @@ categories:
 
 # Adding a smart function to my heated blanket
 
-Every autumn and winter, I avoid turning on the HVAC units and space heaters in my apartment until absolutely necessary. The reason I wait is because those units:
+Every autumn and winter, I avoid turning on the HVAC units and space heaters in my apartment until absolutely necessary. The reason I wait is because:
 
-- Are not energy efficient, which causes environmental waste and a higher electricity bill.
-- Dry out the air, which causes dry mouth, dry nostrils, and dry eyes.
+- Those units are not energy efficient, which causes environmental waste and a higher electricity bill.
+- The air becomes dry, which causes dry mouth, dry nostrils, and dry eyes.
 - My spouse and I have different thresholds for bedroom temperature.
 
 To address these concerns, I decided to buy a heated blanket and make it "smart."
