@@ -1,4 +1,7 @@
 <!-- The following definitions are courtesy of Wikipedia. -->
+*[080f53]: A dark blue-violet color in the hex format
+*[Bitcoin]: An innovative proof-of-work blockchain payment network and a new kind of money
+*[Bitcoin Cash]: A proof-of-work blockchain payment network and cryptocurrency that's based on Bitcoin but faster and cheaper to use
 *[blockchain]: A type of distributed ledger technology
 *[documentation]: Any communicable material that is used to describe, explain or instruct regarding some attributes of an object, system or procedure
 *[Hello, World]: A phrase used to illustrate a language's basic syntax when programming
