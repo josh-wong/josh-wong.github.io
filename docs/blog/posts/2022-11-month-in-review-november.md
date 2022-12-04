@@ -10,6 +10,9 @@ categories:
 
 This month-in-review post is a digest of topics that I don't cover in dedicated blog posts.
 
+- Aunt and uncle visited Tokyo
+- Configured a custom domain
+
 <!-- more -->
 
 ## Aunt and uncle visited Tokyo
