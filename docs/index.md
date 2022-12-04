@@ -8,7 +8,7 @@ Redirecting to the [blog](blog/index.md)...
 
 # #080f53 blog
 
-Thoughts and observations of Josh, a technical writer and knowledge management specialist in Tokyo🗼🗾
+Thoughts and observations from Josh, a technical writer and knowledge management specialist in Tokyo🗼🗾
 
 ![Blog banner - Cherry blossoms along a river](blog/posts/assets/images/~blog-banner-light-theme.jpg#only-light)
 ![Blog banner - Cherry blossoms along a river](blog/posts/assets/images/~blog-banner-dark-theme.jpg#only-dark)
