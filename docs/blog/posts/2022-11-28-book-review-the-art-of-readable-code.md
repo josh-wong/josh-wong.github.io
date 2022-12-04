@@ -25,7 +25,7 @@ _**I wish I'd read this book years ago.**_ As a technical writer and knowledge m
 The beginning of "The Art of Readable Code" describes what I've found to be the laborious and unclear part of writing code in my free time: describing what's happening but only where necessary. The first half of the book guides the reader on how to best write code and leave comments for future reference or for others to reference.
 
 <figure markdown>
-  ![Cartoon strip "Take us to your leader... if he knows how to program" from "The Art of Readable Code"](assets/images/20221127-art-of-readable-code-take-us-to-your-leader-maybe.jpg)
+  ![Cartoon strip "Take us to your leader... if he knows how to program" from "The Art of Readable Code"](assets/images/2022-11-27-art-of-readable-code-take-us-to-your-leader-maybe.jpg)
   <figcaption>Cartoon strip from "The Art of Readable Code"</figcaption>
 </figure>
 
