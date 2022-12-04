@@ -76,7 +76,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/software-engineering/</loc>
+         <loc>https://www.080f53.com/blog/category/documentation/</loc>
+         <lastmod>2022-12-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.080f53.com/blog/category/books/</loc>
          <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -86,12 +91,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/documentation/</loc>
-         <lastmod>2022-12-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.080f53.com/blog/category/books/</loc>
+         <loc>https://www.080f53.com/blog/category/software-engineering/</loc>
          <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -111,17 +111,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://www.080f53.com/blog/category/exercise/</loc>
+         <lastmod>2022-12-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://www.080f53.com/blog/category/charity/</loc>
          <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.080f53.com/blog/category/japan/</loc>
-         <lastmod>2022-12-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.080f53.com/blog/category/exercise/</loc>
          <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
