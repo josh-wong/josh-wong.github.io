@@ -1,4 +1,4 @@
 .cache/
-overrides/main.html
+#overrides/main.html / # Used for showing announcements at the top of the site.
 site/
 docs/blog/posts/templates/
