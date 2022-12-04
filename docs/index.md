@@ -6,7 +6,7 @@ Redirecting to the [blog](blog/index.md)...
 <meta http-equiv="refresh" content="0; URL=blog">
 <link rel="canonical" href="blog">
 
-# `080f53` blog
+# #080f53 blog
 
 Thoughts and observations of Josh, a technical writer and knowledge management specialist in Tokyo🗼🗾
 
