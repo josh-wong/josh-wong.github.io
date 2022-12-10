@@ -8,6 +8,7 @@
 *[documentation]: Any communicable material that is used to describe, explain or instruct regarding some attributes of an object, system or procedure
 *[Hello, World]: A phrase used to illustrate a language's basic syntax when programming
 *[Internet of Thing]: Devices with sensors, processors, software, and other technologies that connect and exchange data with other devices and systems over networks
+*[Josh]: A technical writer and knowledge management specialist living and working in Tokyo🗼🗾
 *[KM]: A collection of methods relating to creating, sharing, using, and managing the knowledge and information of an organization
 *[knowledge management]: A collection of methods relating to creating, sharing, using, and managing the knowledge and information of an organization
 *[node]: A point of connection in a communication network
