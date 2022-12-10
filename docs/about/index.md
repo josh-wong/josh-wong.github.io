@@ -1,6 +1,6 @@
 # About me
 
-Hey there! My name is <a href="https://github.com/josh-wong" target="_blank">Josh</a>, and I'm a technical writer and knowledge management specialist.
+Hey there! My name is **Josh**, and I'm a technical writer and knowledge management specialist living and working in Tokyo🗼🗾
 
 I enjoy writing, improving user experiences, learning new things, and sharing knowledge💡
 
