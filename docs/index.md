@@ -5,6 +5,7 @@ Redirecting to the [blog](blog/index.md)...
 <meta charset="utf-8">
 <meta http-equiv="refresh" content="0; URL=blog">
 <link rel="canonical" href="blog">
+<link href="https://famichiki.jp/@josh" rel="me">
 
 # #080f53 blog
 
