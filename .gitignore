@@ -1,4 +1,7 @@
 .cache/
-#overrides/main.html / # Used for showing announcements at the top of the site.
+# Used for showing announcements at the top of the site.
+overrides/main.html
 site/
 docs/blog/posts/templates/
+# Design files
+*.afdesign
