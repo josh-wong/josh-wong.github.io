@@ -15,5 +15,5 @@ Redirecting to the [blog](blog/index.md)...
 
 Thoughts and observations from [Josh](../about/index.md)✍🏻
 
-![Blog banner - Cherry blossoms along a river](blog/posts/assets/images/~blog-banner-light-theme.jpg#only-light)
-![Blog banner - Cherry blossoms along a river](blog/posts/assets/images/~blog-banner-dark-theme.jpg#only-dark)
+![Blog banner (light theme) - Graph of knowledge nodes](blog/posts/assets/images/~blog-banner-light-theme.jpg#only-light)
+![Blog banner (dark theme) - Graph of knowledge nodes](blog/posts/assets/images/~blog-banner-dark-theme.jpg#only-dark)
