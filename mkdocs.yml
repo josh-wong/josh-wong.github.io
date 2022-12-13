@@ -44,7 +44,11 @@ markdown_extensions:
       auto_append:
         - includes/glossary.md
   # Add support for arbitrary nesting of code and content blocks inside each other.
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
   # Add support for TOC configuration
   - toc:
       # Add link next to header that allows the user to get a permalink to the heading (still need to copy the URL in the address bar).
