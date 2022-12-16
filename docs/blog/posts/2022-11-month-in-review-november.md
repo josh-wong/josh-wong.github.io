@@ -3,6 +3,7 @@ date: 2022-12-05
 authors: [josh-wong]
 categories:
   - Japan
+  - month-in-review
   - travel
 ---
 
