@@ -10,7 +10,8 @@ mkdocs-video
 #mkdocs-git-committers-plugin-2
 # Show the last updated date (currently disabled since this is a home page that primarily includes a blog and links to projects)
 #mkdocs-git-revision-date-localized-plugin
-mkdocs-rss-plugin>=1.4.1
+# Not being used because of issues mentioned in `mkdocs.yml`.
+#mkdocs-rss-plugin>=1.4.1
 pillow 
 pygments>=2.12
 pymdown-extensions>=9.4
