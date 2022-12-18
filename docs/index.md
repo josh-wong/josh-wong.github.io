@@ -13,7 +13,7 @@ Redirecting to the [blog](blog/index.md)...
 
 # #080f53 blog
 
-Thoughts and observations from [Josh](../about/index.md)✍🏻
+Thoughts and observations from [Josh](about/index.md)✍🏻
 
 ![Blog banner (light theme) - Graph of knowledge nodes](blog/posts/assets/images/~blog-banner-light-theme.jpg#only-light)
 ![Blog banner (dark theme) - Graph of knowledge nodes](blog/posts/assets/images/~blog-banner-dark-theme.jpg#only-dark)
