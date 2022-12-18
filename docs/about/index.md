@@ -1,6 +1,6 @@
 # About me
 
-![Image title](https://avatars.githubusercontent.com/u/23216828?v=4){ align=right width="150" }
+![Image title](https://github.com/josh-wong.png){ align=right width="150" }
 
 Hey there! My name is **Josh**, and I'm a technical writer and knowledge management specialist living and working in Tokyo🗼🗾
 
