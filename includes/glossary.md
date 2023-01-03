@@ -9,7 +9,7 @@
 *[Hello World]: A phrase used to illustrate a language's basic syntax when programming
 *[Internet of Thing]: Devices with sensors, processors, software, and other technologies that connect and exchange data with other devices and systems over networks
 *[Josh]: A technical writer and knowledge management specialist living and working in Tokyo🗼🗾
-*[KM]: A collection of methods relating to creating, sharing, using, and managing the knowledge and information
+*[KM]: A collection of methods relating to creating, sharing, using, and managing knowledge and information
 *[knowledge management]: A collection of methods relating to creating, sharing, using, and managing the knowledge and information
 *[node]: A point of connection in a communication network
 *[Raspberry Pi]: A series of small, single-board computers (SBCs) developed in the by the Raspberry Pi Foundation in association with Broadcom
