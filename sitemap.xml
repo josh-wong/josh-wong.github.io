@@ -91,17 +91,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/work/</loc>
-         <lastmod>2023-01-03</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://www.080f53.com/blog/category/knowledge-management/</loc>
          <lastmod>2023-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.080f53.com/blog/category/month-in-review/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.080f53.com/blog/category/work/</loc>
          <lastmod>2023-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -116,11 +116,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/software-engineering/</loc>
-         <lastmod>2023-01-03</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://www.080f53.com/blog/category/books/</loc>
          <lastmod>2023-01-03</lastmod>
          <changefreq>daily</changefreq>
@@ -131,7 +126,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/iot/</loc>
+         <loc>https://www.080f53.com/blog/category/software-engineering/</loc>
          <lastmod>2023-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -141,17 +136,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://www.080f53.com/blog/category/iot/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://www.080f53.com/blog/category/charity/</loc>
          <lastmod>2023-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/exercise/</loc>
+         <loc>https://www.080f53.com/blog/category/health/</loc>
          <lastmod>2023-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/health/</loc>
+         <loc>https://www.080f53.com/blog/category/exercise/</loc>
          <lastmod>2023-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
