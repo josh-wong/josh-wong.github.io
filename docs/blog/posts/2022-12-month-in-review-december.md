@@ -37,7 +37,7 @@ After researching machines and confirming that one would fit, my wife and I deci
 
 <figure markdown>
   ![Panasonic NA-LX127BL-W washer and dryer machine after installation](assets/images/2023-01-03-panasonic-na-lx127bl-w-washer-and-dryer-machine.jpg)
-  <figcaption>Panasonic NA-LX127BL-W washer and dryer machine after installation</figcaption>
+  <figcaption>Panasonic NA-LX127BL-W washer and dryer<br /> machine after installation</figcaption>
 </figure>
 
 Overall, we're very happy with the Panasonic NA-LX127BL-W washer and dryer machine. We've reduced how much time we spend hang drying clothes and saved a lot of time waiting for those clothes to dry. Our clothes also smell much more pleasant and feel a lot softer!
@@ -58,7 +58,7 @@ I tried the following methods to salvage the problematic hard drive:
 
 <figure markdown>
   ![Friend's disassembled Western Digital Elements external hard drive](assets/images/2023-01-03-western-digital-elements-broken-hard-drive.jpg)
-  <figcaption>Friend's disassembled Western Digital Elements external hard drive</figcaption>
+  <figcaption>Friend's disassembled Western Digital Elements<br /> external hard drive</figcaption>
 </figure>
 
 Unfortunately, I was out of ideas to resolve the connection to the faulty hard drive. At this point, the only way to copy the data on the hard drive is to contact a professional who could remove the disk from its enclosure and further troubleshoot the issue.
