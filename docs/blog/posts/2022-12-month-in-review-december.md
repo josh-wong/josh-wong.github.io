@@ -25,9 +25,9 @@ As part of the annual Advent Calendar series of posts on the [Mercari Engineerin
 
 Let me know what you think!
 
-## Bought a washer and dryer
+## Bought a washer and dryer machine
 
-Hang drying clothes—outside or inside—is pretty common Japan. But sometimes, we need to wait a full day (or two!) for clothing like jeans and hooded sweatshirts to completely dry.
+Hang clothes outside or inside to dry is pretty common Japan. But sometimes, we need to wait a full day (or two!) for clothing like jeans and hooded sweatshirts to completely dry.
 
 After researching machines and confirming that one would fit, my wife and I decided to buy a [Panasonic NA-LX127BL-W (Japanese)](https://hb.afl.rakuten.co.jp/ichiba/2e8bd7b9.a36d0b3a.2e8bd7ba.af228498/_RTLink64352?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4549980677285%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9). This front-loading, drum-type machine uses a heat-pump system for drying, which dries clothes pretty darn quick. The machine has a smartphone function that is convenient for:
 
@@ -40,7 +40,7 @@ After researching machines and confirming that one would fit, my wife and I deci
   <figcaption>Panasonic NA-LX127BL-W washer and dryer<br /> machine after installation</figcaption>
 </figure>
 
-Overall, we're very happy with the Panasonic NA-LX127BL-W washer and dryer machine. We've reduced how much time we spend hang drying clothes and saved a lot of time waiting for those clothes to dry. Our clothes also smell much more pleasant and feel a lot softer!
+Overall, we're very happy with the Panasonic NA-LX127BL-W washer and dryer machine. We've reduced how much time we spend hanging clothes out to dry and saved a lot of time waiting for those clothes to dry. Our clothes also smell much more pleasant and feel a lot softer!
 
 ## Tried resurrecting a problematic hard drive
 
