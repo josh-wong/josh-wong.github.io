@@ -2,10 +2,10 @@
 date: 2022-11-28
 authors: [josh-wong]
 categories:
-  - books
-  - documentation
-  - knowledge-management
-  - software-engineering
+  - Books
+  - Documentation
+  - Knowledge management
+  - Software engineering
 ---
 
 # Key points about knowledge management from "The Art of Readable Code"

@@ -3,8 +3,8 @@ date: 2022-12-05
 authors: [josh-wong]
 categories:
   - Japan
-  - month-in-review
-  - travel
+  - Month in review
+  - Travel
 ---
 
 # Month in review - November

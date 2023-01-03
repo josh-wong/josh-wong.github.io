@@ -2,9 +2,9 @@
 date: 2022-10-11
 authors: [josh-wong]
 categories:
-  - charity
-  - exercise
-  - health
+  - Charity
+  - Exercise
+  - Health
   - Japan
 ---
 

@@ -2,7 +2,7 @@
 date: 2022-10-31
 authors: [josh-wong]
 categories:
-  - automation
+  - Automation
   - IoT
 ---
 
