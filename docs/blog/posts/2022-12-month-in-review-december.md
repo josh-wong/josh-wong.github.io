@@ -15,7 +15,7 @@ December is always a bit of a hectic month with holiday gatherings and wrapping 
 
 !!! info
 
-  **Disclosure:** Some of the links in this post are affiliate links. If you go through those links to make a purchase, I may earn a commission. Note that I only link to products and services if I am actively using them and am greatly satisfied with my experience.
+    **Disclosure:** Some of the links in this post are affiliate links. If you go through those links to make a purchase, I may earn a commission. Note that I only link to products and services if I am actively using them and am greatly satisfied with my experience.
 
 ## Wrote a post for the Mercari Engineering Blog
 
@@ -32,7 +32,7 @@ Hang drying clothes—outside or inside—is pretty common Japan. But sometimes,
 After researching machines and confirming that one would fit, my wife and I decided to buy a [Panasonic NA-LX127BL-W (Japanese)](https://hb.afl.rakuten.co.jp/ichiba/2e8bd7b9.a36d0b3a.2e8bd7ba.af228498/_RTLink64352?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4549980677285%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9). This front-loading, drum-type machine uses a heat-pump system for drying, which dries clothes pretty darn quick. The machine has a smartphone function that is convenient for:
 
 - Scheduling a washing and drying cycle.
-- Checking how much soap and softener.
+- Checking the soap and softener tanks.
 - Confirming details about errors that occur during a washing cycle.
 
 <figure markdown>
