@@ -91,6 +91,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://www.080f53.com/blog/category/work/</loc>
+         <lastmod>2023-01-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://www.080f53.com/blog/category/month-in-review/</loc>
          <lastmod>2023-01-04</lastmod>
          <changefreq>daily</changefreq>
@@ -101,7 +106,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/work/</loc>
+         <loc>https://www.080f53.com/blog/category/japan/</loc>
          <lastmod>2023-01-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -111,12 +116,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/japan/</loc>
-         <lastmod>2023-01-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.080f53.com/blog/category/software-engineering/</loc>
+         <loc>https://www.080f53.com/blog/category/documentation/</loc>
          <lastmod>2023-01-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -126,7 +126,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/documentation/</loc>
+         <loc>https://www.080f53.com/blog/category/software-engineering/</loc>
+         <lastmod>2023-01-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.080f53.com/blog/category/automation/</loc>
          <lastmod>2023-01-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -136,7 +141,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/automation/</loc>
+         <loc>https://www.080f53.com/blog/category/charity/</loc>
          <lastmod>2023-01-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -147,11 +152,6 @@
     </url>
     <url>
          <loc>https://www.080f53.com/blog/category/exercise/</loc>
-         <lastmod>2023-01-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.080f53.com/blog/category/charity/</loc>
          <lastmod>2023-01-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
