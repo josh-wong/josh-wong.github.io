@@ -22,7 +22,7 @@ Feel free to poke around and contact me if you have any questions😊
 - :fontawesome-brands-square-gitlab: __<a href="https://gitlab.com/josh-wong" target="_blank">GitLab</a>__
 - :fontawesome-brands-linkedin: __<a href="https://www.linkedin.com/in/wongjoshua" target="_blank">LinkedIn</a>__
 - :fontawesome-brands-mastodon: __<a rel="me" href="https://famichiki.jp/@josh" target="_blank">Mastodon</a>__
-- :fontawesome-brands-steam: __<a href="https://steamcommunity.com/id/josh080f53" target="_blank">Steam</a>__
-- :fontawesome-brands-square-twitter: __<a href="https://twitter.com/joshdotmd" target="_blank">Twitter</a>__
+- :fontawesome-brands-steam: __<a href="https://steamcommunity.com/id/hex080f53" target="_blank">Steam</a>__
+- :fontawesome-brands-square-twitter: __<a href="https://twitter.com/080f53" target="_blank">Twitter</a>__
 
 </div>

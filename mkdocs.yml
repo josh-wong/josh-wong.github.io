@@ -161,11 +161,11 @@ extra:
       link: https://famichiki.jp/@josh
       name: josh on Mastodon
     - icon: fontawesome/brands/steam
-      link: https://steamcommunity.com/id/josh080f53
-      name: josh080f53 on Steam
+      link: https://steamcommunity.com/id/hex080f53
+      name: hex080f53 on Steam
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/joshdotmd
-      name: joshdotmd on Twitter
+      link: https://twitter.com/080f53
+      name: 080f53 on Twitter
   status:
     new: Recently added
     deprecated: Deprecated
