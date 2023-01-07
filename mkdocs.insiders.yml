@@ -10,6 +10,11 @@ plugins:
   #    repository: josh-wong/josh-wong.github.io
   #    branch: main
   - meta
+  - privacy:
+      external_links: true
+      external_links_attr_map:
+        target: _blank
+	- typeset
   # Enable support for social cards (pretty link previews)
   - social
   - tags
