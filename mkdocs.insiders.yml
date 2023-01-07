@@ -13,7 +13,6 @@ plugins:
       external_links: true
       external_links_attr_map:
         target: _blank
-	# Enable support for social cards (pretty link previews)
-  - social
+  - social # Enable support for social cards (pretty link previews)
   - tags
-  - typeset   
+  - typeset
