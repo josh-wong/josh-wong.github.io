@@ -1,7 +1,6 @@
 INHERIT: mkdocs.yml
 plugins:
   - search
-  # Add blog support
   - blog:
       post_url_date_format: yyyy/MM
       post_url_format: "{date}/{slug}"
@@ -14,9 +13,7 @@ plugins:
       external_links: true
       external_links_attr_map:
         target: _blank
-	- typeset
-  # Enable support for social cards (pretty link previews)
+	# Enable support for social cards (pretty link previews)
   - social
   - tags
-
-   
+  - typeset   
