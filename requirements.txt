@@ -3,22 +3,22 @@ cairosvg
 jinja2>=3.0
 markdown>=3.2
 mkdocs>=1.4.2
-mkdocs-material-extensions>=1.1
-mkdocs-minify-plugin
-mkdocs-redirects
-mkdocs-video
 # Show docs contributors (currently disabled since this is a home page that primarily includes a blog and links to projects)
 #mkdocs-git-committers-plugin-2
 # Show the last updated date (currently disabled since this is a home page that primarily includes a blog and links to projects)
 #mkdocs-git-revision-date-localized-plugin
+mkdocs-material-extensions>=1.1
+mkdocs-minify-plugin
+#mkdocs-multirepo-plugin
+mkdocs-redirects
 # Not being used because of issues mentioned in `mkdocs.yml`.
 #mkdocs-rss-plugin>=1.4.1
+#mkdocs-techdocs-core
+mkdocs-video
 pillow 
 pygments>=2.14
 pymdown-extensions>=9.9
 python-slugify
-#mkdocs-techdocs-core
-#mkdocs-multirepo-plugin
 
 # Requirements for plugins
 babel>=2.10.3
