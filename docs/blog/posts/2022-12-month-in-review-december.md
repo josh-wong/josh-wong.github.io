@@ -11,6 +11,10 @@ categories:
 
 December is always a bit of a hectic month with holiday gatherings and wrapping up tasks at work before the New Year break. Although I didn't get around to writing a post for this month, I do have quite a few topics to briefly share in this month-in-review post.
 
+- Wrote a post for the Mercari Engineering Blog
+- Bought a washer and dryer machine
+- Tried resurrecting a problematic hard drive
+
 <!-- more -->
 
 !!! info
