@@ -2,10 +2,13 @@
 date: 2022-10-11
 authors: [josh-wong]
 categories:
-  - Charity
-  - Exercise
   - Health
-  - Japan
+tags:
+  - charity
+  - health
+  - japan
+  - mental health
+  - physical health
 ---
 
 # Recap of my participation in the 2022 TELL 21,007 Step Up Challenge

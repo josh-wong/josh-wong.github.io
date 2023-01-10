@@ -2,9 +2,11 @@
 date: 2022-12-05
 authors: [josh-wong]
 categories:
-  - Japan
   - Month in review
-  - Travel
+tags:
+  - japan
+  - personal life
+  - travel
 ---
 
 # Month in review - November

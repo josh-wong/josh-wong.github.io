@@ -3,7 +3,10 @@ date: 2022-10-31
 authors: [josh-wong]
 categories:
   - Automation
-  - IoT
+tags:
+  - automation
+  - iot
+  - smart home
 ---
 
 # Adding a smart function to my heated blanket

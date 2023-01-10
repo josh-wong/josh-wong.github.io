@@ -2,9 +2,11 @@
 date: 2022-11-13
 authors: [josh-wong]
 categories:
-  - Books
   - Month in review
-  - Software engineering
+tags:
+  - books
+  - book reviews
+  - software engineering
 ---
 
 # Month in review - October

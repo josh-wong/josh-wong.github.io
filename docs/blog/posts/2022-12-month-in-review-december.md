@@ -2,9 +2,11 @@
 date: 2023-01-03
 authors: [josh-wong]
 categories:
-  - Knowledge management
   - Month in review
-  - Work
+tags:
+  - knowledge management
+  - personal life
+  - work
 ---
 
 # Month in review - December
