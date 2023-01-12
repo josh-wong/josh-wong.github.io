@@ -12,8 +12,8 @@ plugins:
   #- redirects: # Add redirect function. Commented out but keeping for now in case I need to try this redirect later.
   #    redirect_maps:
   #      'index.md': 'blog'
-  #- minify:
-  #    minify_html: true
+  - minify:
+      minify_html: true
   - mkdocs-video:
       css_style:
         width: "100%"
