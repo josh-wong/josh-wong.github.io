@@ -12,7 +12,7 @@ tags:
   - ubuntu
 ---
 
-# Idle Raspberry Pi 4... resurrected!
+# Resurrecting my Raspberry Pi 4
 In October 2022, the fan on my Raspberry Pi 4 started making a loud clicking noise, so I unplugged the device and promptly forgot about it since I was busy. Since I didn’t have plans on my first day off for the 2023 New Year holiday break, I decided to get my Raspberry Pi 4 running again.
 
 <!-- more -->
