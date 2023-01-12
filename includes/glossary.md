@@ -1,8 +1,6 @@
 <!-- Most of the following definitions are courtesy of Wikipedia, unless otherwise noted. -->
 *[080f53]: A dark blue-violet color in the hex format
-*[Bitcoin]: An innovative proof-of-work blockchain payment network and a new kind of money <!-- Definition based on Bitcoin.org -->
-*[BTC]: An innovative proof-of-work blockchain payment network and a new kind of money <!-- Definition based on Bitcoin.org -->
-*[BCH]: A proof-of-work blockchain payment network and cryptocurrency that's based on Bitcoin but faster and cheaper to use <!-- Definition based on Cointelegraph.com -->
+<!-- *[Bitcoin]: An innovative proof-of-work blockchain payment network and a new kind of money --> <!-- Definition based on Bitcoin.org -->
 *[Bitcoin Cash]: A proof-of-work blockchain payment network and cryptocurrency that's based on Bitcoin but faster and cheaper to use <!-- Definition based on Cointelegraph.com -->
 *[blockchain]: A type of distributed-ledger technology
 *[documentation]: Any communicable material that is used to describe, explain, or instruct regarding some attributes of an object, system, or procedure
