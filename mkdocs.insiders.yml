@@ -7,8 +7,7 @@ plugins:
   #- git-committers: # Show docs contributors (currently disabled since this is a home page that primarily includes a blog and links to projects)
   #    repository: josh-wong/josh-wong.github.io
   #    branch: main
-  - meta:
-      meta_file: '**/.meta.yml'
+  - meta
   - privacy:
       external_links: true
       external_links_attr_map:
