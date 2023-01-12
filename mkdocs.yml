@@ -122,13 +122,13 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback! Help me improve this page by <a href="https://github.com/josh-wong/josh-wong.github.io/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">creating an issue in GitHub</a>.
-  #consent:
-  #  title: Cookie consent
-  #  description: >- 
-  #    This site uses cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of the documentation and whether users find what they're searching for. With your consent, you're helping to improve this documentation and provide a better user experience.
-  #  actions:
-  #    - accept
-  #    - manage
+  consent:
+    title: Cookie consent
+    description: >- 
+      This site uses cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of the documentation and whether users find what they're searching for. With your consent, you're helping to improve this documentation and provide a better user experience.
+    actions:
+      - accept
+      - manage
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/josh-wong
