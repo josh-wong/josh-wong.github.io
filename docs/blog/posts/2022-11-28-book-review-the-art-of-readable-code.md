@@ -78,7 +78,7 @@ Another part of the book that I found interesting was the authors' suggestion to
 
 This honest approach and self-critiquing of one's code takes quite a bit of humility and psychological safety within an organization to be effective. With this approach, an entire organization or a small team can foster a culture of learning that engineers—both current and future—can benefit from.
 
-## Conclusion
+## Wrap-up
 
 Since I'm not skilled at writing code, the last half of the book was a little difficult to completely understand. However, I still found value in the content and could imagine re-reading parts to gradually gain a better understanding of the best practices that the author describes.
 
