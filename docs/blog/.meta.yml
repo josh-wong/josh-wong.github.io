@@ -2,7 +2,7 @@ comments: true
 hide:
   - feedback
 
-{% extends "comments.html" %}
+#{% extends "comments.html" %}
 
 #{% block extrahead %}
 #  <meta property="robots" content="noindex, nofollow" />
