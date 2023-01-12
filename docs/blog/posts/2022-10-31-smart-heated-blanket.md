@@ -76,3 +76,7 @@ I also configured the Tapo smart plug through the Shortcuts app in iOS. This all
 So far, my smart heated throw blanket has been a great addition to my cold-weather arsenal. Aside from using the blanket when sleeping, I underestimated draping the blanket over my lap while working in my home office. Overall, I highly recommend getting a heated blanket and making it smart to make sleeping during autumn and winter a bit more relaxing.
 
 I have one more Tapo smart plug left, so I might use it to automate the lights for my Christmas tree.🎄
+
+!!! material-update "Update"
+
+    In December 2022, I used my remaining Tapo smart plug to automatically turn on the lights on my Christmas tree every morning at 7:00 AM and turn off the lights at 11:00 PM. Automating the lights let me forget about needing to remember to turn them on in the morning or turn them off at night.
