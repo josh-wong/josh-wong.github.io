@@ -9,7 +9,7 @@ plugins:
   #    branch: main
   - meta
   - privacy:
-      external_links: true
+      #external_links: true
       external_links_attr_map:
         target: _blank
   - social # Enable support for social cards (pretty link previews)
