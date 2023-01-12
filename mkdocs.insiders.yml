@@ -8,7 +8,7 @@ plugins:
   #    repository: josh-wong/josh-wong.github.io
   #    branch: main
   - meta
-  - privacy
+  #- privacy
       #external_links: true
       #external_links_attr_map:
       #  target: _blank
