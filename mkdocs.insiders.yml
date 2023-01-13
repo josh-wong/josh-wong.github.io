@@ -8,7 +8,7 @@ plugins:
   #    repository: josh-wong/josh-wong.github.io
   #    branch: main
   - meta
-  - privacy
+  - privacy:
       external_assets_exclude: 
         - giscus.app/*
       external_links: true
