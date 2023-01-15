@@ -77,6 +77,6 @@ So far, my smart heated throw blanket has been a great addition to my cold-weath
 
 I have one more Tapo smart plug left, so I might use it to automate the lights for my Christmas tree.🎄
 
-!!! update
+!!! material-update "Update"
 
     In December 2022, I used my remaining Tapo smart plug to automatically turn on the lights on my Christmas tree every morning at 7:00 AM and turn off the lights at 11:00 PM. By automating this task, I didn't have to remember to turn on the lights in the morning or turn them off at night.
