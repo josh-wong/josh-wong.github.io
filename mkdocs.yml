@@ -67,7 +67,7 @@ theme:
       bug: fontawesome/solid/robot
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
-      update: material/update
+      update: simple/simpleicons
   palette:
     - media: "(prefers-color-scheme)" # Palette toggle for automatic mode
       toggle:
