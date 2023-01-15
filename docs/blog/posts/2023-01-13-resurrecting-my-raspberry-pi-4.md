@@ -17,7 +17,7 @@ In October 2022, the fan on my Raspberry Pi 4 started making a loud clicking noi
 
 <!-- more -->
 
-!!! quote ""
+!!! info "Disclosure"
 
     **Disclosure:** Some of the links in this post are affiliate links. If you go through those links to make a purchase, I may earn a commission. Note that I only link to products and services if I am actively using them and am greatly satisfied with my experience.
 
@@ -67,7 +67,7 @@ You can see the tutorial I created for upgrading a Bitcoin Cash Node on Ubuntu a
 
 !!! note
 
-    Use Signal for messaging? Check out the [Why Bitcoin Cash?](https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d) sticker pack! I created this sticker pack based on the "Why Bitcoin Cash?" brand assets.
+    Use Signal for messaging? Check out the [Why Bitcoin Cash? sticker pack](https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d)! I created this sticker pack based on the "Why Bitcoin Cash?" brand assets.
 
 ## Installed Foremost for recovering data from drives
 
