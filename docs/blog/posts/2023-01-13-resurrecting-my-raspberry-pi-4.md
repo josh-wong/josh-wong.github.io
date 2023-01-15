@@ -17,7 +17,7 @@ In October 2022, the fan on my Raspberry Pi 4 started making a loud clicking noi
 
 <!-- more -->
 
-!!! info
+!!! quote ""
 
     **Disclosure:** Some of the links in this post are affiliate links. If you go through those links to make a purchase, I may earn a commission. Note that I only link to products and services if I am actively using them and am greatly satisfied with my experience.
 
