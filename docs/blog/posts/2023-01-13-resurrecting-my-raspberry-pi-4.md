@@ -19,7 +19,7 @@ In October 2022, the fan on my Raspberry Pi 4 started making a loud clicking noi
 
 !!! info "Disclosure"
 
-    Some of the links in this post are affiliate links. If you go through those links to make a purchase, I may earn a commission. Note that I only link to products and services if I am actively using them and am greatly satisfied with my experience.
+    Some links in this post are affiliate links. If you go through those links to make a purchase, I may earn a commission. Note that I only link to products and services if I am actively using them and am greatly satisfied with my experience.
 
 Previously, my [Raspberry Pi 4](https://amzn.to/3Is5cJI) was primarily used to run Bitcoin Cash Node, which is software that helps power the Bitcoin Cash blockchain network and its transactions. I wanted to get back to contributing to the health of Bitcoin Cash and eventually use the device to run some other Linux-only programs.
 
