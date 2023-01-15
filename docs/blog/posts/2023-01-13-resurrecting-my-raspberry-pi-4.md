@@ -65,11 +65,9 @@ When upgrading the Bitcoin Cash Node software to v25.0.0, I referred to the tuto
 
 You can see the tutorial I created for upgrading a Bitcoin Cash Node on Ubuntu at [How to upgrade Bitcoin Cash Node on a Raspberry Pi 4 running Ubuntu Desktop](https://www.080f53.com/bitcoin-cash-node-on-raspberry-pi/upgrade/).
 
-!!! info
+!!! note
 
-    Use [Signal](https://www.signal.org/) for messaging? Check out the [Why Bitcoin Cash?](https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d) sticker pack. 
-    
-    I created this sticker pack based on the ["Why Bitcoin Cash?" brand assets](https://whybitcoincash.com/resources#brand).
+    Use Signal for messaging? Check out the [Why Bitcoin Cash?](https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d) sticker pack! I created this sticker pack based on the "Why Bitcoin Cash?" brand assets.
 
 ## Installed Foremost for recovering data from drives
 
