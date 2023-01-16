@@ -160,15 +160,16 @@ copyright: >
   <a href="#__consent">🍪Cookie settings</a>
 
 nav:
+  - 🐵About: 'about/index.md'
   - ✍🏻Blog: 
     - blog/index.md
   #  - 🔶RSS: 'https://www.080f53.com/feed_rss_updated.xml' // RSS not working properly for custom domains. Needs additional troubleshooting.
   - 🖥️Projects:
     - projects/index.md
+    - Branding: 'projects/branding.md'
     - Notes: 'projects/notes.md'
     - Scripts: 'projects/scripts.md'
     - Software: 'projects/software.md'
     - Tutorials: 'projects/tutorials.md'
-  - 🐵About: 'about/index.md'
   - ❤️Donate: 'blog/donations.md'
   - ❤️Sponsor: 'https://github.com/sponsors/josh-wong'
