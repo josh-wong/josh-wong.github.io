@@ -1,7 +1,3 @@
----
-status: new
----
-
 # #080f53 blog
 
 Thoughts and observations from [Josh](../about/index.md)✍🏻
