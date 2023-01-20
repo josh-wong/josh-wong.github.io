@@ -17,5 +17,5 @@ plugins:
         target: _blank
   - social # Enable support for social cards (pretty link previews)
   - tags:
-      tags_file: tags.md
+      tags_file: posts/tags.md
   - typeset
