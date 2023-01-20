@@ -16,6 +16,6 @@ plugins:
       external_links_attr_map:
         target: _blank
   - social # Enable support for social cards (pretty link previews)
-  - tags
+  - tags:
       tags_file: tags.md
   - typeset
