@@ -12,7 +12,7 @@ mkdocs-minify-plugin
 #mkdocs-multirepo-plugin
 mkdocs-redirects
 # Not being used because of issues mentioned in `mkdocs.yml`.
-#mkdocs-rss-plugin>=1.4.1
+mkdocs-rss-plugin>=1.4.1
 #mkdocs-techdocs-core
 mkdocs-video
 pillow 
