@@ -9,9 +9,9 @@ docs_dir: blog
 plugins:
   #- search # Enable the search function (currently disabled to take advantage of new search features in Material for MkDocs Insiders)
   #- git-revision-date-localized # Show the last updated date (currently disabled since this is a home page that primarily includes a blog and links to projects)
-  #- redirects: # Add redirect function. Commented out but keeping for now in case I need to try this redirect later.
-  #    redirect_maps:
-  #      'index.md': 'blog'
+  - redirects:
+      redirect_maps:
+        'blog/index.md': 'index.md'
   - minify:
       minify_html: true
   - mkdocs-video:
