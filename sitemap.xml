@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://www.080f53.com/tags/</loc>
+         <lastmod>2023-01-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://www.080f53.com/about/</loc>
          <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
@@ -122,6 +127,11 @@
     </url>
     <url>
          <loc>https://www.080f53.com/category/general/</loc>
+         <lastmod>2023-01-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.080f53.com/tags/</loc>
          <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
