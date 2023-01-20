@@ -1,5 +1,5 @@
 .cache/
 site/
-docs/blog/posts/templates/
+blog/posts/templates/
 # Design files
 *.afdesign

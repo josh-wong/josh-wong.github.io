@@ -4,6 +4,7 @@ site_description: josh-wong's blog & projects
 
 repo_name: josh-wong/josh-wong.github.io
 repo_url: https://github.com/josh-wong/josh-wong.github.io/
+docs_dir: blog
 
 plugins:
   #- search # Enable the search function (currently disabled to take advantage of new search features in Material for MkDocs Insiders)
