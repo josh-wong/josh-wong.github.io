@@ -1,8 +1,10 @@
 # Projects
 
-The following are types of projects that I've worked on and continue to review on a normal basis.
+The following are types of projects that I've worked on.
 
 <div class="grid cards" markdown>
+
+  - :fontawesome-solid-palette:{ .lg .middle } __[Branding](branding.md)__
 
   - :fontawesome-solid-pencil:{ .lg .middle } __[Notes](notes.md)__
 
