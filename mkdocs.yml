@@ -18,13 +18,13 @@ plugins:
       css_style:
         width: "100%"
         height: "300px"
-  #- rss: # The RSS function currently doesn't seem to work when using a custom domain. Using the RSS plugin in conjunction with GitHub Pages (https://name.github.io) works fine. Additionally, the RSS standard apparently require an email address to be used in the `.authors.yml` file in order for the RSS feed to be validated (ref: https://github.com/Guts/mkdocs-rss-plugin/issues/161#issuecomment-1334971037), which causes the byline in blog posts to be less human readable, like "john.doe@example.com (John Doe)".
-  #    match_path: posts/.20* 
-  #    date_from_meta:
-  #      as_creation: date
-  #    categories:
-  #      - categories
-  #      - tags 
+  - rss: # The RSS function currently doesn't seem to work when using a custom domain. Using the RSS plugin in conjunction with GitHub Pages (https://name.github.io) works fine. Additionally, the RSS standard apparently require an email address to be used in the `.authors.yml` file in order for the RSS feed to be validated (ref: https://github.com/Guts/mkdocs-rss-plugin/issues/161#issuecomment-1334971037), which causes the byline in blog posts to be less human readable, like "john.doe@example.com (John Doe)".
+      match_path: posts/.20* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags 
   #- techdocs-core # Enable TechDocs support in Backstage. However, many plugins need to be disabled for TechDocs to work properly.
 
 markdown_extensions:
