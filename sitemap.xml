@@ -2,132 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://www.080f53.com/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.080f53.com/donations/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.080f53.com/about/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <loc>https://www.080f53.com/2022/10/hello-world/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/donations/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <loc>https://www.080f53.com/2022/10/recap-of-my-participation-in-the-2022-tell-21007-step-up-challenge/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/2022/10/hello-world/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <loc>https://www.080f53.com/2022/10/adding-a-smart-function-to-my-heated-blanket/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/2022/10/recap-of-my-participation-in-the-2022-tell-21007-step-up-challenge/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <loc>https://www.080f53.com/2022/11/month-in-review-october/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/2022/10/adding-a-smart-function-to-my-heated-blanket/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <loc>https://www.080f53.com/2022/11/key-points-about-knowledge-management-from-the-art-of-readable-code/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/2022/11/month-in-review-october/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <loc>https://www.080f53.com/2022/12/month-in-review-november/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/2022/11/key-points-about-knowledge-management-from-the-art-of-readable-code/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <loc>https://www.080f53.com/2023/01/month-in-review-december/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/2022/12/month-in-review-november/</loc>
-         <lastmod>2023-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.080f53.com/blog/2023/01/month-in-review-december/</loc>
-         <lastmod>2023-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.080f53.com/blog/2023/01/resurrecting-my-raspberry-pi-4/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <loc>https://www.080f53.com/2023/01/resurrecting-my-raspberry-pi-4/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.080f53.com/projects/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.080f53.com/projects/branding/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.080f53.com/projects/notes/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.080f53.com/projects/scripts/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.080f53.com/projects/software/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.080f53.com/projects/tutorials/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/archive/2023/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <loc>https://www.080f53.com/archive/2023/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/archive/2022/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <loc>https://www.080f53.com/archive/2022/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/raspberry-pi/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <loc>https://www.080f53.com/category/raspberry-pi/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/month-in-review/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <loc>https://www.080f53.com/category/month-in-review/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/books/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <loc>https://www.080f53.com/category/books/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/automation/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <loc>https://www.080f53.com/category/automation/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/health/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <loc>https://www.080f53.com/category/health/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.080f53.com/blog/category/general/</loc>
-         <lastmod>2023-01-16</lastmod>
+         <loc>https://www.080f53.com/category/general/</loc>
+         <lastmod>2023-01-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
