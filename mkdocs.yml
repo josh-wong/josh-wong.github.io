@@ -162,7 +162,7 @@ copyright: >
 nav:
   - 🐵About: 'about/index.md'
   - ✍🏻Blog: 
-    - blog/index.md
+    - index.md
   #  - 🔶RSS: 'https://www.080f53.com/feed_rss_updated.xml' // RSS not working properly for custom domains. Needs additional troubleshooting.
   - 🖥️Projects:
     - projects/index.md
@@ -171,5 +171,5 @@ nav:
     - Scripts: 'projects/scripts.md'
     - Software: 'projects/software.md'
     - Tutorials: 'projects/tutorials.md'
-  - ❤️Donate: 'blog/donations.md'
+  - ❤️Donate: 'donations.md'
   - ❤️Sponsor: 'https://github.com/sponsors/josh-wong'
