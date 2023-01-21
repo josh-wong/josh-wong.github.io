@@ -1,4 +1,4 @@
-# About me
+# About Josh
 
 ![josh-wong](https://github.com/josh-wong.png){ align=right width="150" }
 
