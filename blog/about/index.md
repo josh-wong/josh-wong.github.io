@@ -1,10 +1,10 @@
-# About Josh
+# About
 
 ![josh-wong](https://github.com/josh-wong.png){ align=right width="150" }
 
-Hey there! My name is **Josh**, and I'm a technical writer and knowledge management specialist living and working in Tokyo🗼🗾
+Hey there! My name is **Josh Wong**, and I'm a technical writer and knowledge management specialist living and working in Tokyo🗼🗾
 
-I enjoy writing, improving user experiences, learning new things, and sharing knowledge💡
+I enjoy writing, sharing knowledge, improving user experiences, and learning new things💡
 
 ## Why `080f53.com`?
 
