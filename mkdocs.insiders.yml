@@ -16,14 +16,13 @@ plugins:
       external_links_attr_map:
         target: _blank
   - rss: # The RSS standard apparently requires an email address to be used in the `.authors.yml` file in order for the RSS feed to be validated (ref: https://github.com/Guts/mkdocs-rss-plugin/issues/161#issuecomment-1334971037). However, by following this standard, the byline in blog posts becomes less human readable—e.g., "john.doe@example.com (John Doe)".
-      abstract_chars_count: 160  # -1 for full content
+      abstract_chars_count: -1 # -1 for full content
       categories:
         - categories
         - tags
       comments_path: "#__comments"
       date_from_meta:
-        as_creation: "date"
-        as_update: false
+        as_creation: date
         datetime_format: "%Y-%m-%d"
         default_timezone: Asia/Tokyo
       enabled: true
