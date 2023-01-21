@@ -1,5 +1,5 @@
 ---
-title: Josh Wong
+title: Josh
 ---
 
 Thoughts and observations from [Josh Wong](about/index.md)✍🏻
