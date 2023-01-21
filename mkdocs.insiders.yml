@@ -16,7 +16,7 @@ plugins:
       external_links_attr_map:
         target: _blank
   - rss:
-      abstract_chars_count: 260  # -1 for full content
+      abstract_chars_count: 250  # -1 for full content
       categories:
         - categories
         - tags
