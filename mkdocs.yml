@@ -1,6 +1,6 @@
-site_name: josh-wong | blog & projects 
+site_name: josh-wong | blog and projects 
 site_url: https://josh-wong.github.io/
-site_description: josh-wong's blog & projects 
+site_description: josh-wong's blog and projects 
 
 repo_name: josh-wong/josh-wong.github.io
 repo_url: https://github.com/josh-wong/josh-wong.github.io/
@@ -163,6 +163,6 @@ nav:
     - Scripts: 'projects/scripts.md'
     - Software: 'projects/software.md'
     - Tutorials: 'projects/tutorials.md'
-  - 🔶RSS: 'https://josh-wong.github.io/feed_rss_updated.xml'
+  - 🔶RSS: 'https://www.080f53.com/feed_rss_updated.xml'
   - ❤️Donate: 'donations.md'
   - ❤️Sponsor: 'https://github.com/sponsors/josh-wong'
