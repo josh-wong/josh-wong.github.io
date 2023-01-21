@@ -158,7 +158,7 @@ nav:
     - index.md
   - 🖥️Projects:
     - projects/index.md
-    - Branding: 'projects/branding.md'
+    - Creative: 'projects/creative.md'
     - Notes: 'projects/notes.md'
     - Scripts: 'projects/scripts.md'
     - Software: 'projects/software.md'
