@@ -1,5 +1,5 @@
 ---
-title: # Intentionally left blank
+title: Josh Wong
 ---
 
 Thoughts and observations from [Josh Wong](about/index.md)✍🏻
