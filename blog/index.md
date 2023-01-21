@@ -1,6 +1,8 @@
-# #080f53 blog
+---
+title: # Intentionally left blank
+---
 
-Thoughts and observations from [Josh](about/index.md)✍🏻
+Thoughts and observations from [Josh Wong](about/index.md)✍🏻
 
 ![Blog banner (light theme) - Graph of knowledge nodes](posts/assets/images/~blog-banner-light-theme.jpg#only-light)
 ![Blog banner (dark theme) - Graph of knowledge nodes](posts/assets/images/~blog-banner-dark-theme.jpg#only-dark)
