@@ -81,8 +81,6 @@ theme:
       accent: blue
   features:
     - announce.dismiss # Mark announcement as read
-    - content.action.edit
-    - content.action.view
     - content.code.copy
     - content.tooltips # Add support for improved tooltips
     - navigation.expand
