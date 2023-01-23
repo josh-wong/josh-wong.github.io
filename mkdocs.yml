@@ -151,9 +151,9 @@ copyright: >
   <a href="#__consent">🍪Cookie settings</a>
 
 nav:
-  - 🐵About: 'about/index.md'
   - ✍🏻Blog: 
     - index.md
+  - 🐵About: 'about/index.md'
   - 🖥️Projects:
     - projects/index.md
     - Creative: 'projects/creative.md'
