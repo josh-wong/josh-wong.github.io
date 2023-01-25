@@ -44,7 +44,7 @@ theme:
   name: material
   custom_dir: overrides
   favicon: assets/images/favicon.png
-  logo: assets/images/2021-12-josh.png
+  logo: assets/images/site-logo.png
   icon:
     repo: fontawesome/brands/github
     admonition: # Add icons for Material for MkDocs admonitions
