@@ -2,7 +2,7 @@
 
 <div class="grid cards" markdown>
 
-  - :fontawesome-solid-key:{ .lg .middle } __[passGen documentation](https://josh-wong.github.io/passGen)__
+  - :fontawesome-solid-key:{ .lg .middle } __[passGen documentation](https://www.080f53.com/passGen)__
 
     ---
 

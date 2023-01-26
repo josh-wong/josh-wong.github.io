@@ -41,4 +41,4 @@ Some notable changes include:
 - [passGen v3.0.0.0](https://github.com/josh-wong/passGen/releases/tag/v3.0.0): Added an automatic-update function and improved the UI a bit.
 - [passGen v3.1.0.0](https://github.com/josh-wong/passGen/releases/tag/v3.1.0): Changed the password length from 10 characters to 14 characters.
 
-If you're interested in how passGen works, visit [passGen documentation](https://josh-wong.github.io/passGen/).
+If you're interested in how passGen works, visit [passGen documentation](https://www.080f53.com/passGen/).

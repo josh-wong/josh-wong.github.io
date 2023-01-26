@@ -84,4 +84,4 @@ Since I'm not skilled at writing code, the last half of the book was a little di
 
 If you write code for work or for fun, I highly recommend reading <a href="https://amzn.to/3TyC4CJ" target="_blank">The Art of Readable Code: Simple and Practical Techniques for Writing Better Code</a>. The content was enlightening and I could imagine revisiting certain chapters to better understand how to write better code.
 
-If you're interested in seeing my highlights, check out [The Art of Readable Code: Simple and Practical Techniques for Writing Better Code](https://josh-wong.github.io/kindle-highlights-notes/The%20Art%20of%20Readable%20Code/).
+If you're interested in seeing my highlights, check out [The Art of Readable Code: Simple and Practical Techniques for Writing Better Code](https://www.080f53.com/kindle-highlights-notes/The%20Art%20of%20Readable%20Code/).
