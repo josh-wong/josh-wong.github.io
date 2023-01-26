@@ -151,16 +151,9 @@ copyright: >
   <a href="#__consent">🍪Cookie settings</a>
 
 nav:
-  - ✍🏻Blog: 
-    - index.md
+  - ✍🏻Blog: 'index.md'
   - 🐵About: 'about/index.md'
-  - 🖥️Projects:
-    - projects/index.md
-    - Creative: 'projects/creative.md'
-    - Notes: 'projects/notes.md'
-    - Scripts: 'projects/scripts.md'
-    - Software: 'projects/software.md'
-    - Tutorials: 'projects/tutorials.md'
+  - 🖥️Projects: 'projects/index.md'
   - 🔶RSS: 'https://www.080f53.com/feed_rss_created.xml'
   - ❤️Donate: 'donations.md'
   - ❤️Sponsor: 'https://github.com/sponsors/josh-wong'
