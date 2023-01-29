@@ -7,18 +7,17 @@ repo_url: https://github.com/josh-wong/josh-wong.github.io/
 docs_dir: blog
 
 plugins:
-  #- search # Enable the search function (currently disabled to take advantage of new search features in Material for MkDocs Insiders)
-  #- git-revision-date-localized # Show the last updated date (currently disabled since this is a home page that primarily includes a blog and links to projects)
-  - redirects:
-      redirect_maps:
-        'blog/index.md': 'index.md'
   - minify:
       minify_html: true
   - mkdocs-video:
       css_style:
         width: "100%"
         height: "300px"
-  #- techdocs-core # Enable TechDocs support in Backstage. However, many plugins need to be disabled for TechDocs to work properly.
+  - redirects:
+      redirect_maps:
+        'blog/index.md': 'index.md'
+  #- search # Enable the search function (currently disabled to take advantage of new search features in Material for MkDocs Insiders)
+  #- techdocs-core # Many plugins need to be disabled for TechDocs to work properly, so this is currently disabled. I enable this plugin when testing Backstage with TechDocs.
 
 markdown_extensions:
   - abbr # Add support for abbreviations
@@ -44,7 +43,22 @@ theme:
   name: material
   custom_dir: overrides
   favicon: assets/images/favicon.png
-  logo: assets/images/site-logo.png
+  features:
+    - announce.dismiss # Mark announcement as read
+    - content.code.copy
+    - content.tooltips # Add support for improved tooltips
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
   icon:
     repo: fontawesome/brands/github
     admonition: # Add icons for Material for MkDocs admonitions
@@ -60,6 +74,7 @@ theme:
       bug: fontawesome/solid/robot
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
+  logo: assets/images/site-logo.png
   palette:
     - media: "(prefers-color-scheme)" # Palette toggle for automatic mode
       toggle:
@@ -79,22 +94,6 @@ theme:
         name: Switch to system preference
       primary: blue
       accent: blue
-  features:
-    - announce.dismiss # Mark announcement as read
-    - content.code.copy
-    - content.tooltips # Add support for improved tooltips
-    - navigation.expand
-    - navigation.footer
-    - navigation.indexes
-    - navigation.instant
-    - navigation.sections
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
 
 extra:
   analytics:
