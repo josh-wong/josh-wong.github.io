@@ -12,15 +12,11 @@ tags:
 
 # Key points about knowledge management from "The Art of Readable Code"
 
-This month, I read <a href="https://amzn.to/3TyC4CJ" target="_blank">The Art of Readable Code: Simple and Practical Techniques for Writing Better Code</a> on Kindle.
+This month, I read The Art of Readable Code: Simple and Practical Techniques for Writing Better Code on Kindle.
 
 _**I wish I'd read this book years ago.**_ As a technical writer and knowledge management specialist, the first part focuses on knowledge management and best practices for documentation within code. I found those topics interesting, especially since coding is only a hobby of mine and not a daily work activity.
 
 <!-- more -->
-
-!!! info "Disclosure"
-
-    Some links in this post are affiliate links. If you go through those links to make a purchase, I may earn a commission. Note that I only link to products and services if I am actively using them and am greatly satisfied with my experience.
 
 ## What I enjoyed about the book
 
@@ -82,6 +78,6 @@ This honest approach and self-critiquing of one's code takes quite a bit of humi
 
 Since I'm not skilled at writing code, the last half of the book was a little difficult to completely understand. However, I still found value in the content and could imagine re-reading parts to gradually gain a better understanding of the best practices that the author describes.
 
-If you write code for work or for fun, I highly recommend reading <a href="https://amzn.to/3TyC4CJ" target="_blank">The Art of Readable Code: Simple and Practical Techniques for Writing Better Code</a>. The content was enlightening and I could imagine revisiting certain chapters to better understand how to write better code.
+If you write code for work or for fun, I highly recommend reading The Art of Readable Code: Simple and Practical Techniques for Writing Better Code. The content was enlightening and I could imagine revisiting certain chapters to better understand how to write better code.
 
 If you're interested in seeing my highlights, check out [The Art of Readable Code: Simple and Practical Techniques for Writing Better Code](https://www.080f53.com/kindle-highlights-notes/The%20Art%20of%20Readable%20Code/).

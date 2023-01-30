@@ -18,13 +18,9 @@ This month-in-review post is a digest of topics that I don't cover in dedicated 
 
 <!-- more -->
 
-!!! info "Disclosure"
-
-    Some links in this post are affiliate links. If you go through those links to make a purchase, I may earn a commission. Note that I only link to products and services if I am actively using them and am greatly satisfied with my experience.
-
 ## Finished reading "The Art of Letting Go"
 
-Early in the month, I finished reading <a href="https://amzn.to/3UVhhKq" target="_blank">The Art of Letting Go</a>. As someone who continuously thinks about events and "what if" situations that I don't have control over, this book helped me think about how to move past those times.
+Early in the month, I finished reading The Art of Letting Go. As someone who continuously thinks about events and "what if" situations that I don't have control over, this book helped me think about how to move past those times.
 
 The real value was not so much in reading the book, but highlighting parts that resonated with me. I've already referred to some of my highlights, and a month has barely passed since finishing the book.
 
