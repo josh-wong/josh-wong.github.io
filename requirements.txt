@@ -29,3 +29,9 @@ pipdeptree>=2.3
 regex>=2022.4.24
 readtime>=2.0
 requests>=2.26
+libcairo2-dev
+libfreetype6-dev
+libffi-dev
+libjpeg-dev
+libpng-dev
+libz-dev
