@@ -12,7 +12,7 @@ plugins:
   #    repository: josh-wong/josh-wong.github.io
   #    branch: main
   - meta
-  - optimize
+  # - optimize # Can't seem to deploy when using this plugin. Leaving it in for now because I'd like to get it working in the future.
   - privacy:
       external_assets_exclude: 
         - giscus.app/*
