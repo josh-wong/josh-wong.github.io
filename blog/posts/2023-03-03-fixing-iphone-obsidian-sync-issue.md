@@ -24,10 +24,10 @@ Recently, I've had issues with the Obsidian app not opening and syncing properly
 
 Since this issue only occurs on my iPhone, specifically in the Files app, let's starts there.
 
-1. On your iPhone, Open the Files app.
+1. On your iPhone, Open the **Files** app.
 2. Go to the folder that contains your Obsidian vaults.
 3. If any of the folders in your vaults have a cloud icon with an arrow pointing down, long-press the folder and select **Download Now**. Depending on the folder size, downloading the files may take some time.
-4. After the files have finished downloading (you can check the sync status if you scroll to the bottom of the Files app), open the Obsidian app.
+4. After the files have finished downloading (you can check the sync status if you scroll to the bottom of the Files app), open the **Obsidian** app.
 
 **Were you able to open the Obsidian app on your iPhone and confirm that your notes are accessible?** Great! You're done!
 
@@ -37,7 +37,7 @@ Since this issue only occurs on my iPhone, specifically in the Files app, let's 
 2. Create a new folder named `test`.
 3. Copy the items from the problematic folder (`test1`) into the new folder (`test`).
 4. Rename the new folder to what the problematic folder was previously named. For example, in this case, change the new folder to `test`.
-5. On your iPhone, open the Obsidian app on your iPhone.
+5. On your iPhone, open the **Obsidian** app on your iPhone.
 
 **Were you able to open the Obsidian app on your iPhone and confirm that your notes are accessible?** Great! You're done!
 
@@ -46,7 +46,7 @@ Since this issue only occurs on my iPhone, specifically in the Files app, let's 
 1. On your computer, go to the problematic folder. This problematic folder should be the one on your iPhone that has a cloud icon with an arrow pointing down in the Files app.
 2. Copy your notes to a folder on your desktop, outside of iCloud. We are doing this to ensure we have a backup of our notes.
 3. On your iPhone, delete the problematic folder that has the cloud icon with an arrow pointing down.
-4. Open the Obsidian app. If the app opens as expected, check that the notes in the previously problematic folder are displayed.
+4. Open the **Obsidian** app. If the app opens as expected, check that the notes in the previously problematic folder are displayed.
 5. After confirming that your notes are accessible again in the Obsidian app, delete the backup notes you saved to the folder on your computer desktop.
 
 ## Wrap-up
