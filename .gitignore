@@ -3,3 +3,5 @@ site/
 blog/posts/templates/
 # Design files
 *.afdesign
+# To enable an announcement at the top of the site, comment out `overrides/main.html`. To disable an announcement, uncomment `overrides/main.html` and remove the file from the repository.
+overrides/main.html
