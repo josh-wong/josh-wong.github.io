@@ -24,28 +24,30 @@ Recently, I've had issues with the Obsidian app not opening and syncing properly
 
 Since this issue only occurs on my iPhone, specifically in the Files app, let's starts there.
 
-1. On your computer, go to the folder that contains your Obsidian vaults.
-2. If any of the folders has a cloud icon with an arrow pointing down, long-press the folder and select **Download Now**. After a few minutes, the folder should download your notes.
-3. Open the folder and repeat step 2 until all folders that have a cloud icon with an arrow pointing down have finished downloading.
+1. On your iPhone, Open the Files app.
+2. Go to the folder that contains your Obsidian vaults.
+3. If any of the folders in your vaults have a cloud icon with an arrow pointing down, long-press the folder and select **Download Now**. Depending on the folder size, downloading the files may take some time.
+4. After the files have finished downloading (you can check the sync status if you scroll to the bottom of the Files app), open the Obsidian app.
 
-**Were you able to open Obsidian on your iPhone and confirm that your notes are accessible?** Great! You're done!
-
-**Did the troubleshooting steps above not work?** Let's proceed the next set of troubleshooting steps.
-
-1. Rename the problematic folder that has the cloud icon with an arrow pointing down. For example, if the original folder name was `test`, change the folder name to `test1`.
-2. Create a new folder named `test`.
-3. Copy the items from the problematic folder (`test1`) into the new folder (`test`).
-4. Rename the new folder to what the problematic folder was previously named. For example, in this case, change the new folder to `test`.
-5. Open Obsidian on your iPhone.
-
-**Were you able to open Obsidian on your iPhone and confirm that your notes are accessible?** Great! You're done!
+**Were you able to open the Obsidian app on your iPhone and confirm that your notes are accessible?** Great! You're done!
 
 **Did the troubleshooting steps above not work?** Let's proceed to the next set of troubleshooting steps.
 
-1. On your computer, copy the contents to a local folder outside of iCloud. We are doing this to ensure we have a backup of our notes.
-2. On your iPhone, delete the problematic folder that has the cloud icon with an arrow pointing down.
-3. Open Obsidian on your iPhone. If the app opens as expected, check that the notes in the previously problematic folder are displayed.
-4. After confirming that your notes are available again in Obsidian on your iPhone, you can delete the backup notes that you saved locally.
+1. On your computer, rename the problematic folder that has the cloud icon with an arrow pointing down. For example, if the original folder name was `test`, change the folder name to `test1`.
+2. Create a new folder named `test`.
+3. Copy the items from the problematic folder (`test1`) into the new folder (`test`).
+4. Rename the new folder to what the problematic folder was previously named. For example, in this case, change the new folder to `test`.
+5. On your iPhone, open the Obsidian app on your iPhone.
+
+**Were you able to open the Obsidian app on your iPhone and confirm that your notes are accessible?** Great! You're done!
+
+**Did the troubleshooting steps above not work?** Let's proceed to the next set of troubleshooting steps.
+
+1. On your computer, go to the problematic folder. This problematic folder should be the one on your iPhone that has a cloud icon with an arrow pointing down in the Files app.
+2. Copy your notes to a folder on your desktop, outside of iCloud. We are doing this to ensure we have a backup of our notes.
+3. On your iPhone, delete the problematic folder that has the cloud icon with an arrow pointing down.
+4. Open the Obsidian app. If the app opens as expected, check that the notes in the previously problematic folder are displayed.
+5. After confirming that your notes are accessible again in the Obsidian app, delete the backup notes you saved to the folder on your computer desktop.
 
 ## Wrap-up
 
