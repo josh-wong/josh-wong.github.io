@@ -16,9 +16,9 @@ Recently, I've had issues with the Obsidian app not opening and syncing properly
 
 <!-- more -->
 
-> [!NOTE]
->
-> I've confirmed that Obsidian for iPad opens and syncs my notes as expected. Therefore, I don't think the Obsidian app is causing the issue. My iPhone is configured to install iOS beta builds, so that might be the issue.
+!!! note
+
+    I've confirmed that Obsidian for iPad opens and syncs my notes as expected. Therefore, I don't think the Obsidian app is causing the issue. My iPhone is configured to install iOS beta builds, so that might be the issue.
 
 ## Troubleshooting methods
 
