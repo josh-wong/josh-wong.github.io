@@ -38,7 +38,7 @@ Since this issue only occurs on my iPhone, specifically in the Files app, let's 
 4. Rename the new folder to what the problematic folder was previously named. For example, in this case, change the new folder to `test`.
 5. Open Obsidian on your iPhone.
 
-**Were you able to open Obsidia on your iPhone and confirm that your notes are accessible?** Great! You're done!
+**Were you able to open Obsidian on your iPhone and confirm that your notes are accessible?** Great! You're done!
 
 **Did the troubleshooting steps above not work?** Let's proceed to the next set of troubleshooting steps.
 
