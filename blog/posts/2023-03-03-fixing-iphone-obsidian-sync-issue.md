@@ -36,7 +36,7 @@ Since this issue only occurs on my iPhone, specifically in the Files app, let's 
 1. On your computer, rename the problematic folder that has the cloud icon with an arrow pointing down. For example, if the original folder name was `test`, change the folder name to `test1`.
 2. Create a new folder named `test`.
 3. Copy the items from the problematic folder (`test1`) into the new folder (`test`).
-4. Rename the new folder to what the problematic folder was previously named. For example, in this case, change the new folder to `test`.
+4. Delete the problematic folder (`test1`).
 5. On your iPhone, open the **Obsidian** app on your iPhone.
 
 **Were you able to open the Obsidian app on your iPhone and confirm that your notes are accessible?** Great! You're done!
