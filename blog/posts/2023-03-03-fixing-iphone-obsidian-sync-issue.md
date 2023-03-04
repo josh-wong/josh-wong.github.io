@@ -12,7 +12,9 @@ tags:
 
 # How to fix an issue with the Obsidian app not opening and syncing on your iPhone
 
-Recently, I've had issues with the Obsidian app not opening and syncing properly on my iPhone. This post describes the steps I took to troubleshoot and resolve the issue and get Obsidian working on my iPhone again.
+I recently had issues with the Obsidian app not opening and syncing properly on my iPhone. To get my notes in iCloud to sync again, I needed to move my notes into a new folder and delete the problematic folder. After moving my notes, iCloud was then able to sync the new folder, and I was able to access my notes in the Obsidian app.
+
+This post describes in detail how I was able to get iCloud to sync my notes properly again.
 
 <!-- more -->
 
