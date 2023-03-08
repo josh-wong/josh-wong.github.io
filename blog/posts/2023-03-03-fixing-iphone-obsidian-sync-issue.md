@@ -12,19 +12,39 @@ tags:
 
 # How to fix an issue with the Obsidian app not opening and syncing on your iPhone
 
-I recently had issues with the Obsidian app not opening and syncing properly on my iPhone. To get my notes in iCloud to sync again, I needed to move my notes into a new folder and delete the problematic folder. After moving my notes, iCloud was then able to sync the new folder, and I was able to access my notes in the Obsidian app.
-
-This post describes in detail how I was able to get iCloud to sync my notes properly again.
+I recently had issues with the Obsidian app not opening and syncing properly on my iPhone. I am a habitual note-taker, so having access to my notes at all times is extremely important to me. Because of that, I've tried a variety of different troubleshooting methods, which I describe in this post.
 
 <!-- more -->
 
-!!! note
+This issue is a bit strange. The Obsidian for iPad app opens and syncs my notes as expected, so I don't think the Obsidian app is causing the issue. My iPhone is configured to install iOS beta builds, so that might be the issue.
 
-    I've confirmed that Obsidian for iPad opens and syncs my notes as expected. Therefore, I don't think the Obsidian app is causing the issue. My iPhone is configured to install iOS beta builds, so that might be the issue.
+Anyway, on to fixing the issue!
 
-## Troubleshooting methods
+## Resolve iCloud sync issues with Obsidian
 
-Since this issue only occurs on my iPhone, specifically in the Files app, let's starts there.
+!!! update
+
+     My previous troubleshooting method worked the first time I encountered this issue, but the instructions failed to work when I encountered the problem again a couple days later. I have updated this post to include another way to potentially solve the issue.
+
+To get iCloud to sync your Obsidian vault again, perform the following steps from your iPhone:
+
+1. Delete the **Obsidian** app.
+2. In the **Settings** app, disable **iCloud**.
+3. Restart your iPhone.
+4. In the **Settings** app, enable **iCloud**. Wait some time for the contents in iCloud to sync.
+5. Open the **Files** app.
+6. Go to your **Obsidian** folder.
+7. Long-press the vault that you want to access, then select **Download Now**. Wait a while for the contents to download. Repeat this step for any other vaults that you want to access.
+8. Open the **App Store**, and reinstall the **Obsidian** app.
+9. Open **Obsidian**. After waiting a few seconds for the configuration files to sync, you should be able to access Obsidian.
+
+## Previous set of troubleshooting methods
+
+!!! attention
+
+    The following instructions worked at one point, but when I encountered the same issue with iCloud not syncing my Obsidian notes, this method no longer worked. I will keep them visible in case they happen to work for someone else.
+
+The following troubleshooting method requires using your iPhone and accessing iCloud from your desktop.
 
 1. On your iPhone, Open the **Files** app.
 2. Go to the folder that contains your Obsidian vaults.
@@ -53,4 +73,4 @@ Since this issue only occurs on my iPhone, specifically in the Files app, let's 
 
 ## Wrap-up
 
-These are the steps I took to troubleshoot and resolve the issue with Obsidian not opening and syncing my notes on my iPhone. There may be a shortcut to my instructions above, but since I can no longer replicate the issue, I can't test another method.
+These are the steps I took to troubleshoot and resolve the issue with Obsidian not opening and syncing my notes on my iPhone. If you have any troubleshooting methods that have worked for you, please share what steps you took to resolve the issue!
