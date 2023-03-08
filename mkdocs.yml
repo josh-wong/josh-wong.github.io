@@ -74,6 +74,7 @@ theme:
       bug: fontawesome/solid/robot
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
+      update: fontawesome/solid/repeat
   logo: assets/images/site-logo.png
   palette:
     - media: "(prefers-color-scheme)" # Palette toggle for automatic mode
