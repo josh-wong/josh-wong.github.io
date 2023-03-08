@@ -11,15 +11,15 @@
 }
 .md-typeset .admonition.fontawesome-solid-repeat,
 .md-typeset details.fontawesome-solid-repeat {
-  border-color: rgb(24, 115, 45);
+  border-color: rgb(204, 222, 0);
 }
 .md-typeset .fontawesome-solid-repeat > .admonition-title,
 .md-typeset .fontawesome-solid-repeat > summary {
-  background-color: rgba(24, 115, 45, 0.1);
+  background-color: rgba(204, 222, 0, 0.1);
 }
 .md-typeset .fontawesome-solid-repeat > .admonition-title::before,
 .md-typeset .fontawesome-solid-repeat > summary::before {
-  background-color: rgb(24, 115, 45);
+  background-color: rgb(204, 222, 0);
   -webkit-mask-image: var(--md-admonition-icon--fontawesome-solid-repeat);
           mask-image: var(--md-admonition-icon--fontawesome-solid-repeat);
 }
