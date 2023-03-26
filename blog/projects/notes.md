@@ -2,7 +2,7 @@
 
 <div class="grid cards" markdown>
 
-  - :fontawesome-solid-book-open:{ .lg .middle } __[[Deprecated] My Kindle highlights & notes](https://www.080f53.com/kindle-highlights-notes)__
+  - :fontawesome-solid-book-open:{ .lg .middle } __[My Kindle highlights & notes](https://www.080f53.com/kindle-highlights-notes)__
 
     ---
 
