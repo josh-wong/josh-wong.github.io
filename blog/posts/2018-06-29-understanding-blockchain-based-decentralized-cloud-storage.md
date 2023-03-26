@@ -2,10 +2,10 @@
 date: 2018-06-29
 authors: [josh-wong]
 categories:
-  - blockchain
+  - Blockchain
 tags:
   - blockchain
-  - cloud-storage
+  - cloud storage
   - decentralization
 ---
 
