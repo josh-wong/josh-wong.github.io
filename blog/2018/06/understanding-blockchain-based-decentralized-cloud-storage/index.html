@@ -1458,13 +1458,13 @@
 
 
 <h1 id="understanding-blockchain-based-decentralized-cloud-storage">Understanding <abbr title="A type of distributed-ledger technology">blockchain</abbr>-based, decentralized cloud storage<a class="headerlink" href="#understanding-blockchain-based-decentralized-cloud-storage" title="Permanent link">&para;</a></h1>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>I wrote the following post in 2018 on an old, self-hosted blog. Since the server I was self-hosting crashed, I took my blog offline. Apologies in advance if any content in this post is incorrect or outdated.</p>
-</div>
 <p>Blockchain, an increasingly popular technology that can be used in a range of industries, is essentially a decentralized peer-to-peer system that’s connected to create complete sets of data. These nodes reside on servers that run on various operating systems and computers of varying levels of power. Aside from verifying transactions for cryptocurrencies such as Bitcoin and Ethereum, an increasingly popular use for <abbr title="A type of distributed-ledger technology">blockchain</abbr> technology is as a decentralized cloud storage solution.</p>
 <!-- more -->
 
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>I originally published the following post on a self-hosted Wordpress site that subsequently crashed after years of service. To consolidate my written knowledge during those various times, I am republishing my old posts as is. Apologies in advance if any content in this post is incorrect or outdated.</p>
+</div>
 <h2 id="centralized-vs-decentralized-storage">Centralized vs. decentralized storage<a class="headerlink" href="#centralized-vs-decentralized-storage" title="Permanent link">&para;</a></h2>
 <p>In a traditional, centralized cloud storage architecture, a file is uploaded to a server (likely redundant servers in most cases) and stored in a database. The issue with this is security. If a cloud storage account is compromised through phishing or other types of account hijacking, a hacker would have access to the account and files uploaded to the server.</p>
 <p>In a <abbr title="A type of distributed-ledger technology">blockchain</abbr>-based, decentralized cloud storage architecture, a file is uploaded to an ecosystem of servers that host the <abbr title="A type of distributed-ledger technology">blockchain</abbr> and its nodes, which are essentially databases. A <abbr title="A point of connection in a communication network">node</abbr> stores only a fraction of the encrypted data, known as a shard, that makes up the file, and therefore, no single <abbr title="A point of connection in a communication network">node</abbr> contains a complete file. However, in a process called “mirroring,” multiple servers store the same shard, which ensures high availability for the file uploaded. For example, if a server storing a shard within the <abbr title="A type of distributed-ledger technology">blockchain</abbr> goes down, another <abbr title="A point of connection in a communication network">node</abbr> within the <abbr title="A type of distributed-ledger technology">blockchain</abbr> network will automatically activate its mirrored shard.</p>
