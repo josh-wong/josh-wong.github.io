@@ -11,13 +11,13 @@ tags:
 
 # Understanding blockchain-based, decentralized cloud storage
 
-!!! note
-
-	I wrote the following post in 2018 on an old, self-hosted blog. Since the server I was self-hosting crashed, I took my blog offline. Apologies in advance if any content in this post is incorrect or outdated.
-
 Blockchain, an increasingly popular technology that can be used in a range of industries, is essentially a decentralized peer-to-peer system that’s connected to create complete sets of data. These nodes reside on servers that run on various operating systems and computers of varying levels of power. Aside from verifying transactions for cryptocurrencies such as Bitcoin and Ethereum, an increasingly popular use for blockchain technology is as a decentralized cloud storage solution.
 
 <!-- more -->
+
+!!! note
+
+	I originally published the following post on a self-hosted Wordpress site that subsequently crashed after years of service. To consolidate my written knowledge during those various times, I am republishing my old posts as is. Apologies in advance if any content in this post is incorrect or outdated.
 
 ## Centralized vs. decentralized storage
 
