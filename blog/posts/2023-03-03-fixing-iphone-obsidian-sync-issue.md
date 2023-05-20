@@ -28,15 +28,14 @@ Anyway, on to fixing the issue!
 
 To get iCloud to sync your Obsidian vault again, perform the following steps from your iPhone:
 
-1. Delete the **Obsidian** app.
+1. Confirm that you are connected to a Wi-Fi network.
 2. In the **Settings** app, disable **iCloud**.
 3. Restart your iPhone.
-4. In the **Settings** app, enable **iCloud**. Wait some time for the contents in iCloud to sync.
-5. Open the **Files** app.
+4. In the **Settings** app, enable **iCloud**. Wait for the contents in iCloud to sync.
+5. Open the **Files** app. If you do not see any folders in the Files app, make sure you are connected to Wi-Fi.
 6. Go to your **Obsidian** folder.
-7. Long-press the vault that you want to access, then select **Download Now**. Wait a while for the contents to download. Repeat this step for any other vaults that you want to access.
-8. Open the **App Store**, and reinstall the **Obsidian** app.
-9. Open **Obsidian**. After waiting a few seconds for the configuration files to sync, you should be able to access Obsidian.
+7. Long-press the folder with the name of the Obsidian vault that you want to access, then select **Download Now**. Wait a while for the contents to download. Repeat this step for any other vaults that you want to access.
+8. Open the **Obsidian** app. After waiting a few seconds for the configuration files and your notes to sync, you should be able to access Obsidian on your iPhone.
 
 ## Previous set of troubleshooting methods
 
