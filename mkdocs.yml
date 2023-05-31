@@ -28,9 +28,9 @@ markdown_extensions:
   - pymdownx.emoji: # Add emoji support
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.snippets: # Add tooltip support
-      auto_append:
-        - includes/glossary.md
+  # - pymdownx.snippets: # Add tooltip support (Commented out since this function causes the tags page to have cut off titles that include abbreviations)
+      # auto_append:
+        # - includes/glossary.md
   - pymdownx.superfences: # Add support for arbitrary nesting of code and content blocks inside each other.
       custom_fences:
           - name: mermaid
