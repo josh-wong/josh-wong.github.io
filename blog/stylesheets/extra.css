@@ -23,3 +23,8 @@
   -webkit-mask-image: var(--md-admonition-icon--update);
           mask-image: var(--md-admonition-icon--update);
 }
+
+[data-md-color-scheme="custom-light"] img[src$="#only-dark"]
+[data-md-color-scheme="custom-light"] img[src$="#gh-dark-mode-only"] {
+  display: none; /* Hide dark images in light mode */
+}
