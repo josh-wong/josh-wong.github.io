@@ -24,7 +24,7 @@
           mask-image: var(--md-admonition-icon--update);
 }
 
-[data-md-color-scheme="dark"] img[src$="#only-dark"]
+[data-md-color-scheme="dark"] img[src$="#only-dark"],
 [data-md-color-scheme="dark"] img[src$="#gh-dark-mode-only"] {
   display: none; /* Hide dark images in light mode */
 }
