@@ -11,8 +11,8 @@ mkdocs-material-extensions>=1.1
 mkdocs-minify-plugin
 #mkdocs-multirepo-plugin
 mkdocs-redirects
-# Not being used because of issues mentioned in `mkdocs.yml`.
 mkdocs-rss-plugin>=1.5
+# Not being used because of issues mentioned in `mkdocs.yml`.
 #mkdocs-techdocs-core
 mkdocs-video
 pillow 
