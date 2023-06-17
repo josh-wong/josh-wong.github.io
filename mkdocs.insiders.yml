@@ -8,9 +8,9 @@ plugins:
       pagination_url_format: "page/{page}"
       post_url_date_format: yyyy/MM
       post_url_format: "blog/{date}/{slug}"
-  #- git-committers: # Show docs contributors (currently disabled since this is a home page that primarily includes a blog and links to projects)
-  #    repository: josh-wong/josh-wong.github.io
-  #    branch: main
+  - git-committers: # Show docs contributors (currently disabled since this is a home page that primarily includes a blog and links to projects)
+      repository: josh-wong/josh-wong.github.io
+      branch: main
   - meta
   # - optimize # Can't seem to deploy when using this plugin. Leaving it in for now because I'd like to get it working in the future.
   - privacy:
