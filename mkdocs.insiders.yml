@@ -8,7 +8,7 @@ plugins:
       pagination_url_format: "page/{page}"
       post_url_date_format: yyyy/MM
       post_url_format: "blog/{date}/{slug}"
-  - git-committers: # Show docs contributors (currently disabled since this is a home page that primarily includes a blog and links to projects)
+  - git-committers: # Show docs contributors
       repository: josh-wong/josh-wong.github.io
       branch: main
   - meta
