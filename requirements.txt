@@ -3,8 +3,8 @@ cairosvg
 jinja2>=3.0
 markdown>=3.2
 mkdocs>=1.4.2
-# Show docs contributors (currently disabled since this is a home page that primarily includes a blog and links to projects)
-#mkdocs-git-committers-plugin-2
+# Show docs contributors
+mkdocs-git-committers-plugin-2
 # Show the last updated date (currently disabled since this is a home page that primarily includes a blog and links to projects)
 #mkdocs-git-revision-date-localized-plugin
 mkdocs-material-extensions>=1.1
