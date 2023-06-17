@@ -29,7 +29,7 @@ Anyway, on to fixing the issue!
 To get iCloud to sync your Obsidian vault again, perform the following steps from your iPhone:
 
 1. Confirm that you are connected to a Wi-Fi network.
-2. In the **Settings** app, disable **iCloud Drive**.
+2. In the **Settings** app, select **[your name]** and choose **iCloud**. Then, select **iCloud Drive** and disable **Sync this iPhone**.
 3. Restart your iPhone.
 4. In the **Settings** app, select **[your name]** and choose **iCloud**. Then, select **iCloud Drive** and enable **Sync this iPhone**. Wait for the contents in iCloud to sync.
 5. Open the **Files** app. If you do not see any folders in the Files app, make sure you are connected to Wi-Fi.
