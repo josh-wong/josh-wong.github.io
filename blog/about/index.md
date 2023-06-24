@@ -8,7 +8,7 @@ I enjoy writing, sharing knowledge, improving user experiences, and learning new
 
 ## Why `080f53.com`?
 
-I like the hex color <a href="https://encycolorpedia.com/080f53" target="_blank">**#080f53**</a>, which is dark blue-violet.
+I like the hex color **[080f53](https://encycolorpedia.com/080f53)**, which is dark blue-violet.
 
 Also, finding unique domain names is hard😅
 
