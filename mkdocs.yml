@@ -14,7 +14,6 @@ plugins:
       pagination_url_format: "page/{page}"
       post_url_date_format: yyyy/MM
       post_url_format: "blog/{date}/{slug}"
-  - meta
   - minify:
       minify_html: true
   - mkdocs-video:
