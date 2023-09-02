@@ -1,4 +1,6 @@
-josh-wong:
-  name: Josh Wong
-  description: Author
-  avatar: https://github.com/josh-wong.png
+authors:
+  josh-wong:
+    avatar: https://github.com/josh-wong.png
+    description: Creator
+    name: Josh Wong
+    
