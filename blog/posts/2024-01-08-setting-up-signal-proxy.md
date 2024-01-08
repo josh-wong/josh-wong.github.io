@@ -17,15 +17,17 @@ I wrote this post because the official Signal TLS proxy server repository lacks 
 
 <!-- more -->
 
+!!! warning "Attention"
+
+    For security reasons, you should avoid running a server of any type on your home network. If you decide to run a server on your home network, please understand that you're putting your network and at significant risk of being compromised.  
+
 ## Why run a proxy server?
 
 Government officials are known to occasionally block access to apps in their countries, especially during times of social unrest and when they don't want information widely shared.
 
 By running a Signal proxy server, you can enable people in other countries to connect to Signal and stay in contact with friends and family.
 
-!!! warning "Attention"
-
-    For security reasons, you should avoid running a server of any type on your home network. If you decide to run a server on your home network, please understand that you're putting your network and at significant risk of being compromised.  
+For reference, you can see which countries have temporarily or permanently blocked connections to Signal in 2023, courtesy of the Open Observatory of Network Interference (OONI): [OONI Explorer](https://explorer.ooni.org/search?since=2023-01-01&test_name=signal&failure=false&only=anomalies&until=2023-12-31)
 
 ## Set up your domain
 
