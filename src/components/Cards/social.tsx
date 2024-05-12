@@ -17,7 +17,7 @@ const CardsSocial = [
     name: 'Bandcamp',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'https://bandcamp.com/080f53',
+      page: 'https://bandcamp.com/080F53',
     },
     description: (
       <Translate id="social.bandcamp.description">
@@ -65,7 +65,7 @@ const CardsSocial = [
     name: 'Steam',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'https://steamcommunity.com/id/hex080f53',
+      page: 'https://steamcommunity.com/id/hex080F53',
     },
     description: (
       <Translate id="social.steam.description">
@@ -77,7 +77,7 @@ const CardsSocial = [
     name: 'Twitter',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'https://twitter.com/080f53',
+      page: 'https://twitter.com/080F53',
     },
     description: (
       <Translate id="social.twitter.description">
