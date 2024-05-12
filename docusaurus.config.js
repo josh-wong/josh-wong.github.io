@@ -16,7 +16,7 @@ const config = {
   url: 'https://www.080f53.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/blog/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -39,19 +39,19 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/josh-wong/josh-wong.github.io/',
-        },
+        // docs: {
+        //   sidebarPath: './sidebars.js',
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   // editUrl:
+        //   //   'https://github.com/josh-wong/josh-wong.github.io/',
+        // },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //   'https://github.com/josh-wong/josh-wong.github.io',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -79,6 +79,7 @@ const config = {
           //   label: 'Tutorial',
           // },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/docs', label: 'Docs', position: 'left'},
           {
             href: 'https://github.com/josh-wong/josh-wong.github.io',
             label: 'GitHub',
@@ -95,23 +96,23 @@ const config = {
             items: [
               {
                 label: 'Creative',
-                to: '/creative',
+                to: '/docs/creative',
               },
               {
                 label: 'Notes',
-                to: '/notes',
+                to: '/docs/notes',
               },
               {
                 label: 'Scripts',
-                to: '/scripts',
+                to: '/docs/scripts',
               },
               {
                 label: 'Software',
-                to: '/software',
+                to: '/docs/software',
               },
               {
                 label: 'Tutorials',
-                to: '/tutorials',
+                to: '/docs/tutorials',
               },
             ],
           },
