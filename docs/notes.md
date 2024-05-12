@@ -1,11 +1,5 @@
 # Notes
 
-<div class="grid cards" markdown>
+**[My Kindle highlights & notes](https://www.080f53.com/kindle-highlights-notes)**
 
-  - :fontawesome-solid-book-open:{ .lg .middle } __[My Kindle highlights & notes](https://www.080f53.com/kindle-highlights-notes)__
-
-    ---
-
-    Highlights and notes from books I have read or am currently reading on Kindle
-
-</div>
+Highlights and notes from books I have read or am currently reading on Kindle

@@ -1,11 +1,5 @@
 # Software
 
-<div class="grid cards" markdown>
+**[passGen documentation](https://www.080f53.com/passGen)**
 
-  - :fontawesome-solid-key:{ .lg .middle } __[passGen documentation](https://www.080f53.com/passGen)__
-
-    ---
-
-    Lightweight Windows app for creating randomly generated, 10-character passwords
-
-</div>
+Lightweight Windows app for creating randomly generated, 10-character passwords
