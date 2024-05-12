@@ -51,7 +51,6 @@ div[class^='announcementBar'] {
 }
 
 /* Home page cards */
-
 .card {
   border: 1px solid #ebedf0;
 }
@@ -67,7 +66,6 @@ div[class^='announcementBar'] {
 }
 
 /* GitHub icon */
-
 .header-github-link::before {
   display: block;
   background-image: url("/img/github-mark.svg");
@@ -90,5 +88,32 @@ html[data-theme="dark"] .header-github-link::before {
 }
 
 html[data-theme="dark"] .navbar-sidebar .header-github-link {
+  filter: invert(0%);
+}
+
+/* RSS icon*/
+.header-rss-link::before {
+  display: block;
+  background-image: url("/img/rss-mark.svg");
+  background-size: contain;
+  content: "";
+  width: 24px;
+  height: 24px;
+}
+
+.header-rss-link svg {
+  display: none;
+}
+
+.header-rss-link:hover {
+  background: var(--ifm-color-emphasis-200);
+  border-radius: 50px;
+}
+
+html[data-theme="dark"] .header-rss-link::before {
+  filter: invert(90%);
+}
+
+html[data-theme="dark"] .navbar-sidebar .header-rss-link {
   filter: invert(0%);
 }
