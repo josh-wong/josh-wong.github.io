@@ -16,7 +16,7 @@ const config = {
   url: 'https://www.080F53.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/blog/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -51,8 +51,13 @@ const config = {
         blog: {
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
-          showReadingTime: true,
+          feedOptions: {
+            type: 'all',
+            copyright: 'Copyright © ${new Date().getFullYear()} 080F53',
+            limit: null,
+          },
           routeBasePath: '/',
+          showReadingTime: true,          
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -102,6 +107,12 @@ const config = {
           {to: '/', label: 'Blog', position: 'left'},
           {to: 'projects', label: 'Projects', position: 'left'},
           {to: 'about', label: 'About', position: 'left'},
+          {
+            className: 'header-rss-link',
+            href: 'rss.xml',
+            position: 'right',
+            'aria-label': 'RSS',
+          },
           {
             className: 'header-github-link',
             href: 'https://github.com/josh-wong/josh-wong.github.io',
