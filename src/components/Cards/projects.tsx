@@ -17,7 +17,7 @@ const CardsProjects = [
     name: 'Creative',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'creative/',
+      page: '/projects/creative/',
     },
     description: (
       <Translate id="projects.creative.description">
@@ -29,7 +29,7 @@ const CardsProjects = [
     name: 'Notes',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'notes/',
+      page: '/projects/notes/',
     },
     description: (
       <Translate id="projects.notes.description">
@@ -41,7 +41,7 @@ const CardsProjects = [
     name: 'Scripts',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'scripts/',
+      page: '/projects/scripts/',
     },
     description: (
       <Translate id="projects.scripts.description">
@@ -53,7 +53,7 @@ const CardsProjects = [
     name: 'Software',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'software/',
+      page: '/projects/software/',
     },
     description: (
       <Translate id="projects.software.description">
@@ -65,7 +65,7 @@ const CardsProjects = [
     name: 'Tutorials',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'tutorials/',
+      page: '/projects/tutorials/',
     },
     description: (
       <Translate id="projects.tutorials.description">
@@ -99,22 +99,22 @@ function Card({ name, /*image,*/ url, /*description*/ }: Props) {
             {/* <p>{description}</p> */}
           </div>
         </Link>
-        <div className="card__footer">
+        {/* <div className="card__footer">
           <div className="button-group button-group--block">
             <Link className="button button--secondary" to={url.page}>
               <Translate id="button.readMore">Read more</Translate>
             </Link>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
 }
 
-export function CardsProjects(): JSX.Element {
+export function CardRowProjects(): JSX.Element {
   return (
     <div className="row">
-      {CardRowProjects.map((special) => (
+      {CardsProjects.map((special) => (
         <Card key={special.name} {...special} />
       ))}
     </div>
