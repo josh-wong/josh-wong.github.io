@@ -1,21 +1,14 @@
 ---
 date: 2023-01-13
-authors: [josh-wong]
-categories:
-  - Raspberry Pi
-tags:
-  - bitcoin cash node
-  - data recovery
-  - foremost
-  - raspberry pi
-  - ubuntu
+authors: josh-wong
+tags: [bitcoin cash node, data recovery, foremost, raspberry pi, ubuntu]
 ---
 
 # Resurrecting my Raspberry Pi 4
 
 In October 2022, the fan on my Raspberry Pi 4 started making a loud clicking noise, so I unplugged the device and promptly forgot about it since I was busy. Since I didn’t have plans on my first day off for the 2023 New Year holiday break, I decided to get my Raspberry Pi 4 running again.
 
-<!-- more -->
+<!-- truncate -->
 
 Previously, my Raspberry Pi 4 was primarily used to run Bitcoin Cash Node, which is software that helps power the Bitcoin Cash blockchain network and its transactions. I wanted to get back to contributing to the health of Bitcoin Cash and eventually use the device to run some other Linux-only programs.
 
@@ -37,33 +30,33 @@ After modifying the `sources.list` file as stated in the instructions, I ran the
 
 No noticeable surprises with this upgrade since I’m not an Ubuntu power user. The squid background is pretty cool though.
 
-<figure markdown>
-  ![Ubuntu 22.04 (Jammy Jellyfish) squid background](assets/images/2023-01-12-ubuntu-jammy-jellyfish.png)
-  <figcaption>Ubuntu 22.04 (Jammy Jellyfish) squid background</figcaption>
-</figure>
+![Ubuntu 22.04 (Jammy Jellyfish) squid background](assets/images/2023-01-12-ubuntu-jammy-jellyfish.png)
+***Ubuntu 22.04 (Jammy Jellyfish) squid background***
 
 ## Started running a Bitcoin Cash Node again
 
 After getting my Raspberry Pi 4 running again, I also decided to operate a Bitcoin Cash Node again.
 
-!!! note
+:::note
 
-    I'm simply operating a Bitcoin Cash Node to contribute to the Bitcoin Cash network. Since I'm not mining Bitcoin Cash, I don't receive mining rewards. My reward is supporting Bitcoin Cash as a way to create sound money that is usable by everyone in the world.
+I'm simply operating a Bitcoin Cash Node to contribute to the Bitcoin Cash network. Since I'm not mining Bitcoin Cash, I don't receive mining rewards. My reward is supporting Bitcoin Cash as a way to create sound money that is usable by everyone in the world.
+
+:::
 
 On the Bitcoin Cash Node site, I saw that an [upgrade to the Bitcoin Cash network would occur on May 15, 2023](https://bitcoincashnode.org/en/newsroom/announcing-bitcoin-cash-node-v25-0-0). To continue contributing to the health of the network after that date, I would need to upgrade the node software from v24.0.0 to v25.0.0.
 
-<figure markdown>
-  ![Bitcoin Cash Node "About" window showing v25.0.0](assets/images/2023-01-12-bitcoin-cash-node-about.png)
-  <figcaption>Bitcoin Cash Node "About" window showing v25.0.0</figcaption>
-</figure>
+![Bitcoin Cash Node "About" window showing v25.0.0](assets/images/2023-01-12-bitcoin-cash-node-about.png)
+***Bitcoin Cash Node "About" window showing v25.0.0***
 
 When upgrading the Bitcoin Cash Node software to v25.0.0, I referred to the tutorial that I’d created when I upgraded from v23.0.0 to v24.0.0. The instructions worked as expected, and I was able to improve the documentation by adding some knowledge that I’d gained while performing this upgrade.
 
 You can see the tutorial I created for upgrading a Bitcoin Cash Node on Ubuntu at [How to upgrade Bitcoin Cash Node on a Raspberry Pi 4 running Ubuntu Desktop](https://www.080f53.com/bitcoin-cash-node-on-raspberry-pi/upgrade/).
 
-!!! note
+:::note
 
-    Use Signal for messaging? Check out the [Why Bitcoin Cash? sticker pack](https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d)! I created this sticker pack based on the "Why Bitcoin Cash?" brand assets.
+Use Signal for messaging? Check out the [Why Bitcoin Cash? sticker pack](https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d)! I created this sticker pack based on the "Why Bitcoin Cash?" brand assets.
+
+:::
 
 ## Installed Foremost for recovering data from drives
 

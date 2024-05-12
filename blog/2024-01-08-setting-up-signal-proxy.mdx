@@ -1,12 +1,7 @@
 ---
 date: 2024-01-08
-authors: [josh-wong]
-categories:
-  - Privacy
-tags:
-  - privacy
-  - security
-  - server 
+authors: josh-wong
+tags: [privacy, security, server] 
 ---
 
 # How to set up a Signal TLS proxy server
@@ -15,11 +10,13 @@ This post describes how to set up a [Signal TLS proxy server](https://github.com
 
 I wrote this post because the official Signal TLS proxy server repository lacks instructions for setting up a domain, which is necessary to run a proxy server. However, keep in mind that the steps to set up a proxy server may vary depending on your OS environment and domain name service provider.
 
-<!-- more -->
+<!-- truncate -->
 
-!!! warning "Attention"
+:::warning
 
-    For security reasons, you should avoid running a server of any type on your home network. If you decide to run a server on your home network, please understand that you're putting your network and at significant risk of being compromised.  
+For security reasons, you should avoid running a server of any type on your home network. If you decide to run a server on your home network, please understand that you're putting your network and at significant risk of being compromised.
+
+:::
 
 ## Why run a proxy server?
 
@@ -35,9 +32,11 @@ Before setting up your proxy server, you'll need to have a domain name so that o
 
 Configure a domain name in your domain name service provider account by setting up a DNS record (A record) to point the domain to your public IP address. For details on how to set up an A record, please check your domain name service provider's documentation. 
 
-!!! note
+:::note
 
-    When setting up an A record, you should also be able to specify a subdomain. Specifying a subdomain will allow you to use your domain name for other purposes.
+When setting up an A record, you should also be able to specify a subdomain. Specifying a subdomain will allow you to use your domain name for other purposes.
+
+:::
 
 After you've set up an A record in your domain name service provider account, you'll need to change the hostname of your OS. To do this, open **Terminal** and then open **/etc/hosts** by running the following command:
 
@@ -51,9 +50,11 @@ Below the default hostname, add the following line, replacing `<SUBDOMAIN>.<DOMA
 192.168.1.101 <SUBDOMAIN>.<DOMAIN_NAME>.<TOP_LEVEL_DOMAIN>
 ```
 
-!!! note
+:::note
 
-    The local IP address shown above depends on your environment. Be sure to confirm what your local IP address is if you encounter issues.
+The local IP address shown above depends on your environment. Be sure to confirm what your local IP address is if you encounter issues.
+
+:::
 
 Save your changes, and close the file.
 
@@ -63,9 +64,11 @@ Next, you'll need to set up dynamic DNS (DDNS) to make sure that the IP address 
 
 Most domain name service providers offer a DDNS service, which periodically checks for changes to an IP address and then automatically updates the DDNS database when a new IP address is discovered. For details on how to enable DDNS for your domain name, please check your domain name service provider's documentation.
 
-!!! note
+:::note
 
-    After enabling DDNS in your domain name service account, you should receive a password. You'll need to enter that password later, so make note of it.
+After enabling DDNS in your domain name service account, you should receive a password. You'll need to enter that password later, so make note of it.
+
+:::
 
 After enabling DDNS for your domain name, you need to set up a DDNS client in your OS environment. In this tutorial, you will be installing ddclient. This client will automatically send updates to your domain name service provider when your IP address changes.
 
@@ -98,9 +101,11 @@ daemon=3600
 ...
 ```
 
-!!! note
+:::note
 
-    `3600` means that ddclient will check for changes to the public IP address every 3,600 seconds, which equals once an hour. You can adjust this value to be longer or shorter.
+`3600` means that ddclient will check for changes to the public IP address every 3,600 seconds, which equals once an hour. You can adjust this value to be longer or shorter.
+
+:::
 
 Then, set `protocol` to your domain name service provider (as specified in your domain name service provider's documentation) and set `use` to `web`. The configuration file should then look as follows:
 
@@ -123,9 +128,11 @@ Save your changes, and close the file. You can check if the configuration is wor
 sudo ddclient -daemon=0 -debug -verbose -noquiet
 ```
 
-!!! note
+:::note
 
-    If you see any `invalid` or `error` outputs after running the above command, check the settings in your ddclient configuration file.
+If you see any `invalid` or `error` outputs after running the above command, check the settings in your ddclient configuration file.
+
+:::
 
 To confirm that ddclient is running in daemon mode, run the following command to open the ddclient system file:
 
@@ -174,13 +181,15 @@ After setting up the certificate, start the **Docker container** to run your pro
 docker-compose up
 ```
 
-!!! note
+:::note
 
-    To start your proxy server in the background without showing an output in Terminal, run the following command:
+To start your proxy server in the background without showing an output in Terminal, run the following command:
     
-    ```console
-    docker-compose up --detach
-    ``` 
+```console
+docker-compose up --detach
+``` 
+
+:::
 
 Your Signal TLS proxy server should now be running. If you encounter issues, see [Troubleshooting](#troubleshooting)
 
@@ -188,11 +197,13 @@ Your Signal TLS proxy server should now be running. If you encounter issues, see
 
 To connect to your proxy server, open a web browser on your mobile device and enter `https://signal.tube/#<SUBDOMAIN>.<DOMAIN_NAME>.<TOP_LEVEL_DOMAIN>` into a mobile web browser, replacing `<SUBDOMAIN>.<DOMAIN_NAME>.<TOP_LEVEL_DOMAIN>` with the details of the domain name you previously set up.
    
-!!! note
+:::note
 
-    You can also connect directly to the proxy server by adding the `<SUBDOMAIN>.<DOMAIN_NAME>.<TOP_LEVEL_DOMAIN>` (without `https://`) in the settings in the Signal app.
+You can also connect directly to the proxy server by adding the `<SUBDOMAIN>.<DOMAIN_NAME>.<TOP_LEVEL_DOMAIN>` (without `https://`) in the settings in the Signal app.
     
-    Keep in mind that the Signal desktop app currently does not support proxy connections.
+Keep in mind that the Signal desktop app currently does not support proxy connections.
+
+:::
 
 The following are the different shield statuses in the Signal app:
 
