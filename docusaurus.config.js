@@ -8,22 +8,22 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '080f53',
+  tagline: "Hey there! My name is **Josh Wong**, and I'm a technical writer and knowledge management specialist living and working in Tokyo.",
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://www.080f53.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'josh-wong', // Usually your GitHub org/user name.
+  projectName: 'josh-wong.github.io', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -43,15 +43,15 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/josh-wong/josh-wong.github.io/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -64,25 +64,26 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/site-logo.png',
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: '080f53 logo',
+          src: 'img/site-logo.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'sidebar',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/josh-wong/josh-wong.github.io',
             label: 'GitHub',
             position: 'right',
+            'aria-label': 'GitHub logo'
           },
         ],
       },
@@ -93,8 +94,24 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Creative',
+                to: '/creative',
+              },
+              {
+                label: 'Notes',
+                to: '/notes',
+              },
+              {
+                label: 'Scripts',
+                to: '/scripts',
+              },
+              {
+                label: 'Software',
+                to: '/software',
+              },
+              {
+                label: 'Tutorials',
+                to: '/tutorials',
               },
             ],
           },
@@ -102,38 +119,57 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/josh-wong',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/wongjoshua',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://twitter.com/080f53',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 080f53`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'YOUR_APP_ID',
+  
+        // Public API key: it is safe to commit it
+        apiKey: 'YOUR_SEARCH_API_KEY',
+  
+        indexName: 'YOUR_INDEX_NAME',
+  
+        // Optional: see doc section below
+        contextualSearch: true,
+  
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        // externalUrlRegex: 'external\\.com|domain\\.com',
+  
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        // replaceSearchResultPathname: {
+        //   from: '/docs/', // or as RegExp: /\/docs\//
+        //   to: '/',
+        // },
+  
+        // Optional: Algolia search parameters
+        // searchParameters: {},
+  
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+  
+        // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+        insights: true,
+  
+        //... other Algolia params
       },
     }),
 };
