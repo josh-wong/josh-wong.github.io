@@ -16,7 +16,7 @@ const config = {
   url: 'https://www.080f53.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/blog/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -83,7 +83,7 @@ const config = {
             href: 'https://github.com/josh-wong/josh-wong.github.io',
             label: 'GitHub',
             position: 'right',
-            'aria-label': 'GitHub logo'
+            'aria-label': 'GitHub logo',
           },
         ],
       },
