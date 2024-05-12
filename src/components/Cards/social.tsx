@@ -111,13 +111,13 @@ function Card({ name, /*image,*/ url, /*description*/ }: Props) {
             {/* <p>{description}</p> */}
           </div>
         </Link>
-        <div className="card__footer">
+        {/* <div className="card__footer">
           <div className="button-group button-group--block">
             <Link className="button button--secondary" to={url.page}>
               <Translate id="button.readMore">Read more</Translate>
             </Link>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
