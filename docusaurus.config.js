@@ -8,12 +8,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '080f53',
+  title: '080F53',
   tagline: "Hey there! My name is **Josh Wong**, and I'm a technical writer and knowledge management specialist living and working in Tokyo.",
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://www.080f53.com',
+  url: 'https://www.080F53.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -39,19 +39,31 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        // docs: {
-        //   sidebarPath: './sidebars.js',
+        docs: {
+          path: 'docs/projects',
+          routeBasePath: 'projects',
+          sidebarPath: './sidebars.js',
         //   // Please change this to your repo.
         //   // Remove this to remove the "edit this page" links.
         //   // editUrl:
         //   //   'https://github.com/josh-wong/josh-wong.github.io/',
-        // },
+        },
         blog: {
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
           showReadingTime: true,
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
           //   'https://github.com/josh-wong/josh-wong.github.io',
+        },
+        googleTagManager: {
+          containerId: 'GT-5M8TXX7',
+        },
+        gtag: {
+          trackingID: 'G-PMP34RZWN2P',
+          anonymizeIP: true,
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -59,6 +71,15 @@ const config = {
       }),
     ],
   ],
+  
+  plugins: [
+    require.resolve('docusaurus-plugin-image-zoom'),
+  ],
+  
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -68,7 +89,7 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: '080f53 logo',
+          alt: '080F53 logo',
           src: 'img/site-logo.png',
         },
         items: [
@@ -78,11 +99,12 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/docs', label: 'Docs', position: 'left'},
+          {to: '/', label: 'Blog', position: 'left'},
+          {to: 'projects', label: 'Projects', position: 'left'},
+          {to: 'about', label: 'About', position: 'left'},
           {
+            className: 'header-github-link',
             href: 'https://github.com/josh-wong/josh-wong.github.io',
-            label: 'GitHub',
             position: 'right',
             'aria-label': 'GitHub logo',
           },
@@ -129,16 +151,42 @@ const config = {
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/080f53',
+                href: 'https://twitter.com/080F53',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 080f53`,
+        copyright: `Copyright © ${new Date().getFullYear()} 080F53`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      mermaid: {
+        theme: {
+          light: 'base',
+          dark: 'base',
+        },
+        options: {
+          themeVariables: {
+            primaryColor: '#D5EAFF',
+            primaryTextColor: '#3D4144',
+            primaryBorderColor: '#080F53',
+            lineColor: '#3D4144',
+            secondaryColor: '#D5EAFF',
+            tertiaryColor: '#D5EAFF',
+          },
+        },
+      },
+      zoom: {
+        selector: '.markdown :not(em) > img',
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)'
+        },
+        config: {
+          // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        }
       },
       algolia: {
         // The application ID provided by Algolia
