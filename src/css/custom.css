@@ -55,12 +55,8 @@ div[class^='announcementBar'] {
   border: 1px solid #ebedf0;
 }
 
-.card a {
-  color: var(--ifm-color-content);
-}
-
 .card a:hover {
-  background-color: #080F53;
+  background-color: #3b3b3b;
   color: white;
   text-decoration: none;
 }
