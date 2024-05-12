@@ -29,14 +29,17 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-.dropdown-separator {
-  margin: 0.3rem 0;
+/* Use different site logo for dark mode */
+html[data-theme='dark'] .navbar .navbar__logo {
+  content: url("/img/site-logo-dark.png");
 }
 
+/* Make doc titles a bit smaller. */
 .markdown h1:first-child {
   --ifm-h1-font-size: 2.25rem;
 }
 
+/* Make blog post titles on the blog home page a bit smaller. */
 .title_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem-Header-Title-styles-module {
   font-size: 2.25rem !important;
 }
