@@ -28,13 +28,41 @@ const sidebars = {
     },
   ],
   */
-  projectsSidebar: [
+  portfolioSidebar: [
     'index',
-    'creative',
-    'notes',
-    'scripts',
-    'software',
-    'tutorials',
+    {
+      type: 'category',
+      label: 'Professional samples',
+      items: [
+        'index',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Personal samples',
+      items: [
+        {
+          type: 'link',
+          label: 'Bitcoin Cash Node on a Raspberry Pi',
+          href: 'https://www.080F53.com/bitcoin-cash-node-on-raspberry-pi',
+        },
+        {
+          type: 'link',
+          label: 'Microsoft Zune device and software setup',
+          href: 'https://www.080F53.com/zune-software-setup',
+        },
+        {
+          type: 'link',
+          label: 'passGen',
+          href: 'https://www.080F53.com/passGen',
+        },
+        {
+          type: 'link',
+          label: 'Signal sticker pack - "Why Bitcoin Cash?"',
+          href: 'https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d',
+        },
+      ],
+    },
   ],
 };
 
