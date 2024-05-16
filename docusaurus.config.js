@@ -16,7 +16,7 @@ const config = {
   url: 'https://www.080F53.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/blog/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -39,15 +39,15 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          path: 'docs/portfolio',
-          routeBasePath: 'portfolio',
-          sidebarPath: './sidebars.js',
+        // docs: {
+        //   path: 'docs/portfolio',
+        //   routeBasePath: 'portfolio',
+        //   sidebarPath: './sidebars.js',
         //   // Please change this to your repo.
         //   // Remove this to remove the "edit this page" links.
         //   // editUrl:
         //   //   'https://github.com/josh-wong/josh-wong.github.io/',
-        },
+        // },
         blog: {
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
