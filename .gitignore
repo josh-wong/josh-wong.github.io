@@ -1,7 +1,23 @@
-.cache/
-site/
-blog/posts/templates/
+# Dependencies
+/node_modules
+
+# Production
+/build
+
+# Generated files
+.docusaurus
+.cache-loader
+
 # Design files
 *.afdesign
-# To enable an announcement at the top of the site, comment out `overrides/main.html`. To disable an announcement, uncomment `overrides/main.html` and remove the file from the repository.
-overrides/main.html
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

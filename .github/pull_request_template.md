@@ -16,10 +16,9 @@
 
 - [ ] I have updated the side navigation as necessary.
 - [ ] I have commented my code, particularly in hard-to-understand areas.
-- [ ] I have updated the documentation to reflect the changes.
-- [ ] Any remaining open issues linked to this PR are documented and up-to-date.
-- [ ] My changes generate no new warnings.
-- [ ] Any dependent changes in other PRs have been merged and published.
+- [ ] I have documented or updated any remaining open issues linked to this PR.
+- [ ] I have confirmed that my changes generate no new warnings.
+- [ ] I have merged any dependent changes in other PRs into this PR or otherwise addressed.
 
 ## Additional notes (optional)
 

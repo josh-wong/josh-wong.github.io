@@ -1,0 +1,115 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #080F53;
+  --ifm-color-primary-dark: #080F53;
+  --ifm-color-primary-darker: #080F53;
+  --ifm-color-primary-darkest: #080F53;
+  --ifm-color-primary-light: #080F53;
+  --ifm-color-primary-lighter: #080F53;
+  --ifm-color-primary-lightest: #080F53;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #757cbd;
+  --ifm-color-primary-dark: #757cbd;
+  --ifm-color-primary-darker: #757cbd;
+  --ifm-color-primary-darkest: #757cbd;
+  --ifm-color-primary-light: #757cbd;
+  --ifm-color-primary-lighter: #757cbd;
+  --ifm-color-primary-lightest: #757cbd;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Use different site logo for dark mode */
+html[data-theme='dark'] .navbar .navbar__logo {
+  content: url("/img/site-logo-dark.png");
+}
+
+/* Make doc titles a bit smaller. */
+.markdown h1:first-child {
+  --ifm-h1-font-size: 2.25rem;
+}
+
+/* Make blog post titles on the blog home page a bit smaller. */
+.title_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem-Header-Title-styles-module {
+  font-size: 2.25rem !important;
+}
+
+/* Announcement Bar */
+div[class^='announcementBar'] {
+  font-size: 1.1rem;
+  padding: 20px 0;
+}
+
+/* Home page cards */
+.card {
+  border: 1px solid #ebedf0;
+}
+
+.card a:hover {
+  background-color: #3b3b3b;
+  color: white;
+  text-decoration: none;
+}
+
+/* GitHub icon */
+.header-github-link::before {
+  display: block;
+  background-image: url("/img/github-mark.svg");
+  background-size: contain;
+  content: "";
+  width: 24px;
+  height: 24px;
+}
+
+.header-github-link svg {
+  display: none;
+}
+
+.header-github-link:hover {
+  opacity: 0.7;
+}
+
+html[data-theme="dark"] .header-github-link::before {
+  filter: invert(100%);
+}
+
+html[data-theme="dark"] .navbar-sidebar .header-github-link {
+  filter: invert(0%);
+}
+
+/* RSS icon*/
+.header-rss-link::before {
+  display: block;
+  background-image: url("/img/rss-mark.svg");
+  background-size: contain;
+  content: "";
+  width: 24px;
+  height: 24px;
+}
+
+.header-rss-link svg {
+  display: none;
+}
+
+.header-rss-link:hover {
+  background: var(--ifm-color-emphasis-200);
+  border-radius: 50px;
+}
+
+html[data-theme="dark"] .header-rss-link::before {
+  filter: invert(90%);
+}
+
+html[data-theme="dark"] .navbar-sidebar .header-rss-link {
+  filter: invert(0%);
+}
