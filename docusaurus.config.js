@@ -123,50 +123,50 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Creative',
-                to: '/docs/creative',
-              },
-              {
-                label: 'Notes',
-                to: '/docs/notes',
-              },
-              {
-                label: 'Scripts',
-                to: '/docs/scripts',
-              },
-              {
-                label: 'Software',
-                to: '/docs/software',
-              },
-              {
-                label: 'Tutorials',
-                to: '/docs/tutorials',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/josh-wong',
-              },
-              {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/in/wongjoshua',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/080F53',
-              },
-            ],
-          },
-        ],
+        // links: [
+        //   {
+        //     title: 'Docs',
+        //     items: [
+        //       {
+        //         label: 'Creative',
+        //         to: '/docs/creative',
+        //       },
+        //       {
+        //         label: 'Notes',
+        //         to: '/docs/notes',
+        //       },
+        //       {
+        //         label: 'Scripts',
+        //         to: '/docs/scripts',
+        //       },
+        //       {
+        //         label: 'Software',
+        //         to: '/docs/software',
+        //       },
+        //       {
+        //         label: 'Tutorials',
+        //         to: '/docs/tutorials',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: 'Community',
+        //     items: [
+        //       {
+        //         label: 'GitHub',
+        //         href: 'https://github.com/josh-wong',
+        //       },
+        //       {
+        //         label: 'LinkedIn',
+        //         href: 'https://www.linkedin.com/in/wongjoshua',
+        //       },
+        //       {
+        //         label: 'Twitter',
+        //         href: 'https://twitter.com/080F53',
+        //       },
+        //     ],
+        //   },
+        // ],
         copyright: `Copyright © ${new Date().getFullYear()} 080F53`,
       },
       prism: {
