@@ -221,7 +221,11 @@ const config = {
         // },
   
         // Optional: Algolia search parameters
-        // searchParameters: {},
+        searchParameters: {
+          facetFilters: [
+            'attribute:blog_tags_posts', // (single string)
+          ]
+        },
   
         // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: 'search',
