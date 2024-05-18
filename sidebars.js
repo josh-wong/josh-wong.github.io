@@ -44,17 +44,17 @@ const sidebars = {
         {
           type: 'link',
           label: 'Bitcoin Cash Node on a Raspberry Pi',
-          href: 'https://www.080F53.com/bitcoin-cash-node-on-raspberry-pi',
+          href: 'https://www.080f53.com/bitcoin-cash-node-on-raspberry-pi',
         },
         {
           type: 'link',
           label: 'Microsoft Zune device and software setup',
-          href: 'https://www.080F53.com/zune-software-setup',
+          href: 'https://www.080f53.com/zune-software-setup',
         },
         {
           type: 'link',
           label: 'passGen',
-          href: 'https://www.080F53.com/passGen',
+          href: 'https://www.080f53.com/passGen',
         },
         {
           type: 'link',

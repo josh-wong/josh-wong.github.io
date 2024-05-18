@@ -68,7 +68,7 @@ const CardsPersonalProjects = [
     name: 'Bitcoin Cash Node on a Raspberry Pi',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'https://www.080F53.com/bitcoin-cash-node-on-raspberry-pi',
+      page: 'https://www.080f53.com/bitcoin-cash-node-on-raspberry-pi',
     },
     description: (
       <Translate id="personal.raspiBch.description">
@@ -80,7 +80,7 @@ const CardsPersonalProjects = [
     name: 'Microsoft Zune device and software setup',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'https://www.080F53.com/zune-software-setup',
+      page: 'https://www.080f53.com/zune-software-setup',
     },
     description: (
       <Translate id="personal.zuneSetup.description">
@@ -92,7 +92,7 @@ const CardsPersonalProjects = [
     name: 'passGen',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'https://www.080F53.com/passGen',
+      page: 'https://www.080f53.com/passGen',
     },
     description: (
       <Translate id="personal.passgen.description">

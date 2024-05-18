@@ -8,12 +8,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '080F53',
+  title: '080f53',
   tagline: "Ramblings of a technical writer in Japan🗾",
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://www.080F53.com',
+  url: 'https://www.080f53.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -53,7 +53,7 @@ const config = {
           blogSidebarCount: 'ALL',
           feedOptions: {
             type: 'all',
-            copyright: 'Copyright © ${new Date().getFullYear()} 080F53',
+            copyright: 'Copyright © ${new Date().getFullYear()} 080f53',
             limit: null,
           },
           routeBasePath: '/',
@@ -94,7 +94,7 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: '080F53 logo',
+          alt: '080f53 logo',
           src: 'img/site-logo.png',
         },
         items: [
@@ -162,12 +162,12 @@ const config = {
         //       },
         //       {
         //         label: 'Twitter',
-        //         href: 'https://twitter.com/080F53',
+        //         href: 'https://twitter.com/080f53',
         //       },
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} 080F53`,
+        copyright: `Copyright © ${new Date().getFullYear()} 080f53`,
       },
       prism: {
         theme: prismThemes.github,
@@ -182,7 +182,7 @@ const config = {
           themeVariables: {
             primaryColor: '#D5EAFF',
             primaryTextColor: '#3D4144',
-            primaryBorderColor: '#080F53',
+            primaryBorderColor: '#080f53',
             lineColor: '#3D4144',
             secondaryColor: '#D5EAFF',
             tertiaryColor: '#D5EAFF',
