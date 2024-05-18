@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '080F53',
-  tagline: "Hey there! My name is **Josh Wong**, and I'm a technical writer and knowledge management specialist living and working in Tokyo.",
+  tagline: "Ramblings of a technical writer in Japan🗾",
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
