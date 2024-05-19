@@ -30,31 +30,70 @@ const sidebars = {
   */
   portfolioSidebar: [
     'index',
-    {
-      type: 'category',
-      label: 'Professional samples',
-      items: [
-        'index',
-      ],
-    },
+    // {
+    //   type: 'category',
+    //   label: 'Professional samples',
+    //   items: [
+    //     'overview',
+    //   ],
+    // },
     {
       type: 'category',
       label: 'Personal samples',
       items: [
         {
-          type: 'link',
-          label: 'Bitcoin Cash Node on a Raspberry Pi',
-          href: 'https://www.080f53.com/bitcoin-cash-node-on-raspberry-pi',
+          type: 'category',
+          label: 'Bitcoin Cash Node on Raspberry Pi',
+          items: [
+            'personal/bitcoin-cash-node-on-raspberry-pi/overview',
+            {
+              type: 'category',
+              label: 'Install and set up',
+              items: [
+                'personal/bitcoin-cash-node-on-raspberry-pi/installation-and-setup/overview',
+                'personal/bitcoin-cash-node-on-raspberry-pi/installation-and-setup/preparation',
+                'personal/bitcoin-cash-node-on-raspberry-pi/installation-and-setup/bchn-setup',
+                'personal/bitcoin-cash-node-on-raspberry-pi/installation-and-setup/wallet-setup',
+                'personal/bitcoin-cash-node-on-raspberry-pi/installation-and-setup/conclusion',
+                'personal/bitcoin-cash-node-on-raspberry-pi/installation-and-setup/references',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Upgrade',
+              items: [
+                'personal/bitcoin-cash-node-on-raspberry-pi/upgrade/overview',
+                'personal/bitcoin-cash-node-on-raspberry-pi/upgrade/preparation',
+                'personal/bitcoin-cash-node-on-raspberry-pi/upgrade/bchn-upgrade',
+                'personal/bitcoin-cash-node-on-raspberry-pi/upgrade/cleanup',
+                'personal/bitcoin-cash-node-on-raspberry-pi/upgrade/conclusion',
+              ],
+            },
+          ],
         },
         {
-          type: 'link',
-          label: 'Microsoft Zune device and software setup',
-          href: 'https://www.080f53.com/zune-software-setup',
-        },
-        {
-          type: 'link',
+          type: 'category',
           label: 'passGen',
-          href: 'https://www.080f53.com/passGen',
+          items: [
+            'personal/passgen/overview',
+            'personal/passgen/generating-passwords',
+            'personal/passgen/updating-the-app',
+            'personal/passgen/uninstalling',
+            'personal/passgen/references',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Microsoft Zune device and software setup',
+          items: [
+            'personal/zune-software-setup/overview',
+            'personal/zune-software-setup/getting-started',
+            'personal/zune-software-setup/installing-the-zune-software',
+            'personal/zune-software-setup/connecting-with-the-zune-software',
+            'personal/zune-software-setup/adding-apps-and-games',
+            'personal/zune-software-setup/conclusion',
+            'personal/zune-software-setup/references',
+          ],
         },
         {
           type: 'link',
