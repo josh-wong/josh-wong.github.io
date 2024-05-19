@@ -68,7 +68,7 @@ const CardsPersonalProjects = [
     name: 'Bitcoin Cash Node on a Raspberry Pi',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'bitcoin-cash-node-on-raspberry-pi/',
+      page: 'portfolio/personal/bitcoin-cash-node-on-raspberry-pi/overview',
     },
     description: (
       <Translate id="personal.raspiBch.description">
@@ -80,7 +80,7 @@ const CardsPersonalProjects = [
     name: 'Microsoft Zune device and software setup',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'zune-software-setup/',
+      page: 'portfolio/personal/zune-software-setup/overview',
     },
     description: (
       <Translate id="personal.zuneSetup.description">
@@ -92,7 +92,7 @@ const CardsPersonalProjects = [
     name: 'passGen',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'passgen/',
+      page: 'portfolio/personal/passgen/overview',
     },
     description: (
       <Translate id="personal.passgen.description">
