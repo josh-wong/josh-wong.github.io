@@ -132,7 +132,7 @@ function Card({ name, /*image,*/ url, description }: Props) {
             <img src={image}></img>}
           </Link> */}
         </div>
-        <Link to={url.page}>
+        <Link>
           <div className="card__body">
             <h3>{name}</h3>
             <p>{description}</p>
