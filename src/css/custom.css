@@ -55,9 +55,26 @@ div[class^='announcementBar'] {
   border: 1px solid #ebedf0;
 }
 
-.card a:hover {
-  background-color: #3b3b3b;
+.card__body {
+  color: var(--ifm-font-color-base);
+}
+
+div[class^='button'] a:hover {
+  background-color: #080f53;
   color: white;
+  text-decoration: none;
+}
+
+html[data-theme="dark"] .card {
+  border: 1px solid #757cbd;
+}
+
+html[data-theme="dark"] .card__body {
+  color: white;
+}
+
+html[data-theme="dark"] div[class^='button'] a:hover {
+  background-color: #757cbd;
   text-decoration: none;
 }
 
