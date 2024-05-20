@@ -167,7 +167,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} 080f53`,
+        copyright: `Copyright © ${new Date().getFullYear()} 080f53. <a href="https://docusaurus.io/" style="color: #757cbd">Built with Docusaurus</a>.`,
       },
       prism: {
         theme: prismThemes.github,
