@@ -4,7 +4,7 @@ import {ThemeClassNames} from '@docusaurus/theme-common';
 import {useDoc} from '@docusaurus/theme-common/internal';
 import TagsListInline from '@theme/TagsListInline';
 import EditMetaRow from '@theme/EditMetaRow';
-import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.2/dist/web.js';
+import { Bubble } from "@typebot.io/react";
 
 export default function DocItemFooter() {
   const {metadata} = useDoc();
@@ -18,14 +18,10 @@ export default function DocItemFooter() {
 
   return (
     <>
-      {
-        Typebot.initBubble({
-          typebot: '080-f53-open-ai-assistant-chat-6w2dojv',
-          theme: {
-            button: { backgroundColor: 'var(--ifm-color-primary)' },
-          },
-        })
-      };
+      <Bubble
+        typebot="080-f53-open-ai-assistant-chat-6w2dojv"
+        theme={{ button: { backgroundColor: "#080f53" } }}
+      />
       <footer
         className={clsx(ThemeClassNames.docs.docFooter, 'docusaurus-mt-lg')}>
         {canDisplayTagsRow && (
