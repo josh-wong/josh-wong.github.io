@@ -86,10 +86,6 @@ const config = {
   },
   themes: ['@docusaurus/theme-mermaid'],
 
-  customFields: {
-    typebotToken: process.env.DOCUSAURUS_TYPEBOT_TOKEN,
-  },
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
