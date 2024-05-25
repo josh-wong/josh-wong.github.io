@@ -109,7 +109,7 @@ const config = {
           {to: 'about/', label: 'About', position: 'left'},
           {
             className: 'header-rss-link',
-            href: '/rss.xml',
+            href: 'https://www.080f53.com/rss.xml',
             position: 'right',
             'aria-label': 'RSS',
           },
