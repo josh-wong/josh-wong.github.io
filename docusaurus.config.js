@@ -105,8 +105,8 @@ const config = {
           //   label: 'Tutorial',
           // },
           {to: '/', label: 'Blog', position: 'left'},
-          {to: 'portfolio', label: 'Portfolio', position: 'left'},
-          {to: 'about', label: 'About', position: 'left'},
+          {to: 'portfolio/', label: 'Portfolio', position: 'left'},
+          {to: 'about/', label: 'About', position: 'left'},
           {
             className: 'header-rss-link',
             href: '/rss.xml',
