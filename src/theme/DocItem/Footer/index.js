@@ -20,7 +20,7 @@ export default function DocItemFooter() {
     <>
       {
         Typebot.initBubble({
-          typebot: '${typebotToken}',
+          typebot: '080-f53-open-ai-assistant-chat-6w2dojv',
           theme: {
             button: { backgroundColor: 'var(--ifm-color-primary)' },
           },
