@@ -130,3 +130,31 @@ html[data-theme="dark"] .header-rss-link::before {
 html[data-theme="dark"] .navbar-sidebar .header-rss-link {
   filter: invert(0%);
 }
+
+/* Better Stack status icon*/
+.header-status-link::before {
+  display: block;
+  background-image: url("/img/better-stack-logo.svg");
+  background-size: contain;
+  content: "";
+  width: 24px;
+  height: 24px;
+}
+
+.header-status-link svg {
+  display: none;
+}
+
+.header-status-link:hover {
+  background: var(--ifm-color-emphasis-200);
+  border-radius: 50px;
+}
+
+html[data-theme="dark"] .header-status-link::before {
+  filter: invert(90%);
+}
+
+html[data-theme="dark"] .navbar-sidebar .header-status-link {
+  filter: invert(0%);
+}
+
