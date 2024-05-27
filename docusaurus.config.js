@@ -119,6 +119,12 @@ const config = {
             position: 'right',
             'aria-label': 'GitHub logo',
           },
+          {
+            className: 'header-status-link',
+            href: 'https://status.080f53.com',
+            position: 'right',
+            'aria-label': 'Better Status logo',
+          },
         ],
       },
       footer: {
