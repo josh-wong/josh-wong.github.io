@@ -2,7 +2,7 @@
   "name": "080F53",
   "short_name": "080F53",
   "theme_color": "#080F53",
-  "background_color": "#424242",
+  "background_color": "#757CBD",
   "display": "standalone",
   "scope": "./",
   "start_url": "./index.html",
