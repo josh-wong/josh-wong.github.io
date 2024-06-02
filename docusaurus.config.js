@@ -117,7 +117,7 @@ const config = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: '/img/docusaurus.png',
+            href: '/img/favicon.png',
           },
           {
             tagName: 'link',
