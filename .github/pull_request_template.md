@@ -4,11 +4,9 @@
 
 `Add text here`
 
-## Related issues or PRs
+## Related issues and/or PRs
 
-## Related issues and/r PRs
-
-> Add a link to an existing issues and/or PRs below. Or, write `N/A` if no related issues or PRs exist
+> Add a link to any existing issues and/or PRs. Or, write `N/A` if no related issues and/or PRs exist.
 
 `Add links here`
 
