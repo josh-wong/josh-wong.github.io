@@ -32,5 +32,5 @@
 
 - [ ] I have merged and published any dependent changes in other PRs.
 - [ ] I have commented my code, particularly in hard-to-understand areas.
-- [ ] I have checked that my documentation looks as expected on a locally built version of the docs site.
+- [ ] I have checked that my changes look as looks as expected on a locally built version of the docs site.
 - [ ] My changes generate no new warnings.
