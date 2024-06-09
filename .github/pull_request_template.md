@@ -2,17 +2,21 @@
 
 > Provide a brief description about **why** this PR is necessary. Be sure to provide context.
 
-`Add your text here`
+`Add text here`
 
 ## Related issues or PRs
 
-``Add your text here, or write `N/A` if no related issues or PRs exist``
+## Related issues and/r PRs
+
+> Add a link to an existing issues and/or PRs below. Or, write `N/A` if no related issues or PRs exist
+
+`Add links here`
 
 ## Changes made
 
 > Outline the specific changes made in this pull request in the form of a bulleted list. Include relevant details, such as added features, bug fixes, code refactoring, or improvements.
 
-`Add your text here`
+`Add text here`
 
 ## Checklist
 
