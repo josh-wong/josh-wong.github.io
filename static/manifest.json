@@ -4,8 +4,8 @@
   "theme_color": "#080F53",
   "background_color": "#757CBD",
   "display": "standalone",
-  "scope": "./",
-  "start_url": "./index.html",
+  "scope": "/",
+  "start_url": "/?source=pwa",
   "related_applications": [
     {
       "platform": "webapp",
