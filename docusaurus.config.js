@@ -138,7 +138,7 @@ const config = {
           {
             tagName: 'link',
             rel: 'mask-icon',
-            href: '/img/favicon.png',
+            href: '/img/favicon.svg',
             color: 'rgb(8, 15, 83)',
           },
           {
