@@ -103,12 +103,14 @@ const config = {
           'appInstalled',
           'standalone',
           'queryString',
+          'always',
+          'mobile',
         ],
         pwaHead: [
           {
             tagName: 'link',
             rel: 'icon',
-            href: '/img/favicon.png',
+            href: 'img/favicon.png',
           },
           {
             tagName: 'link',
@@ -118,7 +120,7 @@ const config = {
           {
             tagName: 'meta',
             name: 'theme-color',
-            content: 'rgb(8, 15, 83)',
+            content: '#fff',
           },
           {
             tagName: 'meta',
@@ -128,7 +130,7 @@ const config = {
           {
             tagName: 'meta',
             name: 'apple-mobile-web-app-status-bar-style',
-            content: '#FFFFFF',
+            content: '#000',
           },
           {
             tagName: 'link',
@@ -149,7 +151,7 @@ const config = {
           {
             tagName: 'meta',
             name: 'msapplication-TileColor',
-            content: '#FFFFFF',
+            content: '#000',
           },
         ],
       },
