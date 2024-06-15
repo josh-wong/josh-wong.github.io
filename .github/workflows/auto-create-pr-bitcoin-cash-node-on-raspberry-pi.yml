@@ -5,8 +5,6 @@ on:
   push:
     branches:
       - bitcoin-cash-node-on-raspberry-pi/**
-      - passgen/**
-      - zune-software-setup/**
       
 jobs:
   create-pull-request:

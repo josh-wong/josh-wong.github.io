@@ -2,17 +2,19 @@
 
 > Provide a brief description about **why** this PR is necessary. Be sure to provide context.
 
-`Add your text here`
+`Add text here`
 
-## Related issues or PRs
+## Related issues and/or PRs
 
-``Add your text here, or write `N/A` if no related issues or PRs exist``
+> Add a link to any existing issues and/or PRs. Or, write `N/A` if no related issues and/or PRs exist.
+
+`Add links here`
 
 ## Changes made
 
 > Outline the specific changes made in this pull request in the form of a bulleted list. Include relevant details, such as added features, bug fixes, code refactoring, or improvements.
 
-`Add your text here`
+`Add text here`
 
 ## Checklist
 
@@ -28,5 +30,5 @@
 
 - [ ] I have merged and published any dependent changes in other PRs.
 - [ ] I have commented my code, particularly in hard-to-understand areas.
-- [ ] I have checked that my documentation looks as expected on a locally built version of the docs site.
+- [ ] I have checked that my changes look as looks as expected on a locally built version of the docs site.
 - [ ] My changes generate no new warnings.
