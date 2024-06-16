@@ -1,12 +1,13 @@
 import React from 'react';
 import clsx from 'clsx';
 import {translate} from '@docusaurus/Translate';
-import {usePluralForm} from '@docusaurus/theme-common';
+import {usePluralForm, ThemeClassNames} from '@docusaurus/theme-common';
 import {
   useBlogPost,
   useDateTimeFormat,
 } from '@docusaurus/theme-common/internal';
 import type {Props} from '@theme/BlogPostItem/Header/Info';
+import TagsListInline from '@theme/TagsListInline';
 
 import styles from './styles.module.css';
 
@@ -53,7 +54,11 @@ export default function BlogPostItemHeaderInfo({
   className,
 }: Props): JSX.Element {
   const {metadata} = useBlogPost();
-  const {date, readingTime} = metadata;
+  const {date, readingTime, tags} = metadata;
+
+  const tagsExists = tags.length > 0;
+
+  const renderFooter = tagsExists;
 
   const dateTimeFormat = useDateTimeFormat({
     day: 'numeric',
@@ -67,6 +72,18 @@ export default function BlogPostItemHeaderInfo({
 
   return (
     <div className={clsx(styles.container, 'margin-vert--md', className)}>
+      {tagsExists && (
+        <div
+          className={clsx(
+            'row',
+            'margin-top--sm',
+            ThemeClassNames.blog.blogFooterEditMetaRow,
+          )}>
+          <div className="col">
+            <TagsListInline tags={tags} />
+          </div>
+        </div>
+      )}
       <DateTime date={date} formattedDate={formatDate(date)} />
       {typeof readingTime !== 'undefined' && (
         <>
