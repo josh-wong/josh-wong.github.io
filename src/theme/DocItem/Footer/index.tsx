@@ -22,7 +22,8 @@ export default function DocItemFooter(): JSX.Element | null {
   return (
     <footer
       className={clsx(ThemeClassNames.docs.docFooter, 'docusaurus-mt-lg')}>
-      {canDisplayTagsRow && (
+      {/* Commented out tags since we've added them to the top of docs. (See src/theme/DocVersionBadge/index.tsx) */}
+      {/* {canDisplayTagsRow && (
         <div
           className={clsx(
             'row margin-top--sm',
@@ -32,7 +33,7 @@ export default function DocItemFooter(): JSX.Element | null {
             <TagsListInline tags={tags} />
           </div>
         </div>
-      )}
+      )} */}
       {canDisplayEditMetaRow && (
         <EditMetaRow
           className={clsx(
