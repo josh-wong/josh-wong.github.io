@@ -58,8 +58,6 @@ export default function BlogPostItemHeaderInfo({
 
   const tagsExists = tags.length > 0;
 
-  const renderFooter = tagsExists;
-
   const dateTimeFormat = useDateTimeFormat({
     day: 'numeric',
     month: 'long',
