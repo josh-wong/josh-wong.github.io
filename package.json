@@ -24,8 +24,6 @@
     "@docusaurus/preset-classic": "^3.4.0",
     "@docusaurus/theme-mermaid": "^3.4.0",
     "@mdx-js/react": "^3.0.0",
-    "@typebot.io/js": "^0.2.87",
-    "@typebot.io/react": "^0.2.87",
     "clsx": "^2.0.0",
     "docusaurus-plugin-image-zoom": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
