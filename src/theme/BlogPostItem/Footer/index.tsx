@@ -5,7 +5,7 @@ import {ThemeClassNames} from '@docusaurus/theme-common';
 import EditMetaRow from '@theme/EditMetaRow';
 import TagsListInline from '@theme/TagsListInline';
 import ReadMoreLink from '@theme/BlogPostItem/Footer/ReadMoreLink';
-import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.2/dist/web.js';
+import { Bubble } from '@typebot.io/react';
 
 export default function BlogPostItemFooter(): JSX.Element | null {
   const {metadata, isBlogPostPage} = useBlogPost();
@@ -35,14 +35,10 @@ export default function BlogPostItemFooter(): JSX.Element | null {
 
     return (
       <>
-        {
-          Typebot.initBubble({
-            typebot: 'faq-o3dwttn',
-            theme: {
-              button: { backgroundColor: 'var(--ifm-color-primary)' },
-            },
-          })
-        }
+        <Bubble
+          typebot="faq-o3dwttn"
+          theme={{ button: { backgroundColor: "#080F53" } }}
+        />
         <footer className="docusaurus-mt-lg">
           {/* {tagsExists && (
             <div
@@ -75,14 +71,10 @@ export default function BlogPostItemFooter(): JSX.Element | null {
   else {
     return (
       <>
-        {
-          Typebot.initBubble({
-            typebot: 'faq-o3dwttn',
-            theme: {
-              button: { backgroundColor: 'var(--ifm-color-primary)' },
-            },
-          })
-        }
+        <Bubble
+          typebot="faq-o3dwttn"
+          theme={{ button: { backgroundColor: "#080F53" } }}
+        />
         <footer className="row docusaurus-mt-lg">
           {/* {tagsExists && (
             <div className={clsx('col', {'col--9': truncatedPost})}>

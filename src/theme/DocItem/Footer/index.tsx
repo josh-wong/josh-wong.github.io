@@ -4,7 +4,7 @@ import {ThemeClassNames} from '@docusaurus/theme-common';
 import {useDoc} from '@docusaurus/theme-common/internal';
 import TagsListInline from '@theme/TagsListInline';
 import EditMetaRow from '@theme/EditMetaRow';
-import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.2/dist/web.js';
+import { Bubble } from '@typebot.io/react';
 
 export default function DocItemFooter(): JSX.Element | null {
   const {metadata} = useDoc();
@@ -21,15 +21,10 @@ export default function DocItemFooter(): JSX.Element | null {
 
   return (
     <>
-      {
-        Typebot.initBubble({
-          typebot: 'faq-o3dwttn',
-          theme: {
-            button: { backgroundColor: 'var(--ifm-color-primary)' },
-          },"@typebot.io/js": "0.2.87",
-    "@typebot.io/react": "0.2.87",
-        })
-      }
+      <Bubble
+        typebot="faq-o3dwttn"
+        theme={{ button: { backgroundColor: "#080F53" } }}
+      />
       <footer
         className={clsx(ThemeClassNames.docs.docFooter, 'docusaurus-mt-lg')}>
         {/* Commented out tags since we've added them to the top of docs. (See src/theme/DocVersionBadge/index.tsx) */}
