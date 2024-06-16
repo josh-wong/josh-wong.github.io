@@ -135,7 +135,7 @@ html[data-theme="dark"] .badge {
   margin-top: 0 !important;
 }
 
-.row, .margin-top--sm .theme-blog-footer-edit-meta-row {
+.theme-blog-footer-edit-meta-row {
   padding: 0.5rem 0;
 }
 
