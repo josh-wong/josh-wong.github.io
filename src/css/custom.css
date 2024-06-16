@@ -135,6 +135,10 @@ html[data-theme="dark"] .badge {
   margin-top: 0 !important;
 }
 
+.docusaurus-mt-lg {
+  margin-top: 1rem !important;
+}
+
 .theme-blog-footer-edit-meta-row {
   padding: 0.5rem 0;
 }
