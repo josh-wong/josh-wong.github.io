@@ -64,16 +64,14 @@ export default function BlogPostItemFooter(): JSX.Element | null {
   else {
     return (
       <footer className="row docusaurus-mt-lg">
-        {tagsExists && (
+        {/* {tagsExists && (
           <div className={clsx('col', {'col--9': truncatedPost})}>
             <TagsListInline tags={tags} />
           </div>
-        )}
+        )} */}
         {truncatedPost && (
           <div
-            className={clsx('col text--right', {
-              'col--3': tagsExists,
-            })}>
+            className={clsx('col text--left')}>
             <ReadMoreLink blogPostTitle={title} to={metadata.permalink} />
           </div>
         )}
