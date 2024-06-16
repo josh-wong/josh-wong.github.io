@@ -34,7 +34,7 @@ export default function BlogPostItemFooter(): JSX.Element | null {
 
     return (
       <footer className="docusaurus-mt-lg">
-        {tagsExists && (
+        {/* {tagsExists && (
           <div
             className={clsx(
               'row',
@@ -45,7 +45,7 @@ export default function BlogPostItemFooter(): JSX.Element | null {
               <TagsListInline tags={tags} />
             </div>
           </div>
-        )}
+        )} */}
         {canDisplayEditMetaRow && (
           <EditMetaRow
             className={clsx(
