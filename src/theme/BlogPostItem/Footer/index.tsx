@@ -5,7 +5,6 @@ import {ThemeClassNames} from '@docusaurus/theme-common';
 import EditMetaRow from '@theme/EditMetaRow';
 import TagsListInline from '@theme/TagsListInline';
 import ReadMoreLink from '@theme/BlogPostItem/Footer/ReadMoreLink';
-import { Bubble } from '@typebot.io/react';
 
 export default function BlogPostItemFooter(): JSX.Element | null {
   const {metadata, isBlogPostPage} = useBlogPost();
@@ -34,61 +33,49 @@ export default function BlogPostItemFooter(): JSX.Element | null {
     const canDisplayEditMetaRow = !!(editUrl || lastUpdatedAt || lastUpdatedBy);
 
     return (
-      <>
-        <Bubble
-          typebot="faq-o3dwttn"
-          theme={{ button: { backgroundColor: "#080F53" } }}
-        />
-        <footer className="docusaurus-mt-lg">
-          {/* {tagsExists && (
-            <div
-              className={clsx(
-                'row',
-                'margin-top--sm',
-                ThemeClassNames.blog.blogFooterEditMetaRow,
-              )}>
-              <div className="col">
-                <TagsListInline tags={tags} />
-              </div>
+      <footer className="docusaurus-mt-lg">
+        {/* {tagsExists && (
+          <div
+            className={clsx(
+              'row',
+              'margin-top--sm',
+              ThemeClassNames.blog.blogFooterEditMetaRow,
+            )}>
+            <div className="col">
+              <TagsListInline tags={tags} />
             </div>
-          )} */}
-          {canDisplayEditMetaRow && (
-            <EditMetaRow
-              className={clsx(
-                'margin-top--sm',
-                ThemeClassNames.blog.blogFooterEditMetaRow,
-              )}
-              editUrl={editUrl}
-              lastUpdatedAt={lastUpdatedAt}
-              lastUpdatedBy={lastUpdatedBy}
-            />
-          )}
-        </footer>
-      </>
+          </div>
+        )} */}
+        {canDisplayEditMetaRow && (
+          <EditMetaRow
+            className={clsx(
+              'margin-top--sm',
+              ThemeClassNames.blog.blogFooterEditMetaRow,
+            )}
+            editUrl={editUrl}
+            lastUpdatedAt={lastUpdatedAt}
+            lastUpdatedBy={lastUpdatedBy}
+          />
+        )}
+      </footer>
     );
   }
   // BlogPost footer - list view
   else {
     return (
-      <>
-        <Bubble
-          typebot="faq-o3dwttn"
-          theme={{ button: { backgroundColor: "#080F53" } }}
-        />
-        <footer className="row docusaurus-mt-lg">
-          {/* {tagsExists && (
-            <div className={clsx('col', {'col--9': truncatedPost})}>
-              <TagsListInline tags={tags} />
-            </div>
-          )} */}
-          {truncatedPost && (
-            <div
-              className={clsx('col text--left')}>
-              <ReadMoreLink blogPostTitle={title} to={metadata.permalink} />
-            </div>
-          )}
-        </footer>
-      </>
+      <footer className="row docusaurus-mt-lg">
+        {/* {tagsExists && (
+          <div className={clsx('col', {'col--9': truncatedPost})}>
+            <TagsListInline tags={tags} />
+          </div>
+        )} */}
+        {truncatedPost && (
+          <div
+            className={clsx('col text--left')}>
+            <ReadMoreLink blogPostTitle={title} to={metadata.permalink} />
+          </div>
+        )}
+      </footer>
     );
   }
 }
