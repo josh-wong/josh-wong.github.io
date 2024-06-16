@@ -13,8 +13,8 @@ const VotedNo = () => {
  
 export default function Feedback({ resource }) {
   const [reaction, setReaction] = useState(null);
- 
-  const isReacted = reaction === 'Yes' || reaction === 'No';
+  const isReacted = reaction === '👍' || reaction === '👎';
+  
   const _resource = String(resource).replace(/\//g, '-');
  
   const handleReaction = (params) => {
@@ -39,7 +39,7 @@ export default function Feedback({ resource }) {
             onReaction={handleReaction}
           />
         </div>
-      ) : reaction === 'No' ? (
+      ) : reaction === '👎' ? (
         <VotedNo />
       ) : (
         <VotedYes />
