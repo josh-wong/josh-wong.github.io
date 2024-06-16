@@ -4,11 +4,11 @@ import styles from './styles.module.css';
 import '@happyreact/react/theme.css';
  
 const VotedYes = () => {
-  return <span>Thanks for your feedback. We are glad you like it :)</span>;
+  return <span>Thanks for your feedback. I'm glad you found this page useful.</span>;
 };
  
 const VotedNo = () => {
-  return <span>Thanks for your feedback. We will try to improve :(</span>;
+  return <span>Thanks for your feedback. I'll try to improve the content on this page.</span>;
 };
  
 export default function Feedback({ resource }) {
