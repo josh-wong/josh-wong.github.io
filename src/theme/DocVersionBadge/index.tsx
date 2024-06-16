@@ -14,7 +14,7 @@ export default function DocVersionBadge({
   const {tags} = metadata;
 
   const versionMetadata = useDocsVersion();
-  if (versionMetadata.badge) {
+  // if (versionMetadata.badge) {
     return (
       <span
         className={clsx(
@@ -22,11 +22,12 @@ export default function DocVersionBadge({
           ThemeClassNames.docs.docVersionBadge,
           'badge badge--secondary',
         )}>
-        <Translate
+        {/* The following is commented out since my personal portfolio doesn't have versioned docs. */}
+        {/* <Translate
           id="theme.docs.versionBadge.label"
           values={{versionLabel: versionMetadata.label}}>
           {'Version: {versionLabel}'}
-        </Translate>
+        </Translate> */}
         <div
           className={clsx(
             'row margin-top--sm',
@@ -38,6 +39,6 @@ export default function DocVersionBadge({
         </div>
       </span>
     );
-  }
+  //}
   return null;
 }
