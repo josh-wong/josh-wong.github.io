@@ -39,7 +39,7 @@ const sidebars = {
     // },
     {
       type: 'category',
-      label: 'Personal samples',
+      label: 'Personal portfolio samples',
       items: [
         {
           type: 'category',

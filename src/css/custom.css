@@ -104,6 +104,45 @@ html[data-theme="dark"] .navbar-sidebar .header-github-link {
   filter: invert(0%);
 }
 
+/* Add styles for tags that appear above page titles */
+
+.badge {
+  border: none;
+  font-size: 85%;
+  line-height: 2;
+  margin: 0.25rem 0 1rem 0;
+  padding-top: 0.5rem;
+  width: -webkit-fill-available;
+}
+
+html[data-theme="dark"] .badge {
+  background-color: #090a11;
+  border: none;
+  color: white;
+  font-size: 85%;
+  line-height: 2;
+  margin: 0.25rem 0 1rem 0;
+  padding-top: 0.5rem;
+  width: -webkit-fill-available;
+}
+
+.theme-doc-footer-tags-row {
+  display: inline-flex;
+  float: inline-start;
+}
+
+.margin-top--sm, .margin-vert--sm {
+  margin-top: 0 !important;
+}
+
+.docusaurus-mt-lg {
+  margin-top: 1rem !important;
+}
+
+.theme-blog-footer-edit-meta-row {
+  padding: 0.5rem 0;
+}
+
 /* RSS icon*/
 .header-rss-link::before {
   display: block;
