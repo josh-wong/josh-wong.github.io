@@ -197,7 +197,7 @@ const config = {
             'aria-label': 'GitHub logo',
           },
           {
-            className: 'header-status-link',
+            className: 'header-better-stack-icon',
             href: 'https://status.080f53.com',
             position: 'right',
             'aria-label': 'Better Stack logo',
