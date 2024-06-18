@@ -171,7 +171,7 @@ html[data-theme="dark"] .navbar-sidebar .header-rss-link {
 }
 
 /* Better Stack status icon*/
-.header-status-link::before {
+.header-better-stack-icon::before {
   display: block;
   background-image: url("/img/better-stack-logo.svg");
   background-size: contain;
@@ -180,20 +180,19 @@ html[data-theme="dark"] .navbar-sidebar .header-rss-link {
   height: 24px;
 }
 
-.header-status-link svg {
+.header-better-stack-icon svg {
   display: none;
 }
 
-.header-status-link:hover {
+.header-better-stack-icon:hover {
   background: var(--ifm-color-emphasis-200);
   border-radius: 50px;
 }
 
-html[data-theme="dark"] .header-status-link::before {
+html[data-theme="dark"] .header-better-stack-icon::before {
   filter: invert(90%);
 }
 
-html[data-theme="dark"] .navbar-sidebar .header-status-link {
+html[data-theme="dark"] .navbar-sidebar .header-better-stack-icon {
   filter: invert(0%);
 }
-
