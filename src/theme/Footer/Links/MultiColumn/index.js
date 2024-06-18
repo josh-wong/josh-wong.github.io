@@ -16,6 +16,7 @@ function ColumnLinkItem({item}) {
 }
 function Column({column}) {
   return (
+    <>
     <div className="col footer__col">
       <div className="footer__title">{column.title}</div>
       <ul className="footer__items clean-list">
@@ -24,6 +25,8 @@ function Column({column}) {
         ))}
       </ul>
     </div>
+    &nbsp;&nbsp;<iframe src="https://status.080f53.com/badge" width="220" height="30" frameborder="0" scrolling="no"></iframe>
+    </>
   );
 }
 export default function FooterLinksMultiColumn({columns}) {
