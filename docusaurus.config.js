@@ -206,50 +206,47 @@ const config = {
       },
       footer: {
         style: 'dark',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Creative',
-        //         to: '/docs/creative',
-        //       },
-        //       {
-        //         label: 'Notes',
-        //         to: '/docs/notes',
-        //       },
-        //       {
-        //         label: 'Scripts',
-        //         to: '/docs/scripts',
-        //       },
-        //       {
-        //         label: 'Software',
-        //         to: '/docs/software',
-        //       },
-        //       {
-        //         label: 'Tutorials',
-        //         to: '/docs/tutorials',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/josh-wong',
-        //       },
-        //       {
-        //         label: 'LinkedIn',
-        //         href: 'https://www.linkedin.com/in/wongjoshua',
-        //       },
-        //       {
-        //         label: 'Twitter',
-        //         href: 'https://twitter.com/080f53',
-        //       },
-        //     ],
-        //   },
-        // ],
+        links: [
+          {
+            title: '080F53',
+            items: [
+              {
+                label: 'About',
+                to: '/about',
+              },
+            ],
+          },
+          {
+            title: 'Portfolio',
+            items: [
+              {
+                label: 'Personal samples',
+                to: '/portfolio/#personal-portfolio-samples',
+              },
+              // {
+              //   label: 'Professional portfolio samples',
+              //   to: '/portfolio/#professional-portfolio-samples',
+              // },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'GitHub',
+                href: 'https://github.com/josh-wong',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/wongjoshua',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/080f53',
+              },
+            ],
+          },
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} 080f53. <a href="https://docusaurus.io/" style="color: #757cbd">Built with Docusaurus</a>.`,
       },
       prism: {
