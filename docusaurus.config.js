@@ -202,6 +202,11 @@ const config = {
             position: 'right',
             'aria-label': 'Better Stack logo',
           },
+          {
+            type: 'html',
+            position: 'right',
+            value: '<iframe src="https://status.080f53.com/badge?theme=light" width="250" height="30" frameborder="0" scrolling="no"></iframe>'
+          },
         ],
       },
       footer: {
