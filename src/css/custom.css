@@ -196,4 +196,3 @@ html[data-theme="dark"] .header-status-link::before {
 html[data-theme="dark"] .navbar-sidebar .header-status-link {
   filter: invert(0%);
 }
-
