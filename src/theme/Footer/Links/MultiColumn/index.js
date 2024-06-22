@@ -33,7 +33,7 @@ export default function FooterLinksMultiColumn({columns}) {
       {columns.map((column, i) => (
         <Column key={i} column={column} />
       ))}
-      &nbsp;&nbsp;<iframe src="https://status.080f53.com/badge" width="200" height="30" frameborder="0" scrolling="no"></iframe>
+      &nbsp;&nbsp;<iframe src="https://status.080f53.com/badge?theme=dark" width="200" height="30" frameborder="0" scrolling="no"></iframe>
     </div>
     
     </>
