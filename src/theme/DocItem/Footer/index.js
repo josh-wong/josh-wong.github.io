@@ -4,7 +4,7 @@ import {ThemeClassNames} from '@docusaurus/theme-common';
 import {useDoc} from '@docusaurus/theme-common/internal';
 import TagsListInline from '@theme/TagsListInline';
 import EditMetaRow from '@theme/EditMetaRow';
-import Feedback from '../../../components/Feedback';
+import Feedback from '/src/components/Feedback';
 
 export default function DocItemFooter(props) {
   const {metadata} = useDoc();
