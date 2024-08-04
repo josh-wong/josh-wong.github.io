@@ -155,13 +155,17 @@ const config = {
           },
         ],
       },
-    ]
+    ],
   ],
   
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
+
+  themes: [
+    '@docusaurus/theme-mermaid',
+    'docusaurus-theme-github-codeblock'
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -314,6 +318,11 @@ const config = {
         insights: true,
   
         //... other Algolia params
+      },
+      // GitHub code block theme configuration
+      codeblock: {
+        showGithubLink: true,
+        githubLinkLabel: 'View on GitHub',
       },
     }),
 };
