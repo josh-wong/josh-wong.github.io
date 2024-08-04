@@ -4,7 +4,7 @@ authors: josh-wong
 tags: [gpt, large language models, open source, software engineering]
 ---
 
-# Updating Go-ChatGPT with the Latest LLMs from OpenAI
+# Updating Go-ChatGPT with the latest LLMs from OpenAI
 
 I recently updated a GoLang client that interfaces with OpenAI's ChatGPT API. As OpenAI releases new models and deprecates older models, it's important to keep the code up-to-date while reducing maintenance. This post describes the changes I made to the original Go-ChatGPT client so that my chatbot application can use the most up-to-date versions of ChatGPT.
 
@@ -14,8 +14,8 @@ I recently updated a GoLang client that interfaces with OpenAI's ChatGPT API. As
 
 I wanted to take advantage of the recently released models, but the original Go-ChatGPT client, [ayush6624/go-chatgpt](https://github.com/ayush6624/go-chatgpt), hadn't been updated in more than a year. Because of this:
 
-- Recently release GPT-4o, GPT-4o Mini, and GPT-4-Turbo were unavailable as models to choose from in Go-based applications.
-- Date-versioned models from GPT-3.5 Turbo and GPT-4 that OpenAI had deprecated existed in the code.
+- Recently released GPT-4o, GPT-4o Mini, and GPT-4-Turbo weren't listed in the client, so they couldn't be used in Go-based applications.
+- Date-versioned models from GPT-3.5 Turbo and GPT-4 that OpenAI had deprecated existed in the client.
 
 To implement my changes, I decided to fork the original repository to [josh-wong/go-chatgpt](https://github.com/josh-wong/go-chatgpt) and release a new version to use with my chatbot application.
 
@@ -24,27 +24,27 @@ To implement my changes, I decided to fork the original repository to [josh-wong
 To simplify the list of available models, I decided to add the [foundation models for GPT-4o, GPT-4o Mini, and GPT-4-Turbo as constants](https://github.com/josh-wong/go-chatgpt/blob/df291cd0fcec1b7b6b203de73246aac10c4912f6/chat.go#L14) rather than date-versioned models. In addition, to reduce maintenance, I removed the deprecated models.
 
 ```go reference
-https://github.com/josh-wong/go-chatgpt/blob/main/chat.go#L14-L22
+https://github.com/josh-wong/go-chatgpt/blob/df291cd0fcec1b7b6b203de73246aac10c4912f6/chat.go#L14-L22
 ```
 
 :::note
 
-The foundation models default to using the latest stable date-versioned model.
+The ChatGPT foundation models default to using the latest, stable date-versioned model.
 
 :::
 
 I also needed to update the [`allowedModels`](https://github.com/josh-wong/go-chatgpt/blob/df291cd0fcec1b7b6b203de73246aac10c4912f6/chat.go#L149) to match the models that I had added as constants.
 
 ```go reference
-https://github.com/josh-wong/go-chatgpt/blob/main/chat.go#L149-L151
+https://github.com/josh-wong/go-chatgpt/blob/df291cd0fcec1b7b6b203de73246aac10c4912f6/chat.go#L149-L151
 ```
 
-## Testing and validation
+## Testing and validating the new models
 
-After making these changes, I installed the new version, [v0.4.1](https://github.com/josh-wong/go-chatgpt/releases/tag/v0.4.1), in my local environment. Since I'll be moving my version moving forward, I needed to update the Go files in my chatbot application to refer to my repository and version. 
+After making these changes, I installed the new version, [v0.4.1](https://github.com/josh-wong/go-chatgpt/releases/tag/v0.4.1), in my local environment. Since I'll be using my version of the Go-ChatGPT client moving forward, I needed to update the Go files in my chatbot application to refer to my repository and version.
 
-Then, I tested the application with this new version and confirmed that the application still worked as expected with the new and updated model references.
+Then, I tested my application with this new version and confirmed that I could still query the models and receive responses.
 
 ## Wrap-up
 
-By updating the Go-ChatGPT client, I can now use the latest releases of each ChatGPT model by specifying the foundation model and reduce date-versioned models that have a short life cycle. This approach somewhat future-proofs the code, since I won't need to update it every time OpenAI releases or deprecates a date-versioned model.
+By updating the Go-ChatGPT client, I can now use the latest releases of each ChatGPT model by specifying the foundation model and removing date-versioned models that have a short life cycle. This approach somewhat future-proofs the code, since I won't need to update it every time OpenAI releases or deprecates a date-versioned model.
