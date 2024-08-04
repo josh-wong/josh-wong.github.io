@@ -27,17 +27,17 @@
   --ifm-color-primary-lighter: #757cbd;
   --ifm-color-primary-lightest: #757cbd;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Use different site logo for dark mode */
+  .navbar .navbar__logo {
+    content: url("/img/site-logo-dark.png");
+  }
 }
 
 p {
   a {
     text-decoration: underline;
   }
-}
-
-/* Use different site logo for dark mode */
-html[data-theme='dark'] .navbar .navbar__logo {
-  content: url("/img/site-logo-dark.png");
 }
 
 /* Make doc titles a bit smaller. */
