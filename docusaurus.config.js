@@ -177,6 +177,7 @@ const config = {
         logo: {
           alt: '080f53 logo',
           src: 'img/site-logo.png',
+          srcDark: 'img/site-logo-dark.png',
         },
         items: [
           // {
