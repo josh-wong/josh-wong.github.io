@@ -2,10 +2,8 @@ import React from 'react';
 import clsx from 'clsx';
 import {translate} from '@docusaurus/Translate';
 import {usePluralForm, ThemeClassNames} from '@docusaurus/theme-common';
-import {
-  useBlogPost,
-  useDateTimeFormat,
-} from '@docusaurus/theme-common/internal';
+import {useDateTimeFormat} from '@docusaurus/theme-common/internal';
+import {useBlogPost} from '@docusaurus/plugin-content-blog/client';
 import type {Props} from '@theme/BlogPostItem/Header/Info';
 import TagsListInline from '@theme/TagsListInline';
 
@@ -54,8 +52,9 @@ export default function BlogPostItemHeaderInfo({
   className,
 }: Props): JSX.Element {
   const {metadata} = useBlogPost();
+  
+  {/* The following two lines were changed to show tags in the header instead of in the footer. */} 
   const {date, readingTime, tags} = metadata;
-
   const tagsExists = tags.length > 0;
 
   const dateTimeFormat = useDateTimeFormat({
@@ -70,6 +69,7 @@ export default function BlogPostItemHeaderInfo({
 
   return (
     <div className={clsx(styles.container, 'margin-vert--md', className)}>
+      {/* The following was added to show tags in the header instead of in the footer. */}
       {tagsExists && (
         <div
           className={clsx(
