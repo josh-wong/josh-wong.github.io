@@ -4,7 +4,7 @@ import FooterLinks from '@theme/Footer/Links';
 import FooterLogo from '@theme/Footer/Logo';
 import FooterCopyright from '@theme/Footer/Copyright';
 import FooterLayout from '@theme/Footer/Layout';
-import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.3/dist/web.js';
+import Typebot from '/src/js/@typebot.io/web.js';
 
 function Footer() {
   const {footer} = useThemeConfig();
