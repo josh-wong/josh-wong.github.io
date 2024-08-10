@@ -1,24 +1,18 @@
 ## Description
 
-> Provide a brief description about **why** this PR is necessary. Be sure to provide context.
-
-`Add text here`
+> Replace this text with a brief description about **why** this PR is necessary. Be sure to provide context.
 
 ## Related issues and/or PRs
 
-> Add a link to any existing issues and/or PRs. Or, write `N/A` if no related issues and/or PRs exist.
-
-`Add links here`
+> Replace this text with links to any existing issues and/or PRs. Or, write `N/A` if no related issues and/or PRs exist.
 
 ## Changes made
 
-> Outline the specific changes made in this pull request in the form of a bulleted list. Include relevant details, such as added features, bug fixes, code refactoring, or improvements.
-
-`Add text here`
+> Replace this text with an outline the specific changes made in this pull request in the form of a bulleted list. Include relevant details, such as added features, bug fixes, code refactoring, or improvements.
 
 ## Checklist
 
-> The following is a best-effort checklist. If any items in this checklist are not applicable to this PR, add `N/A` after each item.
+The following is a best-effort checklist. If any items in this checklist aren't applicable to this PR, add `N/A` after each item.
 
 ### Documentation
 
