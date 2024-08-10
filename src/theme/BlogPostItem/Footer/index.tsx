@@ -1,6 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
-import {useBlogPost} from '@docusaurus/theme-common/internal';
+import {useBlogPost} from '@docusaurus/plugin-content-blog/client';
 import {ThemeClassNames} from '@docusaurus/theme-common';
 import EditMetaRow from '@theme/EditMetaRow';
 import TagsListInline from '@theme/TagsListInline';
@@ -34,6 +34,7 @@ export default function BlogPostItemFooter(): JSX.Element | null {
 
     return (
       <footer className="docusaurus-mt-lg">
+        {/* The following is commented out to not show tags in the footer since we want them to show in the header instead. */}
         {/* {tagsExists && (
           <div
             className={clsx(
@@ -64,6 +65,7 @@ export default function BlogPostItemFooter(): JSX.Element | null {
   else {
     return (
       <footer className="row docusaurus-mt-lg">
+        {/* The following is commented out to not show tags in the footer since we want them to show in the header instead. */}        
         {/* {tagsExists && (
           <div className={clsx('col', {'col--9': truncatedPost})}>
             <TagsListInline tags={tags} />
@@ -72,6 +74,10 @@ export default function BlogPostItemFooter(): JSX.Element | null {
         {truncatedPost && (
           <div
             className={clsx('col text--left')}>
+            {/* The above line was previously the following but since we're hiding tags in the footer, we need to adjust it. */}
+            {/* className={clsx('col text--right', {
+              'col--3': tagsExists,
+            })}> */}
             <ReadMoreLink blogPostTitle={title} to={metadata.permalink} />
           </div>
         )}

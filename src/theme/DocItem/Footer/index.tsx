@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import {ThemeClassNames} from '@docusaurus/theme-common';
-import {useDoc} from '@docusaurus/theme-common/internal';
+import {useDoc} from '@docusaurus/plugin-content-docs/client';
 import TagsListInline from '@theme/TagsListInline';
 
 import EditMetaRow from '@theme/EditMetaRow';
@@ -22,7 +22,7 @@ export default function DocItemFooter(): JSX.Element | null {
   return (
     <footer
       className={clsx(ThemeClassNames.docs.docFooter, 'docusaurus-mt-lg')}>
-      {/* Commented out tags since we've added them to the top of docs. (See src/theme/DocVersionBadge/index.tsx) */}
+      {/* The following is commented out to not show tags in the footer since we want them to show in the header instead. */} 
       {/* {canDisplayTagsRow && (
         <div
           className={clsx(
