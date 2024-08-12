@@ -54,7 +54,7 @@ function Card({ name, /*image,*/ url, /*description*/ }: Props) {
         <div className="card__footer">
           <div className="button-group button-group--block">
             <Link className="button button--secondary" to={url.page}>
-              <Translate id="button.readMore">Download</Translate>
+              <Translate id="button.download"></Translate>
             </Link>
           </div>
         </div>
