@@ -1,0 +1,3 @@
+[build]
+  base = "/"
+  ignore = "git diff --quiet main docs/"
