@@ -178,7 +178,7 @@ html[data-theme="dark"] .navbar-sidebar .header-rss-link {
   filter: invert(0%);
 }
 
-/* Better Stack status icon*/
+/* Better Stack status icon */
 .header-better-stack-icon::before {
   display: block;
   background-image: url("/img/better-stack-logo.svg");
@@ -203,4 +203,9 @@ html[data-theme="dark"] .header-better-stack-icon::before {
 
 html[data-theme="dark"] .navbar-sidebar .header-better-stack-icon {
   filter: invert(0%);
+}
+
+/* Mermaid quadrant label text color */
+html[data-theme="dark"] g[class^='label'] text {
+  fill: #e3e3e3;
 }
