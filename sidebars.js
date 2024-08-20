@@ -84,17 +84,6 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'passGen🔐',
-          items: [
-            'personal/passgen/overview',
-            'personal/passgen/generating-passwords',
-            'personal/passgen/updating-the-app',
-            'personal/passgen/uninstalling',
-            'personal/passgen/references',
-          ],
-        },
-        {
-          type: 'category',
           label: 'Microsoft Zune device and software setup🎵',
           items: [
             'personal/zune-software-setup/overview',
@@ -104,6 +93,17 @@ const sidebars = {
             'personal/zune-software-setup/adding-apps-and-games',
             'personal/zune-software-setup/conclusion',
             'personal/zune-software-setup/references',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'passGen🔐',
+          items: [
+            'personal/passgen/overview',
+            'personal/passgen/generating-passwords',
+            'personal/passgen/updating-the-app',
+            'personal/passgen/uninstalling',
+            'personal/passgen/references',
           ],
         },
         {
