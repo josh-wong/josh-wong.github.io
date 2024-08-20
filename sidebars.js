@@ -43,6 +43,17 @@ const sidebars = {
       items: [
         {
           type: 'category',
+          label: 'Baird Brewing beer quadrants',
+          items: [
+            'personal/baird-beer-quadrants/overview',
+            'personal/baird-beer-quadrants/beers-year-round',
+            'personal/baird-beer-quadrants/beers-monthly-style-series',
+            'personal/baird-beer-quadrants/beers-fruitful-life-series',
+            'personal/baird-beer-quadrants/beers-taproom-exclusive',
+          ],
+        },
+        {
+          type: 'category',
           label: 'Bitcoin Cash Node on Raspberry Pi',
           items: [
             'personal/bitcoin-cash-node-on-raspberry-pi/overview',
