@@ -65,7 +65,19 @@ const CardsProfessionalProjects = [
 
 const CardsPersonalProjects = [
   {
-    name: 'Bitcoin Cash Node on a Raspberry Pi',
+    name: 'Baird Brewing beer profile quadrants🍻',
+    // image: '<LINK_TO>.png',
+    url: {
+      page: 'personal/baird-beer-quadrants/overview',
+    },
+    description: (
+      <Translate id="personal.bairdBeerQuadrants.description">
+        Baird Brewing beer flavor profiles in Mermaid-based quadrants
+      </Translate>
+    ),
+  },
+  {
+    name: 'Bitcoin Cash Node on a Raspberry Pi🪙',
     // image: '<LINK_TO>.png',
     url: {
       page: 'personal/bitcoin-cash-node-on-raspberry-pi/overview',
@@ -77,7 +89,7 @@ const CardsPersonalProjects = [
     ),
   },
   {
-    name: 'Microsoft Zune device and software setup',
+    name: 'Microsoft Zune device and software setup🎵',
     // image: '<LINK_TO>.png',
     url: {
       page: 'personal/zune-software-setup/overview',
@@ -89,7 +101,7 @@ const CardsPersonalProjects = [
     ),
   },
   {
-    name: 'passGen',
+    name: 'passGen🔐',
     // image: '<LINK_TO>.png',
     url: {
       page: 'personal/passgen/overview',
@@ -101,7 +113,7 @@ const CardsPersonalProjects = [
     ),
   },
   {
-    name: 'Signal sticker pack - "Why Bitcoin Cash?"',
+    name: 'Signal sticker pack - "Why Bitcoin Cash?"🎁',
     // image: '<LINK_TO>.png',
     url: {
       page: 'https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d',
