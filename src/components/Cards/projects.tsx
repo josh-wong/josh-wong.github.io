@@ -65,6 +65,18 @@ const CardsProfessionalProjects = [
 
 const CardsPersonalProjects = [
   {
+    name: 'Baird beer profile quadrants',
+    // image: '<LINK_TO>.png',
+    url: {
+      page: 'personal/baird-beer-quadrants/overview',
+    },
+    description: (
+      <Translate id="personal.bairdBeerQuadrants.description">
+        Baird beer flavor profiles in Mermaid-based quadrants
+      </Translate>
+    ),
+  },
+  {
     name: 'Bitcoin Cash Node on a Raspberry Pi',
     // image: '<LINK_TO>.png',
     url: {
