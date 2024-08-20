@@ -43,7 +43,7 @@ const sidebars = {
       items: [
         {
           type: 'category',
-          label: 'Baird Brewing beer quadrants',
+          label: 'Baird beer profile quadrants🍻',
           items: [
             'personal/baird-beer-quadrants/overview',
             'personal/baird-beer-quadrants/beers-year-round',
@@ -54,7 +54,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Bitcoin Cash Node on Raspberry Pi',
+          label: 'Bitcoin Cash Node on Raspberry Pi🪙',
           items: [
             'personal/bitcoin-cash-node-on-raspberry-pi/overview',
             {
@@ -84,18 +84,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'passGen',
-          items: [
-            'personal/passgen/overview',
-            'personal/passgen/generating-passwords',
-            'personal/passgen/updating-the-app',
-            'personal/passgen/uninstalling',
-            'personal/passgen/references',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Microsoft Zune device and software setup',
+          label: 'Microsoft Zune device and software setup🎵',
           items: [
             'personal/zune-software-setup/overview',
             'personal/zune-software-setup/getting-started',
@@ -107,8 +96,19 @@ const sidebars = {
           ],
         },
         {
+          type: 'category',
+          label: 'passGen🔐',
+          items: [
+            'personal/passgen/overview',
+            'personal/passgen/generating-passwords',
+            'personal/passgen/updating-the-app',
+            'personal/passgen/uninstalling',
+            'personal/passgen/references',
+          ],
+        },
+        {
           type: 'link',
-          label: 'Signal sticker pack - "Why Bitcoin Cash?"',
+          label: 'Signal sticker pack - "Why Bitcoin Cash?"🎁',
           href: 'https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d',
         },
       ],
