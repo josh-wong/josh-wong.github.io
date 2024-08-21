@@ -192,8 +192,40 @@ const config = {
           //   label: 'Tutorial',
           // },
           {to: '/', label: 'Blog', position: 'left'},
-          {to: 'portfolio', label: 'Portfolio', position: 'left'},
           {to: 'about', label: 'About', position: 'left'},
+          {
+            type: 'dropdown',
+            label: 'Personal portfolio',
+            position: 'left',
+            to: 'portfolio/personal',
+            items: [
+              {
+                type: 'doc',
+                label: 'Baird beer profile quadrants🍻',
+                docId: 'baird-beer-quadrants/overview',
+              },
+              {
+                type: 'doc',
+                label: 'Bitcoin Cash Node on Raspberry Pi🪙',
+                docId: 'bitcoin-cash-node-on-raspberry-pi/overview',
+              },
+              {
+                type: 'doc',
+                label: 'Microsoft Zune device and software setup🎵',
+                docId: 'zune-software-setup/overview',
+              },
+              {
+                label: 'Signal sticker pack - "Why Bitcoin Cash?"🎁',
+                href: 'https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d',
+              },
+              {
+                type: 'doc',
+                label: 'passGen🔐',
+                docId: 'passgen/overview',
+              },
+              
+            ],
+          },
           {
             className: 'header-rss-link',
             href: 'https://www.080f53.com/rss.xml',
