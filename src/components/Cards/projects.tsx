@@ -68,7 +68,7 @@ const CardsPersonalProjects = [
     name: 'Baird beer profile quadrants🍻',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'personal/baird-beer-quadrants/overview',
+      page: '../../baird-beer-quadrants/overview',
     },
     description: (
       <Translate id="personal.bairdBeerQuadrants.description">
@@ -80,7 +80,7 @@ const CardsPersonalProjects = [
     name: 'Bitcoin Cash Node on a Raspberry Pi🪙',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'personal/bitcoin-cash-node-on-raspberry-pi/overview',
+      page: '../../bitcoin-cash-node-on-raspberry-pi/overview',
     },
     description: (
       <Translate id="personal.raspiBch.description">
@@ -92,7 +92,7 @@ const CardsPersonalProjects = [
     name: 'Microsoft Zune device and software setup🎵',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'personal/zune-software-setup/overview',
+      page: '../../zune-software-setup/overview',
     },
     description: (
       <Translate id="personal.zuneSetup.description">
@@ -104,7 +104,7 @@ const CardsPersonalProjects = [
     name: 'passGen🔐',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'personal/passgen/overview',
+      page: '../../passgen/overview',
     },
     description: (
       <Translate id="personal.passgen.description">

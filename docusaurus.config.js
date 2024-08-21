@@ -56,8 +56,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          path: 'docs/portfolio',
-          routeBasePath: 'portfolio',
+          path: 'docs',
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
         //   // Please change this to your repo.
         //   // Remove this to remove the "edit this page" links.
@@ -192,8 +192,8 @@ const config = {
           //   label: 'Tutorial',
           // },
           {to: '/', label: 'Blog', position: 'left'},
-          {to: 'portfolio/', label: 'Portfolio', position: 'left'},
-          {to: 'about/', label: 'About', position: 'left'},
+          {to: 'portfolio', label: 'Portfolio', position: 'left'},
+          {to: 'about', label: 'About', position: 'left'},
           {
             className: 'header-rss-link',
             href: 'https://www.080f53.com/rss.xml',
