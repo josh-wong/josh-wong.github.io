@@ -201,22 +201,22 @@ const config = {
               {
                 type: 'doc',
                 label: 'Baird beer profile quadrants🍻',
-                docId: 'baird-beer-quadrants/overview',
+                docId: 'baird-beer-quadrants/index',
               },
               {
                 type: 'doc',
                 label: 'Bitcoin Cash Node on Raspberry Pi🪙',
-                docId: 'bitcoin-cash-node-on-raspberry-pi/overview',
+                docId: 'bitcoin-cash-node-on-raspberry-pi/index',
               },
               {
                 type: 'doc',
                 label: 'Microsoft Zune device and software setup🎵',
-                docId: 'zune-software-setup/overview',
+                docId: 'zune-software-setup/index',
               },
               {
                 type: 'doc',
                 label: 'passGen🔐',
-                docId: 'passgen/overview',
+                docId: 'passgen/index',
               },
               {
                 label: 'Signal sticker pack - "Why Bitcoin Cash?"🎁',

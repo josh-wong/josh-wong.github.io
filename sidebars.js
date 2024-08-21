@@ -30,17 +30,25 @@ const sidebars = {
   */
 
   bairdBeerQuadrants: [
-    'baird-beer-quadrants/overview',
+    {
+      type: 'doc',
+      label: 'About the Baird Brewing beer profile quadrants',
+      id: 'baird-beer-quadrants/index',
+    },
     'baird-beer-quadrants/beers-year-round',
     'baird-beer-quadrants/beers-monthly-style-series',
     'baird-beer-quadrants/beers-fruitful-life-series',
     'baird-beer-quadrants/beers-taproom-exclusive',
   ],
   bitcoinCashNodeOnRaspberryPi: [
-    'bitcoin-cash-node-on-raspberry-pi/overview',
+    {
+      type: 'doc',
+      label: 'About Bitcoin Cash Node on a Raspberry Pi 4',
+      id: 'bitcoin-cash-node-on-raspberry-pi/index',
+    },
     {
       'Install and set up': [
-        'bitcoin-cash-node-on-raspberry-pi/installation-and-setup/overview',
+        'bitcoin-cash-node-on-raspberry-pi/installation-and-setup/index',
         'bitcoin-cash-node-on-raspberry-pi/installation-and-setup/preparation',
         'bitcoin-cash-node-on-raspberry-pi/installation-and-setup/bchn-setup',
         'bitcoin-cash-node-on-raspberry-pi/installation-and-setup/wallet-setup',
@@ -48,7 +56,7 @@ const sidebars = {
         'bitcoin-cash-node-on-raspberry-pi/installation-and-setup/references',
       ],
       'Upgrade': [
-        'bitcoin-cash-node-on-raspberry-pi/upgrade/overview',
+        'bitcoin-cash-node-on-raspberry-pi/upgrade/index',
         'bitcoin-cash-node-on-raspberry-pi/upgrade/preparation',
         'bitcoin-cash-node-on-raspberry-pi/upgrade/bchn-upgrade',
         'bitcoin-cash-node-on-raspberry-pi/upgrade/cleanup',
@@ -57,7 +65,11 @@ const sidebars = {
     },
   ],
   zuneSoftwareSetup: [
-    'zune-software-setup/overview',
+    {
+      type: 'doc',
+      label: 'About the Microsoft Zune device and Zune software setup guide',
+      id: 'zune-software-setup/index',
+    },
     'zune-software-setup/getting-started',
     'zune-software-setup/installing-the-zune-software',
     'zune-software-setup/connecting-with-the-zune-software',
@@ -66,7 +78,11 @@ const sidebars = {
     'zune-software-setup/references',
   ],
   passgen: [
-    'passgen/overview',
+    {
+      type: 'doc',
+      label: 'About passGen',
+      id: 'passgen/index',
+    },
     'passgen/generating-passwords',
     'passgen/updating-the-app',
     'passgen/uninstalling',
