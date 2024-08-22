@@ -36,6 +36,7 @@ const sidebars = {
       id: 'baird-beer-quadrants/index',
     },
     'baird-beer-quadrants/beers-year-round',
+    'baird-beer-quadrants/beers-four-seasons-series',
     'baird-beer-quadrants/beers-monthly-style-series',
     'baird-beer-quadrants/beers-fruitful-life-series',
     'baird-beer-quadrants/beers-taproom-exclusive',
