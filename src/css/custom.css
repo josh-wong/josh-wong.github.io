@@ -55,7 +55,6 @@ p a {
 /* Announcement Bar */
 div[class^='announcementBar'] {
   font-size: 1.1rem;
-  padding: 20px 0;
 }
 
 /* Home page cards */
