@@ -1,0 +1,21 @@
+name: PR task completion check
+
+on:
+  pull_request:
+    types: [edited, opened, synchronize, reopened]
+
+jobs:
+  merge-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify checklist completion
+        run: |
+          checklist_items=$(jq '.checklist_items[] | select(.completed)' checklist.json)
+          if [ ${#checklist_items[@]} -ne 0 ]; then
+            echo "Checklist items incomplete: ${checklist_items[@]}"
+            exit 1
+          fi
+      - name: Merge
+        if: success()
+        run: git merge $GITHUB_SHA
