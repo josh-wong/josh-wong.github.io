@@ -1,4 +1,4 @@
-name: PR task completion check
+name: Check checklist in PR
 
 on:
   pull_request:
@@ -16,10 +16,21 @@ jobs:
         run: |
           CHECKLIST=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }} | \
-            jq -r '.body' | grep -o '\[.\]' | tr -d '[]')
-          if echo "$CHECKLIST" | grep -q ' '; then
-            echo "Not all items in the checklist have been checked❌"
+            jq -r '.body' | grep -o '\[.\] .*' | tr -d '[]')
+          UNCHECKED_ITEMS=$(echo "$CHECKLIST" | grep -v 'x')
+          if [ -n "$UNCHECKED_ITEMS" ]; then
+            echo "Not all items in the checklist have been checked❌."
+            echo "$UNCHECKED_ITEMS"
             exit 1
           else
             echo "All items in the checklist have been checked✅"
           fi
+
+      - name: Comment on PR if checklist is not fully checked
+        if: failure()
+        run: |
+          COMMENT_BODY="The following checklist items are not checked:\n\n$UNCHECKED_ITEMS"
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -X POST \
+            -d "{\"body\": \"$COMMENT_BODY\"}" \
+            https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments
