@@ -1,0 +1,25 @@
+name: PR task completion check
+
+on:
+  pull_request:
+    types: [opened, edited, reopened]
+
+jobs:
+  checklist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Check PR checklist
+        id: checklist
+        run: |
+          CHECKLIST=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }} | \
+            jq -r '.body' | grep -o '\[.\]' | tr -d '[]')
+          if echo "$CHECKLIST" | grep -q ' '; then
+            echo "Not all items in the checklist have been checked❌"
+            exit 1
+          else
+            echo "All items in the checklist have been checked✅"
+          fi
