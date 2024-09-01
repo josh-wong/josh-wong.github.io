@@ -26,7 +26,9 @@ jobs:
           echo "all_checked=true" >> $GITHUB_ENV
         else
           echo "all_checked=false" >> $GITHUB_ENV
-          echo "unchecked_items=$UNCHECKED_ITEMS" >> $GITHUB_ENV
+          echo "unchecked_items<<EOF" >> $GITHUB_ENV
+          echo "$UNCHECKED_ITEMS" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
         fi
 
     - name: Debug PR body
@@ -35,7 +37,7 @@ jobs:
           https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }} | jq -r '.body'
 
     - name: Leave a comment
-      if: steps.check_checklist.outputs.all_checked == 'true'
+      if: env.all_checked == 'true'
       uses: actions/github-script@v6
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -48,7 +50,7 @@ jobs:
           })
 
     - name: Leave a comment with unchecked items
-      if: steps.check_checklist.outputs.all_checked == 'false'
+      if: env.all_checked == 'false'
       uses: actions/github-script@v6
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
