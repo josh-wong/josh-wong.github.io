@@ -25,7 +25,7 @@ jobs:
       id: check_checklist
       run: |
         DESCRIPTION=$(jq -r .pull_request.body < $GITHUB_EVENT_PATH)
-        UNCHECKED_ITEMS=$(echo "$DESCRIPTION" | grep -o '\[ \]' || true)
+        UNCHECKED_ITEMS=$(echo "$DESCRIPTION" | grep -o '.*\[ \].*' || true)
         if [ -z "$UNCHECKED_ITEMS" ]; then
           echo "all_checked=true" >> $GITHUB_ENV
         else
