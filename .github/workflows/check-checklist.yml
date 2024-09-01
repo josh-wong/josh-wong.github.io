@@ -5,62 +5,51 @@ on:
     types: [opened, edited, reopened, synchronize]
 
 jobs:
-  checklist:
+  check-checklist:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      # Wait 30 seconds so that the job doesn't run immediately when checking off multiple items in the checklist.
-      # - name: Wait for 30 seconds
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    # Wait 15 seconds so that the job doesn't run immediately when checking off multiple items in the checklist.
+      # - name: Wait for 15 seconds
       #   run: |
-      #     sleep 30
+      #     sleep 15
 
-      - name: Debug PR Body
-        run: |
-          curl -s -H "Authorization: token ${{ secrets.PR_CHECKLIST_CHECK }}" \
-            https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }} | jq -r '.body'
+    - name: Check checklist in PR description
+      id: check_checklist
+      run: |
+        DESCRIPTION=$(jq -r .pull_request.body < $GITHUB_EVENT_PATH)
+        UNCHECKED_ITEMS=$(echo "$DESCRIPTION" | grep -o '\[ \]' || true)
+        if [ -z "$UNCHECKED_ITEMS" ]; then
+          echo "all_checked=true" >> $GITHUB_ENV
+        else
+          echo "all_checked=false" >> $GITHUB_ENV
+          echo "unchecked_items=$UNCHECKED_ITEMS" >> $GITHUB_ENV
+        fi
 
-      - name: Check PR checklist
-        id: checklist
-        run: |
-          CHECKLIST=$(curl -s -H "Authorization: token ${{ secrets.PR_CHECKLIST_CHECK }}" \
-            https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }} | \
-            jq -r '.body' | grep -o '\[.\] .*' | tr -d '[]')
-          echo "Checklist items:"
-          echo "$CHECKLIST"
-          UNCHECKED_ITEMS=$(echo "$CHECKLIST" | grep -v 'x')
-          if [ -n "$UNCHECKED_ITEMS" ]; then
-            echo "Not all items in the checklist have been checked❌"
-            echo "$UNCHECKED_ITEMS"
-            exit 1
-          else
-            echo "All items in the checklist have been checked✅"
-          fi
+    - name: Leave a comment
+      if: steps.check_checklist.outputs.all_checked == 'true'
+      uses: actions/github-script@v6
+      with:
+        script: |
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: "All items in the checklist have been checked🎉"
+          })
 
-      - name: Comment on PR if checklist is fully checked
-        if: success()
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const commentBody = "All items in the checklist have been checked🎉";
-            github.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: commentBody
-            });
-
-      - name: Get PR assignee for commenting on PR if checklist is not fully checked
-        id: assignee
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const assignee = '${{ steps.assignee.outputs.result }}';
-            const commentBody = `@${assignee} The following checklist items are not checked:\n\n${{ steps.checklist.outputs.UNCHECKED_ITEMS }}`;
-            github.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: commentBody
-            });
+    - name: Leave a comment with unchecked items
+      if: steps.check_checklist.outputs.all_checked == 'false'
+      uses: actions/github-script@v6
+      with:
+        script: |
+          uncheckedItems = process.env.unchecked_items.split('\n').map(item => `- ${item}`).join('\n');
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `Not all items in the checklist have been checked👀\n\nPlease review the following unchecked items in the PR description:\n${uncheckedItems}`
+          })
