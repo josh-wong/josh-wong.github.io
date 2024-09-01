@@ -11,6 +11,15 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v2
 
+
+      # Wait 15 seconds so that the job doesn't run immediately when checking off multiple items in the checklist.
+      - name: Wait for 15 seconds
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const exec = require('child_process').exec;
+            exec('sleep 15');
+
       - name: Check PR checklist
         id: checklist
         run: |
