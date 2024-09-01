@@ -15,7 +15,7 @@ jobs:
       - name: Wait for 30 seconds
         run: |
           sleep 30
-            
+
       - name: Check PR checklist
         id: checklist
         run: |
@@ -24,44 +24,41 @@ jobs:
             jq -r '.body' | grep -o '\[.\] .*' | tr -d '[]')
           UNCHECKED_ITEMS=$(echo "$CHECKLIST" | grep -v 'x')
           if [ -n "$UNCHECKED_ITEMS" ]; then
-            echo "Not all items in the checklist have been checked❌"
+            echo "Not all items in the checklist have been checked❌."
             echo "$UNCHECKED_ITEMS"
             exit 1
           else
             echo "All items in the checklist have been checked✅"
           fi
 
-      - name: Get Assignee
-        id: assignee
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const assignee = context.payload.pull_request.assignee ? context.payload.pull_request.assignee.login : null;
-            return assignee;
-
       - name: Comment on PR if checklist is fully checked
         if: success()
+        run: |
+          COMMENT_BODY="All items in the checklist have been checked🎉"
+          curl -s -H "Authorization: token ${{ secrets.PR_CHECKLIST_CHECK }}" \
+            -X POST \
+            -d "{\"body\": \"$COMMENT_BODY\"}" \
+            https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments
+
+      - name: Get PR assignee for commenting on PR if checklist is not fully checked
+        id: assign
         uses: actions/github-script@v6
         with:
           script: |
-            const commentBody = "All items in the checklist have been checked🎉";
-            github.issues.createComment({
+            const assignee = context.payload.pull_request.user.login;
+            github.issues.addAssignees({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: commentBody
+              assignees: [assignee]
             });
+            return assignee;
 
       - name: Comment on PR if checklist is not fully checked
         if: failure()
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const assignee = '${{ steps.assignee.outputs.result }}';
-            const commentBody = `@${assignee} Not all items in the checklist have been checked👀\n\nPlease review the unchecked items in the PR description.`;
-            github.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: commentBody
-            });
+        run: |
+          COMMENT_BODY="@'${{ steps.assign.outputs.result }}' Not all items in the checklist have been checked👀\n\nPlease review the unchecked items in the PR description."
+          curl -s -H "Authorization: token ${{ secrets.PR_CHECKLIST_CHECK }}" \
+            -X POST \
+            -d "{\"body\": \"$COMMENT_BODY\"}" \
+            https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments
