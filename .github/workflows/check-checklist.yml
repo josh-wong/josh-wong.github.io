@@ -21,18 +21,41 @@ jobs:
     #   run: |
     #     sleep 15
 
+    # This step is necessary because we don't want the workflow to run if we edit text in the PR description outside of the checklist items.
+    - name: Get previous PR description
+      id: get_previous_description
+      uses: actions/github-script@v6
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        script: |
+          const { data: pullRequest } = await github.rest.pulls.get({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            pull_number: context.issue.number
+          });
+          const previousDescription = pullRequest.body;
+          return { previousDescription };
+
     - name: Check checklist in PR description
       id: check_checklist
       run: |
         DESCRIPTION=$(jq -r .pull_request.body < $GITHUB_EVENT_PATH)
-        UNCHECKED_ITEMS=$(echo "$DESCRIPTION" | grep -o '.*\[ \].*' || true)
-        if [ -z "$UNCHECKED_ITEMS" ]; then
-          echo "all_checked=true" >> $GITHUB_ENV
+        PREVIOUS_DESCRIPTION="${{ steps.get_previous_description.outputs.previousDescription }}"
+        CHECKLIST_ITEMS=$(echo "$DESCRIPTION" | grep -E '^\s*-\s*\[\s*[x ]\s*\].*' || true)
+        PREVIOUS_CHECKLIST_ITEMS=$(echo "$PREVIOUS_DESCRIPTION" | grep -E '^\s*-\s*\[\s*[x ]\s*\].*' || true)
+        if [ "$CHECKLIST_ITEMS" == "$PREVIOUS_CHECKLIST_ITEMS" ]; then
+          echo "checklist_changed=false" >> $GITHUB_ENV
         else
-          echo "all_checked=false" >> $GITHUB_ENV
-          echo "unchecked_items<<EOF" >> $GITHUB_ENV
-          echo "$UNCHECKED_ITEMS" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
+          echo "checklist_changed=true" >> $GITHUB_ENV
+          UNCHECKED_ITEMS=$(echo "$CHECKLIST_ITEMS" | grep -o '.*\[ \].*' || true)
+          if [ -z "$UNCHECKED_ITEMS" ]; then
+            echo "all_checked=true" >> $GITHUB_ENV
+          else
+            echo "all_checked=false" >> $GITHUB_ENV
+            echo "unchecked_items<<EOF" >> $GITHUB_ENV
+            echo "$UNCHECKED_ITEMS" >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+          fi
         fi
 
     - name: Debug PR body
@@ -41,7 +64,7 @@ jobs:
           https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }} | jq -r '.body'
 
     - name: Leave a comment
-      if: env.all_checked == 'true'
+      if: env.checklist_changed == 'true' && env.all_checked == 'true'
       uses: actions/github-script@v6
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -54,7 +77,7 @@ jobs:
           })
 
     - name: Leave a comment with unchecked items
-      if: env.all_checked == 'false'
+      if: env.checklist_changed == 'true' && env.all_checked == 'false'
       uses: actions/github-script@v6
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -75,7 +98,7 @@ jobs:
           })
 
     - name: Fail the job if not all items are checked
-      if: env.all_checked == 'false'
+      if: env.checklist_changed == 'true' && env.all_checked == 'false'
       run: |
         echo "Failing the job because not all items in the checklist have been checked."
         exit 1
