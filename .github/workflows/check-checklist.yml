@@ -59,12 +59,18 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         script: |
-          uncheckedItems = process.env.unchecked_items.split('\n').map(item => `- ${item}`).join('\n');
+          const { data: pullRequest } = await github.rest.pulls.get({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            pull_number: context.issue.number
+          });
+          const assignee = pullRequest.assignee ? `@${pullRequest.assignee.login}` : 'No assignee';
+          const uncheckedItems = process.env.unchecked_items.split('\n').map(item => `- ${item}`).join('\n');
           github.rest.issues.createComment({
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: `Not all items in the checklist have been checked👀\n\nPlease review the following unchecked items in the PR description:\n${uncheckedItems}`
+            body: `${assignee}, not all items in the checklist have been checked👀\n\nPlease review the following unchecked items in the PR description:\n${uncheckedItems}`
           })
 
     - name: Fail the job if not all items are checked
