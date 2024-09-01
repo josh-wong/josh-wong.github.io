@@ -49,7 +49,7 @@ jobs:
         with:
           script: |
             const assignee = '${{ steps.assignee.outputs.result }}';
-            const commentBody = `@${assignee} Not all items in the checklist have been checked👀\n\nPlease review the unchecked items in the PR description.`;
+            const commentBody = '@${assignee} Not all items in the checklist have been checked👀\n\nPlease review the unchecked items in the PR description.';
             github.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
