@@ -28,16 +28,12 @@ jobs:
 
       - name: Comment on PR if checklist is fully checked
         if: success()
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const commentBody = "All items in the checklist have been checked🎉";
-            github.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: commentBody
-            });
+        run: |
+          COMMENT_BODY="All items in the checklist have been checked🎉"
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -X POST \
+            -d "{\"body\": \"$COMMENT_BODY\"}" \
+            https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments
 
       - name: Get PR assignee for commenting on PR if checklist is not fully checked
         id: assign
@@ -55,13 +51,9 @@ jobs:
 
       - name: Comment on PR if checklist is not fully checked
         if: failure()
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const commentBody = `@${{ steps.assign.outputs.result }} Not all items in the checklist have been checked👀\n\nPlease review the unchecked items in the PR description.`;
-            github.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: commentBody
-            });
+        run: |
+          COMMENT_BODY=`@${{ steps.assign.outputs.result }} Not all items in the checklist have been checked👀\n\nPlease review the unchecked items in the PR description.`
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -X POST \
+            -d "{\"body\": \"$COMMENT_BODY\"}" \
+            https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments
