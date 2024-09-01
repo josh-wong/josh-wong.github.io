@@ -18,13 +18,13 @@ jobs:
 
       - name: Debug PR Body
         run: |
-          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          curl -s -H "Authorization: token ${{ secrets.PR_CHECKLIST_CHECK }}" \
             https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }} | jq -r '.body'
 
       - name: Check PR checklist
         id: checklist
         run: |
-          CHECKLIST=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          CHECKLIST=$(curl -s -H "Authorization: token ${{ secrets.PR_CHECKLIST_CHECK }}" \
             https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }} | \
             jq -r '.body' | grep -o '\[.\] .*' | tr -d '[]')
           echo "Checklist items:"
@@ -42,7 +42,7 @@ jobs:
         if: success()
         run: |
           COMMENT_BODY="All items in the checklist have been checked🎉"
-          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          curl -s -H "Authorization: token ${{ secrets.PR_CHECKLIST_CHECK }}" \
             -X POST \
             -d "{\"body\": \"$COMMENT_BODY\"}" \
             https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments
