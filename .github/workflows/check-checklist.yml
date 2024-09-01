@@ -12,9 +12,9 @@ jobs:
         uses: actions/checkout@v2
 
       # Wait 30 seconds so that the job doesn't run immediately when checking off multiple items in the checklist.
-      - name: Wait for 30 seconds
-        run: |
-          sleep 30
+      # - name: Wait for 30 seconds
+      #   run: |
+      #     sleep 30
 
       - name: Check PR checklist
         id: checklist
