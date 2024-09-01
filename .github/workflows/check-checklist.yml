@@ -1,4 +1,4 @@
-name: Check checklist in PR
+name: PR checklist checker
 
 on:
   pull_request:
@@ -11,11 +11,11 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-    
+
     # Wait 15 seconds so that the job doesn't run immediately when checking off multiple items in the checklist.
-      # - name: Wait for 15 seconds
-      #   run: |
-      #     sleep 15
+    # - name: Wait for 15 seconds
+    #   run: |
+    #     sleep 15
 
     - name: Check checklist in PR description
       id: check_checklist
@@ -28,8 +28,8 @@ jobs:
           echo "all_checked=false" >> $GITHUB_ENV
           echo "unchecked_items=$UNCHECKED_ITEMS" >> $GITHUB_ENV
         fi
-    
-    - name: Debug PR Body
+
+    - name: Debug PR body
       run: |
         curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }} | jq -r '.body'
@@ -38,6 +38,7 @@ jobs:
       if: steps.check_checklist.outputs.all_checked == 'true'
       uses: actions/github-script@v6
       with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
         script: |
           github.rest.issues.createComment({
             issue_number: context.issue.number,
@@ -50,6 +51,7 @@ jobs:
       if: steps.check_checklist.outputs.all_checked == 'false'
       uses: actions/github-script@v6
       with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
         script: |
           uncheckedItems = process.env.unchecked_items.split('\n').map(item => `- ${item}`).join('\n');
           github.rest.issues.createComment({
