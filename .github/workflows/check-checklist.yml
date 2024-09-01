@@ -28,6 +28,11 @@ jobs:
           echo "all_checked=false" >> $GITHUB_ENV
           echo "unchecked_items=$UNCHECKED_ITEMS" >> $GITHUB_ENV
         fi
+    
+    - name: Debug PR Body
+      run: |
+        curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }} | jq -r '.body'
 
     - name: Leave a comment
       if: steps.check_checklist.outputs.all_checked == 'true'
