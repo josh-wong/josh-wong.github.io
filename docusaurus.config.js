@@ -203,9 +203,8 @@ const config = {
           {to: '/', label: 'Blog', position: 'left'},
           {
             type: 'dropdown',
-            label: 'Personal portfolio',
+            label: 'Projects',
             position: 'left',
-            // to: 'portfolio/personal',
             items: [
               {
                 type: 'doc',
@@ -267,16 +266,12 @@ const config = {
             ],
           },
           {
-            title: 'Portfolio',
+            title: 'Projects',
             items: [
               {
                 label: 'Personal samples',
-                to: '/portfolio/#personal-portfolio-samples',
+                to: '/projects',
               },
-              // {
-              //   label: 'Professional portfolio samples',
-              //   to: '/portfolio/#professional-portfolio-samples',
-              // },
             ],
           },
           {
