@@ -205,7 +205,7 @@ const config = {
             type: 'dropdown',
             label: 'Personal portfolio',
             position: 'left',
-            to: 'portfolio/personal',
+            // to: 'portfolio/personal',
             items: [
               {
                 type: 'doc',
