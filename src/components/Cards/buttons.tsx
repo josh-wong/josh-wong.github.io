@@ -14,10 +14,10 @@ import Link from '@docusaurus/Link';
 
 const CardsPassGen = [
   {
-    name: 'passGen v3.2',
+    name: 'passGen v3.4',
     // image: '<LINK_TO>.png',
     url: {
-      page: 'https://github.com/josh-wong/passGen/releases/download/v3.2.0/passGen_installer.exe',
+      page: 'https://github.com/josh-wong/passGen/releases/download/v3.4.0/passGen_installer.exe',
     },
     description: (
       <Translate id="buttons.passgenDownload.description">
@@ -54,7 +54,7 @@ function Card({ name, /*image,*/ url, /*description*/ }: Props) {
         <div className="card__footer">
           <div className="button-group button-group--block">
             <Link className="button button--secondary" to={url.page}>
-              <Translate id="button.readMore">Download</Translate>
+              <Translate id="button.download"></Translate>
             </Link>
           </div>
         </div>

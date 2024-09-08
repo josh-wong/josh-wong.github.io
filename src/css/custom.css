@@ -7,31 +7,39 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #080f53;
-  --ifm-color-primary-dark: #080f53;
-  --ifm-color-primary-darker: #080f53;
-  --ifm-color-primary-darkest: #080f53;
-  --ifm-color-primary-light: #080f53;
-  --ifm-color-primary-lighter: #080f53;
-  --ifm-color-primary-lightest: #080f53;
+  --ifm-color-primary-dark: #070e4b;
+  --ifm-color-primary-darker: #070d47;
+  --ifm-color-primary-darkest: #060b3a;
+  --ifm-color-primary-light: #09115b;
+  --ifm-color-primary-lighter: #09115f;
+  --ifm-color-primary-lightest: #0a136c;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #757cbd;
-  --ifm-color-primary-dark: #757cbd;
-  --ifm-color-primary-darker: #757cbd;
-  --ifm-color-primary-darkest: #757cbd;
-  --ifm-color-primary-light: #757cbd;
-  --ifm-color-primary-lighter: #757cbd;
-  --ifm-color-primary-lightest: #757cbd;
+  --ifm-color-primary: #949acd;
+  --ifm-color-primary-dark: #7c83c2;
+  --ifm-color-primary-darker: #7078bc;
+  --ifm-color-primary-darkest: #4f58a8;
+  --ifm-color-primary-light: #acb1d8;
+  --ifm-color-primary-lighter: #b8bcde;
+  --ifm-color-primary-lightest: #dcdeef;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* Use different site logo for dark mode */
-html[data-theme='dark'] .navbar .navbar__logo {
-  content: url("/img/site-logo-dark.png");
+p a {
+  text-decoration-line: underline;
+}
+
+/* Make the sidebar navigation text smaller (default font size is 12pt). */
+.menu {
+  font-size: 11pt;
+}
+/* Make the arrow in the sidebar navigation smaller (default font size is 12pt). */
+.menu__link--sublist-caret:after {
+  background: var(--ifm-menu-link-sublist-icon) 50% / 1.25rem 1.25rem;
 }
 
 /* Make doc titles a bit smaller. */
@@ -47,7 +55,6 @@ html[data-theme='dark'] .navbar .navbar__logo {
 /* Announcement Bar */
 div[class^='announcementBar'] {
   font-size: 1.1rem;
-  padding: 20px 0;
 }
 
 /* Home page cards */
@@ -104,6 +111,45 @@ html[data-theme="dark"] .navbar-sidebar .header-github-link {
   filter: invert(0%);
 }
 
+/* Add styles for tags that appear above page titles */
+
+.badge {
+  border: none;
+  font-size: 85%;
+  line-height: 2;
+  margin: 0.25rem 0 1rem 0;
+  padding-top: 0.5rem;
+  width: -webkit-fill-available;
+}
+
+html[data-theme="dark"] .badge {
+  background-color: #090a11;
+  border: none;
+  color: white;
+  font-size: 85%;
+  line-height: 2;
+  margin: 0.25rem 0 1rem 0;
+  padding-top: 0.5rem;
+  width: -webkit-fill-available;
+}
+
+.theme-doc-footer-tags-row {
+  display: inline-flex;
+  float: inline-start;
+}
+
+.margin-top--sm, .margin-vert--sm {
+  margin-top: 0 !important;
+}
+
+.docusaurus-mt-lg {
+  margin-top: 1rem !important;
+}
+
+.theme-blog-footer-edit-meta-row {
+  padding: 0.5rem 0;
+}
+
 /* RSS icon*/
 .header-rss-link::before {
   display: block;
@@ -131,8 +177,8 @@ html[data-theme="dark"] .navbar-sidebar .header-rss-link {
   filter: invert(0%);
 }
 
-/* Better Stack status icon*/
-.header-status-link::before {
+/* Better Stack status icon */
+.header-better-stack-icon::before {
   display: block;
   background-image: url("/img/better-stack-logo.svg");
   background-size: contain;
@@ -141,20 +187,24 @@ html[data-theme="dark"] .navbar-sidebar .header-rss-link {
   height: 24px;
 }
 
-.header-status-link svg {
+.header-better-stack-icon svg {
   display: none;
 }
 
-.header-status-link:hover {
+.header-better-stack-icon:hover {
   background: var(--ifm-color-emphasis-200);
   border-radius: 50px;
 }
 
-html[data-theme="dark"] .header-status-link::before {
+html[data-theme="dark"] .header-better-stack-icon::before {
   filter: invert(90%);
 }
 
-html[data-theme="dark"] .navbar-sidebar .header-status-link {
+html[data-theme="dark"] .navbar-sidebar .header-better-stack-icon {
   filter: invert(0%);
 }
 
+/* Mermaid quadrant label text color */
+html[data-theme="dark"] g[class^='label'] text {
+  fill: #e3e3e3;
+}

@@ -56,8 +56,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          path: 'docs/portfolio',
-          routeBasePath: 'portfolio',
+          path: 'docs',
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
         //   // Please change this to your repo.
         //   // Remove this to remove the "edit this page" links.
@@ -73,7 +73,8 @@ const config = {
             limit: null,
           },
           routeBasePath: '/',
-          showReadingTime: true,          
+          showReadingTime: true,
+          onUntruncatedBlogPosts: 'ignore',          
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -120,7 +121,7 @@ const config = {
           {
             tagName: 'meta',
             name: 'theme-color',
-            content: '#fff',
+            content: '#080f53',
           },
           {
             tagName: 'meta',
@@ -130,7 +131,7 @@ const config = {
           {
             tagName: 'meta',
             name: 'apple-mobile-web-app-status-bar-style',
-            content: '#000',
+            content: '#080f53',
           },
           {
             tagName: 'link',
@@ -141,7 +142,7 @@ const config = {
             tagName: 'link',
             rel: 'mask-icon',
             href: '/img/favicon.svg',
-            color: 'rgb(8, 15, 83)',
+            color: '#080f53',
           },
           {
             tagName: 'meta',
@@ -151,21 +152,38 @@ const config = {
           {
             tagName: 'meta',
             name: 'msapplication-TileColor',
-            content: '#000',
+            content: '#080f53',
           },
         ],
       },
-    ]
+    ],
   ],
   
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
+
+  themes: [
+    '@docusaurus/theme-mermaid',
+    'docusaurus-theme-github-codeblock'
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'announcement_bar',
+        content:
+          '<a href="https://www.080f53.com/passgen/" rel="noopener noreferrer">passGen v3.4</a> is available🎉 For details on what\'s changed, see the <a href="https://github.com/josh-wong/passGen/releases/tag/v3.4.0" target="_blank" rel="noopener noreferrer">release notes</a>.',
+        backgroundColor: '#7c83c2',
+        textColor: '#ffffff',
+        isCloseable: true,
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       // Replace with your project's social card
       image: 'img/site-logo.png',
       navbar: {
@@ -173,6 +191,7 @@ const config = {
         logo: {
           alt: '080f53 logo',
           src: 'img/site-logo.png',
+          srcDark: 'img/site-logo-dark.png',
         },
         items: [
           // {
@@ -182,8 +201,39 @@ const config = {
           //   label: 'Tutorial',
           // },
           {to: '/', label: 'Blog', position: 'left'},
-          {to: 'portfolio/', label: 'Portfolio', position: 'left'},
-          {to: 'about/', label: 'About', position: 'left'},
+          {
+            type: 'dropdown',
+            label: 'Personal portfolio',
+            position: 'left',
+            to: 'portfolio/personal',
+            items: [
+              {
+                type: 'doc',
+                label: 'Baird beer profile quadrants🍻',
+                docId: 'baird-beer-quadrants/index',
+              },
+              {
+                type: 'doc',
+                label: 'Bitcoin Cash Node on Raspberry Pi🪙',
+                docId: 'bitcoin-cash-node-on-raspberry-pi/index',
+              },
+              {
+                type: 'doc',
+                label: 'Microsoft Zune device and software setup🎵',
+                docId: 'zune-software-setup/index',
+              },
+              {
+                type: 'doc',
+                label: 'passGen🔐',
+                docId: 'passgen/index',
+              },
+              {
+                label: 'Signal sticker pack - "Why Bitcoin Cash?"🎁',
+                href: 'https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d',
+              },
+            ],
+          },
+          {to: 'about', label: 'About', position: 'left'},
           {
             className: 'header-rss-link',
             href: 'https://www.080f53.com/rss.xml',
@@ -197,60 +247,61 @@ const config = {
             'aria-label': 'GitHub logo',
           },
           {
-            className: 'header-status-link',
+            className: 'header-better-stack-icon',
             href: 'https://status.080f53.com',
             position: 'right',
-            'aria-label': 'Better Status logo',
+            'aria-label': 'Better Stack logo',
           },
         ],
       },
       footer: {
         style: 'dark',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Creative',
-        //         to: '/docs/creative',
-        //       },
-        //       {
-        //         label: 'Notes',
-        //         to: '/docs/notes',
-        //       },
-        //       {
-        //         label: 'Scripts',
-        //         to: '/docs/scripts',
-        //       },
-        //       {
-        //         label: 'Software',
-        //         to: '/docs/software',
-        //       },
-        //       {
-        //         label: 'Tutorials',
-        //         to: '/docs/tutorials',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/josh-wong',
-        //       },
-        //       {
-        //         label: 'LinkedIn',
-        //         href: 'https://www.linkedin.com/in/wongjoshua',
-        //       },
-        //       {
-        //         label: 'Twitter',
-        //         href: 'https://twitter.com/080f53',
-        //       },
-        //     ],
-        //   },
-        // ],
+        links: [
+          {
+            title: '080F53',
+            items: [
+              {
+                label: 'About',
+                to: '/about',
+              },
+            ],
+          },
+          {
+            title: 'Portfolio',
+            items: [
+              {
+                label: 'Personal samples',
+                to: '/portfolio/#personal-portfolio-samples',
+              },
+              // {
+              //   label: 'Professional portfolio samples',
+              //   to: '/portfolio/#professional-portfolio-samples',
+              // },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'GitHub',
+                href: 'https://github.com/josh-wong',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/wongjoshua',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/080f53',
+              },
+            ],
+          },
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} 080f53. <a href="https://docusaurus.io/" style="color: #757cbd">Built with Docusaurus</a>.`,
+      },
+      colorMode: {
+        defaultMode: 'light',
+        respectPrefersColorScheme: true,
       },
       prism: {
         theme: prismThemes.github,
@@ -313,6 +364,11 @@ const config = {
         insights: true,
   
         //... other Algolia params
+      },
+      // GitHub code block theme configuration
+      codeblock: {
+        showGithubLink: true,
+        githubLinkLabel: 'View on GitHub',
       },
     }),
 };

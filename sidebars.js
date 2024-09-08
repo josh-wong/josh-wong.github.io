@@ -28,80 +28,66 @@ const sidebars = {
     },
   ],
   */
-  portfolioSidebar: [
-    'index',
-    // {
-    //   type: 'category',
-    //   label: 'Professional samples',
-    //   items: [
-    //     'overview',
-    //   ],
-    // },
+
+  bairdBeerQuadrants: [
     {
-      type: 'category',
-      label: 'Personal samples',
-      items: [
-        {
-          type: 'category',
-          label: 'Bitcoin Cash Node on Raspberry Pi',
-          items: [
-            'personal/bitcoin-cash-node-on-raspberry-pi/overview',
-            {
-              type: 'category',
-              label: 'Install and set up',
-              items: [
-                'personal/bitcoin-cash-node-on-raspberry-pi/installation-and-setup/overview',
-                'personal/bitcoin-cash-node-on-raspberry-pi/installation-and-setup/preparation',
-                'personal/bitcoin-cash-node-on-raspberry-pi/installation-and-setup/bchn-setup',
-                'personal/bitcoin-cash-node-on-raspberry-pi/installation-and-setup/wallet-setup',
-                'personal/bitcoin-cash-node-on-raspberry-pi/installation-and-setup/conclusion',
-                'personal/bitcoin-cash-node-on-raspberry-pi/installation-and-setup/references',
-              ],
-            },
-            {
-              type: 'category',
-              label: 'Upgrade',
-              items: [
-                'personal/bitcoin-cash-node-on-raspberry-pi/upgrade/overview',
-                'personal/bitcoin-cash-node-on-raspberry-pi/upgrade/preparation',
-                'personal/bitcoin-cash-node-on-raspberry-pi/upgrade/bchn-upgrade',
-                'personal/bitcoin-cash-node-on-raspberry-pi/upgrade/cleanup',
-                'personal/bitcoin-cash-node-on-raspberry-pi/upgrade/conclusion',
-              ],
-            },
-          ],
-        },
-        {
-          type: 'category',
-          label: 'passGen',
-          items: [
-            'personal/passgen/overview',
-            'personal/passgen/generating-passwords',
-            'personal/passgen/updating-the-app',
-            'personal/passgen/uninstalling',
-            'personal/passgen/references',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Microsoft Zune device and software setup',
-          items: [
-            'personal/zune-software-setup/overview',
-            'personal/zune-software-setup/getting-started',
-            'personal/zune-software-setup/installing-the-zune-software',
-            'personal/zune-software-setup/connecting-with-the-zune-software',
-            'personal/zune-software-setup/adding-apps-and-games',
-            'personal/zune-software-setup/conclusion',
-            'personal/zune-software-setup/references',
-          ],
-        },
-        {
-          type: 'link',
-          label: 'Signal sticker pack - "Why Bitcoin Cash?"',
-          href: 'https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d',
-        },
+      type: 'doc',
+      label: 'About the Baird Brewing beer profile quadrants',
+      id: 'baird-beer-quadrants/index',
+    },
+    'baird-beer-quadrants/beers-year-round',
+    'baird-beer-quadrants/beers-four-seasons-series',
+    'baird-beer-quadrants/beers-monthly-style-series',
+    'baird-beer-quadrants/beers-fruitful-life-series',
+    'baird-beer-quadrants/beers-taproom-exclusive',
+  ],
+  bitcoinCashNodeOnRaspberryPi: [
+    {
+      type: 'doc',
+      label: 'About Bitcoin Cash Node on a Raspberry Pi 4',
+      id: 'bitcoin-cash-node-on-raspberry-pi/index',
+    },
+    {
+      'Install and set up': [
+        'bitcoin-cash-node-on-raspberry-pi/installation-and-setup/index',
+        'bitcoin-cash-node-on-raspberry-pi/installation-and-setup/preparation',
+        'bitcoin-cash-node-on-raspberry-pi/installation-and-setup/bchn-setup',
+        'bitcoin-cash-node-on-raspberry-pi/installation-and-setup/wallet-setup',
+        'bitcoin-cash-node-on-raspberry-pi/installation-and-setup/conclusion',
+        'bitcoin-cash-node-on-raspberry-pi/installation-and-setup/references',
+      ],
+      'Upgrade': [
+        'bitcoin-cash-node-on-raspberry-pi/upgrade/index',
+        'bitcoin-cash-node-on-raspberry-pi/upgrade/preparation',
+        'bitcoin-cash-node-on-raspberry-pi/upgrade/bchn-upgrade',
+        'bitcoin-cash-node-on-raspberry-pi/upgrade/cleanup',
+        'bitcoin-cash-node-on-raspberry-pi/upgrade/conclusion',
       ],
     },
+  ],
+  zuneSoftwareSetup: [
+    {
+      type: 'doc',
+      label: 'About the Microsoft Zune device and Zune software setup guide',
+      id: 'zune-software-setup/index',
+    },
+    'zune-software-setup/getting-started',
+    'zune-software-setup/installing-the-zune-software',
+    'zune-software-setup/connecting-with-the-zune-software',
+    'zune-software-setup/adding-apps-and-games',
+    'zune-software-setup/conclusion',
+    'zune-software-setup/references',
+  ],
+  passgen: [
+    {
+      type: 'doc',
+      label: 'About passGen',
+      id: 'passgen/index',
+    },
+    'passgen/generating-passwords',
+    'passgen/updating-the-app',
+    'passgen/uninstalling',
+    'passgen/references',
   ],
 };
 
