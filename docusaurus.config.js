@@ -73,7 +73,8 @@ const config = {
             limit: null,
           },
           routeBasePath: '/',
-          showReadingTime: true,          
+          showReadingTime: true,
+          onUntruncatedBlogPosts: 'ignore',          
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
