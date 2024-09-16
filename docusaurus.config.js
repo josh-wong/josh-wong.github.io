@@ -208,7 +208,7 @@ const config = {
             items: [
               {
                 type: 'doc',
-                label: 'Baird beer profile quadrants🍻',
+                label: 'Baird beer profile quadrants🍺',
                 docId: 'baird-beer-quadrants/index',
               },
               {
