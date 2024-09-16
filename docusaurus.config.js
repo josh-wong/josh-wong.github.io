@@ -174,7 +174,7 @@ const config = {
       announcementBar: {
         id: 'announcement_bar',
         content:
-          '<a href="https://www.080f53.com/passgen/" rel="noopener noreferrer">passGen v3.4</a> is available🎉 For details on what\'s changed, see the <a href="https://github.com/josh-wong/passGen/releases/tag/v3.4.0" target="_blank" rel="noopener noreferrer">release notes</a>.',
+          'Enjoy beer from Baird Brewing?🍺 Check out the <a href="baird-beer-quadrants">beer flavor quadrants</a> or <a href="https://typebot.co/baird-beer-recommendations-experimental-080f53" target="_blank" rel="noopener noreferrer">ask AI</a> for beer recommendations!',
         backgroundColor: '#7c83c2',
         textColor: '#ffffff',
         isCloseable: true,
