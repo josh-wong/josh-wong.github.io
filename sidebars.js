@@ -40,6 +40,11 @@ const sidebars = {
     'baird-beer-quadrants/beers-monthly-style-series',
     'baird-beer-quadrants/beers-fruitful-life-series',
     'baird-beer-quadrants/beers-taproom-exclusive',
+    {
+      type: 'link',
+      label: '🤖AI chatbot for beer recommendations (unofficial)',
+      href: 'https://typebot.co/baird-beer-recommendations-experimental-080f53',
+    },
   ],
   bitcoinCashNodeOnRaspberryPi: [
     {
