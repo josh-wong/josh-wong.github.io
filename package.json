@@ -25,14 +25,12 @@
     "@docusaurus/theme-mermaid": "3.5.2",
     "@happyreact/react": "0.2.5",
     "@mdx-js/react": "^3.0.0",
-    "@photo-sphere-viewer/core": "^5.10.0",
     "clsx": "^2.0.0",
-    "docusaurus-plugin-image-zoom": "^0.1.4",
+    "docusaurus-plugin-image-zoom": "^2.0.0",
     "docusaurus-theme-github-codeblock": "^2.0.2",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "three": "^0.168.0"
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.5.2",

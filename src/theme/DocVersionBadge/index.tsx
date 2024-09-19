@@ -14,7 +14,7 @@ export default function DocVersionBadge({
   const {metadata} = useDoc();
   const {tags} = metadata;
 
-  {/* The following lines is commented out since my projects don't have versioned docs. */}
+  {/* The following lines is commented out since my portfolio doesn't have versioned docs. */}
   {/* const versionMetadata = useDocsVersion();
   if (versionMetadata.badge) { */}
     return (
@@ -24,7 +24,7 @@ export default function DocVersionBadge({
           ThemeClassNames.docs.docVersionBadge,
           'badge badge--secondary',
         )}>
-        {/* The following is commented out since my projects don't have versioned docs. */}
+        {/* The following is commented out since my portfolio doesn't have versioned docs. */}
         {/* <Translate
           id="theme.docs.versionBadge.label"
           values={{versionLabel: versionMetadata.label}}>
