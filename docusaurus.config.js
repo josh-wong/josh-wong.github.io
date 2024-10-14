@@ -233,6 +233,11 @@ const config = {
             ],
           },
           {to: 'about', label: 'About', position: 'left'},
+          // Custom notification as a React component.
+          {
+            type: 'custom-NotificationBell', // Use the custom NotificationBell component.
+            position: 'right', // Position the notification bell on the right side of the navbar.
+          },
           {
             className: 'header-rss-link',
             href: 'https://www.080f53.com/rss.xml',
