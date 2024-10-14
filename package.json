@@ -23,6 +23,7 @@
     "@docusaurus/plugin-pwa": "3.5.2",
     "@docusaurus/preset-classic": "3.5.2",
     "@docusaurus/theme-mermaid": "3.5.2",
+    "@fortawesome/fontawesome-free": "6.6.0",
     "@mdx-js/react": "^3.0.0",
     "@photo-sphere-viewer/core": "^5.10.0",
     "clsx": "^2.0.0",
