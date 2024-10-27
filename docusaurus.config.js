@@ -238,7 +238,7 @@ const config = {
             type: 'custom-NotificationBell',
             position: 'right',
             notifications: [
-              { id: 1, message: 'Check my about page', url: '/about' },
+              { id: 1, message: 'Check out the latest ScalarDB docs', url: 'https://scalardb.scalar-labs.com/docs/latest' },
               { id: 2, message: 'New feature!: Notifications🚨', url: 'https://github.com/josh-wong/josh-wong.github.io/pull/118' },
               { id: 3, message: 'Check out the unofficial Baird beer flavor quadrants', url: '/baird-beer-quadrants' },
             ],
