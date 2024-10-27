@@ -273,8 +273,8 @@ html[data-theme="dark"] .notification-dropdown {
   border-radius: 4px;
   width: 250px;
   z-index: 1000;
+}
 
-  :hover {
-    background-color: var(--ifm-color-emphasis-200);
-  }
+html[data-theme="dark"] .notification-dropdown:hover {
+  background-color: var(--ifm-color-emphasis-200);
 }
