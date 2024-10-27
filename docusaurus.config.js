@@ -238,9 +238,10 @@ const config = {
             type: 'custom-NotificationBell',
             position: 'right',
             notifications: [
-              { id: 1, message: 'Check out the latest ScalarDB docs', url: 'https://scalardb.scalar-labs.com/docs/latest' },
-              { id: 2, message: 'New feature!: Notifications🚨', url: 'https://github.com/josh-wong/josh-wong.github.io/pull/118' },
-              { id: 3, message: 'Check out the unofficial Baird beer flavor quadrants', url: '/baird-beer-quadrants' },
+              { id: 1, message: 'About', url: '/about' },
+              { id: 2, message: 'Check out the latest ScalarDL docs', url: 'https://scalardl.scalar-labs.com/docs/latest' },
+              { id: 3, message: 'New feature!: Notifications🚨', url: 'https://github.com/josh-wong/josh-wong.github.io/pull/118' },
+              { id: 4, message: 'Check out the unofficial Baird beer flavor quadrants', url: '/baird-beer-quadrants' },
             ],
           },
           {
