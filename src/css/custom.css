@@ -237,9 +237,8 @@ html[data-theme="dark"] g[class^='label'] text {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   position: absolute;
-  right: 0;
-  top: 30px;
-  width: 250px;
+  top: 38px;
+  width: 300px;
   z-index: 1000;
 }
 
@@ -255,7 +254,7 @@ html[data-theme="dark"] g[class^='label'] text {
 }
 
 .notification-item:hover {
-  background-color: #f5f5f5;
+  background-color: var(--ifm-dropdown-hover-background-color);
   text-decoration: none;
 }
 
@@ -263,18 +262,18 @@ html[data-theme="dark"] .notification-item {
   padding: 10px;
 }
 
+html[data-theme="dark"] .notification-item:hover {
+  background-color: var(--ifm-dropdown-hover-background-color);
+  text-decoration: none;
+}
+
 html[data-theme="dark"] .notification-dropdown {
   background-color: var(--ifm-background-color);
   border-bottom: 1px solid invert(90%);
   border-radius: 4px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
   position: absolute;
-  right: 0;
-  top: 30px;
+  top: 38px;
   width: 300px;
   z-index: 1000;
-}
-
-html[data-theme="dark"] .notification-dropdown:hover {
-  background-color: var(--ifm-color-emphasis-200);
 }
