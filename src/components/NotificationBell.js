@@ -4,8 +4,13 @@ const NotificationBell = ({ notifications }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [notificationList, setNotificationList] = useState([]);
   const dropdownRef = useRef(null);
+  const wrapperRef = useRef(null);
 
-  const toggleDropdown = () => setIsOpen((prev) => !prev);
+  // Toggle the dropdown visibility and prevent the event from bubbling up to the outside click handler.
+  const toggleDropdown = (event) => {
+    event.stopPropagation(); // Prevents outside click handler from immediately reopening dropdown
+    setIsOpen((prev) => !prev);
+  };
 
   // Load notifications from localStorage and update if new notifications appear.
   useEffect(() => {
@@ -43,7 +48,7 @@ const NotificationBell = ({ notifications }) => {
   // Close the dropdown when clicking outside.
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      if (wrapperRef.current && !wrapperRef.current.contains(event.target)) {
         setIsOpen(false);
       }
     };
@@ -53,7 +58,7 @@ const NotificationBell = ({ notifications }) => {
   }, []);
 
   return (
-    <div className="notification-wrapper" onClick={toggleDropdown}>
+    <div className="notification-wrapper" onClick={toggleDropdown} ref={wrapperRef}>
       <i className="fas fa-bell" style={{ fontSize: '1.25rem', lineHeight: '2' }}></i>
       {unreadCount > 0 && <span className="notification-count">{unreadCount}</span>}
       {isOpen && (
