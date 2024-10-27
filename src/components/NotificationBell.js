@@ -5,45 +5,40 @@ const NotificationBell = ({ notifications }) => {
   const [notificationList, setNotificationList] = useState([]);
   const dropdownRef = useRef(null);
 
-  const toggleDropdown = () => {
-    setIsOpen((prev) => !prev);
-  };
+  const toggleDropdown = () => setIsOpen((prev) => !prev);
 
-  // Load notifications and seen notification IDs from localStorage.
+  // Load notifications from localStorage and update if new notifications appear.
   useEffect(() => {
-    const savedNotifications = JSON.parse(localStorage.getItem('notifications')) || [];
-    const savedSeenNotifications = JSON.parse(localStorage.getItem('seenNotifications')) || [];
+    // Retrieve seen notifications from localStorage.
+    const seenNotifications = JSON.parse(localStorage.getItem('seenNotifications')) || [];
 
-    // Initialize notificationList with updated notifications.
-    const updatedNotifications = notifications.map((notification) => ({
+    // Map the notifications to add read status based on seenNotifications.
+    const updatedNotifications = notifications.map(notification => ({
       ...notification,
-      read: savedSeenNotifications.includes(notification.id), // Check if notification was seen
+      read: seenNotifications.includes(notification.id),
     }));
 
-    // Update state and local storage.
+    // Set the updated notifications in state.
     setNotificationList(updatedNotifications);
-  }, [notifications]);
+  }, [notifications]); // Dependency ensures rerun if notifications change.
 
-  // Mark a notification as read and update the seen notifications list.
+  // Save changes to localStorage when notifications are clicked.
   const handleNotificationClick = (id) => {
-    // Mark the clicked notification as read.
-    setNotificationList((prev) =>
-      prev.map((notification) =>
-        notification.id === id ? { ...notification, read: true } : notification
-      )
+    const updatedList = notificationList.map(notification =>
+      notification.id === id ? { ...notification, read: true } : notification
     );
 
-    // Update seen notifications in local storage.
-    const updatedSeenNotifications = [
-      ...(JSON.parse(localStorage.getItem('seenNotifications')) || []),
-      id,
-    ];
+    // Save the seen notifications in localStorage.
+    const seenNotifications = updatedList
+      .filter(notification => notification.read)
+      .map(notification => notification.id);
 
-    localStorage.setItem('seenNotifications', JSON.stringify(updatedSeenNotifications));
+    localStorage.setItem('seenNotifications', JSON.stringify(seenNotifications));
+    setNotificationList(updatedList); // Update the notification list with read status.
   };
 
-  // Count the number of unread notifications.
-  const unreadCount = notificationList.filter((notification) => !notification.read).length;
+  // Count unread notifications.
+  const unreadCount = notificationList.filter(notification => !notification.read).length;
 
   // Close the dropdown when clicking outside.
   useEffect(() => {
@@ -54,9 +49,7 @@ const NotificationBell = ({ notifications }) => {
     };
 
     document.addEventListener('mousedown', handleClickOutside);
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
+    return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
   return (
@@ -65,7 +58,7 @@ const NotificationBell = ({ notifications }) => {
       {unreadCount > 0 && <span className="notification-count">{unreadCount}</span>}
       {isOpen && (
         <div className="notification-dropdown" ref={dropdownRef}>
-          {notificationList.map((notification) => (
+          {notificationList.map(notification => (
             <a
               key={notification.id}
               href={notification.url}
