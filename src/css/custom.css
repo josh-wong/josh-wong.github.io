@@ -211,34 +211,34 @@ html[data-theme="dark"] g[class^='label'] text {
 
 /* Specific to the notification wrapper */
 .notification-wrapper {
-  position: relative;
-  display: inline-block;
   cursor: pointer;
+  display: inline-block;
   padding: 0 15px;
+  position: relative;
 }
 
 .notification-count {
-  background-color: red;
-  color: white;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  display: flex;
   align-items: center;
-  justify-content: center;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  display: flex;
   font-size: 0.8rem;
+  height: 20px;
+  justify-content: center;
   position: absolute;
-  top: -10px;
   right: -10x;
+  top: -10px;
+  width: 20px;
 }
 
 .notification-dropdown {
-  position: absolute;
-  top: 30px;
-  right: 0;
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
+  position: absolute;
+  right: 0;
+  top: 30px;
   width: 250px;
   z-index: 1000;
 }
@@ -264,14 +264,14 @@ html[data-theme="dark"] .notification-item {
 }
 
 html[data-theme="dark"] .notification-dropdown {
-  position: absolute;
-  top: 30px;
-  right: 0;
   background-color: var(--ifm-background-color);
   border-bottom: 1px solid invert(90%);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
-  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 300px;
   z-index: 1000;
 }
 
