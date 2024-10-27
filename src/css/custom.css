@@ -156,6 +156,7 @@ html[data-theme="dark"] .badge {
   background-image: url("/img/rss-mark.svg");
   background-size: contain;
   content: "";
+  position: relative;
   width: 24px;
   height: 24px;
 }
@@ -175,6 +176,7 @@ html[data-theme="dark"] .header-rss-link::before {
 
 html[data-theme="dark"] .navbar-sidebar .header-rss-link {
   filter: invert(0%);
+  position: relative;
 }
 
 /* Better Stack status icon */
@@ -214,7 +216,7 @@ html[data-theme="dark"] g[class^='label'] text {
   cursor: pointer;
   display: inline-block;
   padding: 0 15px;
-  position: relative;
+  position: sticky;
 }
 
 .notification-count {
@@ -227,8 +229,8 @@ html[data-theme="dark"] g[class^='label'] text {
   height: 20px;
   justify-content: center;
   position: absolute;
-  right: -10x;
-  top: -10px;
+  right: -5px;
+  top: 2px;
   width: 20px;
 }
 
@@ -282,6 +284,7 @@ html[data-theme="dark"] .notification-dropdown {
 @media (max-width: 997px) {
   .notification-wrapper {
     display: none; /* Hide in the main navbar on mobile */
+    position: sticky;
   }
 }
 
@@ -289,5 +292,21 @@ html[data-theme="dark"] .notification-dropdown {
 @media (max-width: 997px) {
   .navbar-sidebar .notification-wrapper {
     display: flex; /* Make it visible only in the sidebar on mobile */
+    position: sticky;
+  }
+
+  .notification-count {
+    align-items: center;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    font-size: 0.8rem;
+    height: 20px;
+    justify-content: center;
+    position: relative;
+    right: 0px;
+    top: 2px;
+    width: 20px;
   }
 }
