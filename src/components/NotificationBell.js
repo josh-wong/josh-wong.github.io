@@ -8,7 +8,7 @@ const NotificationBell = ({ notifications }) => {
 
   // Toggle the dropdown visibility and prevent the event from bubbling up to the outside click handler.
   const toggleDropdown = (event) => {
-    event.stopPropagation(); // Prevents outside click handler from immediately reopening dropdown
+    event.stopPropagation(); // Prevents outside click handler from immediately reopening dropdown.
     setIsOpen((prev) => !prev);
   };
 
@@ -69,6 +69,8 @@ const NotificationBell = ({ notifications }) => {
               href={notification.url}
               className="notification-item"
               onClick={() => handleNotificationClick(notification.id)}
+              target={notification.url.startsWith('http') ? '_blank' : '_self'} // Open in a new tab if external.
+              rel={notification.url.startsWith('http') ? 'noopener noreferrer' : undefined}
             >
               {notification.message}
             </a>
