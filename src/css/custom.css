@@ -277,3 +277,17 @@ html[data-theme="dark"] .notification-dropdown {
   width: 300px;
   z-index: 1000;
 }
+
+/* Hide the notification icon in the main navbar on smaller screens */
+@media (max-width: 997px) {
+  .notification-wrapper {
+    display: none; /* Hide in the main navbar on mobile */
+  }
+}
+
+/* Show notification icon in the sidebar menu on mobile */
+@media (max-width: 997px) {
+  .navbar-sidebar .notification-wrapper {
+    display: flex; /* Make it visible only in the sidebar on mobile */
+  }
+}
