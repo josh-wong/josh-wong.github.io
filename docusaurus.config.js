@@ -239,7 +239,7 @@ const config = {
             position: 'right',
             notifications: [
               { id: 1, message: 'Check my about page', url: '/about' },
-              { id: 2, message: '<b>New feature!:</b> Notifications🚨', url: 'https://github.com/josh-wong/josh-wong.github.io/pull/118' },
+              { id: 2, message: 'New feature!: Notifications🚨', url: 'https://github.com/josh-wong/josh-wong.github.io/pull/118' },
               { id: 3, message: 'Check out the unofficial Baird beer flavor quadrants', url: '/baird-beer-quadrants' },
             ],
           },
