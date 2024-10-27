@@ -208,3 +208,72 @@ html[data-theme="dark"] .navbar-sidebar .header-better-stack-icon {
 html[data-theme="dark"] g[class^='label'] text {
   fill: #e3e3e3;
 }
+
+/* Specific to the notification wrapper */
+.notification-wrapper {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 15px;
+  position: relative;
+}
+
+.notification-count {
+  align-items: center;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  font-size: 0.8rem;
+  height: 20px;
+  justify-content: center;
+  position: absolute;
+  right: -10x;
+  top: -10px;
+  width: 20px;
+}
+
+.notification-dropdown {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  position: absolute;
+  top: 38px;
+  width: 300px;
+  z-index: 1000;
+}
+
+.notification-item {
+  border-bottom: 1px solid #e0e0e0;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
+
+.notification-item:hover {
+  background-color: var(--ifm-dropdown-hover-background-color);
+  text-decoration: none;
+}
+
+html[data-theme="dark"] .notification-item {
+  padding: 10px;
+}
+
+html[data-theme="dark"] .notification-item:hover {
+  background-color: var(--ifm-dropdown-hover-background-color);
+  text-decoration: none;
+}
+
+html[data-theme="dark"] .notification-dropdown {
+  background-color: var(--ifm-background-color);
+  border-bottom: 1px solid invert(90%);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 38px;
+  width: 300px;
+  z-index: 1000;
+}
