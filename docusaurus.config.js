@@ -171,14 +171,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      announcementBar: {
-        id: 'announcement_bar',
-        content:
-          'Enjoy beer from Baird Brewing?🍺 Check out the <a href="baird-beer-quadrants">beer flavor quadrants</a> or <a href="https://typebot.co/baird-beer-recommendations-experimental-080f53" target="_blank" rel="noopener noreferrer">ask AI</a> for beer recommendations!',
-        backgroundColor: '#7c83c2',
-        textColor: '#ffffff',
-        isCloseable: true,
-      },
+      // announcementBar: {
+      //   id: 'announcement_bar',
+      //   content:
+      //     'MESSAGE WITH A <a href="URL">LINK IF NECESSARY</a>!',
+      //   backgroundColor: '#7c83c2',
+      //   textColor: '#ffffff',
+      //   isCloseable: true,
+      // },
       docs: {
         sidebar: {
           hideable: true,
@@ -233,6 +233,16 @@ const config = {
             ],
           },
           {to: 'about', label: 'About', position: 'left'},
+          // Custom notification as a React component.
+          {
+            type: 'custom-NotificationBell',
+            position: 'right',
+            notifications: [
+              { id: 1, message: 'New feature!: Site notifications🚨', url: 'https://github.com/josh-wong/josh-wong.github.io/pull/118' },
+              { id: 2, message: 'Check out the unofficial Baird beer flavor quadrants🍺', url: '/baird-beer-quadrants' },
+              { id: 3, message: 'Enjoy Baird beer? Ask the unofficial AI chatbot for recommendations🤖', url: 'https://typebot.co/baird-beer-recommendations-experimental-080f53' },
+            ],
+          },
           {
             className: 'header-rss-link',
             href: 'https://www.080f53.com/rss.xml',

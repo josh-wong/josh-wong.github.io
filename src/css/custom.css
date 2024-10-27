@@ -156,6 +156,7 @@ html[data-theme="dark"] .badge {
   background-image: url("/img/rss-mark.svg");
   background-size: contain;
   content: "";
+  position: relative;
   width: 24px;
   height: 24px;
 }
@@ -175,6 +176,7 @@ html[data-theme="dark"] .header-rss-link::before {
 
 html[data-theme="dark"] .navbar-sidebar .header-rss-link {
   filter: invert(0%);
+  position: relative;
 }
 
 /* Better Stack status icon */
@@ -207,4 +209,104 @@ html[data-theme="dark"] .navbar-sidebar .header-better-stack-icon {
 /* Mermaid quadrant label text color */
 html[data-theme="dark"] g[class^='label'] text {
   fill: #e3e3e3;
+}
+
+/* Specific to the notification wrapper */
+.notification-wrapper {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 15px;
+  position: sticky;
+}
+
+.notification-count {
+  align-items: center;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  font-size: 0.8rem;
+  height: 20px;
+  justify-content: center;
+  position: absolute;
+  right: -5px;
+  top: 2px;
+  width: 20px;
+}
+
+.notification-dropdown {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  position: absolute;
+  top: 38px;
+  width: 300px;
+  z-index: 1000;
+}
+
+.notification-item {
+  border-bottom: 1px solid #e0e0e0;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
+
+.notification-item:hover {
+  background-color: var(--ifm-dropdown-hover-background-color);
+  text-decoration: none;
+}
+
+html[data-theme="dark"] .notification-item {
+  padding: 10px;
+}
+
+html[data-theme="dark"] .notification-item:hover {
+  background-color: var(--ifm-dropdown-hover-background-color);
+  text-decoration: none;
+}
+
+html[data-theme="dark"] .notification-dropdown {
+  background-color: var(--ifm-background-color);
+  border-bottom: 1px solid invert(90%);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 38px;
+  width: 300px;
+  z-index: 1000;
+}
+
+/* Hide the notification icon in the main navbar on smaller screens */
+@media (max-width: 997px) {
+  .notification-wrapper {
+    display: none; /* Hide in the main navbar on mobile */
+    position: sticky;
+  }
+}
+
+/* Show notification icon in the sidebar menu on mobile */
+@media (max-width: 997px) {
+  .navbar-sidebar .notification-wrapper {
+    display: flex; /* Make it visible only in the sidebar on mobile */
+    position: sticky;
+  }
+
+  .notification-count {
+    align-items: center;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    font-size: 0.8rem;
+    height: 20px;
+    justify-content: center;
+    position: relative;
+    right: 0px;
+    top: 2px;
+    width: 20px;
+  }
 }
