@@ -235,8 +235,8 @@ const config = {
           {to: 'about', label: 'About', position: 'left'},
           // Custom notification as a React component.
           {
-            type: 'custom-NotificationBell', // Use the custom NotificationBell component.
-            position: 'right', // Position the notification bell on the right side of the navbar.
+            type: 'custom-NotificationBell',
+            position: 'right',
             notifications: [
               { id: 1, message: 'New feature!: Notifications🚨' },
               { id: 2, message: 'Check out the unofficial Baird beer flavor quadrants', url: '/baird-beer-quadrants' },
