@@ -1,24 +1,32 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const NotificationBell = () => {
+const NotificationBell = ({ notifications }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [notificationList, setNotificationList] = useState([]);
   
-  // Initialize notifications state from local storage or set default values.
-  const [notifications, setNotifications] = useState(() => {
-    const savedNotifications = localStorage.getItem('notifications');
-    return savedNotifications ? JSON.parse(savedNotifications) : [
-      { id: 1, message: 'New update available!', url: '/about', read: false },
-      { id: 2, message: 'Scheduled maintenance at 3:00 PM', url: 'https://search.brave.com', read: false },
-    ];
-  });
-
   const toggleDropdown = () => {
     setIsOpen((prev) => !prev);
   };
 
-  const dropdownRef = useRef(null); // Create a ref for the dropdown.
+  const dropdownRef = useRef(null);
 
-  // Close the dropdown when clicking outside.
+  // Load notifications from localStorage after component mounts
+  useEffect(() => {
+    const savedNotifications = localStorage.getItem('notifications');
+    if (savedNotifications) {
+      setNotificationList(JSON.parse(savedNotifications));
+    } else {
+      // Default notifications if no saved data
+      setNotificationList(notifications.map(notification => ({ ...notification, read: false })));
+    }
+  }, [notifications]);
+
+  // Update localStorage whenever notificationList changes
+  useEffect(() => {
+    localStorage.setItem('notifications', JSON.stringify(notificationList));
+  }, [notificationList]);
+
+  // Close the dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -32,35 +40,30 @@ const NotificationBell = () => {
     };
   }, [dropdownRef]);
 
-  // Handle reading a notification.
   const handleNotificationClick = (id) => {
-    setNotifications((prev) => {
-      const updatedNotifications = prev.map(notification => 
+    setNotificationList((prev) =>
+      prev.map(notification => 
         notification.id === id ? { ...notification, read: true } : notification
-      );
-
-      // Save updated notifications to local storage.
-      localStorage.setItem('notifications', JSON.stringify(updatedNotifications));
-      return updatedNotifications;
-    });
+      )
+    );
   };
 
-  const unreadCount = notifications.filter(notification => !notification.read).length;
+  const unreadCount = notificationList.filter(notification => !notification.read).length;
 
   return (
     <div className="notification-wrapper" onClick={toggleDropdown}>
-      <i className="fas fa-bell" style={{ fontSize: '1.25rem' }}></i>
+      <i className="fas fa-bell" style={{ fontSize: '1.25rem', lineHeight: '2' }}></i>
       {unreadCount > 0 && (
         <span className="notification-count">{unreadCount}</span>
       )}
       {isOpen && (
         <div className="notification-dropdown" ref={dropdownRef}>
-          {notifications.map((notification) => (
+          {notificationList.map((notification) => (
             <a
               key={notification.id}
               href={notification.url}
               className="notification-item"
-              onClick={() => handleNotificationClick(notification.id)} // Mark as read on click.
+              onClick={() => handleNotificationClick(notification.id)}
             >
               {notification.message}
             </a>
@@ -72,4 +75,3 @@ const NotificationBell = () => {
 };
 
 export default NotificationBell;
-  
