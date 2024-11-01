@@ -243,7 +243,7 @@ const config = {
             type: 'custom-NotificationBell',
             position: 'right',
             notifications: [
-              { id: 1, message: 'New feature!: Site notifications🚨', url: 'https://github.com/josh-wong/josh-wong.github.io/pull/118' },
+              { id: 1, message: 'New feature!: Site notifications🚨', url: 'https://github.com/josh-wong/josh-wong.github.io/pull/121' },
               { id: 2, message: 'Check out the unofficial Baird beer flavor quadrants🍺', url: '/baird-beer-quadrants' },
               { id: 3, message: 'Enjoy Baird beer? Ask the unofficial AI chatbot for recommendations🤖', url: 'https://typebot.co/baird-beer-recommendations-experimental-080f53' },
             ],
