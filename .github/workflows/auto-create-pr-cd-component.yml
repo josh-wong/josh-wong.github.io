@@ -1,0 +1,38 @@
+# This workflow auto-creates PRs for docs that have been updated in my "cd-collection" repository.
+name: ✨ Auto-create PR - cd-collection docs
+
+on:
+  push:
+    branches:
+      - cd-collection/**
+      
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create pull request
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { repo, owner } = context.repo;
+            const result = await github.rest.pulls.create({
+              title: 'AUTO: Docs sync - `cd-collection`',
+              owner,
+              repo,
+              head: '${{ github.ref_name }}',
+              base: 'main',
+              body: [
+                'This is an automated pull request (PR) to sync changes to docs in the [josh-wong/cd-collection](https://github.com/josh-wong/cd-collection) repo to this repo.',
+                '',
+                'Before merging this PR, confirm the following:',
+                '',
+                '- [ ] I have updated the side navigation to include new docs or remove deleted docs (if necessary).',
+                '- [ ] I have confirmed that this PR can be merged without waiting (if necessary).'
+              ].join('\n')
+            });
+            github.rest.issues.addLabels({
+              owner,
+              repo,
+              issue_number: result.data.number,
+              labels: ['documentation', 'triage']
+            });
