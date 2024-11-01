@@ -218,6 +218,11 @@ const config = {
               },
               {
                 type: 'doc',
+                label: 'CD collection💿',
+                docId: 'cd-collection/index',
+              },
+              {
+                type: 'doc',
                 label: 'Microsoft Zune device and software setup🎵',
                 docId: 'zune-software-setup/index',
               },
