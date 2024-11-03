@@ -75,7 +75,7 @@ const sidebars = {
       type: 'doc',
       label: 'CD collection',
       id: 'cd-collection/index',
-    }
+    },
     'cd-collection/a',
     'cd-collection/b',
     'cd-collection/c',
