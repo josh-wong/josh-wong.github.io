@@ -218,8 +218,8 @@ const config = {
               },
               {
                 type: 'doc',
-                label: 'CD collection💿',
-                docId: 'cd-collection/index',
+                label: 'Music collection💿',
+                docId: 'music-collection/index',
               },
               {
                 type: 'doc',
