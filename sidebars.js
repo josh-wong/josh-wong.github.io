@@ -70,14 +70,14 @@ const sidebars = {
       ],
     },
   ],
-  cdCollection: [
+  musicCollection: [
     {
       type: 'doc',
-      label: 'CD collection',
+      label: 'Music collection',
       id: 'music-collection/index',
     },
     {
-      'A-Z by artist': [
+      'A-Z (by artist)': [
         'music-collection/a',
         'music-collection/b',
         'music-collection/c',
@@ -105,7 +105,7 @@ const sidebars = {
         'music-collection/y',
         'music-collection/z',
       ],
-      '0-9 by artist': [
+      '0-9 (by artist)': [
         'music-collection/0',
         'music-collection/1',
         'music-collection/2',
