@@ -156,7 +156,7 @@ html[data-theme="dark"] .badge {
   background-image: url("/img/rss-mark.svg");
   background-size: contain;
   content: "";
-  position: relative;
+  position: inherit;
   width: 24px;
   height: 24px;
 }
@@ -238,9 +238,10 @@ html[data-theme="dark"] g[class^='label'] text {
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
+  left: 12px;
   position: absolute;
   top: 38px;
-  width: 300px;
+  width: 293px;
   z-index: 1000;
 }
 
@@ -274,9 +275,10 @@ html[data-theme="dark"] .notification-dropdown {
   border-bottom: 1px solid invert(90%);
   border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  left: 12px;
   position: absolute;
   top: 38px;
-  width: 300px;
+  width: 293px;
   z-index: 1000;
 }
 
@@ -292,7 +294,7 @@ html[data-theme="dark"] .notification-dropdown {
 @media (max-width: 997px) {
   .navbar-sidebar .notification-wrapper {
     display: flex; /* Make it visible only in the sidebar on mobile */
-    position: sticky;
+    position: relative;
   }
 
   .notification-count {
