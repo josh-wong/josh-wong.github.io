@@ -243,9 +243,21 @@ const config = {
             type: 'custom-NotificationBell',
             position: 'right',
             notifications: [
-              { id: 1, message: 'New feature!: Site notifications🚨', url: 'https://github.com/josh-wong/josh-wong.github.io/pull/121' },
-              { id: 2, message: 'Check out the unofficial Baird beer flavor quadrants🍺', url: '/baird-beer-quadrants' },
-              { id: 3, message: 'Enjoy Baird beer? Ask the unofficial AI chatbot for recommendations🤖', url: 'https://typebot.co/baird-beer-recommendations-experimental-080f53' },
+              {
+                id: 3,
+                message: 'New feature!: Site notifications🚨',
+                url: '/2024/11/20/site-notification-feature'
+              },
+              {
+                id: 2,
+                message: 'Check out the unofficial Baird beer flavor quadrants🍺',
+                url: '/baird-beer-quadrants'
+              },
+              {
+                id: 1,
+                message: 'Enjoy Baird beer? Ask the unofficial AI chatbot for recommendations🤖',
+                url: 'https://typebot.co/baird-beer-recommendations-experimental-080f53'
+              },
             ],
           },
           {
