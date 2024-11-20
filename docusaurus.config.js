@@ -246,7 +246,7 @@ const config = {
               {
                 id: 3,
                 message: 'New feature!: Site notifications🚨',
-                url: 'https://github.com/josh-wong/josh-wong.github.io/pull/121'
+                url: '/2024/11/20/site-notification-feature'
               },
               {
                 id: 2,
