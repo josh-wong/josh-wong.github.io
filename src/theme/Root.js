@@ -49,7 +49,7 @@ export default function Root({ children }) {
           expires={150}
           onAccept={handleConsentAccept}
         >
-          This website uses cookies to enhance the user experience. By continuing to use this website, you acknowledge that you have read and understood the cookie policy and consent to the use of cookies to improve your browsing experience, personalize content, and analyze website traffic.
+          This website uses cookies to enhance the user experience. By continuing to use this website, you acknowledge that you have read and understood the <a href="/cookies">cookie policy</a> and consent to the use of cookies to improve your browsing experience, personalize content, and analyze website traffic.
         </CookieConsent>
       </div>
     </>
