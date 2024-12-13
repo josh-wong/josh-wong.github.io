@@ -36,7 +36,6 @@ export default function Root({ children }) {
           location="bottom"
           buttonText="I understand"
           style={{
-            backgroundColor: "#080f53",
             padding: "20px",
           }}
           buttonStyle={{
@@ -49,7 +48,7 @@ export default function Root({ children }) {
           expires={150}
           onAccept={handleConsentAccept}
         >
-          This website uses cookies to enhance the user experience. By continuing to use this website, you acknowledge that you have read and understood the <a href="/cookies">cookie policy</a> and consent to the use of cookies to improve your browsing experience, personalize content, and analyze website traffic.
+          This website uses cookies to enhance the user experience. By continuing to use this website, you acknowledge that you have read and understood the <a href="/cookies" style={{color: "white", textDecorationLine: "underline"}}>cookie policy</a> and consent to the use of cookies so that I can make data-driven decisions to help improve your browsing experience and provide you with personalized content.
         </CookieConsent>
       </div>
     </>
