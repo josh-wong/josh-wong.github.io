@@ -42,13 +42,14 @@ export default function Root({ children }) {
             backgroundColor: "#fff",
             color: "#000",
             fontWeight: "500",
+            fontSize: "15px",
             fontFamily:
               "system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
           }}
           expires={150}
           onAccept={handleConsentAccept}
         >
-          This website uses cookies to enhance the user experience. By continuing to use this website, you acknowledge that you have read and understood the <a href="/cookies" style={{color: "white", textDecorationLine: "underline"}}>cookie policy</a> and consent to the use of cookies so that I can make data-driven decisions to help improve your browsing experience and provide you with personalized content.
+          This website uses cookies to enhance the visitor experience. By continuing to use this website, you acknowledge that you have read and understood my <a href="/cookies" style={{color: "white", textDecorationLine: "underline"}}>cookie policy</a> and consent to the use of cookies so that I can make data-driven decisions to help improve your browsing experience and provide you with personalized content.
         </CookieConsent>
       </div>
     </>
