@@ -57,7 +57,7 @@ const config = {
       ({
         docs: {
           path: 'docs',
-          routeBasePath: '/',
+          routeBasePath: '/projects',
           sidebarPath: './sidebars.js',
         //   // Please change this to your repo.
         //   // Remove this to remove the "edit this page" links.
@@ -67,12 +67,16 @@ const config = {
         blog: {
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
+          postsPerPage: 5,
           feedOptions: {
             type: 'all',
+            title: '',
+            description: '',
             copyright: 'Copyright © ${new Date().getFullYear()} 080f53',
             limit: null,
           },
-          routeBasePath: '/',
+          routeBasePath: 'blog',
+          path: 'blog',
           showReadingTime: true,
           onUntruncatedBlogPosts: 'ignore',          
           // Please change this to your repo.
@@ -227,7 +231,11 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          {to: '/', label: 'Blog', position: 'left'},
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'left'
+          },
           {
             type: 'dropdown',
             label: 'Projects',
@@ -273,12 +281,12 @@ const config = {
               {
                 id: 3,
                 message: 'New feature!: Site notifications🚨',
-                url: '/2024/11/20/site-notification-feature'
+                url: '/blog/2024/11/20/site-notification-feature'
               },
               {
                 id: 2,
                 message: 'Check out the unofficial Baird beer flavor quadrants🍺',
-                url: '/baird-beer-quadrants'
+                url: '/projects/baird-beer-quadrants'
               },
               {
                 id: 1,
@@ -323,7 +331,7 @@ const config = {
             title: 'Projects',
             items: [
               {
-                label: 'Personal samples',
+                label: 'Documentation',
                 to: '/projects',
               },
             ],
