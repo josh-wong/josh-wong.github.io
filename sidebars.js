@@ -29,6 +29,39 @@ const sidebars = {
   ],
   */
 
+  projects: [
+    {
+      type: 'doc',
+      label: 'Baird Brewing beer profile quadrants',
+      id: 'baird-beer-quadrants/index',
+    },
+    {
+      type: 'doc',
+      label: 'Bitcoin Cash Node on a Raspberry Pi 4',
+      id: 'bitcoin-cash-node-on-raspberry-pi/index',
+    },
+    {
+      type: 'doc',
+      label: 'Music collection',
+      id: 'music-collection/index',
+    },
+    {
+      type: 'doc',
+      label: 'Microsoft Zune device and Zune software setup guide',
+      id: 'zune-software-setup/index',
+    },
+    {
+      type: 'doc',
+      label: 'passgen',
+      id: 'passgen/index',
+    },
+    {
+      type: 'link',
+      label: 'AI chatbot for beer recommendations (unofficial)',
+      href: 'https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d',
+    },
+  ],
+
   bairdBeerQuadrants: [
     {
       type: 'doc',
