@@ -42,13 +42,13 @@ const sidebars = {
     },
     {
       type: 'doc',
-      label: 'Music collection',
-      id: 'music-collection/index',
+      label: 'Microsoft Zune device and Zune software setup guide',
+      id: 'zune-software-setup/index',
     },
     {
       type: 'doc',
-      label: 'Microsoft Zune device and Zune software setup guide',
-      id: 'zune-software-setup/index',
+      label: 'Music collection',
+      id: 'music-collection/index',
     },
     {
       type: 'doc',
@@ -103,6 +103,19 @@ const sidebars = {
       ],
     },
   ],
+  zuneSoftwareSetup: [
+    {
+      type: 'doc',
+      label: 'About the Microsoft Zune device and Zune software setup guide',
+      id: 'zune-software-setup/index',
+    },
+    'zune-software-setup/getting-started',
+    'zune-software-setup/installing-the-zune-software',
+    'zune-software-setup/connecting-with-the-zune-software',
+    'zune-software-setup/adding-apps-and-games',
+    'zune-software-setup/conclusion',
+    'zune-software-setup/references',
+  ],
   musicCollection: [
     {
       type: 'doc',
@@ -151,19 +164,6 @@ const sidebars = {
         'music-collection/9',
       ],
     },
-  ],
-  zuneSoftwareSetup: [
-    {
-      type: 'doc',
-      label: 'About the Microsoft Zune device and Zune software setup guide',
-      id: 'zune-software-setup/index',
-    },
-    'zune-software-setup/getting-started',
-    'zune-software-setup/installing-the-zune-software',
-    'zune-software-setup/connecting-with-the-zune-software',
-    'zune-software-setup/adding-apps-and-games',
-    'zune-software-setup/conclusion',
-    'zune-software-setup/references',
   ],
   passgen: [
     {

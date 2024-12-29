@@ -237,13 +237,13 @@ const config = {
               },
               {
                 type: 'doc',
-                label: 'Music collection💿',
-                docId: 'music-collection/index',
+                label: 'Microsoft Zune device and software setup🎵',
+                docId: 'zune-software-setup/index',
               },
               {
                 type: 'doc',
-                label: 'Microsoft Zune device and software setup🎵',
-                docId: 'zune-software-setup/index',
+                label: 'Music collection💿',
+                docId: 'music-collection/index',
               },
               {
                 type: 'doc',

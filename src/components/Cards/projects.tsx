@@ -101,6 +101,18 @@ const CardsPersonalProjects = [
     ),
   },
   {
+    name: 'Music collection💿',
+    // image: '<LINK_TO>.png',
+    url: {
+      page: '/projects/music-collection',
+    },
+    description: (
+      <Translate id="personal.musicCollection.description">
+        List of CDs and vinyl records that I currently have in my collection
+      </Translate>
+    ),
+  },
+  {
     name: 'passGen🔐',
     // image: '<LINK_TO>.png',
     url: {
