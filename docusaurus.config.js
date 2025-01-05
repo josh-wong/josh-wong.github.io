@@ -223,6 +223,7 @@ const config = {
           {
             type: 'dropdown',
             label: 'Projects',
+            to: 'projects',
             position: 'left',
             items: [
               {
@@ -251,8 +252,9 @@ const config = {
                 docId: 'passgen/index',
               },
               {
-                label: 'Signal sticker pack - "Why Bitcoin Cash?"🎁',
-                href: 'https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d',
+                type: 'doc',
+                label: 'Signal sticker packs🎁',
+                docId: 'signal-stickers/index',
               },
             ],
           },
@@ -261,7 +263,12 @@ const config = {
           {
             type: 'custom-NotificationBell',
             position: 'right',
-            notifications: [
+            notifications: [ // Instead of deleting notifications, just comment them out so that it's easier to see the history of notifications.
+              {
+                id: 4,
+                message: 'New Signal sticker pack!: 1950s-60s Blue Note jazz musicians🎷',
+                url: 'https://signal.art/addstickers/#pack_id=b406d0f0636508c14222022baa9af677&pack_key=e0641dcf015b9bc27ebbbf6795fc90076e697702221f68e8c74afc0e86332539'
+              },
               {
                 id: 3,
                 message: 'New feature!: Site notifications🚨',
@@ -272,11 +279,11 @@ const config = {
                 message: 'Check out the unofficial Baird beer flavor quadrants🍺',
                 url: '/projects/baird-beer-quadrants'
               },
-              {
-                id: 1,
-                message: 'Enjoy Baird beer? Ask the unofficial AI chatbot for recommendations🤖',
-                url: 'https://typebot.co/baird-beer-recommendations-experimental-080f53'
-              },
+              // {
+              //   id: 1,
+              //   message: 'Enjoy Baird beer? Ask the unofficial AI chatbot for recommendations🤖',
+              //   url: 'https://typebot.co/baird-beer-recommendations-experimental-080f53'
+              // },
             ],
           },
           {
@@ -306,17 +313,16 @@ const config = {
             title: '080F53',
             items: [
               {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'Projects',
+                to: '/projects',
+              },
+              {
                 label: 'About',
                 to: '/about',
-              },
-            ],
-          },
-          {
-            title: 'Projects',
-            items: [
-              {
-                label: 'Documentation',
-                to: '/projects',
               },
             ],
           },
