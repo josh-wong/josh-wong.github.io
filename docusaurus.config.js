@@ -223,6 +223,7 @@ const config = {
           {
             type: 'dropdown',
             label: 'Projects',
+            to: 'projects',
             position: 'left',
             items: [
               {
