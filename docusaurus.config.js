@@ -261,7 +261,7 @@ const config = {
           {
             type: 'custom-NotificationBell',
             position: 'right',
-            notifications: [
+            notifications: [ // Instead of deleting notifications, just comment them out so that it's easier to see the history of notifications.
               {
                 id: 3,
                 message: 'New feature!: Site notifications🚨',
