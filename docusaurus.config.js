@@ -251,8 +251,9 @@ const config = {
                 docId: 'passgen/index',
               },
               {
-                label: 'Signal sticker pack - "Why Bitcoin Cash?"🎁',
-                href: 'https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d',
+                type: 'doc',
+                label: 'Signal sticker packs🎁',
+                docId: 'signal-stickers/index',
               },
             ],
           },
