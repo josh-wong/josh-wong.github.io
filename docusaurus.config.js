@@ -312,17 +312,16 @@ const config = {
             title: '080F53',
             items: [
               {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'Projects',
+                to: '/projects',
+              },
+              {
                 label: 'About',
                 to: '/about',
-              },
-            ],
-          },
-          {
-            title: 'Projects',
-            items: [
-              {
-                label: 'Documentation',
-                to: '/projects',
               },
             ],
           },
