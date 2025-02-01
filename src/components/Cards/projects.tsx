@@ -68,7 +68,7 @@ const CardsPersonalProjects = [
     name: 'Baird beer profile quadrants🍻',
     // image: '<LINK_TO>.png',
     url: {
-      page: '../../baird-beer-quadrants',
+      page: '/projects/baird-beer-quadrants',
     },
     description: (
       <Translate id="personal.bairdBeerQuadrants.description">
@@ -80,7 +80,7 @@ const CardsPersonalProjects = [
     name: 'Bitcoin Cash Node on a Raspberry Pi🪙',
     // image: '<LINK_TO>.png',
     url: {
-      page: '../../bitcoin-cash-node-on-raspberry-pi',
+      page: '/projects/bitcoin-cash-node-on-raspberry-pi',
     },
     description: (
       <Translate id="personal.raspiBch.description">
@@ -92,7 +92,7 @@ const CardsPersonalProjects = [
     name: 'Microsoft Zune device and software setup🎵',
     // image: '<LINK_TO>.png',
     url: {
-      page: '../../zune-software-setup',
+      page: '/projects/zune-software-setup',
     },
     description: (
       <Translate id="personal.zuneSetup.description">
@@ -101,10 +101,22 @@ const CardsPersonalProjects = [
     ),
   },
   {
+    name: 'Music collection💿',
+    // image: '<LINK_TO>.png',
+    url: {
+      page: '/projects/music-collection',
+    },
+    description: (
+      <Translate id="personal.musicCollection.description">
+        List of CDs and vinyl records that I currently have in my collection
+      </Translate>
+    ),
+  },
+  {
     name: 'passGen🔐',
     // image: '<LINK_TO>.png',
     url: {
-      page: '../../passgen',
+      page: '/projects/passgen',
     },
     description: (
       <Translate id="personal.passgen.description">

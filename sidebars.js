@@ -29,6 +29,44 @@ const sidebars = {
   ],
   */
 
+  projects: [
+    {
+      type: 'doc',
+      label: 'Baird Brewing beer profile quadrants',
+      id: 'baird-beer-quadrants/index',
+    },
+    {
+      type: 'doc',
+      label: 'Bitcoin Cash Node on a Raspberry Pi 4',
+      id: 'bitcoin-cash-node-on-raspberry-pi/index',
+    },
+    {
+      type: 'doc',
+      label: 'Microsoft Zune device and Zune software setup guide',
+      id: 'zune-software-setup/index',
+    },
+    {
+      type: 'doc',
+      label: 'Music collection',
+      id: 'music-collection/index',
+    },
+    {
+      type: 'doc',
+      label: 'passgen',
+      id: 'passgen/index',
+    },
+    {
+      type: 'doc',
+      label: 'Signal sticker packs',
+      id: 'signal-stickers/index',
+    },
+    {
+      type: 'link',
+      label: 'AI chatbot for beer recommendations (unofficial)',
+      href: 'https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d',
+    },
+  ],
+
   bairdBeerQuadrants: [
     {
       type: 'doc',
@@ -40,6 +78,11 @@ const sidebars = {
     'baird-beer-quadrants/beers-monthly-style-series',
     'baird-beer-quadrants/beers-fruitful-life-series',
     'baird-beer-quadrants/beers-taproom-exclusive',
+    {
+      type: 'link',
+      label: '🤖AI chatbot for beer recommendations (unofficial)',
+      href: 'https://typebot.co/baird-beer-recommendations-experimental-080f53',
+    },
   ],
   bitcoinCashNodeOnRaspberryPi: [
     {
@@ -77,6 +120,55 @@ const sidebars = {
     'zune-software-setup/adding-apps-and-games',
     'zune-software-setup/conclusion',
     'zune-software-setup/references',
+  ],
+  musicCollection: [
+    {
+      type: 'doc',
+      label: 'Music collection',
+      id: 'music-collection/index',
+    },
+    {
+      'A-Z (by artist)': [
+        'music-collection/a',
+        'music-collection/b',
+        'music-collection/c',
+        'music-collection/d',
+        'music-collection/e',
+        'music-collection/f',
+        'music-collection/g',
+        'music-collection/h',
+        'music-collection/i',
+        'music-collection/j',
+        'music-collection/k',
+        'music-collection/l',
+        'music-collection/m',
+        'music-collection/n',
+        'music-collection/o',
+        'music-collection/p',
+        'music-collection/q',
+        'music-collection/r',
+        'music-collection/s',
+        'music-collection/t',
+        'music-collection/u',
+        'music-collection/v',
+        'music-collection/w',
+        'music-collection/x',
+        'music-collection/y',
+        'music-collection/z',
+      ],
+      '0-9 (by artist)': [
+        'music-collection/0',
+        'music-collection/1',
+        'music-collection/2',
+        'music-collection/3',
+        'music-collection/4',
+        'music-collection/5',
+        'music-collection/6',
+        'music-collection/7',
+        'music-collection/8',
+        'music-collection/9',
+      ],
+    },
   ],
   passgen: [
     {

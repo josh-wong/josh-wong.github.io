@@ -9,6 +9,11 @@ on:
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
   workflow_dispatch:
+  # Only trigger, when the build workflow succeeded
+  workflow_run:
+    workflows: ["PR checklist checker"]
+    types:
+      - completed
 
 jobs:
   test-deploy:

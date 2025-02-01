@@ -57,7 +57,7 @@ const config = {
       ({
         docs: {
           path: 'docs',
-          routeBasePath: '/',
+          routeBasePath: '/projects',
           sidebarPath: './sidebars.js',
         //   // Please change this to your repo.
         //   // Remove this to remove the "edit this page" links.
@@ -67,12 +67,16 @@ const config = {
         blog: {
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
+          postsPerPage: 5,
           feedOptions: {
             type: 'all',
+            title: '',
+            description: '',
             copyright: 'Copyright © ${new Date().getFullYear()} 080f53',
             limit: null,
           },
-          routeBasePath: '/',
+          routeBasePath: 'blog',
+          path: 'blog',
           showReadingTime: true,
           onUntruncatedBlogPosts: 'ignore',          
           // Please change this to your repo.
@@ -93,8 +97,19 @@ const config = {
       }),
     ],
   ],
-  
+
   plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/blog/2023/03/03/fixing-iphone-obsidian-sync-issue',
+            from: '/blog/2023/03/how-to-fix-an-issue-with-the-obsidian-app-not-opening-and-syncing-on-your-iphone',
+          },
+        ],
+      },
+    ],
     require.resolve('docusaurus-plugin-image-zoom'),
     [
       '@docusaurus/plugin-pwa',
@@ -171,14 +186,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      announcementBar: {
-        id: 'announcement_bar',
-        content:
-          '<a href="https://www.080f53.com/passgen/" rel="noopener noreferrer">passGen v3.4</a> is available🎉 For details on what\'s changed, see the <a href="https://github.com/josh-wong/passGen/releases/tag/v3.4.0" target="_blank" rel="noopener noreferrer">release notes</a>.',
-        backgroundColor: '#7c83c2',
-        textColor: '#ffffff',
-        isCloseable: true,
-      },
+      // announcementBar: {
+      //   id: 'announcement_bar',
+      //   content:
+      //     'MESSAGE WITH A <a href="URL">LINK IF NECESSARY</a>!',
+      //   backgroundColor: '#7c83c2',
+      //   textColor: '#ffffff',
+      //   isCloseable: true,
+      // },
       docs: {
         sidebar: {
           hideable: true,
@@ -200,16 +215,20 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          {to: '/', label: 'Blog', position: 'left'},
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'left'
+          },
           {
             type: 'dropdown',
-            label: 'Personal portfolio',
+            label: 'Projects',
+            to: 'projects',
             position: 'left',
-            to: 'portfolio/personal',
             items: [
               {
                 type: 'doc',
-                label: 'Baird beer profile quadrants🍻',
+                label: 'Baird beer profile quadrants🍺',
                 docId: 'baird-beer-quadrants/index',
               },
               {
@@ -224,16 +243,49 @@ const config = {
               },
               {
                 type: 'doc',
+                label: 'Music collection💿',
+                docId: 'music-collection/index',
+              },
+              {
+                type: 'doc',
                 label: 'passGen🔐',
                 docId: 'passgen/index',
               },
               {
-                label: 'Signal sticker pack - "Why Bitcoin Cash?"🎁',
-                href: 'https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d',
+                type: 'doc',
+                label: 'Signal sticker packs🎁',
+                docId: 'signal-stickers/index',
               },
             ],
           },
           {to: 'about', label: 'About', position: 'left'},
+          // Custom notification as a React component.
+          {
+            type: 'custom-NotificationBell',
+            position: 'right',
+            notifications: [ // Instead of deleting notifications, just comment them out so that it's easier to see the history of notifications.
+              {
+                id: 4,
+                message: 'New Signal sticker pack!: 1950s-60s Blue Note jazz musicians🎷',
+                url: 'https://signal.art/addstickers/#pack_id=b406d0f0636508c14222022baa9af677&pack_key=e0641dcf015b9bc27ebbbf6795fc90076e697702221f68e8c74afc0e86332539'
+              },
+              {
+                id: 3,
+                message: 'New feature!: Site notifications🚨',
+                url: '/blog/2024/11/20/site-notification-feature'
+              },
+              {
+                id: 2,
+                message: 'Check out the unofficial Baird beer flavor quadrants🍺',
+                url: '/projects/baird-beer-quadrants'
+              },
+              // {
+              //   id: 1,
+              //   message: 'Enjoy Baird beer? Ask the unofficial AI chatbot for recommendations🤖',
+              //   url: 'https://typebot.co/baird-beer-recommendations-experimental-080f53'
+              // },
+            ],
+          },
           {
             className: 'header-rss-link',
             href: 'https://www.080f53.com/rss.xml',
@@ -261,22 +313,17 @@ const config = {
             title: '080F53',
             items: [
               {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'Projects',
+                to: '/projects',
+              },
+              {
                 label: 'About',
                 to: '/about',
               },
-            ],
-          },
-          {
-            title: 'Portfolio',
-            items: [
-              {
-                label: 'Personal samples',
-                to: '/portfolio/#personal-portfolio-samples',
-              },
-              // {
-              //   label: 'Professional portfolio samples',
-              //   to: '/portfolio/#professional-portfolio-samples',
-              // },
             ],
           },
           {
