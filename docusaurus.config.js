@@ -288,7 +288,7 @@ const config = {
           },
           {
             className: 'header-rss-link',
-            href: 'https://www.080f53.com/rss.xml',
+            href: 'https://www.080f53.com/blog/rss.xml',
             position: 'right',
             'aria-label': 'RSS',
           },
