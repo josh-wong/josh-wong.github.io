@@ -107,6 +107,10 @@ const config = {
             to: '/blog/2023/03/03/fixing-iphone-obsidian-sync-issue',
             from: '/blog/2023/03/how-to-fix-an-issue-with-the-obsidian-app-not-opening-and-syncing-on-your-iphone',
           },
+          {
+            to: '/projects/passgen',
+            from: '/passgen',
+          },
         ],
       },
     ],
