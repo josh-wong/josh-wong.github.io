@@ -16,14 +16,14 @@
   },
   "dependencies": {
     "@crowdin/cli": "^3.19.4",
-    "@docusaurus/core": "3.5.2",
-    "@docusaurus/plugin-client-redirects": "3.5.2",
-    "@docusaurus/plugin-content-docs": "3.5.2",
-    "@docusaurus/plugin-google-gtag": "3.5.2",
-    "@docusaurus/plugin-google-tag-manager": "3.5.2",
-    "@docusaurus/plugin-pwa": "3.5.2",
-    "@docusaurus/preset-classic": "3.5.2",
-    "@docusaurus/theme-mermaid": "3.5.2",
+    "@docusaurus/core": "^3.7.0",
+    "@docusaurus/plugin-client-redirects": "^3.7.0",
+    "@docusaurus/plugin-content-docs": "^3.7.0",
+    "@docusaurus/plugin-google-gtag": "^3.7.0",
+    "@docusaurus/plugin-google-tag-manager": "^3.7.0",
+    "@docusaurus/plugin-pwa": "^3.7.0",
+    "@docusaurus/preset-classic": "^3.7.0",
+    "@docusaurus/theme-mermaid": "^3.7.0",
     "@fortawesome/fontawesome-free": "6.6.0",
     "@mdx-js/react": "^3.0.0",
     "@microsoft/clarity": "1.0.0",
@@ -38,8 +38,8 @@
     "three": "^0.168.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.5.2",
-    "@docusaurus/types": "3.5.2"
+    "@docusaurus/module-type-aliases": "^3.7.0",
+    "@docusaurus/types": "^3.7.0"
   },
   "browserslist": {
     "production": [
