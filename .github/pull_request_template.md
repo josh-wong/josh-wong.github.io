@@ -10,7 +10,7 @@
 
 ## Changes made
 
-> Replace this text with an outline the specific changes made in this pull request in the form of a bulleted list. Include relevant details, such as added features, bug fixes, code refactoring, or improvements.
+> Replace this text with an outline of the specific changes made in this pull request in the form of a bulleted list. Include relevant details, such as added features, bug fixes, code refactoring, or improvements.
 
 <h2 id="checklist">Checklist</h2>
 
