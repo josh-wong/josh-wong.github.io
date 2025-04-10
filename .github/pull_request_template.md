@@ -14,6 +14,10 @@
 
 The following is a best-effort checklist. If any items in this checklist aren't applicable to this PR, add `N/A` after each item.
 
+### Functionality
+
+- [ ] This PR includes a new feature.
+
 ### Documentation
 
 - [ ] I have updated the side navigation as necessary.
