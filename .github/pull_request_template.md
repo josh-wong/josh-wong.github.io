@@ -2,13 +2,15 @@
 
 > Replace this text with a brief description about **why** this PR is necessary. Be sure to provide context.
 
+- [ ] This PR includes a new feature.
+
 ## Related issues and/or PRs
 
 > Replace this text with links to any existing issues and/or PRs. Or, write `N/A` if no related issues and/or PRs exist.
 
 ## Changes made
 
-> Replace this text with an outline the specific changes made in this pull request in the form of a bulleted list. Include relevant details, such as added features, bug fixes, code refactoring, or improvements.
+> Replace this text with an outline of the specific changes made in this pull request in the form of a bulleted list. Include relevant details, such as added features, bug fixes, code refactoring, or improvements.
 
 <h2 id="checklist">Checklist</h2>
 
