@@ -1,4 +1,4 @@
-name: Label New Feature PR
+name: Add `new feature` label to PR
 
 on:
   pull_request:
@@ -16,7 +16,7 @@ jobs:
           echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Add 'new feature' label if checked
-        if: contains(steps.pr_body.outputs.body, '- [x] This PR includes a new feature.') || contains(steps.pr_body.outputs.body, '- [X] New feature')
+        if: contains(steps.pr_body.outputs.body, '- [x] This PR includes a new feature.') || contains(steps.pr_body.outputs.body, '- [x] This PR includes a new feature.')
         uses: actions-ecosystem/action-add-labels@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -24,8 +24,8 @@ jobs:
 
       - name: Remove 'new feature' label if unchecked
         if: |
-          !contains(steps.pr_body.outputs.body, '- [x] New feature') &&
-          !contains(steps.pr_body.outputs.body, '- [X] New feature')
+          !contains(steps.pr_body.outputs.body, '- [x] This PR includes a new feature.') &&
+          !contains(steps.pr_body.outputs.body, '- [x] This PR includes a new feature.')
         uses: actions-ecosystem/action-remove-labels@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
