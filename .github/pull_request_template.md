@@ -2,6 +2,8 @@
 
 > Replace this text with a brief description about **why** this PR is necessary. Be sure to provide context.
 
+- [ ] This PR includes a new feature.
+
 ## Related issues and/or PRs
 
 > Replace this text with links to any existing issues and/or PRs. Or, write `N/A` if no related issues and/or PRs exist.
@@ -13,10 +15,6 @@
 <h2 id="checklist">Checklist</h2>
 
 The following is a best-effort checklist. If any items in this checklist aren't applicable to this PR, add `N/A` after each item.
-
-### Functionality
-
-- [ ] This PR includes a new feature.
 
 ### Documentation
 
