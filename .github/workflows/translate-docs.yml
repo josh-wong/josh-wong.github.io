@@ -1,0 +1,67 @@
+name: Translate English docs to Japanese
+
+on:
+  push:
+    branches:
+      - main
+      - '3*' # matches 3, 3.9, 3.10, etc.
+    paths:
+      - 'docs/en-us/**'
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install openai
+
+      - name: Get changed files
+        id: changes
+        run: |
+          echo "files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- 'docs/en-us/' | tr '\n' ' ')" >> $GITHUB_OUTPUT
+
+      - name: Translate updated files
+        if: steps.changes.outputs.files != ''
+        run: |
+          mkdir translated
+          for file in ${{ steps.changes.outputs.files }}; do
+            python translate-docs.py "$file"
+          done
+
+      - name: Get English PR title
+        id: get_pr_title
+        run: |
+          PR_TITLE=$(gh pr view ${{ github.event.pull_request.number }} --json title -q '.title')
+          echo "title=${PR_TITLE}" >> $GITHUB_OUTPUT
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create PR with translated docs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          BRANCH="translate-ja-${{ github.run_id }}"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git checkout -b $BRANCH
+          git add docs/ja-jp
+          git commit -m "Translate docs to Japanese"
+          git push origin $BRANCH
+
+          PR_TITLE="[Japanese] ${{ steps.get_pr_title.outputs.title }}"
+          gh pr create --title "$PR_TITLE" \
+                       --body "Automated translation of updated English docs" \
+                       --base ${{ github.ref_name }} \
+                       --head $BRANCH
