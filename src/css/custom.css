@@ -317,6 +317,5 @@ html[data-theme="dark"] .notification-dropdown {
   align-items: center;
   flex: 1;
   justify-content: center;
-  max-width: 640px;
-  min-width: 100%;
+  width: 100%;
 }
