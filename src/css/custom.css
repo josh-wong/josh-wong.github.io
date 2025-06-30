@@ -312,3 +312,10 @@ html[data-theme="dark"] .notification-dropdown {
     width: 20px;
   }
 }
+
+.youtube-embed {
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+  width: 100%;
+}

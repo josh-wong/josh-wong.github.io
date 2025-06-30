@@ -269,6 +269,11 @@ const config = {
             position: 'right',
             notifications: [ // Instead of deleting notifications, just comment them out so that it's easier to see the history of notifications.
               {
+                id: 5,
+                message: 'Check out my episode on the podcast "Life + Data"📺',
+                url: 'https://www.youtube.com/watch?v=LJt8iPnxnmQ'
+              },
+              {
                 id: 4,
                 message: 'New Signal sticker pack!: 1950s-60s Blue Note jazz musicians🎷',
                 url: 'https://signal.art/addstickers/#pack_id=b406d0f0636508c14222022baa9af677&pack_key=e0641dcf015b9bc27ebbbf6795fc90076e697702221f68e8c74afc0e86332539'
