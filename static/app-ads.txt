@@ -1,0 +1,8 @@
+# app-ads.txt for PokerOdds AI
+# This file authorizes Meta Audience Network to serve ads in this app
+
+# Meta Audience Network (Facebook)
+facebook.com, 1905235160336856, DIRECT, c3e20eee3f780d68
+
+# Additional networks can be added here as needed
+# Format: domain, publisher_id, relationship, TAG_ID
