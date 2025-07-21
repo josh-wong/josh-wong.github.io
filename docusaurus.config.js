@@ -257,6 +257,11 @@ const config = {
               },
               {
                 type: 'doc',
+                label: 'PokerOdds AI♥️',
+                docId: 'pokerodds-ai/index',
+              },
+              {
+                type: 'doc',
                 label: 'Signal sticker packs🎁',
                 docId: 'signal-stickers/index',
               },
