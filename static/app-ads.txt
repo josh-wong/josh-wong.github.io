@@ -1,8 +1,5 @@
-# app-ads.txt for PokerOdds AI
-# This file authorizes Meta Audience Network to serve ads in this app
+# app-ads.txt
+# This file authorizes Google AdMob to serve ads in the apps listed below.
 
-# Meta Audience Network (Facebook)
-facebook.com, 1905235160336856, DIRECT, c3e20eee3f780d68
-
-# Additional networks can be added here as needed
-# Format: domain, publisher_id, relationship, TAG_ID
+# PokerOdds AI
+google.com, pub-2240279188266468, DIRECT, f08c47fec0942fa0
