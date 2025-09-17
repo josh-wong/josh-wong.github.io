@@ -42,6 +42,11 @@ const sidebars = {
     },
     {
       type: 'doc',
+      label: 'Into Tokyo',
+      id: 'into-tokyo/index',
+    },
+    {
+      type: 'doc',
       label: 'Microsoft Zune device and Zune software setup guide',
       id: 'zune-software-setup/index',
     },
@@ -54,6 +59,11 @@ const sidebars = {
       type: 'doc',
       label: 'passgen',
       id: 'passgen/index',
+    },
+    {
+      type: 'doc',
+      label: 'PokerOdds AI',
+      id: 'pokerodds-ai/index',
     },
     {
       type: 'doc',
