@@ -247,6 +247,11 @@ const config = {
               },
               {
                 type: 'doc',
+                label: 'Into Tokyo🗾',
+                docId: 'into-tokyo/index',
+              },
+              {
+                type: 'doc',
                 label: 'Music collection💿',
                 docId: 'music-collection/index',
               },
