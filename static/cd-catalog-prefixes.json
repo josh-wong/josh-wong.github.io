@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "lastUpdated": "2024-11-30",
+  "lastUpdated": "2025-11-30",
   "description": "CD catalog number prefixes for OCR pattern matching. Prefixes are grouped by region/label family.",
   "usage": {
     "highConfidence": "Text matching these prefixes + standard number format should be treated as catalog numbers with high confidence (0.8-1.0)",
