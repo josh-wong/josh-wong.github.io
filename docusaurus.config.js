@@ -262,11 +262,6 @@ const config = {
               },
               {
                 type: 'doc',
-                label: 'Tensai Notes📝',
-                docId: 'tensai-notes/index',
-              },
-              {
-                type: 'doc',
                 label: 'Signal sticker packs🎁',
                 docId: 'signal-stickers/index',
               },
