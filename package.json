@@ -15,7 +15,7 @@
     "crowdin": "crowdin"
   },
   "dependencies": {
-    "@crowdin/cli": "^3.19.4",
+    "@crowdin/cli": "^4.13.0",
     "@docusaurus/core": "^3.9.2",
     "@docusaurus/plugin-client-redirects": "^3.9.2",
     "@docusaurus/plugin-content-docs": "^3.9.2",
@@ -39,8 +39,8 @@
     "three": "^0.168.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.7.0",
-    "@docusaurus/types": "^3.7.0"
+    "@docusaurus/module-type-aliases": "^3.9.2",
+    "@docusaurus/types": "^3.9.2"
   },
   "browserslist": {
     "production": [
