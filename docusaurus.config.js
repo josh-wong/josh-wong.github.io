@@ -232,6 +232,11 @@ const config = {
             items: [
               {
                 type: 'doc',
+                label: 'Alignee🎯',
+                docId: 'alignee/index',
+              },
+              {
+                type: 'doc',
                 label: 'Baird beer profile quadrants🍺',
                 docId: 'baird-beer-quadrants/index',
               },
