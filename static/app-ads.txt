@@ -1,5 +1,5 @@
 # app-ads.txt
 # This file authorizes Google AdMob to serve ads in the apps listed below.
 
-# PokerOdds AI
+# PokerOdds AI, Alignee
 google.com, pub-2240279188266468, DIRECT, f08c47fec0942fa0
