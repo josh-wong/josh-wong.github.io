@@ -1,30 +1,69 @@
-## Description
+## Summary
 
-> Replace this text with a brief description about **why** this PR is necessary. Be sure to provide context.
+<!-- Brief description of what this PR accomplishes, starting with "This PR ..." -->
 
-- [ ] This PR includes a new feature.
+## Related issues or PRs
 
-## Related issues and/or PRs
-
-> Replace this text with links to any existing issues and/or PRs. Or, write `N/A` if no related issues and/or PRs exist.
+<!-- Use a closing keyword so GitHub links the issue under Development and auto-syncs assignee/labels, for example: Resolves #123, Fixes #123, Closes #123. For a non-closing reference, use "Relates to #456". If a related issue or PR doesn't exist, write "N/A". -->
+-
 
 ## Changes made
 
-> Replace this text with an outline of the specific changes made in this pull request in the form of a bulleted list. Include relevant details, such as added features, bug fixes, code refactoring, or improvements.
+<!-- List specific changes with bullet points -->
+-
+-
+-
 
-<h2 id="checklist">Checklist</h2>
+## Technical implementation
 
-The following is a best-effort checklist. If any items in this checklist aren't applicable to this PR, add `N/A` after each item.
+<!-- Describe architectural decisions, patterns used, etc. -->
+- **Approach:**
+- **Key files modified:**
+- **Dependencies added/removed:**
+- **Design patterns used:**
 
-### Documentation
+## Testing performed
 
-- [ ] I have updated the side navigation as necessary.
-- [ ] I have updated the documentation to reflect the changes.
-- [ ] I have documented or updated any remaining open issues linked to this PR in GitHub, Obsidian, etc.
+<!-- Retain every checklist item. Mark completed items with [x]. Leave incomplete items unchecked. If an item doesn't apply, leave it unchecked and append "not applicable – [brief reason]". -->
+- [ ] Code compiles without errors or warnings
+- [ ] Tested core functionality works as expected
+- [ ] Tested edge cases and error handling
+- [ ] Unit tests added or updated (if applicable)
 
-### Build, deploy, and test
+- [ ] Checked the locally built Docusaurus site
+- [ ] Tested affected routes and navigation
+- [ ] Tested light and dark modes
+- [ ] Tested relevant viewport sizes
+- [ ] Tested keyboard navigation and screen-reader semantics when UI behavior changes
+- [ ] Tested every affected locale
 
-- [ ] I have merged and published any dependent changes in other PRs.
-- [ ] I have commented my code, particularly in hard-to-understand areas.
-- [ ] I have checked that my changes look as expected on a locally built version of the docs site.
-- [ ] My changes generate no new warnings.
+## Privacy and security considerations
+
+<!-- Mark applicable items with [x]. Add PR-specific notes below any relevant item. -->
+- [ ] No new data leaves the system without updating any relevant user-facing disclosure
+- [ ] No new network calls, telemetry, analytics SDK, or crash reporter added without review
+- [ ] Error messages and logs don't leak sensitive data
+
+## Code quality
+
+<!-- Verify these items -->
+- [ ] Code follows project conventions and patterns
+- [ ] Added appropriate comments for non-obvious logic only
+- [ ] No hardcoded strings that should be localized (if the project supports multiple locales)
+- [ ] Proper error handling implemented
+- [ ] No debugging code or print statements left in
+- [ ] Removed unused imports and variables
+- [ ] Updated side navigation when documentation structure changed
+- [ ] Updated documentation and linked open issues when relevant
+- [ ] Confirmed the Docusaurus build produces no new warnings
+
+## Breaking changes
+
+<!-- Does this PR change a persisted schema, a public API, or a wire/exchange format? -->
+- [ ] No breaking changes
+- [ ] Schema or data-model version change (describe migration below)
+- [ ] API or wire-format version change (describe backward-compatibility handling below)
+
+## Additional context
+
+<!-- Any extra information for reviewers, screenshots, performance notes, etc. -->
