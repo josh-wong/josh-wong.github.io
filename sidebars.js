@@ -59,7 +59,12 @@ const sidebars = {
       type: 'doc',
       label: 'Signal sticker packs',
       id: 'signal-stickers/index',
-    }
+    },
+    {
+      type: 'doc',
+      label: 'Tegata',
+      id: 'tegata/index',
+    },
   ],
 
   bairdBeerQuadrants: [
