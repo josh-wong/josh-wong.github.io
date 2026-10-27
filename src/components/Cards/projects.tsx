@@ -132,10 +132,34 @@ const CardsPersonalProjects = [
     },
     description: (
       <Translate id="personal.signalStickersBch.description">
-        Created a Signal sticker pack based on the Why Bitcoin Cash? brand assets.
+        Signal sticker pack based on the Why Bitcoin Cash? brand assets
       </Translate>
     ),
   },
+  {
+    name: 'Tegata🔐',
+    // image: '<LINK_TO>.png',
+    url: {
+      page: '/projects/tegata',
+    },
+    description: (
+      <Translate id="personal.tegata.description">
+        Authenticator that stores encrypted credentials on a USB drive or microSD card
+      </Translate>
+    ),
+  },
+  {
+    name: 'Vulnerability fixes🚨',
+    // image: '<LINK_TO>.png',
+    url: {
+      page: '/projects/vulnerability-fixes',
+    },
+    description: (
+      <Translate id="personal.vulnerabilityFixes.description">
+        Documentation for various vulnerability fixes
+      </Translate>
+    ),
+  }
 ];
 
 interface Props {

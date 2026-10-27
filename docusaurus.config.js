@@ -275,6 +275,11 @@ const config = {
                 label: 'Tegata🔐',
                 docId: 'tegata/index',
               },
+              {
+                type: 'doc',
+                label: 'Vulnerability fixes🚨',
+                docId: 'vulnerability-fixes/index',
+              },
             ],
           },
           {to: 'about', label: 'About', position: 'left'},
