@@ -137,6 +137,18 @@ const CardsPersonalProjects = [
     ),
   },
   {
+    name: 'Tegata🔐',
+    // image: '<LINK_TO>.png',
+    url: {
+      page: '/projects/tegata',
+    },
+    description: (
+      <Translate id="personal.tegata.description">
+        Authenticator that stores encrypted credentials on a USB drive or microSD card
+      </Translate>
+    ),
+  },
+  {
     name: 'Vulnerability fixes🚨',
     // image: '<LINK_TO>.png',
     url: {
