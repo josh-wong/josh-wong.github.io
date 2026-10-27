@@ -298,11 +298,6 @@ const config = {
                 message: 'Check out the unofficial Baird beer flavor quadrants🍺',
                 url: '/projects/baird-beer-quadrants'
               },
-              // {
-              //   id: 1,
-              //   message: 'Enjoy Baird beer? Ask the unofficial AI chatbot for recommendations🤖',
-              //   url: 'https://typebot.co/baird-beer-recommendations-experimental-080f53'
-              // },
             ],
           },
           {

@@ -59,12 +59,7 @@ const sidebars = {
       type: 'doc',
       label: 'Signal sticker packs',
       id: 'signal-stickers/index',
-    },
-    {
-      type: 'link',
-      label: 'AI chatbot for beer recommendations (unofficial)',
-      href: 'https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d',
-    },
+    }
   ],
 
   bairdBeerQuadrants: [
@@ -78,11 +73,6 @@ const sidebars = {
     'baird-beer-quadrants/beers-monthly-style-series',
     'baird-beer-quadrants/beers-fruitful-life-series',
     'baird-beer-quadrants/beers-taproom-exclusive',
-    {
-      type: 'link',
-      label: '🤖AI chatbot for beer recommendations (unofficial)',
-      href: 'https://typebot.co/baird-beer-recommendations-experimental-080f53',
-    },
   ],
   bitcoinCashNodeOnRaspberryPi: [
     {
