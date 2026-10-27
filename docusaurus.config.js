@@ -270,6 +270,11 @@ const config = {
                 label: 'Signal sticker packs🎁',
                 docId: 'signal-stickers/index',
               },
+              {
+                type: 'doc',
+                label: 'Tegata🔐',
+                docId: 'tegata/index',
+              },
             ],
           },
           {to: 'about', label: 'About', position: 'left'},
