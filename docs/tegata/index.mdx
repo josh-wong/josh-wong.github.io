@@ -1,0 +1,19 @@
+---
+title: Tegata
+---
+
+import {useEffect} from 'react';
+
+export const Redirect = () => {
+  useEffect(() => {
+    window.location.replace('https://tegata.080f53.com');
+  }, []);
+
+  return (
+    <p>
+      Redirecting to <a href="https://tegata.080f53.com" target="_blank">Tegata</a>.
+    </p>
+  );
+};
+
+<Redirect />
