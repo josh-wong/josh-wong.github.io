@@ -65,6 +65,11 @@ const sidebars = {
       label: 'Tegata',
       id: 'tegata/index',
     },
+    {
+      type: 'doc',
+      label: 'Vulnerability fixes',
+      id: 'vulnerability-fixes/index',
+    },
   ],
 
   bairdBeerQuadrants: [

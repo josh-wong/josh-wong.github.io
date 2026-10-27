@@ -136,6 +136,18 @@ const CardsPersonalProjects = [
       </Translate>
     ),
   },
+  {
+    name: 'Vulnerability fixes🚨',
+    // image: '<LINK_TO>.png',
+    url: {
+      page: '/projects/vulnerability-fixes',
+    },
+    description: (
+      <Translate id="personal.vulnerabilityFixes.description">
+        Documentation for various vulnerability fixes
+      </Translate>
+    ),
+  }
 ];
 
 interface Props {
