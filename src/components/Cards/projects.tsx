@@ -132,7 +132,7 @@ const CardsPersonalProjects = [
     },
     description: (
       <Translate id="personal.signalStickersBch.description">
-        Created a Signal sticker pack based on the Why Bitcoin Cash? brand assets.
+        Signal sticker pack based on the Why Bitcoin Cash? brand assets
       </Translate>
     ),
   },
