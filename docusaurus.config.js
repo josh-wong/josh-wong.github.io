@@ -83,13 +83,6 @@ const config = {
           // editUrl:
           //   'https://github.com/josh-wong/josh-wong.github.io',
         },
-        googleTagManager: {
-          containerId: 'GT-5M8TXX7',
-        },
-        gtag: {
-          trackingID: 'G-PMP34RZWN2P',
-          anonymizeIP: true,
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -350,6 +343,10 @@ const config = {
                 label: 'About',
                 to: '/about',
               },
+              {
+                label: 'Cookie policy',
+                to: '/cookies',
+              },
             ],
           },
           {
@@ -434,7 +431,7 @@ const config = {
         searchPagePath: 'search',
   
         // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
-        insights: true,
+        insights: false,
   
         //... other Algolia params
       },
