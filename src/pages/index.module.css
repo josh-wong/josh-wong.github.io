@@ -21,3 +21,14 @@
   align-items: center;
   justify-content: center;
 }
+
+.buttons a:hover {
+  background-color: #080f53;
+  color: white;
+  text-decoration: none;
+}
+
+html[data-theme="dark"] .buttons a:hover {
+  background-color: #757cbd;
+  text-decoration: none;
+}
