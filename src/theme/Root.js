@@ -1,57 +1,76 @@
-import React, { useEffect } from 'react';
+import React, {useEffect, useRef, useState} from 'react';
+import Link from '@docusaurus/Link';
 import Clarity from '@microsoft/clarity';
-import CookieConsent from "react-cookie-consent";
+import CookieConsent, {getCookieConsentValue} from 'react-cookie-consent';
+import {consentCookieName, ConsentContext} from '@site/src/components/ConsentContext';
 
-// Initialize Clarity with the given project ID
-const projectId = "p9179dcazx";
+const clarityProjectId = 'p9179dcazx';
+const googleTrackingId = 'G-PMP34RZWN2P';
+const googleContainerId = 'GT-5M8TXX7';
 
-export default function Root({ children }) {
+function loadScript(src) {
+  const script = document.createElement('script');
+  script.async = true;
+  script.src = src;
+  document.head.appendChild(script);
+}
+
+export default function Root({children}) {
+  const [consent, setConsent] = useState(false);
+  const initialized = useRef(false);
+
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      // Initialize Clarity only on the client-side
-      Clarity.init(projectId);
-
-      // Add an event listener for the consent event
-      window.addEventListener("CookieConsent", () => {
-        if (window.clarity) {
-          window.clarity('consent');
-          console.log("Clarity consent event triggered.");
-        }
-      });
-    }
+    setConsent(getCookieConsentValue(consentCookieName) === 'true');
   }, []);
 
-  const handleConsentAccept = () => {
-    // Dispatch a custom "CookieConsent" event when the user accepts cookies
-    const consentEvent = new Event("CookieConsent");
-    window.dispatchEvent(consentEvent);
-    console.log("CookieConsent event dispatched.");
-  };
+  useEffect(() => {
+    if (!consent || initialized.current) {
+      return;
+    }
+    initialized.current = true;
+    Clarity.init(clarityProjectId);
+    Clarity.consent();
+
+    if (process.env.NODE_ENV === 'production') {
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () {
+        window.dataLayer.push(arguments);
+      };
+      window.gtag('js', new Date());
+      window.gtag('config', googleTrackingId, {anonymize_ip: true});
+      loadScript(`https://www.googletagmanager.com/gtag/js?id=${googleTrackingId}`);
+      window.dataLayer.push({'gtm.start': Date.now(), event: 'gtm.js'});
+      loadScript(`https://www.googletagmanager.com/gtm.js?id=${googleContainerId}`);
+    }
+  }, [consent]);
 
   return (
-    <>
+    <ConsentContext.Provider value={consent}>
       {children}
-      <div>
-        <CookieConsent
-          location="bottom"
-          buttonText="I understand"
-          style={{
-            padding: "20px",
-          }}
-          buttonStyle={{
-            backgroundColor: "#fff",
-            color: "#000",
-            fontWeight: "500",
-            fontSize: "15px",
-            fontFamily:
-              "system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-          }}
-          expires={150}
-          onAccept={handleConsentAccept}
-        >
-          This website uses cookies to enhance the visitor experience. By continuing to use this website, you acknowledge that you have read and understood my <a href="/cookies" style={{color: "white", textDecorationLine: "underline"}}>cookie policy</a> and consent to the use of cookies so that I can make data-driven decisions to help improve your browsing experience and provide you with personalized content.
-        </CookieConsent>
-      </div>
-    </>
+      <CookieConsent
+        location="bottom"
+        cookieName={consentCookieName}
+        buttonText="Accept analytics"
+        declineButtonText="Decline analytics"
+        ariaAcceptLabel="Accept analytics"
+        ariaDeclineLabel="Decline analytics"
+        enableDeclineButton
+        style={{padding: '20px'}}
+        buttonStyle={{
+          backgroundColor: '#fff',
+          color: '#000',
+          fontWeight: '500',
+          fontSize: '15px',
+          fontFamily:
+            "system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+        }}
+        expires={150}
+        onAccept={() => setConsent(true)}
+      >
+        This website uses optional analytics to understand and improve your experience.
+        Choose whether to allow Microsoft Clarity, Google Analytics, Google Tag Manager,
+        and Algolia search analytics and insights. See the <Link to="/cookies" style={{color: 'white', textDecorationLine: 'underline'}}>cookie policy</Link> for details.
+      </CookieConsent>
+    </ConsentContext.Provider>
   );
 }
