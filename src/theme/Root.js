@@ -1,6 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
 import Link from '@docusaurus/Link';
-import {useLocation} from '@docusaurus/router';
 import Clarity from '@microsoft/clarity';
 import CookieConsent, {getCookieConsentValue} from 'react-cookie-consent';
 import {consentCookieName, ConsentContext} from '@site/src/components/ConsentContext';
@@ -19,8 +18,6 @@ function loadScript(src) {
 export default function Root({children}) {
   const [consent, setConsent] = useState(false);
   const initialized = useRef(false);
-  const location = useLocation();
-  const previousLocation = useRef(location);
 
   useEffect(() => {
     setConsent(getCookieConsentValue(consentCookieName) === 'true');
@@ -47,24 +44,6 @@ export default function Root({children}) {
     }
   }, [consent]);
 
-  useEffect(() => {
-    const previous = previousLocation.current;
-    previousLocation.current = location;
-    if (
-      consent &&
-      process.env.NODE_ENV === 'production' &&
-      (location.pathname !== previous.pathname ||
-        location.search !== previous.search ||
-        location.hash !== previous.hash)
-    ) {
-      const timeout = setTimeout(() => {
-        window.gtag('set', 'page_path', location.pathname + location.search + location.hash);
-        window.gtag('event', 'page_view');
-      });
-      return () => clearTimeout(timeout);
-    }
-  }, [consent, location]);
-
   return (
     <ConsentContext.Provider value={consent}>
       {children}
@@ -90,7 +69,7 @@ export default function Root({children}) {
       >
         This website uses optional analytics to understand and improve your experience.
         Choose whether to allow Microsoft Clarity, Google Analytics, Google Tag Manager,
-        and Algolia search insights. See the <Link to="/cookies" style={{color: 'white', textDecorationLine: 'underline'}}>cookie policy</Link> for details.
+        and Algolia search analytics and insights. See the <Link to="/cookies" style={{color: 'white', textDecorationLine: 'underline'}}>cookie policy</Link> for details.
       </CookieConsent>
     </ConsentContext.Provider>
   );

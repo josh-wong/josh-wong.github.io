@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import path from 'path';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -24,6 +25,8 @@ const config = {
   projectName: 'josh-wong.github.io', // Usually your repo name.
 
   onBrokenLinks: 'warn',
+
+  clientModules: [require.resolve('./src/analyticsNavigation.js')],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -91,6 +94,25 @@ const config = {
   ],
 
   plugins: [
+    function searchAnalyticsConsentPlugin(context) {
+      return {
+        name: 'search-analytics-consent',
+        configureWebpack(_config, _isServer, utils) {
+          return {
+            plugins: [
+              new utils.currentBundler.instance.NormalModuleReplacementPlugin(
+                /^algoliasearch-helper$/,
+                (resource) => {
+                  if (/[\\/]@docusaurus[\\/]theme-search-algolia[\\/]lib[\\/]theme[\\/]SearchPage[\\/]/.test(resource.contextInfo.issuer)) {
+                    resource.request = path.resolve(context.siteDir, 'src/components/SearchPageHelper.js');
+                  }
+                },
+              ),
+            ],
+          };
+        },
+      };
+    },
     [
       '@docusaurus/plugin-client-redirects',
       {
@@ -425,7 +447,7 @@ const config = {
         // },
   
         // Optional: Algolia search parameters
-        searchParameters: {},
+        searchParameters: {analytics: false},
   
         // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: 'search',
