@@ -26,15 +26,16 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-[data-theme='light'] {
+html[data-theme='light'] {
   --ifm-background-color: #f8f6f0;
   --ifm-navbar-background-color: var(--portfolio-surface);
   --ifm-navbar-shadow: 0 1px 0 var(--portfolio-divider);
   --ifm-font-color-base: #212144;
+  --docsearch-muted-color: var(--portfolio-muted);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+html[data-theme='dark'] {
   --ifm-color-primary: #949acd;
   --ifm-color-primary-dark: #7c83c2;
   --ifm-color-primary-darker: #7078bc;
@@ -48,11 +49,17 @@
   --portfolio-divider: #56596b;
   --portfolio-brand-border: #949acd;
   --portfolio-focus: #b8bcde;
+  --docsearch-muted-color: var(--portfolio-muted);
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 p a {
   text-decoration-line: underline;
+}
+
+.hero--primary {
+  background-color: var(--portfolio-brand);
+  color: var(--portfolio-on-brand);
 }
 
 /* Make the sidebar navigation text smaller (default font size is 12pt). */
@@ -173,6 +180,10 @@ html[data-theme="dark"] .badge {
   padding: 0.5rem 0;
 }
 
+.footer__copyright a {
+  color: var(--portfolio-on-brand-muted);
+}
+
 /* RSS icon*/
 .header-rss-link::before {
   display: block;
@@ -244,7 +255,7 @@ html[data-theme="dark"] g[class^='label'] text {
 
 .notification-count {
   align-items: center;
-  background-color: red;
+  background-color: #dc2626;
   border-radius: 50%;
   color: white;
   display: flex;
@@ -322,7 +333,7 @@ html[data-theme="dark"] .notification-dropdown {
 
   .notification-count {
     align-items: center;
-    background-color: red;
+    background-color: #dc2626;
     border-radius: 50%;
     color: white;
     display: flex;
