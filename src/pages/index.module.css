@@ -4,6 +4,8 @@
  */
 
 .heroBanner {
+  background-color: var(--portfolio-brand);
+  color: var(--portfolio-on-brand);
   padding: 4rem 0;
   text-align: center;
   position: relative;
@@ -23,12 +25,13 @@
 }
 
 .buttons a:hover {
-  background-color: #080f53;
-  color: white;
+  background-color: var(--portfolio-brand);
+  color: var(--portfolio-on-brand);
   text-decoration: none;
 }
 
 html[data-theme="dark"] .buttons a:hover {
-  background-color: #757cbd;
+  background-color: var(--portfolio-brand);
+  color: var(--portfolio-on-brand);
   text-decoration: none;
 }
