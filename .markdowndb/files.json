@@ -1,0 +1,1271 @@
+[
+  {
+    "_id": "80a874059c0697b44df4dba5b0d88c7b56a31e6a",
+    "file_path": "blog\\2018-06-29-understanding-blockchain-based-decentralized-cloud-storage.mdx",
+    "extension": "mdx",
+    "url_path": "2018-06-29-understanding-blockchain-based-decentralized-cloud-storage",
+    "filetype": null,
+    "metadata": {
+      "date": "2018-06-29T00:00:00.000Z",
+      "authors": "josh-wong",
+      "tags": [
+        "blockchain",
+        "cloud storage",
+        "decentralization"
+      ],
+      "image": "assets/images/2018-06-29-blockchain-upload.jpg",
+      "tasks": []
+    },
+    "tags": [
+      "blockchain",
+      "cloud storage",
+      "decentralization"
+    ],
+    "links": [
+      {
+        "from": "2018-06-29-understanding-blockchain-based-decentralized-cloud-storage.mdx",
+        "to": "assets/images/2018-06-29-blockchain-upload.jpg",
+        "toRaw": "assets/images/2018-06-29-blockchain-upload.jpg",
+        "text": "Uploading files to decentralized cloud storage",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "2018-06-29-understanding-blockchain-based-decentralized-cloud-storage.mdx",
+        "to": "assets/images/2018-06-29-blockchain-download.jpg",
+        "toRaw": "assets/images/2018-06-29-blockchain-download.jpg",
+        "text": "Downloading files from decentralized cloud storage",
+        "embed": true,
+        "internal": true
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "_id": "66fa04fb8c4e0f057b3c3702d9cded6d4ff140ac",
+    "file_path": "blog\\2022-10-04-hello-world.mdx",
+    "extension": "mdx",
+    "url_path": "2022-10-04-hello-world",
+    "filetype": null,
+    "metadata": {
+      "date": "2022-10-04T00:00:00.000Z",
+      "authors": "josh-wong",
+      "tags": [
+        "general",
+        "hello world"
+      ],
+      "tasks": []
+    },
+    "tags": [
+      "general",
+      "hello world"
+    ],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "6f10e2bb9b4cadd9e4701e3ed35dd7815f3d16a1",
+    "file_path": "blog\\2022-10-11-tell-step-up-challenge.mdx",
+    "extension": "mdx",
+    "url_path": "2022-10-11-tell-step-up-challenge",
+    "filetype": null,
+    "metadata": {
+      "date": "2022-10-11T00:00:00.000Z",
+      "authors": "josh-wong",
+      "tags": [
+        "charity",
+        "health",
+        "japan",
+        "mental health",
+        "physical health"
+      ],
+      "image": "assets/images/2022-10-10-tell-step-up-challenge-tote-bag-sticker.jpg",
+      "tasks": []
+    },
+    "tags": [
+      "charity",
+      "health",
+      "japan",
+      "mental health",
+      "physical health"
+    ],
+    "links": [
+      {
+        "from": "2022-10-11-tell-step-up-challenge.mdx",
+        "to": "https://telljp.com/",
+        "toRaw": "https://telljp.com/",
+        "text": "TELL Japan",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2022-10-11-tell-step-up-challenge.mdx",
+        "to": "https://www.tellevents.org/",
+        "toRaw": "https://www.tellevents.org/",
+        "text": "TELL Japan events",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2022-10-11-tell-step-up-challenge.mdx",
+        "to": "https://www.nanikore.net/2021/10/11/tell-21081-steps/",
+        "toRaw": "https://www.nanikore.net/2021/10/11/tell-21081-steps/",
+        "text": "\"TELL 21,081 Steps\" blog post on nanikore.net",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2022-10-11-tell-step-up-challenge.mdx",
+        "to": "https://telljp.com/lifeline/",
+        "toRaw": "https://telljp.com/lifeline/",
+        "text": "Lifeline service",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2022-10-11-tell-step-up-challenge.mdx",
+        "to": "assets/images/2022-10-10-tell-step-up-challenge-tote-bag-sticker.jpg",
+        "toRaw": "assets/images/2022-10-10-tell-step-up-challenge-tote-bag-sticker.jpg",
+        "text": "2022 TELL Step Up Challenge swag: tote bag and sticker",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "2022-10-11-tell-step-up-challenge.mdx",
+        "to": "assets/images/2022-10-10-tell-step-up-challenge-(09-10).jpg",
+        "toRaw": "assets/images/2022-10-10-tell-step-up-challenge-(09-10).jpg",
+        "text": "2022 TELL Step Up Challenge: September 10, 2022 - 21,034 steps",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "2022-10-11-tell-step-up-challenge.mdx",
+        "to": "assets/images/2022-10-10-tell-step-up-challenge-(09-17).jpg",
+        "toRaw": "assets/images/2022-10-10-tell-step-up-challenge-(09-17).jpg",
+        "text": "2022 TELL Step Up Challenge: September 17, 2022 - 22,197 steps",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "2022-10-11-tell-step-up-challenge.mdx",
+        "to": "assets/images/2022-10-10-tell-step-up-challenge-(10-10).jpg",
+        "toRaw": "assets/images/2022-10-10-tell-step-up-challenge-(10-10).jpg",
+        "text": "2022 TELL Step Up Challenge: October 10, 2022 - 22,091 steps",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "2022-10-11-tell-step-up-challenge.mdx",
+        "to": "assets/images/2022-10-10-asahi-beer-hall-tokyo-skytree.jpg",
+        "toRaw": "assets/images/2022-10-10-asahi-beer-hall-tokyo-skytree.jpg",
+        "text": "Asahi Beer Hall and Tokyo SkyTree",
+        "embed": true,
+        "internal": true
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "_id": "54847dd08768adbb37e254d600869c3005584dfb",
+    "file_path": "blog\\2022-10-31-smart-heated-blanket.mdx",
+    "extension": "mdx",
+    "url_path": "2022-10-31-smart-heated-blanket",
+    "filetype": null,
+    "metadata": {
+      "date": "2022-10-31T00:00:00.000Z",
+      "authors": "josh-wong",
+      "tags": [
+        "automation",
+        "iot",
+        "smart home"
+      ],
+      "image": "assets/images/2022-10-31-tplink-tapo-app-schedule.jpg",
+      "tasks": []
+    },
+    "tags": [
+      "automation",
+      "iot",
+      "smart home"
+    ],
+    "links": [
+      {
+        "from": "2022-10-31-smart-heated-blanket.mdx",
+        "to": "assets/images/2022-10-31-tplink-tapo-app-schedule.jpg",
+        "toRaw": "assets/images/2022-10-31-tplink-tapo-app-schedule.jpg",
+        "text": "Screenshot of schedule in TP Link Tapo app",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "2022-10-31-smart-heated-blanket.mdx",
+        "to": "assets/images/2022-10-31-shortcuts-widget.jpg",
+        "toRaw": "assets/images/2022-10-31-shortcuts-widget.jpg",
+        "text": "Screenshot of my Shortcut widgets screen",
+        "embed": true,
+        "internal": true
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "_id": "40cd263118e2ca87b08bd37c3ce5d4ab0c2401e2",
+    "file_path": "blog\\2022-10-month-in-review-october.mdx",
+    "extension": "mdx",
+    "url_path": "2022-10-month-in-review-october",
+    "filetype": null,
+    "metadata": {
+      "date": "2022-11-13T00:00:00.000Z",
+      "authors": "josh-wong",
+      "tags": [
+        "books",
+        "book reviews",
+        "software engineering"
+      ],
+      "tasks": []
+    },
+    "tags": [
+      "books",
+      "book reviews",
+      "software engineering"
+    ],
+    "links": [
+      {
+        "from": "2022-10-month-in-review-october.mdx",
+        "to": "https://github.com/josh-wong/passGen",
+        "toRaw": "https://github.com/josh-wong/passGen",
+        "text": "passGen",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2022-10-month-in-review-october.mdx",
+        "to": "https://github.com/josh-wong/passGen/releases/tag/v3.0.0",
+        "toRaw": "https://github.com/josh-wong/passGen/releases/tag/v3.0.0",
+        "text": "passGen v3.0.0.0",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2022-10-month-in-review-october.mdx",
+        "to": "https://github.com/josh-wong/passGen/releases/tag/v3.1.0",
+        "toRaw": "https://github.com/josh-wong/passGen/releases/tag/v3.1.0",
+        "text": "passGen v3.1.0.0",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2022-10-month-in-review-october.mdx",
+        "to": "passgen",
+        "toRaw": "/passgen",
+        "text": "passGen documentation",
+        "embed": false,
+        "internal": true
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "_id": "8ff2904a17d76e8fc4de326b508c7bde15f32bd2",
+    "file_path": "blog\\2022-11-28-book-review-the-art-of-readable-code.mdx",
+    "extension": "mdx",
+    "url_path": "2022-11-28-book-review-the-art-of-readable-code",
+    "filetype": null,
+    "metadata": {
+      "date": "2022-11-28T00:00:00.000Z",
+      "authors": "josh-wong",
+      "tags": [
+        "books",
+        "book reviews",
+        "knowledge management",
+        "software engineering"
+      ],
+      "image": "assets/images/2022-11-27-art-of-readable-code-take-us-to-your-leader-maybe.jpg",
+      "tasks": []
+    },
+    "tags": [
+      "books",
+      "book reviews",
+      "knowledge management",
+      "software engineering"
+    ],
+    "links": [
+      {
+        "from": "2022-11-28-book-review-the-art-of-readable-code.mdx",
+        "to": "assets/images/2022-11-27-art-of-readable-code-take-us-to-your-leader-maybe.jpg",
+        "toRaw": "assets/images/2022-11-27-art-of-readable-code-take-us-to-your-leader-maybe.jpg",
+        "text": "Cartoon strip \"Take us to your leader... if he knows how to program\" from \"The Art of Readable Code\"",
+        "embed": true,
+        "internal": true
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "_id": "04c8adaba8a498e01585454376d554744921bbf1",
+    "file_path": "blog\\2022-11-month-in-review-november.mdx",
+    "extension": "mdx",
+    "url_path": "2022-11-month-in-review-november",
+    "filetype": null,
+    "metadata": {
+      "date": "2022-12-05T00:00:00.000Z",
+      "authors": "josh-wong",
+      "tags": [
+        "japan",
+        "personal life",
+        "travel",
+        "080f53"
+      ],
+      "image": "assets/images/2022-12-05-nikko-trip-toshogu-shrine.jpg",
+      "tasks": []
+    },
+    "tags": [
+      "japan",
+      "personal life",
+      "travel",
+      "080f53"
+    ],
+    "links": [
+      {
+        "from": "2022-11-month-in-review-november.mdx",
+        "to": "about",
+        "toRaw": "/about",
+        "text": "About",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "2022-11-month-in-review-november.mdx",
+        "to": "https://encycolorpedia.com/080f53",
+        "toRaw": "https://encycolorpedia.com/080f53",
+        "text": "",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2022-11-month-in-review-november.mdx",
+        "to": "https://www.080f53.com",
+        "toRaw": "https://www.080f53.com",
+        "text": "080f53.com",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2022-11-month-in-review-november.mdx",
+        "to": "assets/images/2022-12-05-nikko-trip-toshogu-shrine.jpg",
+        "toRaw": "assets/images/2022-12-05-nikko-trip-toshogu-shrine.jpg",
+        "text": "Gate inside of Toshogu",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "2022-11-month-in-review-november.mdx",
+        "to": "assets/images/2022-12-05-nikko-foliage.jpg",
+        "toRaw": "assets/images/2022-12-05-nikko-foliage.jpg",
+        "text": "Mid-color foliage changing",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "2022-11-month-in-review-november.mdx",
+        "to": "assets/images/2022-12-05-kamakura-trip-daibutsu.jpg",
+        "toRaw": "assets/images/2022-12-05-kamakura-trip-daibutsu.jpg",
+        "text": "Giant Buddha statue (daibutsu) in Kamakura",
+        "embed": true,
+        "internal": true
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "_id": "86cf6506da762574fb970cf38fc6fdf1619bcd38",
+    "file_path": "blog\\2022-12-month-in-review-december.mdx",
+    "extension": "mdx",
+    "url_path": "2022-12-month-in-review-december",
+    "filetype": null,
+    "metadata": {
+      "date": "2023-01-03T00:00:00.000Z",
+      "authors": "josh-wong",
+      "tags": [
+        "knowledge management",
+        "personal life",
+        "work"
+      ],
+      "image": "assets/images/2023-01-03-western-digital-elements-broken-hard-drive.jpg",
+      "tasks": []
+    },
+    "tags": [
+      "knowledge management",
+      "personal life",
+      "work"
+    ],
+    "links": [
+      {
+        "from": "2022-12-month-in-review-december.mdx",
+        "to": "https://engineering.mercari.com/en/blog/",
+        "toRaw": "https://engineering.mercari.com/en/blog/",
+        "text": "Mercari Engineering Blog",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2022-12-month-in-review-december.mdx",
+        "to": "https://engineering.mercari.com/en/blog/entry/20221202-capturing-and-applying-knowledge-through-a-pkm-practice/",
+        "toRaw": "https://engineering.mercari.com/en/blog/entry/20221202-capturing-and-applying-knowledge-through-a-pkm-practice/",
+        "text": "Capturing and applying knowledge through a personal knowledge management practice",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2022-12-month-in-review-december.mdx",
+        "to": "https://hb.afl.rakuten.co.jp/ichiba/2e8bd7b9.a36d0b3a.2e8bd7ba.af228498/_RTLink64352?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4549980677285%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+        "toRaw": "https://hb.afl.rakuten.co.jp/ichiba/2e8bd7b9.a36d0b3a.2e8bd7ba.af228498/_RTLink64352?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4549980677285%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+        "text": "Panasonic NA-LX127BL-W (Japanese)",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2022-12-month-in-review-december.mdx",
+        "to": "https://www.ifixit.com/Guide/How+to+Shuck+a+WD+Elements+External+Hard+Drive/137646",
+        "toRaw": "https://www.ifixit.com/Guide/How+to+Shuck+a+WD+Elements+External+Hard+Drive/137646",
+        "text": "How to Shuck a WD Elements External Hard Drive",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2022-12-month-in-review-december.mdx",
+        "to": "https://www.ifixit.com/Guide/How+to+Shuck+a+WD+Elements+External+Hard+Drive/137646",
+        "toRaw": "https://www.ifixit.com/Guide/How+to+Shuck+a+WD+Elements+External+Hard+Drive/137646",
+        "text": "How to Shuck a WD Elements External Hard Drive",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2022-12-month-in-review-december.mdx",
+        "to": "assets/images/2023-01-03-panasonic-na-lx127bl-w-washer-and-dryer-machine.jpg",
+        "toRaw": "assets/images/2023-01-03-panasonic-na-lx127bl-w-washer-and-dryer-machine.jpg",
+        "text": "Panasonic NA-LX127BL-W washer and dryer machine after installation",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "2022-12-month-in-review-december.mdx",
+        "to": "assets/images/2023-01-03-western-digital-elements-broken-hard-drive.jpg",
+        "toRaw": "assets/images/2023-01-03-western-digital-elements-broken-hard-drive.jpg",
+        "text": "Friend's disassembled Western Digital Elements external hard drive",
+        "embed": true,
+        "internal": true
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "_id": "0e81920bb2418c9cf65c61df0c55a7d930172038",
+    "file_path": "blog\\2023-01-13-resurrecting-my-raspberry-pi-4.mdx",
+    "extension": "mdx",
+    "url_path": "2023-01-13-resurrecting-my-raspberry-pi-4",
+    "filetype": null,
+    "metadata": {
+      "date": "2023-01-13T00:00:00.000Z",
+      "authors": "josh-wong",
+      "tags": [
+        "bitcoin cash node",
+        "data recovery",
+        "foremost",
+        "raspberry pi",
+        "ubuntu"
+      ],
+      "image": "assets/images/2023-01-12-ubuntu-jammy-jellyfish.png",
+      "tasks": []
+    },
+    "tags": [
+      "bitcoin cash node",
+      "data recovery",
+      "foremost",
+      "raspberry pi",
+      "ubuntu"
+    ],
+    "links": [
+      {
+        "from": "2023-01-13-resurrecting-my-raspberry-pi-4.mdx",
+        "to": "https://help.ubuntu.com/community/EOLUpgrades",
+        "toRaw": "https://help.ubuntu.com/community/EOLUpgrades",
+        "text": "EOLUpgrades | Ubuntu Documentation",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2023-01-13-resurrecting-my-raspberry-pi-4.mdx",
+        "to": "https://bitcoincashnode.org/en/newsroom/announcing-bitcoin-cash-node-v25-0-0",
+        "toRaw": "https://bitcoincashnode.org/en/newsroom/announcing-bitcoin-cash-node-v25-0-0",
+        "text": "upgrade to the Bitcoin Cash network would occur on May 15, 2023",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2023-01-13-resurrecting-my-raspberry-pi-4.mdx",
+        "to": "bitcoin-cash-node-on-raspberry-pi/upgrade",
+        "toRaw": "/bitcoin-cash-node-on-raspberry-pi/upgrade",
+        "text": "How to upgrade Bitcoin Cash Node on a Raspberry Pi 4 running Ubuntu Desktop",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "2023-01-13-resurrecting-my-raspberry-pi-4.mdx",
+        "to": "https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d",
+        "toRaw": "https://signal.art/addstickers/#pack_id=183a3ca8d7ccdcdb8fa7728b17453fbc&pack_key=e9ac42b0e7276edd92d293321d2e51cca64e5744bad567fd9579b51abb78773d",
+        "text": "Why Bitcoin Cash? sticker pack",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2023-01-13-resurrecting-my-raspberry-pi-4.mdx",
+        "to": "https://devblogs.microsoft.com/commandline/connecting-usb-devices-to-wsl/",
+        "toRaw": "https://devblogs.microsoft.com/commandline/connecting-usb-devices-to-wsl/",
+        "text": "Connecting USB devices to WSL",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2023-01-13-resurrecting-my-raspberry-pi-4.mdx",
+        "to": "https://www.section.io/engineering-education/recover-deleted-files-with-foremost/",
+        "toRaw": "https://www.section.io/engineering-education/recover-deleted-files-with-foremost/",
+        "text": "Recovering deleted files using Foremost",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2023-01-13-resurrecting-my-raspberry-pi-4.mdx",
+        "to": "assets/images/2023-01-12-ubuntu-jammy-jellyfish.png",
+        "toRaw": "assets/images/2023-01-12-ubuntu-jammy-jellyfish.png",
+        "text": "Ubuntu 22.04 (Jammy Jellyfish) squid background",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "2023-01-13-resurrecting-my-raspberry-pi-4.mdx",
+        "to": "assets/images/2023-01-12-bitcoin-cash-node-about.png",
+        "toRaw": "assets/images/2023-01-12-bitcoin-cash-node-about.png",
+        "text": "Bitcoin Cash Node \"About\" window showing v25.0.0",
+        "embed": true,
+        "internal": true
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "_id": "f8c28c64c7cf22f331958ca953a081e1a114794f",
+    "file_path": "blog\\2023-03-03-fixing-iphone-obsidian-sync-issue.mdx",
+    "extension": "mdx",
+    "url_path": "2023-03-03-fixing-iphone-obsidian-sync-issue",
+    "filetype": null,
+    "metadata": {
+      "date": "2023-03-03T00:00:00.000Z",
+      "authors": "josh-wong",
+      "tags": [
+        "personal knowledge management",
+        "ios",
+        "obsidian",
+        "troubleshooting"
+      ],
+      "tasks": []
+    },
+    "tags": [
+      "personal knowledge management",
+      "ios",
+      "obsidian",
+      "troubleshooting"
+    ],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "7dd636b37ab1258664821eee24df7b89fe241a36",
+    "file_path": "blog\\2024-01-08-setting-up-signal-proxy.mdx",
+    "extension": "mdx",
+    "url_path": "2024-01-08-setting-up-signal-proxy",
+    "filetype": null,
+    "metadata": {
+      "date": "2024-01-08T00:00:00.000Z",
+      "authors": "josh-wong",
+      "tags": [
+        "privacy",
+        "security",
+        "server"
+      ],
+      "tasks": []
+    },
+    "tags": [
+      "privacy",
+      "security",
+      "server"
+    ],
+    "links": [
+      {
+        "from": "2024-01-08-setting-up-signal-proxy.mdx",
+        "to": "https://github.com/signalapp/Signal-TLS-Proxy",
+        "toRaw": "https://github.com/signalapp/Signal-TLS-Proxy",
+        "text": "Signal TLS proxy server",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-01-08-setting-up-signal-proxy.mdx",
+        "to": "https://explorer.ooni.org/search?since=2023-01-01&test_name=signal&failure=false&only=anomalies&until=2023-12-31",
+        "toRaw": "https://explorer.ooni.org/search?since=2023-01-01&test_name=signal&failure=false&only=anomalies&until=2023-12-31",
+        "text": "OONI Explorer",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-01-08-setting-up-signal-proxy.mdx",
+        "to": "https://github.com/signalapp/Signal-TLS-Proxy",
+        "toRaw": "https://github.com/signalapp/Signal-TLS-Proxy",
+        "text": "Signal-TLS-Proxy",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-01-08-setting-up-signal-proxy.mdx",
+        "to": "#troubleshooting",
+        "toRaw": "#troubleshooting",
+        "text": "Troubleshooting",
+        "embed": false,
+        "internal": true
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "_id": "d5f945d8d418b99f9d9bcf1199db2992ee522f61",
+    "file_path": "blog\\2024-06-24-switching-from-1password-to-bitwarden.mdx",
+    "extension": "mdx",
+    "url_path": "2024-06-24-switching-from-1password-to-bitwarden",
+    "filetype": null,
+    "metadata": {
+      "date": "2024-06-24T00:00:00.000Z",
+      "authors": "josh-wong",
+      "tags": [
+        "open source",
+        "security"
+      ],
+      "image": "assets/images/2024-06-23-a-dachshund-running-with-a-key-in-its-mouth-with-an-open-padlock-in-the-background---microsoft-copilot-ai-generated-image.jpg",
+      "tasks": []
+    },
+    "tags": [
+      "open source",
+      "security"
+    ],
+    "links": [
+      {
+        "from": "2024-06-24-switching-from-1password-to-bitwarden.mdx",
+        "to": "https://1password.com/",
+        "toRaw": "https://1password.com/",
+        "text": "1Password",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-06-24-switching-from-1password-to-bitwarden.mdx",
+        "to": "https://bitwarden.com/",
+        "toRaw": "https://bitwarden.com/",
+        "text": "Bitwarden",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-06-24-switching-from-1password-to-bitwarden.mdx",
+        "to": "https://support.1password.com/link-family/",
+        "toRaw": "https://support.1password.com/link-family/",
+        "text": "1Password offers free access to their Families plan if your organization is using 1Password for Business",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-06-24-switching-from-1password-to-bitwarden.mdx",
+        "to": "https://bitwarden.com/pricing/",
+        "toRaw": "https://bitwarden.com/pricing/",
+        "text": "plans available",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-06-24-switching-from-1password-to-bitwarden.mdx",
+        "to": "https://bitwarden.com/open-source/",
+        "toRaw": "https://bitwarden.com/open-source/",
+        "text": "open source",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-06-24-switching-from-1password-to-bitwarden.mdx",
+        "to": "https://bitwarden.com/",
+        "toRaw": "https://bitwarden.com/",
+        "text": "Bitwarden",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-06-24-switching-from-1password-to-bitwarden.mdx",
+        "to": "assets/images/2024-06-23-a-dachshund-running-with-a-key-in-its-mouth-with-an-open-padlock-in-the-background---microsoft-copilot-ai-generated-image.jpg",
+        "toRaw": "assets/images/2024-06-23-a-dachshund-running-with-a-key-in-its-mouth-with-an-open-padlock-in-the-background---microsoft-copilot-ai-generated-image.jpg",
+        "text": "A dachshund running with a key in its mouth with an open padlock in the background - Microsoft Copilot AI-generated image",
+        "embed": true,
+        "internal": true
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "_id": "f56f68c53dc8f6c78e5b11125f81d7252a6de6a7",
+    "file_path": "blog\\2024-08-04-forking-and-updating-go-chatgpt.mdx",
+    "extension": "mdx",
+    "url_path": "2024-08-04-forking-and-updating-go-chatgpt",
+    "filetype": null,
+    "metadata": {
+      "date": "2024-08-04T00:00:00.000Z",
+      "authors": "josh-wong",
+      "tags": [
+        "gpt",
+        "large language models",
+        "open source",
+        "software engineering"
+      ],
+      "image": "assets/images/2024-08-04-ai-models-being-created-on-a-monitor-in-an-office-with-no-humans-visual-studio-code-displayed-on-the-screen---microsoft-copilot-ai-generated-image.jpg",
+      "tasks": []
+    },
+    "tags": [
+      "gpt",
+      "large language models",
+      "open source",
+      "software engineering"
+    ],
+    "links": [
+      {
+        "from": "2024-08-04-forking-and-updating-go-chatgpt.mdx",
+        "to": "https://github.com/ayush6624/go-chatgpt",
+        "toRaw": "https://github.com/ayush6624/go-chatgpt",
+        "text": "ayush6624/go-chatgpt",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-08-04-forking-and-updating-go-chatgpt.mdx",
+        "to": "https://github.com/josh-wong/go-chatgpt",
+        "toRaw": "https://github.com/josh-wong/go-chatgpt",
+        "text": "josh-wong/go-chatgpt",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-08-04-forking-and-updating-go-chatgpt.mdx",
+        "to": "https://github.com/josh-wong/go-chatgpt/blob/df291cd0fcec1b7b6b203de73246aac10c4912f6/chat.go#L14",
+        "toRaw": "https://github.com/josh-wong/go-chatgpt/blob/df291cd0fcec1b7b6b203de73246aac10c4912f6/chat.go#L14",
+        "text": "foundation models for GPT-4o, GPT-4o Mini, and GPT-4-Turbo as constants",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-08-04-forking-and-updating-go-chatgpt.mdx",
+        "to": "https://github.com/josh-wong/go-chatgpt/blob/df291cd0fcec1b7b6b203de73246aac10c4912f6/chat.go#L149",
+        "toRaw": "https://github.com/josh-wong/go-chatgpt/blob/df291cd0fcec1b7b6b203de73246aac10c4912f6/chat.go#L149",
+        "text": "allowedModels",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-08-04-forking-and-updating-go-chatgpt.mdx",
+        "to": "https://github.com/josh-wong/go-chatgpt/releases/tag/v0.4.1",
+        "toRaw": "https://github.com/josh-wong/go-chatgpt/releases/tag/v0.4.1",
+        "text": "v0.4.1",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-08-04-forking-and-updating-go-chatgpt.mdx",
+        "to": "assets/images/2024-08-04-ai-models-being-created-on-a-monitor-with-a-dachshund-at-the-desk---microsoft-copilot-ai-generated-image.jpg",
+        "toRaw": "assets/images/2024-08-04-ai-models-being-created-on-a-monitor-with-a-dachshund-at-the-desk---microsoft-copilot-ai-generated-image.jpg",
+        "text": "AI models being created on a monitor in an office with a dachshund at the desk, with Visual Studio Code displayed on the screen, no humans present - Microsoft Copilot AI-generated image",
+        "embed": true,
+        "internal": true
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "_id": "cf8eded06a72a11eea1c94e1bae66dd1f290e7bb",
+    "file_path": "blog\\2024-10-12-tell-step-up-challenge.mdx",
+    "extension": "mdx",
+    "url_path": "2024-10-12-tell-step-up-challenge",
+    "filetype": null,
+    "metadata": {
+      "date": "2024-10-12T00:00:00.000Z",
+      "authors": "josh-wong",
+      "tags": [
+        "charity",
+        "health",
+        "japan",
+        "mental health",
+        "physical health"
+      ],
+      "image": "assets/images/2024-10-12-tell-step-up-challenge-(09-21).jpg",
+      "tasks": []
+    },
+    "tags": [
+      "charity",
+      "health",
+      "japan",
+      "mental health",
+      "physical health"
+    ],
+    "links": [
+      {
+        "from": "2024-10-12-tell-step-up-challenge.mdx",
+        "to": "https://telljp.com/",
+        "toRaw": "https://telljp.com/",
+        "text": "TELL Japan",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-10-12-tell-step-up-challenge.mdx",
+        "to": "https://telljp.com/lifeline/",
+        "toRaw": "https://telljp.com/lifeline/",
+        "text": "Lifeline service",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-10-12-tell-step-up-challenge.mdx",
+        "to": "2022-10-11-tell-step-up-challenge.mdx",
+        "toRaw": "2022-10-11-tell-step-up-challenge.mdx",
+        "text": "Recap of my participation in the 2022 TELL 21,007 Step Up Challenge",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "2024-10-12-tell-step-up-challenge.mdx",
+        "to": "assets/images/2024-10-12-tell-step-up-challenge-(09-21).jpg",
+        "toRaw": "assets/images/2024-10-12-tell-step-up-challenge-(09-21).jpg",
+        "text": "2024 TELL Step Up Challenge: September 21, 2024 - 26,124 steps",
+        "embed": true,
+        "internal": true
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "_id": "a0271637032c5e2c2db23bbc94ef9091be733a70",
+    "file_path": "blog\\2024-11-20-site-notification-feature.mdx",
+    "extension": "mdx",
+    "url_path": "2024-11-20-site-notification-feature",
+    "filetype": null,
+    "metadata": {
+      "date": "2024-11-20T00:00:00.000Z",
+      "authors": "josh-wong",
+      "tags": [
+        "open source",
+        "software engineering"
+      ],
+      "image": "assets/images/2024-11-20-desktop-navbar-notifications.jpg",
+      "tasks": []
+    },
+    "tags": [
+      "open source",
+      "software engineering"
+    ],
+    "links": [
+      {
+        "from": "2024-11-20-site-notification-feature.mdx",
+        "to": "https://github.com/josh-wong/josh-wong.github.io/pull/118",
+        "toRaw": "https://github.com/josh-wong/josh-wong.github.io/pull/118",
+        "text": "#118",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-11-20-site-notification-feature.mdx",
+        "to": "https://docusaurus.io/docs/api/themes/configuration#announcement-bar",
+        "toRaw": "https://docusaurus.io/docs/api/themes/configuration#announcement-bar",
+        "text": "announcement bar",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-11-20-site-notification-feature.mdx",
+        "to": "https://github.com/josh-wong/josh-wong.github.io/pull/118",
+        "toRaw": "https://github.com/josh-wong/josh-wong.github.io/pull/118",
+        "text": "#118",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-11-20-site-notification-feature.mdx",
+        "to": "https://github.com/josh-wong/josh-wong.github.io/pull/120",
+        "toRaw": "https://github.com/josh-wong/josh-wong.github.io/pull/120",
+        "text": "#120",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-11-20-site-notification-feature.mdx",
+        "to": "https://github.com/josh-wong/josh-wong.github.io/pull/121",
+        "toRaw": "https://github.com/josh-wong/josh-wong.github.io/pull/121",
+        "text": "#121",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "2024-11-20-site-notification-feature.mdx",
+        "to": "assets/images/2024-11-20-mobile-navbar-notifications-style-problem.jpg",
+        "toRaw": "assets/images/2024-11-20-mobile-navbar-notifications-style-problem.jpg",
+        "text": "Problem #1 - Notification icon appears behind the search icon in navbar on mobile",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "2024-11-20-site-notification-feature.mdx",
+        "to": "assets/images/2024-11-20-mobile-sidebar-nav-notifications-style-problem.jpg",
+        "toRaw": "assets/images/2024-11-20-mobile-sidebar-nav-notifications-style-problem.jpg",
+        "text": "Problem #2 - Notification icon misaligned in sidebar nav on mobile",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "2024-11-20-site-notification-feature.mdx",
+        "to": "assets/images/2024-11-20-desktop-navbar-notifications.jpg",
+        "toRaw": "assets/images/2024-11-20-desktop-navbar-notifications.jpg",
+        "text": "Notifications in navbar on desktop",
+        "embed": true,
+        "internal": true
+      },
+      {
+        "from": "2024-11-20-site-notification-feature.mdx",
+        "to": "assets/images/2024-11-20-mobile-sidebar-nav-notifications.jpg",
+        "toRaw": "assets/images/2024-11-20-mobile-sidebar-nav-notifications.jpg",
+        "text": "Notifications in sidebar nav on mobile",
+        "embed": true,
+        "internal": true
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "_id": "2488d8a29f5a70ee0da603834a8fd3c7009d11c2",
+    "file_path": "blog\\authors.yml",
+    "extension": "yml",
+    "url_path": "authors.yml",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "188123b9bb91040120d9876fa94599b9490271a6",
+    "file_path": "blog\\assets\\images\\2018-06-29-blockchain-download.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2018-06-29-blockchain-download.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "5691bf0f26302eebe09d004c0e796546182a11ae",
+    "file_path": "blog\\assets\\images\\2018-06-29-blockchain-upload.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2018-06-29-blockchain-upload.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "a3a26230f5d5a89df6c31a9b19d452c3f82a6e11",
+    "file_path": "blog\\assets\\images\\2022-10-10-asahi-beer-hall-tokyo-skytree.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2022-10-10-asahi-beer-hall-tokyo-skytree.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "eeba64b3370a7c12ffbb9fde6385bdfe1bc1a911",
+    "file_path": "blog\\assets\\images\\2022-10-10-tell-step-up-challenge-(09-10).jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2022-10-10-tell-step-up-challenge-(09-10).jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "99474cd2ea495d5a0a91858b12e9f7ea9ea8bd43",
+    "file_path": "blog\\assets\\images\\2022-10-10-tell-step-up-challenge-(09-17).jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2022-10-10-tell-step-up-challenge-(09-17).jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "6e46699def63b0b93fc18e4992eca53ea8c723f4",
+    "file_path": "blog\\assets\\images\\2022-10-10-tell-step-up-challenge-(10-10).jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2022-10-10-tell-step-up-challenge-(10-10).jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "5795736e25c53dc9d8d57d86f5c10a0b63ac55b7",
+    "file_path": "blog\\assets\\images\\2022-10-10-tell-step-up-challenge-tote-bag-sticker.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2022-10-10-tell-step-up-challenge-tote-bag-sticker.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "5cfe152f433c8030919288c7fcaa88534dcd750f",
+    "file_path": "blog\\assets\\images\\2022-10-31-shortcuts-widget.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2022-10-31-shortcuts-widget.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "e309c266381b443489899f32e0d0a3be76a7ca5d",
+    "file_path": "blog\\assets\\images\\2022-10-31-tplink-tapo-app-schedule.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2022-10-31-tplink-tapo-app-schedule.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "7bb70f297b5437c77725d428abd575a7022d65b1",
+    "file_path": "blog\\assets\\images\\2022-11-27-art-of-readable-code-take-us-to-your-leader-maybe.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2022-11-27-art-of-readable-code-take-us-to-your-leader-maybe.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "75f31cbb2d3b2736c87946ba2bd88710fd993fa5",
+    "file_path": "blog\\assets\\images\\2022-12-05-kamakura-trip-daibutsu.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2022-12-05-kamakura-trip-daibutsu.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "4b21550b2cdf0784dd96e956716fbfd07860826b",
+    "file_path": "blog\\assets\\images\\2022-12-05-nikko-foliage.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2022-12-05-nikko-foliage.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "a7392a4891d5a6c6b98470a70daa291d27ea98a8",
+    "file_path": "blog\\assets\\images\\2022-12-05-nikko-trip-toshogu-shrine.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2022-12-05-nikko-trip-toshogu-shrine.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "23003a4dc67828faae9643435c0e4deac707a64b",
+    "file_path": "blog\\assets\\images\\2023-01-03-panasonic-na-lx127bl-w-washer-and-dryer-machine.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2023-01-03-panasonic-na-lx127bl-w-washer-and-dryer-machine.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "de5c69bb26c6160778962e1c53a3321c39e140bb",
+    "file_path": "blog\\assets\\images\\2023-01-03-western-digital-elements-broken-hard-drive.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2023-01-03-western-digital-elements-broken-hard-drive.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "b5172c648e15978e752356b553c5858be2ecc7c0",
+    "file_path": "blog\\assets\\images\\2023-01-12-bitcoin-cash-node-about.png",
+    "extension": "png",
+    "url_path": "assets/images/2023-01-12-bitcoin-cash-node-about.png",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "e9c29567bed943a5ebc1262ed3ad8ac8de41391b",
+    "file_path": "blog\\assets\\images\\2023-01-12-ubuntu-jammy-jellyfish.png",
+    "extension": "png",
+    "url_path": "assets/images/2023-01-12-ubuntu-jammy-jellyfish.png",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "066f255fb525a4288ef11dc8f62f6e835986b7c0",
+    "file_path": "blog\\assets\\images\\2024-06-23-a-dachshund-running-with-a-key-in-its-mouth-with-an-open-padlock-in-the-background---microsoft-copilot-ai-generated-image.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2024-06-23-a-dachshund-running-with-a-key-in-its-mouth-with-an-open-padlock-in-the-background---microsoft-copilot-ai-generated-image.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "faa8588456c27ced189b960f5cc06e25c9e0e6ae",
+    "file_path": "blog\\assets\\images\\2024-08-04-ai-models-being-created-on-a-monitor-with-a-dachshund-at-the-desk---microsoft-copilot-ai-generated-image.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2024-08-04-ai-models-being-created-on-a-monitor-with-a-dachshund-at-the-desk---microsoft-copilot-ai-generated-image.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "a4e3e95f470c049939d06a4675030bb88094d846",
+    "file_path": "blog\\assets\\images\\2024-10-12-tell-step-up-challenge-(09-21).jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2024-10-12-tell-step-up-challenge-(09-21).jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "46f9c2a265994284ddbbdf556208eacc70cdfa5c",
+    "file_path": "blog\\assets\\images\\2024-11-20-desktop-navbar-notifications.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2024-11-20-desktop-navbar-notifications.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "9c7dfab8489543c5d44b71921b2f8a1f2f4c5999",
+    "file_path": "blog\\assets\\images\\2024-11-20-mobile-navbar-notifications-style-problem.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2024-11-20-mobile-navbar-notifications-style-problem.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "3d9da6e2b86f858b2a48dcfb04101c953bace037",
+    "file_path": "blog\\assets\\images\\2024-11-20-mobile-sidebar-nav-notifications-style-problem.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2024-11-20-mobile-sidebar-nav-notifications-style-problem.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "fb0ebf276a03964fb81fb9ec668bd878f1316522",
+    "file_path": "blog\\assets\\images\\2024-11-20-mobile-sidebar-nav-notifications.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/2024-11-20-mobile-sidebar-nav-notifications.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "47974929e57f99cfcd435d60090005ac84de5df7",
+    "file_path": "blog\\assets\\images\\~blog-banner-dark-theme.afdesign",
+    "extension": "afdesign",
+    "url_path": "assets/images/~blog-banner-dark-theme.afdesign",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "1170c3ab7d0f822fd5b181b89efd1ab1a9db4eac",
+    "file_path": "blog\\assets\\images\\~blog-banner-dark-theme.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/~blog-banner-dark-theme.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "e934bea8047f2f268654dea7ece039f9af317b01",
+    "file_path": "blog\\assets\\images\\~blog-banner-light-theme.afdesign",
+    "extension": "afdesign",
+    "url_path": "assets/images/~blog-banner-light-theme.afdesign",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  },
+  {
+    "_id": "99115d78983724e35c67d1569f208cde5bd4e29b",
+    "file_path": "blog\\assets\\images\\~blog-banner-light-theme.jpg",
+    "extension": "jpg",
+    "url_path": "assets/images/~blog-banner-light-theme.jpg",
+    "filetype": null,
+    "metadata": {},
+    "tags": [],
+    "links": [],
+    "tasks": []
+  }
+]
