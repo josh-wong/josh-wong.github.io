@@ -13,12 +13,29 @@
   --ifm-color-primary-light: #09115b;
   --ifm-color-primary-lighter: #09115f;
   --ifm-color-primary-lightest: #0a136c;
+  --portfolio-brand: #080f53;
+  --portfolio-on-brand: #ffffff;
+  --portfolio-on-brand-muted: #e7e4ff;
+  --portfolio-focus: #6255c6;
+  --portfolio-heading: var(--portfolio-brand);
+  --portfolio-surface: #fffcf6;
+  --portfolio-muted: #57586a;
+  --portfolio-divider: #d9d6cf;
+  --portfolio-brand-border: var(--portfolio-brand);
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
+html[data-theme='light'] {
+  --ifm-background-color: #f8f6f0;
+  --ifm-navbar-background-color: var(--portfolio-surface);
+  --ifm-navbar-shadow: 0 1px 0 var(--portfolio-divider);
+  --ifm-font-color-base: #212144;
+  --docsearch-muted-color: var(--portfolio-muted);
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+html[data-theme='dark'] {
   --ifm-color-primary: #949acd;
   --ifm-color-primary-dark: #7c83c2;
   --ifm-color-primary-darker: #7078bc;
@@ -26,11 +43,23 @@
   --ifm-color-primary-light: #acb1d8;
   --ifm-color-primary-lighter: #b8bcde;
   --ifm-color-primary-lightest: #dcdeef;
+  --portfolio-heading: #e7e4ff;
+  --portfolio-surface: var(--ifm-background-surface-color);
+  --portfolio-muted: #c4c5d5;
+  --portfolio-divider: #56596b;
+  --portfolio-brand-border: #949acd;
+  --portfolio-focus: #b8bcde;
+  --docsearch-muted-color: var(--portfolio-muted);
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 p a {
   text-decoration-line: underline;
+}
+
+.hero--primary {
+  background-color: var(--portfolio-brand);
+  color: var(--portfolio-on-brand);
 }
 
 /* Make the sidebar navigation text smaller (default font size is 12pt). */
@@ -59,7 +88,7 @@ p a {
 
 /* Home page cards */
 .card {
-  border: 1px solid #ebedf0;
+  border: 1px solid var(--portfolio-divider);
 }
 
 .card__body {
@@ -67,21 +96,22 @@ p a {
 }
 
 .button-group a:hover {
-  background-color: #080f53;
-  color: white;
+  background-color: var(--portfolio-brand);
+  color: var(--portfolio-on-brand);
   text-decoration: none;
 }
 
 html[data-theme="dark"] .card {
-  border: 1px solid #757cbd;
+  border: 1px solid var(--portfolio-brand-border);
 }
 
 html[data-theme="dark"] .card__body {
-  color: white;
+  color: var(--ifm-font-color-base);
 }
 
 html[data-theme="dark"] .button-group a:hover {
-  background-color: #757cbd;
+  background-color: var(--portfolio-brand);
+  color: var(--portfolio-on-brand);
   text-decoration: none;
 }
 
@@ -148,6 +178,10 @@ html[data-theme="dark"] .badge {
 
 .theme-blog-footer-edit-meta-row {
   padding: 0.5rem 0;
+}
+
+.footer__copyright a {
+  color: var(--portfolio-on-brand-muted);
 }
 
 /* RSS icon*/
@@ -221,7 +255,7 @@ html[data-theme="dark"] g[class^='label'] text {
 
 .notification-count {
   align-items: center;
-  background-color: red;
+  background-color: #dc2626;
   border-radius: 50%;
   color: white;
   display: flex;
@@ -299,7 +333,7 @@ html[data-theme="dark"] .notification-dropdown {
 
   .notification-count {
     align-items: center;
-    background-color: red;
+    background-color: #dc2626;
     border-radius: 50%;
     color: white;
     display: flex;

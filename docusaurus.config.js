@@ -7,6 +7,28 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import path from 'path';
 
+const portfolioLightPrismTheme = {
+  ...prismThemes.github,
+  styles: prismThemes.github.styles.map((tokenStyle) => {
+    if (tokenStyle.types.includes('comment')) {
+      return {...tokenStyle, style: {...tokenStyle.style, color: '#57586a'}};
+    }
+    if (tokenStyle.types.includes('string')) {
+      return {...tokenStyle, style: {...tokenStyle.style, color: '#a10c4c'}};
+    }
+    return tokenStyle;
+  }),
+};
+
+const portfolioDarkPrismTheme = {
+  ...prismThemes.dracula,
+  styles: prismThemes.dracula.styles.map((tokenStyle) =>
+    tokenStyle.types.includes('comment')
+      ? {...tokenStyle, style: {...tokenStyle.style, color: '#c4c5d5'}}
+      : tokenStyle,
+  ),
+};
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '080f53',
@@ -389,15 +411,15 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 080f53. <a href="https://docusaurus.io/" style="color: #757cbd">Built with Docusaurus</a>.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 080f53. <a href="https://docusaurus.io/">Built with Docusaurus</a>.`,
       },
       colorMode: {
         defaultMode: 'light',
         respectPrefersColorScheme: true,
       },
       prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        theme: portfolioLightPrismTheme,
+        darkTheme: portfolioDarkPrismTheme,
       },
       mermaid: {
         theme: {
