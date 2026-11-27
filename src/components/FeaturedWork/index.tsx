@@ -1,5 +1,7 @@
 import {
+  Children,
   createContext,
+  isValidElement,
   useContext,
   useEffect,
   useState,
@@ -47,12 +49,10 @@ interface RoleFilterProps {
 
 interface RoleSectionProps {
   children: ReactNode;
-  roles: WorkRole[];
 }
 
 interface FeaturedWorkSectionProps {
   children: ReactNode;
-  roles: WorkRole[];
 }
 
 const RoleContext = createContext<WorkRoleFilter>('all');
@@ -73,6 +73,19 @@ function readRoleFromUrl(): WorkRoleFilter {
 
   const role = new URLSearchParams(window.location.search).get('role');
   return roleOptions.find((option) => option.value === role)?.value ?? 'all';
+}
+
+function containsRole(children: ReactNode, role: WorkRole): boolean {
+  return Children.toArray(children).some((child) => {
+    if (!isValidElement<{children?: ReactNode; roles?: WorkRole[]}>(child)) {
+      return false;
+    }
+
+    return (
+      child.props.roles?.includes(role) ||
+      containsRole(child.props.children, role)
+    );
+  });
 }
 
 export function RoleDirectory({children}: RoleDirectoryProps) {
@@ -136,20 +149,20 @@ export function RoleFilter({className}: RoleFilterProps) {
   );
 }
 
-export function RoleSection({children, roles}: RoleSectionProps) {
+export function RoleSection({children}: RoleSectionProps) {
   const role = useContext(RoleContext);
 
-  if (role !== 'all' && !roles.includes(role)) {
+  if (role !== 'all' && !containsRole(children, role)) {
     return null;
   }
 
   return <section className={styles.roleSection}>{children}</section>;
 }
 
-export function FeaturedWorkSection({children, roles}: FeaturedWorkSectionProps) {
+export function FeaturedWorkSection({children}: FeaturedWorkSectionProps) {
   const role = useContext(RoleContext);
 
-  if (role !== 'all' && !roles.includes(role)) {
+  if (role !== 'all' && !containsRole(children, role)) {
     return null;
   }
 
@@ -173,6 +186,10 @@ export function WorkCard({
   title,
 }: WorkCardProps) {
   const role = useContext(RoleContext);
+
+  if (tags.length > 4) {
+    throw new Error(`${title} has ${tags.length} tags; WorkCard allows up to 4.`);
+  }
 
   if (role !== 'all' && !roles.includes(role)) {
     return null;
