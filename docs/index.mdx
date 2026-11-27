@@ -20,7 +20,7 @@ Selected projects span developer-focused products, documentation platforms, and 
 <RoleDirectory>
 <RoleFilter />
 
-<FeaturedWorkSection roles={['ai', 'documentation', 'devops', 'product']}>
+<FeaturedWorkSection>
 
 ## Featured work
 
@@ -39,7 +39,7 @@ Selected projects span developer-focused products, documentation platforms, and 
     featured
     category="Web app"
     title="Yen Lens"
-    description="Compares the cost of a purchase in Japan with monthly take-home pay in other currencies."
+    description="Helps people compare the cost of a purchase in Japan with monthly take-home pay in other currencies."
     roles={['product']}
     tags={['Data visualization', 'Japan', 'Finance']}
     href="https://yenlens.080f53.com/"
@@ -49,7 +49,7 @@ Selected projects span developer-focused products, documentation platforms, and 
     featured
     category="Developer relations"
     title="ScalarDB and ScalarDL docs platform"
-    description="Migrates two product documentation sites to Docusaurus."
+    description="Describes the migration of two product documentation sites to Docusaurus with improved versioning, search, and authoring workflows."
     roles={['documentation', 'devops']}
     tags={['Migration']}
     href="https://medium.com/scalar-engineering/migrating-the-scalardb-and-scalardl-docs-sites-from-jekyll-to-docusaurus-cc900ef7dedf"
@@ -59,8 +59,8 @@ Selected projects span developer-focused products, documentation platforms, and 
     featured
     category="AI"
     title="EcoFootprint"
-    description="Estimates the electricity and water use of AI coding sessions with a local tool."
-    roles={['ai', 'devops']}
+    description="Generates local estimates of the electricity and water use of AI coding sessions."
+    roles={['ai']}
     tags={['Sustainability', 'CLI', 'Developer tools', 'Python']}
     href="https://gitlab.com/josh-wong/eco-footprint"
     action="View repository"
@@ -69,7 +69,7 @@ Selected projects span developer-focused products, documentation platforms, and 
 
 </FeaturedWorkSection>
 
-<RoleSection roles={['ai', 'product']}>
+<RoleSection>
 
 ## AI
 
@@ -86,9 +86,9 @@ Selected projects span developer-focused products, documentation platforms, and 
   <WorkCard
     category="AI"
     title="ALS-LM"
-    description="Studies domain-specific language models for ALS through training, fine-tuning, QLoRA, retrieval-augmented generation, and hallucination evaluation."
+    description="Evaluated domain-specific language models for ALS through training, fine-tuning, QLoRA, RAG, and hallucination benchmarks."
     roles={['ai']}
-    tags={['Machine learning', 'Python', 'RAG', 'Research', 'Benchmarking']}
+    tags={['Machine learning', 'Python', 'RAG', 'Benchmarking']}
     href="https://github.com/josh-wong/als-lm"
     action="View repository"
   />
@@ -104,7 +104,7 @@ Selected projects span developer-focused products, documentation platforms, and 
   <WorkCard
     category="AI and developer tools"
     title="ToneAudit"
-    description="Provides a local-first tool for analyzing how written GitHub and GitLab comments might be perceived."
+    description="Analyzes how written comments on GitHub and GitLab might be perceived while keeping source collection local-first."
     roles={['ai', 'product']}
     tags={['Python', 'Windows', 'macOS', 'Linux']}
     href="https://github.com/josh-wong/toneaudit"
@@ -113,7 +113,7 @@ Selected projects span developer-focused products, documentation platforms, and 
   <WorkCard
     category="AI and app"
     title="PokerOdds AI"
-    description="Provides a poker odds app with AI-assisted strategy insights and public iOS product documentation."
+    description="Calculates poker odds and provides AI-assisted strategy insights in an iOS app."
     roles={['ai', 'product']}
     tags={['Swift', 'Probability modeling']}
     href="/projects/pokerodds-ai/"
@@ -123,7 +123,7 @@ Selected projects span developer-focused products, documentation platforms, and 
 
 </RoleSection>
 
-<RoleSection roles={['product']}>
+<RoleSection>
 
 ## Product
 
@@ -131,7 +131,7 @@ Selected projects span developer-focused products, documentation platforms, and 
   <WorkCard
     category="AI and developer tools"
     title="Aisora"
-    description="Provides an AI assistant for Signal direct messages and group chats with Claude and local Llama models."
+    description="Adds an AI assistant to Signal direct messages and group chats with Claude and local Llama models."
     roles={['ai', 'product']}
     tags={['Python', 'Signal', 'LLM']}
     href="https://github.com/josh-wong/aisora"
@@ -140,7 +140,7 @@ Selected projects span developer-focused products, documentation platforms, and 
   <WorkCard
     category="Desktop and web app"
     title="TPS Report Wizard"
-    description="Provides a retro-themed desktop and web app for generating and exporting TPS reports."
+    description="Generates, edits, and exports TPS reports through desktop and web interfaces, inspired by the movie Office Space."
     roles={['product']}
     tags={['TypeScript', 'Electron']}
     href="https://github.com/josh-wong/tps-report-wizard"
@@ -149,7 +149,7 @@ Selected projects span developer-focused products, documentation platforms, and 
   <WorkCard
     category="iOS game"
     title="Alignee"
-    description="Provides a one-hand arcade game for iPhone with public help and support."
+    description="Delivers a one-hand arcade game for iPhone with accessible controls."
     roles={['product']}
     tags={['Swift']}
     href="/projects/alignee/"
@@ -194,7 +194,7 @@ Selected projects span developer-focused products, documentation platforms, and 
   <WorkCard
     category="DevOps"
     title="Scalar docs translation workflow"
-    description="Provides a reusable CI/CD workflow for translating documentation."
+    description="Automates documentation translation by using AI through a reusable CI/CD workflow."
     roles={['devops', 'documentation']}
     tags={['CI/CD', 'Localization']}
     href="https://github.com/scalar-labs/actions/pull/29"
@@ -203,7 +203,7 @@ Selected projects span developer-focused products, documentation platforms, and 
   <WorkCard
     category="DevOps"
     title="Scalar docs recovery and automation"
-    description="Adds tag-based recovery workflows for the ScalarDB and ScalarDL documentation sites."
+    description="Reduces documentation site recovery time with tag-based restoration workflows."
     roles={['devops', 'documentation']}
     tags={['CI/CD', 'Disaster recovery']}
     href="https://github.com/scalar-labs/docs-scalardb/pull/2189"
@@ -213,7 +213,7 @@ Selected projects span developer-focused products, documentation platforms, and 
 
 </RoleSection>
 
-<RoleSection roles={['documentation', 'security', 'devops']}>
+<RoleSection>
 
 ## DevRel
 
@@ -240,7 +240,7 @@ Selected projects span developer-focused products, documentation platforms, and 
     category="Developer relations"
     title="ScalarDB Analytics catalog access"
     description="Explains how to manage access to catalogs and data sources in ScalarDB Analytics."
-    roles={['documentation', 'security']}
+    roles={['documentation']}
     tags={['ScalarDB', 'Authorization', 'Data catalog']}
     href="https://medium.com/scalar-engineering/managing-access-to-catalogs-in-scalardb-analytics-a5f95e1a2872"
     secondaryHref="https://medium.com/scalar-engineering-ja/scalardb-analytics-%E3%81%AE%E3%82%A2%E3%83%8A%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%E3%81%B8%E3%81%AE%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%88%B6%E5%BE%A1-06b5f9ac74f8"
@@ -251,7 +251,7 @@ Selected projects span developer-focused products, documentation platforms, and 
     category="Developer relations"
     title="Securing data with ScalarDL namespaces"
     description="Explains namespace-based isolation for assets, credentials, contracts, and functions in ScalarDL."
-    roles={['documentation', 'security']}
+    roles={['documentation']}
     tags={['ScalarDL', 'Data integrity', 'Multi-tenancy']}
     href="https://medium.com/scalar-engineering/securing-and-isolating-data-by-using-namespaces-in-scalardl-6ea1cf543c80"
     action="Read English post"
@@ -271,7 +271,7 @@ Selected projects span developer-focused products, documentation platforms, and 
 
 </RoleSection>
 
-<RoleSection roles={['security', 'documentation', 'product']}>
+<RoleSection>
 
 ## Security
 
@@ -279,16 +279,16 @@ Selected projects span developer-focused products, documentation platforms, and 
   <WorkCard
     category="Certificate checker"
     title="eMudhra certificate check"
-    description="Provides a defensive certificate checker with guidance for reviewing its results."
+    description="Scans supported systems for eMudhra exposure and produces actionable review guidance."
     roles={['security', 'documentation']}
-    tags={['Certificate management', 'CLI', 'Windows', 'macOS', 'Linux', 'Security tooling']}
+    tags={['Certificate management', 'CLI', 'Python', 'Cross-platform']}
     href="https://gitlab.com/josh-wong/emudhra-check"
     action="View repository"
   />
   <WorkCard
     category="Web game"
     title="CVE Tataki"
-    description="Offers a playable introduction to reading and understanding vulnerability advisories."
+    description="Teaches users how to read vulnerability advisories through a short web game."
     roles={['security', 'product']}
     tags={['Education', 'Vulnerability awareness']}
     href="https://josh-wong.gitlab.io/cve-tataki/"
@@ -297,7 +297,7 @@ Selected projects span developer-focused products, documentation platforms, and 
   <WorkCard
     category="Desktop app"
     title="Tegata"
-    description="Provides a portable software authenticator with setup and usage documentation."
+    description="Stores two-factor credentials in an encrypted portable vault across desktop platforms."
     roles={['security', 'product', 'documentation']}
     tags={['Go', 'Two-factor authentication', 'Encryption', 'Cross-platform']}
     href="/projects/tegata/"
@@ -316,7 +316,7 @@ Selected projects span developer-focused products, documentation platforms, and 
 
 </RoleSection>
 
-<RoleSection roles={[]}>
+<RoleSection>
 
 ## Personal
 
