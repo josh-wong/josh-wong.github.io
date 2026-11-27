@@ -40,6 +40,8 @@ interface WorkCardProps {
   secondaryAction?: string;
   secondaryHref?: string;
   tags: string[];
+  tertiaryAction?: string;
+  tertiaryHref?: string;
   title: string;
 }
 
@@ -183,6 +185,8 @@ export function WorkCard({
   secondaryAction,
   secondaryHref,
   tags,
+  tertiaryAction,
+  tertiaryHref,
   title,
 }: WorkCardProps) {
   const role = useContext(RoleContext);
@@ -229,6 +233,15 @@ export function WorkCard({
               to={secondaryHref}
               aria-label={`${secondaryAction}: ${title}`}>
               {secondaryAction}
+              <span aria-hidden="true">&rarr;</span>
+            </Link>
+          )}
+          {tertiaryAction && tertiaryHref && (
+            <Link
+              className={clsx('button button--secondary button--sm', styles.action)}
+              to={tertiaryHref}
+              aria-label={`${tertiaryAction}: ${title}`}>
+              {tertiaryAction}
               <span aria-hidden="true">&rarr;</span>
             </Link>
           )}
