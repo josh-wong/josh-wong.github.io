@@ -4,55 +4,355 @@ displayed_sidebar: null
 hide_table_of_contents: true
 ---
 
-# Work
+import {
+  FeaturedWorkGrid,
+  FeaturedWorkSection,
+  RoleDirectory,
+  RoleFilter,
+  RoleSection,
+  WorkCard,
+} from '@site/src/components/FeaturedWork';
 
-Explore work in AI, product development, and documentation engineering.
+# Project portfolio
+
+Selected projects span developer-focused products, documentation platforms, and automation that make complex systems easier to understand and use.
+
+<RoleDirectory>
+<RoleFilter />
+
+<FeaturedWorkSection roles={['ai', 'documentation', 'devops', 'product']}>
 
 ## Featured work
 
-- [AI access to Scalar docs](https://medium.com/scalar-engineering/going-ai-native-to-enhance-how-humans-and-agents-access-scalardb-and-scalardl-docs-fb7dbb0d304b)—Makes the ScalarDB and ScalarDL documentation easier for people and AI tools to access and reuse.
-- [Yen Lens](https://yenlens.080f53.com/)—Compares the cost of a purchase in Japan with monthly take-home pay.
-- [ScalarDB and ScalarDL docs platform](https://medium.com/scalar-engineering/migrating-the-scalardb-and-scalardl-docs-sites-from-jekyll-to-docusaurus-cc900ef7dedf)—Migrates two product documentation sites to a versioned Docusaurus platform.
-- [EcoFootprint](https://gitlab.com/josh-wong/eco-footprint)—Estimates the electricity and water use of AI coding sessions with a local tool.
+<FeaturedWorkGrid>
+  <WorkCard
+    featured
+    category="Developer relations"
+    title="AI access to Scalar docs"
+    description="Makes the ScalarDB and ScalarDL documentation easier for people and AI tools to access and reuse."
+    roles={['ai', 'documentation']}
+    tags={['Developer experience']}
+    href="https://medium.com/scalar-engineering/going-ai-native-to-enhance-how-humans-and-agents-access-scalardb-and-scalardl-docs-fb7dbb0d304b"
+    action="Read blog post"
+  />
+  <WorkCard
+    featured
+    category="Web app"
+    title="Yen Lens"
+    description="Compares the cost of a purchase in Japan with monthly take-home pay in other currencies."
+    roles={['product']}
+    tags={['Data visualization', 'Japan', 'Finance']}
+    href="https://yenlens.080f53.com/"
+    action="Open project"
+  />
+  <WorkCard
+    featured
+    category="Developer relations"
+    title="ScalarDB and ScalarDL docs platform"
+    description="Migrates two product documentation sites to Docusaurus."
+    roles={['documentation', 'devops']}
+    tags={['Migration']}
+    href="https://medium.com/scalar-engineering/migrating-the-scalardb-and-scalardl-docs-sites-from-jekyll-to-docusaurus-cc900ef7dedf"
+    action="Read blog post"
+  />
+  <WorkCard
+    featured
+    category="AI"
+    title="EcoFootprint"
+    description="Estimates the electricity and water use of AI coding sessions with a local tool."
+    roles={['ai', 'devops']}
+    tags={['Sustainability', 'CLI', 'Developer tools', 'Python']}
+    href="https://gitlab.com/josh-wong/eco-footprint"
+    action="View repository"
+  />
+</FeaturedWorkGrid>
 
-## More work
+</FeaturedWorkSection>
 
-Browse additional professional, independent, open-source, and personal work by topic.
+<RoleSection roles={['ai', 'product']}>
 
-### AI
+## AI
 
-- [ALS-LM](https://github.com/josh-wong/als-lm)—Studies domain-specific language models for ALS through training, fine-tuning, QLoRA, retrieval-augmented generation, and hallucination evaluation.
-- [PokerOdds AI](./pokerodds-ai/index.mdx)—Provides a poker odds app with AI-assisted strategy insights and public product documentation.
+<FeaturedWorkGrid>
+  <WorkCard
+    category="AI and developer tools"
+    title="taorc"
+    description="Helps AI coding agents write clearer, more readable code through a reviewable rule catalog, linter, and cross-harness skill."
+    roles={['ai', 'product']}
+    tags={['Code quality', 'Python']}
+    href="https://github.com/josh-wong/taorc"
+    action="View repository"
+  />
+  <WorkCard
+    category="AI"
+    title="ALS-LM"
+    description="Studies domain-specific language models for ALS through training, fine-tuning, QLoRA, retrieval-augmented generation, and hallucination evaluation."
+    roles={['ai']}
+    tags={['Machine learning', 'Python', 'RAG', 'Research', 'Benchmarking']}
+    href="https://github.com/josh-wong/als-lm"
+    action="View repository"
+  />
+  <WorkCard
+    category="AI and app"
+    title="Aisho"
+    description="Provides an iPhone app for discovering open AI models by swiping and matching local hardware fit."
+    roles={['ai', 'product']}
+    tags={['Swift', 'Machine learning']}
+    href="https://github.com/josh-wong/aisho"
+    action="View repository"
+  />
+  <WorkCard
+    category="AI and developer tools"
+    title="ToneAudit"
+    description="Provides a local-first tool for analyzing how written GitHub and GitLab comments might be perceived."
+    roles={['ai', 'product']}
+    tags={['Python', 'Windows', 'macOS', 'Linux']}
+    href="https://github.com/josh-wong/toneaudit"
+    action="View repository"
+  />
+  <WorkCard
+    category="AI and app"
+    title="PokerOdds AI"
+    description="Provides a poker odds app with AI-assisted strategy insights and public iOS product documentation."
+    roles={['ai', 'product']}
+    tags={['Swift', 'Probability modeling']}
+    href="/projects/pokerodds-ai/"
+    action="View project"
+  />
+</FeaturedWorkGrid>
 
-### Product
+</RoleSection>
 
-- [Alignee](./alignee/index.mdx)—Provides a one-hand arcade game for iPhone with public help and support.
+<RoleSection roles={['product']}>
 
-### Documentation
+## Product
 
-- [Microsoft Zune setup guide](./zune-software-setup/index.mdx)—Explains how to get a Zune device and its software running on Windows.
-- [Bitcoin Cash Node on Raspberry Pi](./bitcoin-cash-node-on-raspberry-pi/index.mdx)—Explains installation and upgrade procedures for Raspberry Pi 4.
+<FeaturedWorkGrid>
+  <WorkCard
+    category="AI and developer tools"
+    title="Aisora"
+    description="Provides an AI assistant for Signal direct messages and group chats with Claude and local Llama models."
+    roles={['ai', 'product']}
+    tags={['Python', 'Signal', 'LLM']}
+    href="https://github.com/josh-wong/aisora"
+    action="View repository"
+  />
+  <WorkCard
+    category="Desktop and web app"
+    title="TPS Report Wizard"
+    description="Provides a retro-themed desktop and web app for generating and exporting TPS reports."
+    roles={['product']}
+    tags={['TypeScript', 'Electron']}
+    href="https://github.com/josh-wong/tps-report-wizard"
+    action="View repository"
+  />
+  <WorkCard
+    category="iOS game"
+    title="Alignee"
+    description="Provides a one-hand arcade game for iPhone with public help and support."
+    roles={['product']}
+    tags={['Swift']}
+    href="/projects/alignee/"
+    action="View project"
+  />
+</FeaturedWorkGrid>
 
-### DevOps
+</RoleSection>
 
-- [Scalar docs translation workflow](https://github.com/scalar-labs/actions/pull/29)—Provides a reusable GitHub Actions workflow for translating documentation.
-- [Scalar docs recovery and automation](https://github.com/scalar-labs/docs-scalardb/pull/2189)—Adds tag-based recovery workflows for the ScalarDB and ScalarDL documentation sites.
+<RoleSection roles={['documentation']}>
 
-### DevRel
+## Documentation
 
-- [Open-source contributions](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ajosh-wong+-org%3Ascalar-labs)—Collects selected improvements to Docusaurus, Algolia DocSearch, GitHub Docs, and other open-source projects.
+<FeaturedWorkGrid>
+  <WorkCard
+    category="Documentation"
+    title="Microsoft Zune setup guide"
+    description="Explains how to get a Zune device and its software running on Windows."
+    roles={['documentation']}
+    tags={['Windows']}
+    href="/projects/zune-software-setup/"
+    action="View guide"
+  />
+  <WorkCard
+    category="Documentation"
+    title="Bitcoin Cash Node on Raspberry Pi"
+    description="Explains installation and upgrade procedures for Raspberry Pi 4."
+    roles={['documentation']}
+    tags={['Linux', 'Raspberry Pi', 'Bitcoin Cash']}
+    href="/projects/bitcoin-cash-node-on-raspberry-pi/"
+    action="View guide"
+  />
+</FeaturedWorkGrid>
 
-### Security
+</RoleSection>
 
-- [eMudhra certificate check](https://gitlab.com/josh-wong/emudhra-check)—Provides a defensive certificate checker with guidance for reviewing its results.
-- [CVE Tataki](https://josh-wong.gitlab.io/cve-tataki/)—Offers a playable introduction to reading and understanding vulnerability advisories.
-- [Tegata](./tegata/index.mdx)—Provides a portable software authenticator with setup and usage documentation.
-- [passGen](./passgen/index.mdx)—Provides a Windows password generator with setup and usage guidance.
+<RoleSection roles={['devops', 'documentation']}>
 
-### Personal
+## DevOps
 
-- [Baird beer profile quadrants](./baird-beer-quadrants/index.mdx)—Visualizes Baird beer flavor profiles with Mermaid-based quadrants.
-- [Signal sticker packs](./signal-stickers/index.mdx)—Collects custom sticker packs for Signal.
+<FeaturedWorkGrid>
+  <WorkCard
+    category="DevOps"
+    title="Scalar docs translation workflow"
+    description="Provides a reusable CI/CD workflow for translating documentation."
+    roles={['devops', 'documentation']}
+    tags={['CI/CD', 'Localization']}
+    href="https://github.com/scalar-labs/actions/pull/29"
+    action="View pull request"
+  />
+  <WorkCard
+    category="DevOps"
+    title="Scalar docs recovery and automation"
+    description="Adds tag-based recovery workflows for the ScalarDB and ScalarDL documentation sites."
+    roles={['devops', 'documentation']}
+    tags={['CI/CD', 'Disaster recovery']}
+    href="https://github.com/scalar-labs/docs-scalardb/pull/2189"
+    action="View implementation"
+  />
+</FeaturedWorkGrid>
+
+</RoleSection>
+
+<RoleSection roles={['documentation', 'security', 'devops']}>
+
+## DevRel
+
+<FeaturedWorkGrid>
+  <WorkCard
+    category="Developer relations"
+    title="Open-source contributions"
+    description="Collects selected improvements to Docusaurus, Algolia DocSearch, GitHub Docs, and other open-source projects."
+    roles={['documentation']}
+    tags={['Open source']}
+    href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ajosh-wong+-org%3Ascalar-labs"
+    action="View contributions"
+  />
+  <WorkCard
+    category="Developer relations"
+    title="Capturing and applying knowledge through PKM"
+    description="Explains a personal knowledge management practice for capturing, organizing, retrieving, and applying knowledge."
+    roles={['documentation']}
+    tags={['Knowledge management']}
+    href="https://engineering.mercari.com/en/blog/entry/20221202-capturing-and-applying-knowledge-through-a-pkm-practice/"
+    action="Read article"
+  />
+  <WorkCard
+    category="Developer relations"
+    title="ScalarDB Analytics catalog access"
+    description="Explains how to manage access to catalogs and data sources in ScalarDB Analytics."
+    roles={['documentation', 'security']}
+    tags={['ScalarDB', 'Authorization', 'Data catalog']}
+    href="https://medium.com/scalar-engineering/managing-access-to-catalogs-in-scalardb-analytics-a5f95e1a2872"
+    secondaryHref="https://medium.com/scalar-engineering-ja/scalardb-analytics-%E3%81%AE%E3%82%A2%E3%83%8A%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%E3%81%B8%E3%81%AE%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%88%B6%E5%BE%A1-06b5f9ac74f8"
+    secondaryAction="Read Japanese post"
+    action="Read English post"
+  />
+  <WorkCard
+    category="Developer relations"
+    title="Securing data with ScalarDL namespaces"
+    description="Explains namespace-based isolation for assets, credentials, contracts, and functions in ScalarDL."
+    roles={['documentation', 'security']}
+    tags={['ScalarDL', 'Data integrity', 'Multi-tenancy']}
+    href="https://medium.com/scalar-engineering/securing-and-isolating-data-by-using-namespaces-in-scalardl-6ea1cf543c80"
+    action="Read English post"
+  />
+  <WorkCard
+    category="Developer relations"
+    title="Scalar docs tag-based restoration"
+    description="Explains an automated recovery system for restoring documentation sites from known-good tagged releases."
+    roles={['documentation', 'devops']}
+    tags={['CI/CD', 'Disaster recovery']}
+    href="https://medium.com/scalar-engineering/implementing-a-tag-based-restoration-system-for-the-scalar-docs-sites-7c2f6af70ae6"
+    secondaryHref="https://medium.com/scalar-engineering-ja/scalar-%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B5%E3%82%A4%E3%83%88%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AE%E3%82%BF%E3%82%B0%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E5%BE%A9%E5%85%83%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E5%AE%9F%E8%A3%85-e779b4a39626"
+    secondaryAction="Read Japanese post"
+    action="Read English post"
+  />
+</FeaturedWorkGrid>
+
+</RoleSection>
+
+<RoleSection roles={['security', 'documentation', 'product']}>
+
+## Security
+
+<FeaturedWorkGrid>
+  <WorkCard
+    category="Certificate checker"
+    title="eMudhra certificate check"
+    description="Provides a defensive certificate checker with guidance for reviewing its results."
+    roles={['security', 'documentation']}
+    tags={['Certificate management', 'CLI', 'Windows', 'macOS', 'Linux', 'Security tooling']}
+    href="https://gitlab.com/josh-wong/emudhra-check"
+    action="View repository"
+  />
+  <WorkCard
+    category="Web game"
+    title="CVE Tataki"
+    description="Offers a playable introduction to reading and understanding vulnerability advisories."
+    roles={['security', 'product']}
+    tags={['Education', 'Vulnerability awareness']}
+    href="https://josh-wong.gitlab.io/cve-tataki/"
+    action="Open project"
+  />
+  <WorkCard
+    category="Desktop app"
+    title="Tegata"
+    description="Provides a portable software authenticator with setup and usage documentation."
+    roles={['security', 'product', 'documentation']}
+    tags={['Go', 'Two-factor authentication', 'Encryption', 'Cross-platform']}
+    href="/projects/tegata/"
+    action="View project"
+  />
+  <WorkCard
+    category="Desktop app"
+    title="passGen"
+    description="Provides a Windows password generator with setup and usage guidance."
+    roles={['security', 'product']}
+    tags={['Windows', 'C#', 'Password generation']}
+    href="/projects/passgen/"
+    action="View project"
+  />
+</FeaturedWorkGrid>
+
+</RoleSection>
+
+<RoleSection roles={[]}>
+
+## Personal
+
+<FeaturedWorkGrid>
+  <WorkCard
+    category="Personal"
+    title="Baird beer profile quadrants"
+    description="Visualizes Baird beer flavor profiles with Mermaid-based quadrants."
+    roles={[]}
+    tags={['Data visualization', 'Mermaid', 'Beer']}
+    href="/projects/baird-beer-quadrants/"
+    action="View project"
+  />
+  <WorkCard
+    category="Personal"
+    title="Signal sticker packs"
+    description="Collection of custom sticker packs for Signal."
+    roles={[]}
+    tags={['Graphic design', 'Signal']}
+    href="/projects/signal-stickers/"
+    action="View packs"
+  />
+  <WorkCard
+    category="Personal"
+    title="Music collection"
+    description="Catalogs a personal CD and vinyl collection by artist."
+    roles={[]}
+    tags={['Music']}
+    href="/projects/music-collection/"
+    action="View collection"
+  />
+</FeaturedWorkGrid>
+
+</RoleSection>
+
+</RoleDirectory>
 
 {/*
 Copy one line into the appropriate Work category and replace the sample text.

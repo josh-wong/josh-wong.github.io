@@ -1,0 +1,356 @@
+.grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1.25rem 0 2.5rem;
+}
+
+.roleFilter {
+  border-block: 1px solid var(--portfolio-divider);
+  margin: 1.5rem 0;
+  padding: 0.75rem 0;
+}
+
+.roleFilterLabel,
+.roleFilterStatus {
+  color: var(--portfolio-muted);
+  margin: 0;
+}
+
+.roleFilterLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.roleFilterOptions {
+  display: flex;
+  gap: 0.25rem;
+  margin-inline: -0.25rem;
+  overflow-x: auto;
+  padding: 0.25rem;
+  scrollbar-width: thin;
+}
+
+.roleFilterButton {
+  background: transparent;
+  border: 0;
+  border-radius: var(--ifm-global-radius);
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+  flex: 0 0 auto;
+  font: inherit;
+  font-weight: 600;
+  padding: 0.55rem 0.75rem;
+  position: relative;
+  white-space: nowrap;
+}
+
+.roleFilterButton:hover {
+  background: var(--ifm-color-emphasis-200);
+}
+
+.roleFilterButton[aria-pressed='true'] {
+  background: var(--portfolio-brand);
+  color: var(--portfolio-on-brand);
+}
+
+.roleFilterButton:focus-visible {
+  outline: 2px solid var(--portfolio-focus);
+  outline-offset: 2px;
+}
+
+.roleFilterStatus {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.roleSection {
+  margin-block: 0.25rem 1.5rem;
+}
+
+.featuredSection {
+  margin-block: 0.25rem 1.5rem;
+}
+
+.roleSection + .roleSection {
+  border-top: 1px solid var(--portfolio-divider);
+  padding-top: 1.25rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+.card:focus-within {
+  border-color: var(--portfolio-focus);
+  outline: 0.2rem solid var(--portfolio-focus);
+  outline-offset: 0.15rem;
+}
+
+.visual {
+  align-items: flex-end;
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, var(--portfolio-brand), #384092);
+  color: var(--portfolio-on-brand);
+  display: flex;
+  min-height: 7rem;
+  padding: 1rem 1.25rem;
+  position: relative;
+}
+
+.visual[data-category='AI'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #314b8f, #5871b4);
+}
+
+.visual[data-category='AI and developer tools'],
+.visual[data-category='AI and documentation'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #2e6f73, #5797a0);
+}
+
+.visual[data-category='AI and app'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #5d557f, #8077a9);
+}
+
+.visual[data-category='iOS app'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #4e5fa7, #7380c2);
+}
+
+.visual[data-category='iOS game'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #7a4e6c, #a17391);
+}
+
+.visual[data-category='Desktop app'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #3d6674, #65929f);
+}
+
+.visual[data-category='Desktop and web app'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #3d6674, #658d9f);
+}
+
+.visual[data-category='Web app'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #2d6f96, #5a97b5);
+}
+
+.visual[data-category='Web game'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #9a593e, #c18462);
+}
+
+.visual[data-category='Certificate checker'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #75524f, #a17870);
+}
+
+.visual[data-category='Developer relations'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #7a4a83, #a66caf);
+}
+
+.visual[data-category='Documentation'],
+.visual[data-category='Documentation and DevOps'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #2e667f, #518ba3);
+}
+
+.visual[data-category='DevOps'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #356443, #5d8a69);
+}
+
+.visual[data-category='Product'],
+.visual[data-category='Product development'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #7e5738, #a97850);
+}
+
+.visual[data-category='Security'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #7e4046, #aa5b62);
+}
+
+.visual[data-category='Security and documentation'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #60536f, #87789a);
+}
+
+.visual[data-category='Personal'] {
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, #806b34, #a39155);
+}
+
+.featuredBadge {
+  background: #f4c95d;
+  border-radius: 0.375rem;
+  color: #24243a;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  padding: 0.45rem 0.55rem;
+  position: absolute;
+  inset-block-start: 1rem;
+  inset-inline-end: 1.25rem;
+  text-transform: uppercase;
+}
+
+.categoryLabel {
+  background: rgb(255 255 255 / 92%);
+  border: 1px solid rgb(255 255 255 / 70%);
+  border-radius: 999px;
+  box-shadow: 0 0.25rem 0.75rem rgb(8 15 83 / 10%);
+  color: #24243a;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  max-width: calc(100% - 1rem);
+  padding: 0.42rem 0.65rem;
+}
+
+.body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1.25rem;
+}
+
+.title {
+  font-size: 1.35rem;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+.description {
+  flex: 1;
+  margin-bottom: 1rem;
+}
+
+.tags {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0.5rem;
+}
+
+.body .tags > li {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+}
+
+.body .tags .tag {
+  align-items: center;
+  background: transparent;
+  border: 1px solid var(--portfolio-divider);
+  border-radius: 999px;
+  box-sizing: border-box;
+  color: var(--ifm-font-color-base);
+  display: inline-flex;
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0.4rem 0.65rem;
+  white-space: nowrap;
+  width: auto;
+}
+
+.footer {
+  padding: 0 1.25rem 1.25rem;
+}
+
+.actions {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.action {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+@media (hover: hover) {
+  .card:hover {
+    box-shadow: 0 0.75rem 2rem rgb(8 15 83 / 12%);
+    transform: translateY(-0.2rem);
+  }
+}
+
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .visual {
+    min-height: 6rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+}
+
+@media (forced-colors: active) {
+  .visual {
+    background: Canvas;
+    border-block-end: 1px solid CanvasText;
+  }
+
+  .categoryLabel {
+    background: Canvas;
+    border: 1px solid CanvasText;
+    box-shadow: none;
+    color: CanvasText;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+}
