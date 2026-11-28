@@ -9,6 +9,7 @@ import {
   FeaturedWorkSection,
   RoleDirectory,
   RoleFilter,
+  RoleResults,
   RoleSection,
   WorkCard,
 } from '@site/src/components/FeaturedWork';
@@ -20,23 +21,166 @@ I lead documentation efforts and build, deploy, and manage documentation platfor
 <RoleDirectory>
 <RoleFilter />
 
-<FeaturedWorkSection>
+<RoleResults>
 
-## Featured work
+<FeaturedWorkSection>
 
 <FeaturedWorkGrid>
   <WorkCard
     featured
-    category="Developer relations"
+    category="Blog post"
+    title="ScalarDB and ScalarDL docs platform"
+    description="Migrated the ScalarDB and ScalarDL docs sites from Jekyll to Docusaurus across every doc version, adding versioning, Algolia DocSearch, and automated build and link checks."
+    myRole="Senior technical writer and content strategist"
+    roles={['documentation']}
+    tags={['Migration', 'Docusaurus', 'Algolia DocSearch']}
+    href="https://medium.com/scalar-engineering/migrating-the-scalardb-and-scalardl-docs-sites-from-jekyll-to-docusaurus-cc900ef7dedf"
+    action="Read blog post"
+  />
+  <WorkCard
+    featured
+    category="Blog post"
     title="AI access to Scalar docs"
-    description="Makes the ScalarDB and ScalarDL documentation easier for people and AI tools to access and reuse."
+    description="Added an Ask AI button, llms.txt files generated on every build, copy as Markdown, chat with page, and an automated Context7 refresh to the ScalarDB and ScalarDL docs sites."
+    myRole="Senior technical writer and content strategist"
     roles={['ai', 'documentation']}
-    tags={['Developer experience']}
+    tags={['Developer experience', 'llms.txt', 'Context7']}
     href="https://medium.com/scalar-engineering/going-ai-native-to-enhance-how-humans-and-agents-access-scalardb-and-scalardl-docs-fb7dbb0d304b"
     action="Read blog post"
   />
   <WorkCard
     featured
+    category="Desktop app"
+    title="Tegata"
+    description="Stores two-factor credentials in an encrypted portable vault across desktop platforms."
+    roles={['security', 'product']}
+    tags={['Go', 'Two-factor authentication', 'Encryption', 'Cross-platform']}
+    href="/projects/tegata/"
+    action="View project"
+  />
+  <WorkCard
+    featured
+    category="CLI tool"
+    title="EcoFootprint"
+    description="Generates local estimates of the electricity and water use of AI coding sessions."
+    roles={['ai']}
+    tags={['Sustainability', 'Developer tools', 'Python']}
+    href="https://gitlab.com/josh-wong/eco-footprint"
+    action="View repository"
+  />
+</FeaturedWorkGrid>
+
+</FeaturedWorkSection>
+
+<RoleSection id="content-strategy" title="Content strategy">
+
+<FeaturedWorkGrid>
+  <WorkCard
+    category="Documentation site"
+    title="ScalarDB documentation"
+    description="Product documentation for ScalarDB, including the published site and its source repository."
+    myRole="Senior technical writer and content strategist"
+    roles={['documentation']}
+    tags={['Docusaurus', 'Versioning', 'Search']}
+    href="https://scalardb.scalar-labs.com/docs"
+    action="View documentation"
+    secondaryHref="https://github.com/scalar-labs/docs-scalardb"
+    secondaryAction="View repository"
+  />
+  <WorkCard
+    category="Documentation site"
+    title="ScalarDL documentation"
+    description="Product documentation for ScalarDL, including the published site and its source repository."
+    myRole="Senior technical writer and content strategist"
+    roles={['documentation']}
+    tags={['Docusaurus', 'Versioning', 'Search']}
+    href="https://scalardl.scalar-labs.com/docs"
+    action="View documentation"
+    secondaryHref="https://github.com/scalar-labs/docs-scalardl"
+    secondaryAction="View repository"
+  />
+</FeaturedWorkGrid>
+
+</RoleSection>
+
+<RoleSection id="devops" title="DevOps">
+
+<FeaturedWorkGrid>
+  <WorkCard
+    category="CI/CD workflow"
+    title="Scalar docs site recovery system"
+    description="Cut recovery time for docs site outages to under 15 minutes by using tag-based restore workflows across four Scalar docs sites, where recovery previously took minutes to hours."
+    myRole="Senior technical writer and content strategist"
+    roles={['devops']}
+    tags={['Disaster recovery', 'GitHub Actions']}
+    href="https://medium.com/scalar-engineering/implementing-a-tag-based-restoration-system-for-the-scalar-docs-sites-7c2f6af70ae6"
+    action="Read English post"
+    secondaryHref="https://medium.com/scalar-engineering-ja/scalar-%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B5%E3%82%A4%E3%83%88%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AE%E3%82%BF%E3%82%B0%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E5%BE%A9%E5%85%83%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E5%AE%9F%E8%A3%85-e779b4a39626"
+    secondaryAction="Read Japanese post"
+  />
+  <WorkCard
+    category="CI/CD workflow"
+    title="Scalar docs translation workflow"
+    description="Built a reusable GitHub Actions workflow that translates merged English documentation into Japanese with Claude Code and opens a pull request for review. Includes a sample caller workflow and setup guide for other repositories."
+    myRole="Senior technical writer and content strategist"
+    roles={['devops']}
+    tags={['Localization']}
+    href="https://github.com/scalar-labs/actions"
+    action="View repository"
+  />
+</FeaturedWorkGrid>
+
+</RoleSection>
+
+<RoleSection id="ai" title="AI">
+
+<FeaturedWorkGrid>
+  <WorkCard
+    category="Developer tool"
+    title="taorc"
+    description="Helps AI coding agents write clearer, more readable code through a reviewable rule catalog, linter, and cross-harness skill."
+    roles={['ai']}
+    tags={['Code quality', 'Python']}
+    href="https://github.com/josh-wong/taorc"
+    action="View repository"
+  />
+  <WorkCard
+    category="AI research"
+    title="ALS-LM"
+    description="Evaluated domain-specific language models for ALS through training, fine-tuning, QLoRA, RAG, and hallucination benchmarks."
+    roles={['ai']}
+    tags={['Machine learning', 'Python', 'RAG', 'Benchmarking']}
+    href="https://github.com/josh-wong/als-lm"
+    action="View repository"
+  />
+  <WorkCard
+    category="Chat assistant"
+    title="Aisora"
+    description="Adds an AI assistant to Signal direct messages and group chats with Claude and local Llama models."
+    roles={['ai']}
+    tags={['Python', 'Signal', 'LLM']}
+    href="https://github.com/josh-wong/aisora"
+    action="View repository"
+  />
+</FeaturedWorkGrid>
+
+</RoleSection>
+
+<RoleSection id="apps-and-games" title="Apps and games">
+
+<FeaturedWorkGrid>
+  <WorkCard
+    category="iOS game"
+    title="Alignee"
+    description="Delivers a one-hand arcade game for iPhone with accessible controls."
+    roles={['product']}
+    tags={['Swift']}
+    href="/projects/alignee/"
+    action="View project"
+    secondaryHref="https://apps.apple.com/app/alignee/id6759492125"
+    secondaryAction="View on App Store"
+  />
+  <WorkCard
     category="Web app"
     title="Yen Lens"
     description="Helps people compare the cost of a purchase in Japan with monthly take-home pay in other currencies."
@@ -46,53 +190,6 @@ I lead documentation efforts and build, deploy, and manage documentation platfor
     action="Open project"
   />
   <WorkCard
-    featured
-    category="Developer relations"
-    title="ScalarDB and ScalarDL docs platform"
-    description="Describes the migration of two product documentation sites to Docusaurus with improved versioning, search, and authoring workflows."
-    roles={['documentation', 'devops']}
-    tags={['Migration']}
-    href="https://medium.com/scalar-engineering/migrating-the-scalardb-and-scalardl-docs-sites-from-jekyll-to-docusaurus-cc900ef7dedf"
-    action="Read blog post"
-  />
-  <WorkCard
-    featured
-    category="AI"
-    title="EcoFootprint"
-    description="Generates local estimates of the electricity and water use of AI coding sessions."
-    roles={['ai']}
-    tags={['Sustainability', 'CLI', 'Developer tools', 'Python']}
-    href="https://gitlab.com/josh-wong/eco-footprint"
-    action="View repository"
-  />
-</FeaturedWorkGrid>
-
-</FeaturedWorkSection>
-
-<RoleSection>
-
-## AI
-
-<FeaturedWorkGrid>
-  <WorkCard
-    category="AI and developer tools"
-    title="taorc"
-    description="Helps AI coding agents write clearer, more readable code through a reviewable rule catalog, linter, and cross-harness skill."
-    roles={['ai', 'product']}
-    tags={['Code quality', 'Python']}
-    href="https://github.com/josh-wong/taorc"
-    action="View repository"
-  />
-  <WorkCard
-    category="AI"
-    title="ALS-LM"
-    description="Evaluated domain-specific language models for ALS through training, fine-tuning, QLoRA, RAG, and hallucination benchmarks."
-    roles={['ai']}
-    tags={['Machine learning', 'Python', 'RAG', 'Benchmarking']}
-    href="https://github.com/josh-wong/als-lm"
-    action="View repository"
-  />
-  <WorkCard
     category="iOS app"
     title="PokerOdds AI"
     description="Calculates poker odds and provides AI-assisted strategy insights in an iOS app."
@@ -100,24 +197,8 @@ I lead documentation efforts and build, deploy, and manage documentation platfor
     tags={['Swift', 'Probability modeling']}
     href="/projects/pokerodds-ai/"
     action="View project"
-  />
-</FeaturedWorkGrid>
-
-</RoleSection>
-
-<RoleSection>
-
-## Product
-
-<FeaturedWorkGrid>
-  <WorkCard
-    category="AI and developer tools"
-    title="Aisora"
-    description="Adds an AI assistant to Signal direct messages and group chats with Claude and local Llama models."
-    roles={['ai', 'product']}
-    tags={['Python', 'Signal', 'LLM']}
-    href="https://github.com/josh-wong/aisora"
-    action="View repository"
+    secondaryHref="https://apps.apple.com/us/app/pokerodds-ai/id6748898840"
+    secondaryAction="View on App Store"
   />
   <WorkCard
     category="Desktop and web app"
@@ -128,91 +209,18 @@ I lead documentation efforts and build, deploy, and manage documentation platfor
     href="https://github.com/josh-wong/tps-report-wizard"
     action="View repository"
   />
-  <WorkCard
-    category="iOS game"
-    title="Alignee"
-    description="Delivers a one-hand arcade game for iPhone with accessible controls."
-    roles={['product']}
-    tags={['Swift']}
-    href="/projects/alignee/"
-    action="View project"
-  />
 </FeaturedWorkGrid>
 
 </RoleSection>
 
-<RoleSection>
-
-## DevOps
-
-<FeaturedWorkGrid>
-  <WorkCard
-    category="DevOps"
-    title="Scalar docs translation workflow"
-    description="Automates documentation translation by using AI through a reusable CI/CD workflow."
-    roles={['devops', 'documentation']}
-    tags={['CI/CD', 'Localization']}
-    href="https://github.com/scalar-labs/actions/pull/29"
-    action="View pull request"
-  />
-  <WorkCard
-    category="DevOps"
-    title="Scalar docs site recovery system"
-    description="Automates recovery of documentation sites from known-good tagged releases with restoration workflows."
-    roles={['devops', 'documentation']}
-    tags={['CI/CD', 'Disaster recovery']}
-    href="https://github.com/scalar-labs/docs-scalardb/pull/2189"
-    action="View implementation"
-    secondaryHref="https://medium.com/scalar-engineering/implementing-a-tag-based-restoration-system-for-the-scalar-docs-sites-7c2f6af70ae6"
-    secondaryAction="Read English post"
-    tertiaryHref="https://medium.com/scalar-engineering-ja/scalar-%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B5%E3%82%A4%E3%83%88%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AE%E3%82%BF%E3%82%B0%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E5%BE%A9%E5%85%83%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E5%AE%9F%E8%A3%85-e779b4a39626"
-    tertiaryAction="Read Japanese post"
-  />
-</FeaturedWorkGrid>
-
-</RoleSection>
-
-<RoleSection>
-
-## Documentation
-
-<FeaturedWorkGrid>
-  <WorkCard
-    category="Developer relations"
-    title="ScalarDB Analytics catalog access"
-    description="Explains how to manage access to catalogs and data sources in ScalarDB Analytics."
-    roles={['documentation']}
-    tags={['ScalarDB', 'Authorization', 'Data catalog']}
-    href="https://medium.com/scalar-engineering/managing-access-to-catalogs-in-scalardb-analytics-a5f95e1a2872"
-    secondaryHref="https://medium.com/scalar-engineering-ja/scalardb-analytics-%E3%81%AE%E3%82%A2%E3%83%8A%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%E3%81%B8%E3%81%AE%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%88%B6%E5%BE%A1-06b5f9ac74f8"
-    secondaryAction="Read Japanese post"
-    action="Read English post"
-  />
-  <WorkCard
-    category="Developer relations"
-    title="Securing data with ScalarDL namespaces"
-    description="Explains namespace-based isolation for assets, credentials, contracts, and functions in ScalarDL."
-    roles={['documentation']}
-    tags={['ScalarDL', 'Data integrity', 'Multi-tenancy']}
-    href="https://medium.com/scalar-engineering/securing-and-isolating-data-by-using-namespaces-in-scalardl-6ea1cf543c80"
-    secondaryHref="https://medium.com/scalar-engineering-ja/scalardl-%E3%81%AE%E5%90%8D%E5%89%8D%E7%A9%BA%E9%96%93%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%9F%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E4%BF%9D%E8%AD%B7%E3%81%A8%E5%88%86%E9%9B%A2-9c7c7f0736d4"
-    secondaryAction="Read Japanese post"
-    action="Read English post"
-  />
-</FeaturedWorkGrid>
-
-</RoleSection>
-
-<RoleSection>
-
-## Security
+<RoleSection id="security" title="Security">
 
 <FeaturedWorkGrid>
   <WorkCard
     category="Certificate checker"
     title="eMudhra certificate check"
     description="Scans supported systems for eMudhra exposure and produces actionable review guidance."
-    roles={['security', 'documentation']}
+    roles={['security']}
     tags={['Certificate management', 'CLI', 'Python', 'Cross-platform']}
     href="https://gitlab.com/josh-wong/emudhra-check"
     action="View repository"
@@ -226,22 +234,11 @@ I lead documentation efforts and build, deploy, and manage documentation platfor
     href="https://josh-wong.gitlab.io/cve-tataki/"
     action="Open project"
   />
-  <WorkCard
-    category="Desktop app"
-    title="Tegata"
-    description="Stores two-factor credentials in an encrypted portable vault across desktop platforms."
-    roles={['security', 'product', 'documentation']}
-    tags={['Go', 'Two-factor authentication', 'Encryption', 'Cross-platform']}
-    href="/projects/tegata/"
-    action="View project"
-  />
 </FeaturedWorkGrid>
 
 </RoleSection>
 
-<RoleSection>
-
-</RoleSection>
+</RoleResults>
 
 </RoleDirectory>
 

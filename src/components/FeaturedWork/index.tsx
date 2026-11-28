@@ -1,7 +1,5 @@
 import {
-  Children,
   createContext,
-  isValidElement,
   useContext,
   useEffect,
   useState,
@@ -36,6 +34,7 @@ interface WorkCardProps {
   description: string;
   featured?: boolean;
   href: string;
+  myRole?: string;
   roles: WorkRole[];
   secondaryAction?: string;
   secondaryHref?: string;
@@ -51,6 +50,12 @@ interface RoleFilterProps {
 
 interface RoleSectionProps {
   children: ReactNode;
+  id: string;
+  title: string;
+}
+
+interface RoleResultsProps {
+  children: ReactNode;
 }
 
 interface FeaturedWorkSectionProps {
@@ -62,9 +67,9 @@ const RoleContext = createContext<WorkRoleFilter>('all');
 const roleOptions: Array<{label: string; value: WorkRoleFilter}> = [
   {label: 'All work', value: 'all'},
   {label: 'AI', value: 'ai'},
-  {label: 'Documentation', value: 'documentation'},
+  {label: 'Content strategy', value: 'documentation'},
   {label: 'DevOps', value: 'devops'},
-  {label: 'Product', value: 'product'},
+  {label: 'Apps and games', value: 'product'},
   {label: 'Security', value: 'security'},
 ];
 
@@ -75,19 +80,6 @@ function readRoleFromUrl(): WorkRoleFilter {
 
   const role = new URLSearchParams(window.location.search).get('role');
   return roleOptions.find((option) => option.value === role)?.value ?? 'all';
-}
-
-function containsRole(children: ReactNode, role: WorkRole): boolean {
-  return Children.toArray(children).some((child) => {
-    if (!isValidElement<{children?: ReactNode; roles?: WorkRole[]}>(child)) {
-      return false;
-    }
-
-    return (
-      child.props.roles?.includes(role) ||
-      containsRole(child.props.children, role)
-    );
-  });
 }
 
 export function RoleDirectory({children}: RoleDirectoryProps) {
@@ -124,11 +116,13 @@ export function RoleFilter({className}: RoleFilterProps) {
   };
 
   const activeLabel =
-    roleOptions.find((option) => option.value === role)?.label?.replace(/^All/, 'all') ?? 'all work';
+    role === 'all'
+      ? 'all work'
+      : roleOptions.find((option) => option.value === role)?.label;
 
   return (
     <div className={clsx(styles.roleFilter, className)}>
-      <p className={styles.roleFilterLabel}>View work for</p>
+      <p className={styles.roleFilterLabel}>Filter by focus area</p>
       <div
         className={styles.roleFilterOptions}
         role="group"
@@ -151,27 +145,55 @@ export function RoleFilter({className}: RoleFilterProps) {
   );
 }
 
-export function RoleSection({children}: RoleSectionProps) {
+// A filtered view is one flat grid of matching cards, so fixed section
+// headings never describe cards that belong to a different section.
+export function RoleResults({children}: RoleResultsProps) {
   const role = useContext(RoleContext);
 
-  if (role !== 'all' && !containsRole(children, role)) {
-    return null;
+  return <div className={role === 'all' ? undefined : styles.grid}>{children}</div>;
+}
+
+export function RoleSection({children, id, title}: RoleSectionProps) {
+  const role = useContext(RoleContext);
+
+  if (role !== 'all') {
+    return <>{children}</>;
   }
 
-  return <section className={styles.roleSection}>{children}</section>;
+  return (
+    <section className={styles.roleSection}>
+      <Heading as="h2" id={id}>
+        {title}
+      </Heading>
+      {children}
+    </section>
+  );
 }
 
 export function FeaturedWorkSection({children}: FeaturedWorkSectionProps) {
   const role = useContext(RoleContext);
 
-  if (role !== 'all' && !containsRole(children, role)) {
-    return null;
+  if (role !== 'all') {
+    return <>{children}</>;
   }
 
-  return <section className={styles.featuredSection}>{children}</section>;
+  return (
+    <section className={styles.featuredSection}>
+      <Heading as="h2" id="featured-work">
+        Featured work
+      </Heading>
+      {children}
+    </section>
+  );
 }
 
 export function FeaturedWorkGrid({children}: FeaturedWorkGridProps) {
+  const role = useContext(RoleContext);
+
+  if (role !== 'all') {
+    return <>{children}</>;
+  }
+
   return <div className={styles.grid}>{children}</div>;
 }
 
@@ -181,6 +203,7 @@ export function WorkCard({
   description,
   featured = false,
   href,
+  myRole,
   roles,
   secondaryAction,
   secondaryHref,
@@ -190,7 +213,6 @@ export function WorkCard({
   title,
 }: WorkCardProps) {
   const role = useContext(RoleContext);
-
   if (tags.length > 4) {
     throw new Error(`${title} has ${tags.length} tags; WorkCard allows up to 4.`);
   }
@@ -206,10 +228,11 @@ export function WorkCard({
         <span className={styles.categoryLabel}>{category}</span>
       </div>
       <div className={clsx('card__body', styles.body)}>
-        <Heading as="h3" className={styles.title}>
+        <Heading as={role === 'all' ? 'h3' : 'h2'} className={styles.title}>
           {title}
         </Heading>
         <p className={styles.description}>{description}</p>
+        {myRole && <p className={styles.myRole}>My role: {myRole}</p>}
         <ul className={styles.tags} aria-label={`${title} topics`}>
           {tags.map((tag) => (
             <li key={tag}>

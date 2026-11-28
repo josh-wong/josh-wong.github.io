@@ -329,3 +329,9 @@
     transform: none;
   }
 }
+
+.myRole {
+  color: var(--portfolio-muted);
+  font-size: 0.85rem;
+  margin: 0 0 1rem;
+}
