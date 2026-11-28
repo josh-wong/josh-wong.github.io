@@ -189,31 +189,6 @@
     linear-gradient(135deg, #356443, #5d8a69);
 }
 
-.visual[data-category='Product'],
-.visual[data-category='Product development'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #7e5738, #a97850);
-}
-
-.visual[data-category='Security'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #7e4046, #aa5b62);
-}
-
-.visual[data-category='Security and documentation'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #60536f, #87789a);
-}
-
-.visual[data-category='Personal'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #806b34, #a39155);
-}
-
 .featuredBadge {
   background: #f4c95d;
   border-radius: 0.375rem;
