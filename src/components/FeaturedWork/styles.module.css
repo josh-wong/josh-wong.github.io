@@ -101,7 +101,11 @@
   align-items: flex-end;
   background:
     radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, var(--portfolio-brand), #384092);
+    linear-gradient(
+      135deg,
+      var(--visual-start, var(--portfolio-brand)),
+      var(--visual-end, #384092)
+    );
   color: var(--portfolio-on-brand);
   display: flex;
   min-height: 7rem;
@@ -109,84 +113,38 @@
   position: relative;
 }
 
-.visual[data-category='AI'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #314b8f, #5871b4);
+.visual[data-category='AI research'],
+.visual[data-category='Developer tool'],
+.visual[data-category='CLI tool'],
+.visual[data-category='Chat assistant'] {
+  --visual-start: #314b8f;
+  --visual-end: #5871b4;
 }
 
-.visual[data-category='AI and developer tools'],
-.visual[data-category='AI and documentation'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #2e6f73, #5797a0);
-}
-
-.visual[data-category='AI and app'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #5d557f, #8077a9);
-}
-
-.visual[data-category='iOS app'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #4e5fa7, #7380c2);
-}
-
-.visual[data-category='iOS game'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #7a4e6c, #a17391);
-}
-
-.visual[data-category='Desktop app'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #3d6674, #65929f);
-}
-
-.visual[data-category='Desktop and web app'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #3d6674, #658d9f);
-}
-
-.visual[data-category='Web app'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #2d6f96, #5a97b5);
-}
-
+.visual[data-category='iOS app'],
+.visual[data-category='iOS game'],
+.visual[data-category='Desktop app'],
+.visual[data-category='Desktop and web app'],
+.visual[data-category='Web app'],
 .visual[data-category='Web game'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #9a593e, #c18462);
+  --visual-start: #2e6f73;
+  --visual-end: #5797a0;
+}
+
+.visual[data-category='Blog post'],
+.visual[data-category='Documentation site'] {
+  --visual-start: #7a4a83;
+  --visual-end: #a66caf;
+}
+
+.visual[data-category='CI/CD workflow'] {
+  --visual-start: #356443;
+  --visual-end: #5d8a69;
 }
 
 .visual[data-category='Certificate checker'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #75524f, #a17870);
-}
-
-.visual[data-category='Developer relations'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #7a4a83, #a66caf);
-}
-
-.visual[data-category='Documentation'],
-.visual[data-category='Documentation and DevOps'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #2e667f, #518ba3);
-}
-
-.visual[data-category='DevOps'] {
-  background:
-    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
-    linear-gradient(135deg, #356443, #5d8a69);
+  --visual-start: #7e4046;
+  --visual-end: #aa5b62;
 }
 
 .featuredBadge {
