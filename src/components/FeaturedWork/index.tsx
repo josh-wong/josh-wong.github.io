@@ -1,7 +1,9 @@
 import {
   createContext,
+  useCallback,
   useContext,
   useEffect,
+  useMemo,
   useState,
   type ReactNode,
 } from 'react';
@@ -62,7 +64,16 @@ interface FeaturedWorkSectionProps {
   children: ReactNode;
 }
 
+interface ProjectCounts {
+  matching: number;
+  total: number;
+}
+
 const RoleContext = createContext<WorkRoleFilter>('all');
+const ProjectCountsContext = createContext<ProjectCounts>({matching: 0, total: 0});
+const CardRegistryContext = createContext<(roles: string) => () => void>(
+  () => () => {},
+);
 
 const roleOptions: Array<{label: string; value: WorkRoleFilter}> = [
   {label: 'All work', value: 'all'},
@@ -84,6 +95,29 @@ function readRoleFromUrl(): WorkRoleFilter {
 
 export function RoleDirectory({children}: RoleDirectoryProps) {
   const [role, setRole] = useState<WorkRoleFilter>('all');
+  // Each card registers its roles as a comma-joined string so the filter
+  // status can report counts without the page data being duplicated.
+  const [registeredCardRoles, setRegisteredCardRoles] = useState<string[]>([]);
+
+  const registerCard = useCallback((cardRoles: string) => {
+    setRegisteredCardRoles((current) => [...current, cardRoles]);
+
+    return () =>
+      setRegisteredCardRoles((current) => {
+        const index = current.indexOf(cardRoles);
+        return current.filter((_, position) => position !== index);
+      });
+  }, []);
+
+  const counts = useMemo<ProjectCounts>(
+    () => ({
+      total: registeredCardRoles.length,
+      matching: registeredCardRoles.filter(
+        (cardRoles) => role === 'all' || cardRoles.split(',').includes(role),
+      ).length,
+    }),
+    [registeredCardRoles, role],
+  );
 
   useEffect(() => {
     const syncRole = () => setRole(readRoleFromUrl());
@@ -95,13 +129,18 @@ export function RoleDirectory({children}: RoleDirectoryProps) {
 
   return (
     <RoleContext.Provider value={role}>
-      {children}
+      <CardRegistryContext.Provider value={registerCard}>
+        <ProjectCountsContext.Provider value={counts}>
+          {children}
+        </ProjectCountsContext.Provider>
+      </CardRegistryContext.Provider>
     </RoleContext.Provider>
   );
 }
 
 export function RoleFilter({className}: RoleFilterProps) {
   const role = useContext(RoleContext);
+  const {matching, total} = useContext(ProjectCountsContext);
 
   const selectRole = (nextRole: WorkRoleFilter) => {
     const url = new URL(window.location.href);
@@ -119,6 +158,12 @@ export function RoleFilter({className}: RoleFilterProps) {
     role === 'all'
       ? 'all work'
       : roleOptions.find((option) => option.value === role)?.label;
+  const countSummary =
+    total === 0
+      ? ''
+      : role === 'all'
+        ? ` (${total} projects)`
+        : ` (${matching} of ${total} projects)`;
 
   return (
     <div className={clsx(styles.roleFilter, className)}>
@@ -139,7 +184,7 @@ export function RoleFilter({className}: RoleFilterProps) {
         ))}
       </div>
       <p className={styles.roleFilterStatus} aria-live="polite">
-        Showing {activeLabel}
+        Showing {activeLabel}{countSummary}
       </p>
     </div>
   );
@@ -213,6 +258,11 @@ export function WorkCard({
   title,
 }: WorkCardProps) {
   const role = useContext(RoleContext);
+  const registerCard = useContext(CardRegistryContext);
+  const cardRoles = roles.join(',');
+
+  useEffect(() => registerCard(cardRoles), [registerCard, cardRoles]);
+
   if (tags.length > 4) {
     throw new Error(`${title} has ${tags.length} tags; WorkCard allows up to 4.`);
   }
