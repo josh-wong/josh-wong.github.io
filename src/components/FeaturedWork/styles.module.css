@@ -1,0 +1,295 @@
+.grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1.25rem 0 2.5rem;
+}
+
+.roleFilter {
+  border-block: 1px solid var(--portfolio-divider);
+  margin: 1.5rem 0;
+  padding: 0.75rem 0;
+}
+
+.roleFilterLabel,
+.roleFilterStatus {
+  color: var(--portfolio-muted);
+  margin: 0;
+}
+
+.roleFilterLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.roleFilterOptions {
+  display: flex;
+  gap: 0.25rem;
+  margin-inline: -0.25rem;
+  overflow-x: auto;
+  padding: 0.25rem;
+  scrollbar-width: thin;
+}
+
+.roleFilterButton {
+  background: transparent;
+  border: 0;
+  border-radius: var(--ifm-global-radius);
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+  flex: 0 0 auto;
+  font: inherit;
+  font-weight: 600;
+  padding: 0.55rem 0.75rem;
+  position: relative;
+  white-space: nowrap;
+}
+
+.roleFilterButton:hover {
+  background: var(--ifm-color-emphasis-200);
+}
+
+.roleFilterButton[aria-pressed='true'] {
+  background: var(--portfolio-brand);
+  color: var(--portfolio-on-brand);
+}
+
+.roleFilterButton:focus-visible {
+  outline: 2px solid var(--portfolio-focus);
+  outline-offset: 2px;
+}
+
+.roleFilterStatus {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.roleSection {
+  margin-block: 0.25rem 1.5rem;
+}
+
+.featuredSection {
+  margin-block: 0.25rem 1.5rem;
+}
+
+.roleSection + .roleSection {
+  border-top: 1px solid var(--portfolio-divider);
+  padding-top: 1.25rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+.card:focus-within {
+  border-color: var(--portfolio-focus);
+  outline: 0.2rem solid var(--portfolio-focus);
+  outline-offset: 0.15rem;
+}
+
+.visual {
+  align-items: flex-end;
+  background:
+    radial-gradient(circle at 84% 20%, rgb(255 255 255 / 18%) 0 2rem, transparent 2.05rem),
+    linear-gradient(
+      135deg,
+      var(--visual-start, var(--portfolio-brand)),
+      var(--visual-end, #384092)
+    );
+  color: var(--portfolio-on-brand);
+  display: flex;
+  min-height: 7rem;
+  padding: 1rem 1.25rem;
+  position: relative;
+}
+
+.visual[data-category='AI research'],
+.visual[data-category='Developer tool'],
+.visual[data-category='CLI tool'],
+.visual[data-category='Chat assistant'] {
+  --visual-start: #314b8f;
+  --visual-end: #5871b4;
+}
+
+.visual[data-category='iOS app'],
+.visual[data-category='iOS game'],
+.visual[data-category='Desktop app'],
+.visual[data-category='Desktop and web app'],
+.visual[data-category='Web app'],
+.visual[data-category='Web game'] {
+  --visual-start: #2e6f73;
+  --visual-end: #5797a0;
+}
+
+.visual[data-category='Blog post'],
+.visual[data-category='Documentation site'] {
+  --visual-start: #7a4a83;
+  --visual-end: #a66caf;
+}
+
+.visual[data-category='CI/CD workflow'] {
+  --visual-start: #356443;
+  --visual-end: #5d8a69;
+}
+
+.visual[data-category='Certificate checker'] {
+  --visual-start: #7e4046;
+  --visual-end: #aa5b62;
+}
+
+.featuredBadge {
+  background: #f4c95d;
+  border-radius: 0.375rem;
+  color: #24243a;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  padding: 0.45rem 0.55rem;
+  position: absolute;
+  inset-block-start: 1rem;
+  inset-inline-end: 1.25rem;
+  text-transform: uppercase;
+}
+
+.categoryLabel {
+  background: rgb(255 255 255 / 92%);
+  border: 1px solid rgb(255 255 255 / 70%);
+  border-radius: 999px;
+  box-shadow: 0 0.25rem 0.75rem rgb(8 15 83 / 10%);
+  color: #24243a;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  max-width: calc(100% - 1rem);
+  padding: 0.42rem 0.65rem;
+}
+
+.body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1.25rem;
+}
+
+.title {
+  font-size: 1.35rem;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+.description {
+  flex: 1;
+  margin-bottom: 1rem;
+}
+
+.tags {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0.5rem;
+}
+
+.body .tags > li {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+}
+
+.body .tags .tag {
+  align-items: center;
+  background: transparent;
+  border: 1px solid var(--portfolio-divider);
+  border-radius: 999px;
+  box-sizing: border-box;
+  color: var(--ifm-font-color-base);
+  display: inline-flex;
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0.4rem 0.65rem;
+  white-space: nowrap;
+  width: auto;
+}
+
+.footer {
+  padding: 0 1.25rem 1.25rem;
+}
+
+.actions {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.action {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+@media (hover: hover) {
+  .card:hover {
+    box-shadow: 0 0.75rem 2rem rgb(8 15 83 / 12%);
+    transform: translateY(-0.2rem);
+  }
+}
+
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .visual {
+    min-height: 6rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+}
+
+@media (forced-colors: active) {
+  .visual {
+    background: Canvas;
+    border-block-end: 1px solid CanvasText;
+  }
+
+  .categoryLabel {
+    background: Canvas;
+    border: 1px solid CanvasText;
+    box-shadow: none;
+    color: CanvasText;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+}
+
+.myRole {
+  color: var(--portfolio-muted);
+  font-size: 0.85rem;
+  margin: 0 0 1rem;
+}
